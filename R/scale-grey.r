@@ -1,13 +1,12 @@
-#' Sequential grey colour scale.
+#' Sequential grey colour scales
 #'
-#' Based on \code{\link{gray.colors}}
+#' Based on [gray.colors()]. This is black and white equivalent
+#' of [scale_colour_gradient()].
 #'
 #' @inheritParams scales::grey_pal
 #' @inheritParams scale_colour_hue
-#' @seealso Other colour scales:
-#'   \code{\link{scale_colour_brewer}},
-#'   \code{\link{scale_colour_gradient}},
-#'   \code{\link{scale_colour_hue}}
+#' @inheritDotParams discrete_scale
+#' @family colour scales
 #' @rdname scale_grey
 #' @export
 #' @examples
@@ -26,14 +25,14 @@
 #' ggplot(mtcars, aes(mpg, wt)) +
 #'   geom_point(aes(colour = miss)) +
 #'   scale_colour_grey(na.value = "green")
-scale_colour_grey <- function(..., start = 0.2, end = 0.8, na.value = "red") {
-  discrete_scale("colour", "grey", grey_pal(start, end),
+scale_colour_grey <- function(..., start = 0.2, end = 0.8, na.value = "red", aesthetics = "colour") {
+  discrete_scale(aesthetics, "grey", grey_pal(start, end),
     na.value = na.value, ...)
 }
 
 #' @rdname scale_grey
 #' @export
-scale_fill_grey <- function(..., start = 0.2, end = 0.8, na.value = "red") {
-  discrete_scale("fill", "grey", grey_pal(start, end),
+scale_fill_grey <- function(..., start = 0.2, end = 0.8, na.value = "red", aesthetics = "fill") {
+  discrete_scale(aesthetics, "grey", grey_pal(start, end),
     na.value = na.value, ...)
 }

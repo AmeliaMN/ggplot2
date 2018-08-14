@@ -9,7 +9,7 @@ calc_element(element, theme, verbose = FALSE)
 \arguments{
 \item{element}{The name of the theme element to calculate}
 
-\item{theme}{A theme object (like theme_grey())}
+\item{theme}{A theme object (like \code{\link[=theme_grey]{theme_grey()}})}
 
 \item{verbose}{If TRUE, print out which elements this one inherits from}
 }
@@ -29,6 +29,5 @@ calc_element('axis.text.x', t, verbose = TRUE)
 t$axis.text.x
 t$axis.text
 t$text
-
 }
-
+\keyword{internal}

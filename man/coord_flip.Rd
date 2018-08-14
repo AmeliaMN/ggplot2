@@ -2,9 +2,9 @@
 % Please edit documentation in R/coord-flip.r
 \name{coord_flip}
 \alias{coord_flip}
-\title{Flipped cartesian coordinates.}
+\title{Cartesian coordinates with x and y flipped}
 \usage{
-coord_flip(xlim = NULL, ylim = NULL, expand = TRUE)
+coord_flip(xlim = NULL, ylim = NULL, expand = TRUE, clip = "on")
 }
 \arguments{
 \item{xlim}{Limits for the x and y axes.}
@@ -14,9 +14,18 @@ coord_flip(xlim = NULL, ylim = NULL, expand = TRUE)
 \item{expand}{If \code{TRUE}, the default, adds a small expansion factor to
 the limits to ensure that data and axes don't overlap. If \code{FALSE},
 limits are taken exactly from the data or \code{xlim}/\code{ylim}.}
+
+\item{clip}{Should drawing be clipped to the extent of the plot panel? A
+setting of \code{"on"} (the default) means yes, and a setting of \code{"off"}
+means no. In most cases, the default of \code{"on"} should not be changed,
+as setting \code{clip = "off"} can cause unexpected results. It allows
+drawing of data points anywhere on the plot, including in the plot margins. If
+limits are set via \code{xlim} and \code{ylim} and some data points fall outside those
+limits, then those data points may show up in places such as the axes, the
+legend, the plot title, or the plot margins.}
 }
 \description{
-Flipped cartesian coordinates so that horizontal becomes vertical, and
+Flip cartesian coordinates so that horizontal becomes vertical, and
 vertical, horizontal. This is primarily useful for converting geoms and
 statistics which display y conditional on x, to x conditional on y.
 }
@@ -40,4 +49,3 @@ ggplot(df, aes(x, y)) +
   geom_area()
 last_plot() + coord_flip()
 }
-

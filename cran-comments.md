@@ -1,119 +1,330 @@
-This is a resubmission after fixing a bug that affect mlr and SciencePo.
-
----------------------------------
-
-This is a resubmission, post-review of \dontrun{} usage. Now \dontrun{} is only used in two places: an example that fails on some platforms, and an ggsave() examples which save files on disk.
-
----------------------------------
-
 ## Test environments
-* OS X, R 3.2.3
-* Ubuntu 14.04, R 3.2.3
-* win-builder (devel and release)
+* OS X install: R 3.4
+* win-builder: R-devel
+* travis-ci: R 3.1, R 3.2, R 3.3, R 3.4, R-devel
 
 ## R CMD check results
 
-There were no ERRORs or WARNINGs. I see one NOTE:
+There were no ERRORs, WARNING or NOTEs
 
-* Found the following (possibly) invalid URLs: 
-  URL: http://fueleconomy.gov 
-  From: man/mpg.Rd
-  Status: 404 Message: Not Found
-  
-  I think the problem is a poorly configured webserver: 
-  `curl http://fueleconomy.gov` works, but `curl -I http://fueleconomy.gov`
-  (which sends a HEAD request) does not.
+## revdepcheck results
 
-## Reverse dependencies
+We checked 2152 reverse dependencies (1774 from CRAN + 378 from BioConductor), comparing R CMD check results across CRAN and dev versions of this package.
 
-* I ran `R CMD check` on 674 all reverse dependencies
-  (summary at https://github.com/hadley/ggplot2/blob/master/revdep/).
-  I checked with the dev versions of ggplot2, scales, and gtable, in an
-  effort to maximise problems found.
-  
-* Maintainers with NOTEs, WARNINGs, or ERRORS were notified on Feb 10, 
-  and again on Feb 25. I have switched to a new automated system for 
-  maintainer notification, which ensures each maintainer gets a personalised
-  email, and hopefully is more likely to take action.
-  
-* I've also tried to give a more detailed breakdown of ERRORs/WARNINGs
-  (but not NOTEs below). Please let me know if there's anything else I 
-  can do to make this more helpful.
-  
-As far as I can tell, there are 3 failures related to changes to ggplot2:
+ * We saw 81 new problems
+ * We failed to check 32 packages
 
-* ggtern: checking examples ... ERROR
-  Caused by change in API. Author is aware but hasn't fixed.
+This is an unfortuantely high number of failures. The ggplot2 development team carefully analysed all revdep failures to confirm that they were due to deliberate API changes - unfortunately many downstream packages relied on internal, undocumented, features of ggplot2 objects, which changed in this version. We advised authors about problems on May 21 and again on June 18. I'm happy to run the checks again from my end and re-advise if that would be helpful to you.
 
-* plotly: checking tests ... ERROR
-  Probably caused by changes to histogram API.
+### New problems
+(This reports the first line of each new failure)
 
-* precrec: checking tests ... ERROR
-  Using a bad test for class inheritance + minor change in ggplot2.
+* bayesAB
+  checking tests ...
 
-There were a number of failures that don't appear to be related to changes in ggplot2.
+* bayesplot
+  checking tests ...
 
-* archivist: checking examples ... ERROR
-  Looks like ggplot2 2.0.0 problem.
+* benchmark
+  checking whether package ‘benchmark’ can be installed ... WARNING
 
-* BCEA: checking examples ... ERROR
-  I failed to install R2jags.
+* benchr
+  checking tests ...
 
-* bcrm: checking examples ... ERROR
-  Another JAGS problem
+* BioPET
+  checking examples ... ERROR
 
-* dotwhisker: checking examples ... ERROR
-  Needs to attach grid (ggplot2 2.0.0 problem)
+* BrailleR
+  checking examples ... ERROR
+  checking tests ...
+  checking re-building of vignette outputs ... WARNING
 
-* emil: checking examples ... ERROR
-  Needs very latest version of nlme
+* cellWise
+  checking re-building of vignette outputs ... WARNING
 
-* eyetrackingR: checking examples ... ERROR
-  Needs suggested package (lme4) to run examples
+* choroplethr
+  checking examples ... ERROR
 
-* fuzzyforest: checking examples ... ERROR
-  Needs GO.db
+* civis
+  checking tests ...
 
-* ggthemes: checking tests ... ERROR
-  Automated code style checking failure
+* clustree
+  checking examples ... ERROR
+  checking re-building of vignette outputs ... WARNING
 
-* iNEXT: checking Rd cross-references ... WARNING
-  ggplot2 2.0.0 problem: links to help topic that no longer exists
+* colorplaner
+  checking examples ... ERROR
+  checking tests ...
+  checking re-building of vignette outputs ... WARNING
 
-* metaheur: checking for missing documentation entries ... ERROR
-  Needs very latest version of nlme
+* cosinor2
+  checking examples ... ERROR
 
-* mlr: checking examples ... ERROR
-  Needs very latest version of nlme
-  
-* multitable: checking running R code from vignettes ... ERROR
-  Needs lme4
-  
-* preproviz: checking tests ... ERROR
-  Needs very latest version of nlme
+* countytimezones
+  checking re-building of vignette outputs ... WARNING
 
-* Rz: checking dependencies in R code ... WARNING
-  Namespace issues
+* cowplot
+  checking tests ...
 
-* sdmvspecies: checking for executable files ... WARNING
-  Includes executable file
+* cricketr
+  checking whether package ‘cricketr’ can be installed ... WARNING
 
-Additionally, I:
+* DendroSync
+  checking examples ... ERROR
 
-* Failed to install dependencies for: AFM, clusterfly, demi, ibmdbR, metaMix, 
-  PKgraph, pmc, prcbench, SeqFeatR, SpaDES, specmine, toaster
+* dextergui
+  checking whether package ‘dextergui’ can be installed ... WARNING
 
-* Failed to install: abd, alm, arqas, ARTool, BACA, bamdit, bdscale, bdvis, 
-  benchmark, biomod2, brainGraph, brms, BTSPAS, capm, caret, caretEnsemble, 
-  ChainLadder, classify, conformal, COPASutils, crmPack, extracat, FAOSTAT, 
-  fheatmap, geneSLOPE, gettingtothebottom, gitter, granovaGG, HistDAWass, 
-  hyperSpec, IntegratedJM, kobe, LANDD, localgauss, LOGIT, ltbayes, MergeGUI, 
-  Methplot, micromap, MissingDataGUI, mizer, morse, MultiMeta, mwaved, ncappc, 
-  NeuralNetTools, NMF, nparACT, npregfast, OriGen, partialAR, patPRO, Phxnlme, 
-  playwith, PlotPrjNetworks, pomp, PPtreeViz, primerTree, quadrupen, 
-  refund.shiny, RobustEM, RSA, RSDA, rstan, rstanarm, RStoolbox, rsvg, SCGLR, 
-  seewave, sgd, simmr, sjPlot, snpEnrichment, sparkTable, spikeSlabGAM, 
-  spoccutils, strvalidator, tadaatoolbox, tigerstats, tigris, treemap, 
-  userfriendlyscience, vmsbase
+* dgo
+  checking tests ...
 
-I think the majority of these are because I'm not currently installing bioconductor packages. I hope to work on that in the future.
+* dMod
+  checking examples ... ERROR
+  checking re-building of vignette outputs ... WARNING
+
+* docxtools
+  checking tests ...
+
+* emojifont
+  checking re-building of vignette outputs ... WARNING
+
+* extracat
+  checking examples ... ERROR
+
+* fastR2
+  checking examples ... ERROR
+  checking whether package ‘fastR2’ can be installed ... WARNING
+
+* fiftystater
+  checking re-building of vignette outputs ... WARNING
+
+* forecast
+  checking examples ... ERROR
+
+* ForecastComb
+  checking whether package ‘ForecastComb’ can be installed ... WARNING
+
+* foreSIGHT
+  checking examples ... ERROR
+  checking re-building of vignette outputs ... WARNING
+
+* fpp2
+  checking whether package ‘fpp2’ can be installed ... WARNING
+
+* GeomComb
+  checking whether package ‘GeomComb’ can be installed ... WARNING
+
+* ggdistribute
+  checking examples ... ERROR
+
+* ggedit
+  checking examples ... ERROR
+
+* ggFacetSample
+  checking examples ... ERROR
+
+* ggforce
+  checking for code/documentation mismatches ... WARNING
+
+* ggformula
+  checking examples ... ERROR
+  checking re-building of vignette outputs ... WARNING
+
+* gggenes
+  checking examples ... ERROR
+  checking tests ...
+  checking re-building of vignette outputs ... WARNING
+
+* gghighlight
+  checking examples ... ERROR
+  checking tests ...
+
+* ggiraphExtra
+  checking examples ... ERROR
+  checking tests ...
+  checking re-building of vignette outputs ... WARNING
+
+* ggmap
+  checking examples ... ERROR
+
+* ggmosaic
+  checking examples ... ERROR
+  checking re-building of vignette outputs ... WARNING
+  checking Rd \usage sections ... NOTE
+
+* ggpol
+  checking examples ... ERROR
+  checking re-building of vignette outputs ... WARNING
+
+* ggpubr
+  checking examples ... ERROR
+
+* ggpval
+  checking examples ... ERROR
+  checking tests ...
+  checking re-building of vignette outputs ... WARNING
+
+* ggraph
+  checking examples ... ERROR
+  checking S3 generic/method consistency ... WARNING
+  checking re-building of vignette outputs ... WARNING
+  checking Rd \usage sections ... NOTE
+
+* ggstance
+  checking tests ...
+
+* healthcareai
+  checking tests ...
+
+* heatmaply
+  checking tests ...
+
+* heatwaveR
+  checking tests ...
+
+* hyperSpec
+  checking examples ... ERROR
+
+* imputeTestbench
+  checking whether package ‘imputeTestbench’ can be installed ... WARNING
+
+* INDperform
+  checking tests ...
+
+* jcolors
+  checking examples ... ERROR
+
+* jtools
+  checking tests ...
+  checking re-building of vignette outputs ... WARNING
+
+* lavaSearch2
+  checking whether package ‘lavaSearch2’ can be installed ... WARNING
+
+* mafs
+  checking whether package ‘mafs’ can be installed ... WARNING
+
+* malariaAtlas
+  checking tests ...
+
+* mosaic
+  checking examples ... ERROR
+
+* mosaicModel
+  checking re-building of vignette outputs ... WARNING
+
+* oddsratio
+  checking examples ... ERROR
+  checking tests ...
+  checking re-building of vignette outputs ... WARNING
+
+* optiRum
+  checking tests ...
+
+* otvPlots
+  checking tests ...
+
+* phyloseqGraphTest
+  checking examples ... ERROR
+  checking re-building of vignette outputs ... WARNING
+
+* platetools
+  checking examples ... ERROR
+
+* plotly
+  checking tests ...
+
+* plotROC
+  checking re-building of vignette outputs ... WARNING
+
+* reghelper
+  checking tests ...
+
+* robustbase
+  checking running R code from vignettes ...
+
+* RStoolbox
+  checking examples ... ERROR
+
+* scatterpie
+  checking examples ... ERROR
+  checking re-building of vignette outputs ... WARNING
+
+* SimDesign
+  checking re-building of vignette outputs ... WARNING
+
+* sugrrants
+  checking examples ... ERROR
+  checking re-building of vignette outputs ... WARNING
+
+* svdvis
+  checking examples ... ERROR
+  checking re-building of vignette outputs ... WARNING
+
+* synthpop
+  checking examples ... ERROR
+
+* toaster
+  checking tests ...
+
+* trackr
+  checking examples ... ERROR
+  checking tests ...
+
+* ukgasapi
+  checking examples ... ERROR
+
+* vdmR
+  checking examples ... ERROR
+
+* voxel
+  checking examples ... ERROR
+
+* WRTDStidal
+  checking whether package ‘WRTDStidal’ can be installed ... WARNING
+
+* xkcd
+  checking examples ... ERROR
+
+* XLConnect
+  checking tests ...
+
+* xpose
+  checking examples ... ERROR
+  checking tests ...
+  checking re-building of vignette outputs ... WARNING
+
+### Failed to check
+
+* BACCT                  (failed to install)
+* bamdit                 (failed to install)
+* BayesRS                (failed to install)
+* BNSP                   (failed to install)
+* bsam                   (failed to install)
+* BTSPAS                 (failed to install)
+* classify               (failed to install)
+* crmPack                (failed to install)
+* dynr                   (failed to install)
+* ewoc                   (failed to install)
+* fingerPro              (failed to install)
+* glmmTMB                (check timed out)
+* HTSSIP                 (check timed out)
+* magick                 (failed to install)
+* mglR                   (check timed out)
+* morse                  (failed to install)
+* mwaved                 (failed to install)
+* pcaPA                  (failed to install)
+* phase1RMD              (failed to install)
+* phylosim               (check timed out)
+* RcmdrPlugin.FuzzyClust (check timed out)
+* rpanel                 (failed to install)
+* rstanarm               (check timed out)
+* rsvg                   (failed to install)
+* seewave                (failed to install)
+* SeqFeatR               (failed to install)
+* sf                     (failed to install)
+* sgmcmc                 (check timed out)
+* simulator              (check timed out)
+* TeachingDemos          (check timed out)
+* tricolore              (failed to install)
+* zooaRchGUI             (failed to install)

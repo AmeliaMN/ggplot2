@@ -2,6 +2,7 @@
 #'
 #' @param p plot to modify
 #' @param labels named list of new labels
+#' @keywords internal
 #' @export
 #' @examples
 #' p <- ggplot(mtcars, aes(mpg, wt)) + geom_point()
@@ -15,42 +16,42 @@ update_labels <- function(p, labels) {
   p
 }
 
-#' Change axis labels, legend titles, plot title/subtitle and below-plot
-#' caption.
+#' Modify axis, legend, and plot labels
+#'
+#' Good labels are critical for making your plots accessible to a wider
+#' audience. Always ensure the axis and legend labels display the full
+#' variable name. Use the plot `title` and `subtitle` to explain the
+#' main findings. It's common to use the `caption` to provide information
+#' about the data source. `tag` can be used for adding identification tags
+#' to differentiate between multiple plots.
+#'
+#' You can also set axis and legend labels in the individual scales (using
+#' the first argument, the `name`). If you're changing other scale options, this
+#' is recommended.
 #'
 #' @param label The text for the axis, plot title or caption below the plot.
 #' @param subtitle the text for the subtitle for the plot which will be
-#'        displayed below the title. Leave \code{NULL} for no subtitle.
-#' @param ... a list of new names in the form aesthetic = "new name"
+#'        displayed below the title. Leave `NULL` for no subtitle.
+#' @param ... A list of new name-value pairs. The name should either be
+#'   an aesthetic, or one of "title", "subtitle", "caption", or "tag".
 #' @export
 #' @examples
-#' p <- ggplot(mtcars, aes(mpg, wt)) + geom_point()
-#' p + labs(title = "New plot title")
-#' p + labs(x = "New x label")
-#' p + xlab("New x label")
-#' p + ylab("New y label")
-#' p + ggtitle("New plot title")
-#'
-#' # Can add a subtitle to plots with either of the following
-#' p + ggtitle("New plot title", subtitle = "A subtitle")
-#' p + labs(title = "New plot title", subtitle = "A subtitle")
-#'
-#' # Can add a plot caption underneath the whole plot (for sources, notes or
-#' # copyright), similar to the \code{sub} parameter in base R, with the
-#' # following
-#' p + labs(caption = "(based on data from ...)")
-#'
-#' # This should work independently of other functions that modify the
-#' # the scale names
-#' p + ylab("New y label") + ylim(2, 4)
-#' p + ylim(2, 4) + ylab("New y label")
-#'
-#' # The labs function also modifies legend labels
 #' p <- ggplot(mtcars, aes(mpg, wt, colour = cyl)) + geom_point()
 #' p + labs(colour = "Cylinders")
+#' p + labs(x = "New x label")
 #'
-#' # Can also pass in a list, if that is more convenient
-#' p + labs(list(title = "Title", subtitle = "Subtitle", x = "X", y = "Y"))
+#' # The plot title appears at the top-left, with the subtitle
+#' # display in smaller text underneath it
+#' p + labs(title = "New plot title")
+#' p + labs(title = "New plot title", subtitle = "A subtitle")
+#'
+#' # The caption appears in the bottom-right, and is often used for
+#' # sources, notes or copyright
+#' p + labs(caption = "(based on data from ...)")
+#'
+#' # The plot tag appears at the top-left, and is typically used
+#' # for labelling a subplot with a letter.
+#' p + labs(title = "title", tag = "A")
 labs <- function(...) {
   args <- list(...)
   if (is.list(args[[1]])) args <- args[[1]]
@@ -74,21 +75,4 @@ ylab <- function(label) {
 #' @export
 ggtitle <- function(label, subtitle = NULL) {
   labs(title = label, subtitle = subtitle)
-}
-
-# Convert aesthetic mapping into text labels
-make_labels <- function(mapping) {
-  remove_dots <- function(x) {
-    gsub(match_calculated_aes, "\\1", x)
-  }
-
-  default_label <- function(aesthetic, mapping) {
-    # e.g., geom_smooth(aes(colour = "loess"))
-    if (is.character(mapping)) {
-      aesthetic
-    } else {
-      remove_dots(deparse(mapping))
-    }
-  }
-  Map(default_label, names(mapping), mapping)
 }

@@ -1,6519 +1,2371 @@
-# Setup
+# Platform
 
-## Platform
-
-|setting  |value                        |
+|field    |value                        |
 |:--------|:----------------------------|
-|version  |R version 3.2.3 (2015-12-10) |
-|system   |x86_64, darwin13.4.0         |
+|version  |R version 3.5.0 (2018-04-23) |
+|os       |macOS High Sierra 10.13.5    |
+|system   |x86_64, darwin15.6.0         |
 |ui       |X11                          |
 |language |(EN)                         |
 |collate  |en_US.UTF-8                  |
-|tz       |America/Chicago              |
-|date     |2016-02-29                   |
-
-## Packages
-
-|package       |*  |version |date       |source                 |
-|:-------------|:--|:-------|:----------|:----------------------|
-|covr          |   |1.2.0   |2015-06-25 |CRAN (R 3.2.0)         |
-|digest        |   |0.6.9   |2016-01-08 |CRAN (R 3.2.3)         |
-|ggplot2       |   |2.1.0   |2016-02-29 |local (hadley/ggplot2) |
-|ggplot2movies |   |0.0.1   |2015-08-25 |CRAN (R 3.2.0)         |
-|gtable        |   |0.2.0   |2016-02-26 |CRAN (R 3.2.3)         |
-|hexbin        |   |1.27.1  |2015-08-19 |CRAN (R 3.2.0)         |
-|Hmisc         |   |3.17-2  |2016-02-21 |CRAN (R 3.2.3)         |
-|knitr         |   |1.12.3  |2016-01-22 |CRAN (R 3.2.3)         |
-|mapproj       |   |1.2-4   |2015-08-03 |CRAN (R 3.2.0)         |
-|maps          |   |3.1.0   |2016-02-13 |CRAN (R 3.2.3)         |
-|maptools      |   |0.8-39  |2016-01-30 |CRAN (R 3.2.3)         |
-|multcomp      |   |1.4-4   |2016-02-17 |CRAN (R 3.2.3)         |
-|nlme          |   |3.1-125 |2016-02-27 |CRAN (R 3.2.3)         |
-|plyr          |   |1.8.3   |2015-06-12 |CRAN (R 3.2.0)         |
-|quantreg      |   |5.21    |2016-02-13 |CRAN (R 3.2.3)         |
-|reshape2      |   |1.4.1   |2014-12-06 |CRAN (R 3.2.0)         |
-|rmarkdown     |   |0.9.5   |2016-02-22 |CRAN (R 3.2.3)         |
-|scales        |   |0.4.0   |2016-02-26 |CRAN (R 3.2.3)         |
-|svglite       |   |1.1.0   |2016-02-09 |CRAN (R 3.2.3)         |
-|testthat      |*  |0.11.0  |2015-10-14 |CRAN (R 3.2.0)         |
-
-# Check results
-677 checked out of 0 dependencies 
-
-## abctools (1.0.4)
-Maintainer: Matt Nunes <m.nunes@lancaster.ac.uk>  
-Bug reports: https://github.com/dennisprangle/abctools/issues
-
-0 errors | 0 warnings | 0 notes
-
-## abd (0.2-8)
-Maintainer: Kevin M. Middleton <middletonk@missouri.edu>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘abd’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/abd.Rcheck/00install.out’ for details.
-```
-
-## ABHgenotypeR (1.0.1)
-Maintainer: Stefan Reuscher <reuscher.stefan@gmail.com>  
-Bug reports: http://github.com/StefanReuscher/ABHgenotypeR/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ACDm (1.0.3)
-Maintainer: Markus Belfrage <markus.belfrage@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ACSNMineR (0.16.01.29)
-Maintainer: Paul Deveau <paul.deveau@curie.fr>
-
-0 errors | 0 warnings | 0 notes
-
-## adegenet (2.0.1)
-Maintainer: Thibaut Jombart <thibautjombart@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## AFM (1.2.0)
-Maintainer: Mathieu Beauvais <beauvais.escp@gmail.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Package required but not available: ‘fractaldim’
-
-Package required and available but unsuitable version: ‘sp’
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## alakazam (0.2.3)
-Maintainer: Jason Vander Heiden <jason.vanderheiden@yale.edu>  
-Bug reports: https://bitbucket.org/kleinstein/alakazam/issues
-
-0 errors | 0 warnings | 0 notes
-
-## alm (0.4.0)
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>  
-Bug reports: http://www.github.com/ropensci/alm/issues
-
-0 errors | 1 warning  | 1 note 
-
-```
-checking whether package ‘alm’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘alm’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/alm.Rcheck/00install.out’ for details.
-
-checking files in ‘vignettes’ ... NOTE
-The following directory looks like a leftover from 'knitr':
-  ‘figure’
-Please remove from your package.
-```
-
-## alphahull (2.1)
-Maintainer: Beatriz Pateiro-Lopez <beatriz.pateiro@usc.es>
-
-0 errors | 0 warnings | 0 notes
-
-## ameco (0.2.2)
-Maintainer: Eric Persson <expersso5@gmail.com>  
-Bug reports: http://github.com/expersso/ameco/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is 15.3Mb
-  sub-directories of 1Mb or more:
-    data  15.2Mb
-```
-
-## AmpliconDuo (1.1)
-Maintainer: Anja Lange <anja.lange@uni-due.de>
-
-0 errors | 0 warnings | 0 notes
-
-## ANOM (0.4.3)
-Maintainer: Philip Pallmann <p.pallmann@lancaster.ac.uk>
-
-0 errors | 0 warnings | 0 notes
-
-## antitrust (0.95.1)
-Maintainer: Charles Taragin <charles.taragin@usdoj.gov>
-
-0 errors | 0 warnings | 0 notes
-
-## aoristic (0.6)
-Maintainer: George Kikuchi <gkikuchi@csufresno.edu>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-```
-
-## apsimr (1.2)
-Maintainer: Bryan Stanfill <bstanfill2003@gmail.com>  
-Bug reports: https://github.com/stanfill/apsimr/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd cross-references ... NOTE
-Package unavailable to check Rd xrefs: ‘APSIMBatch’
-```
-
-## archetypes (2.2-0)
-Maintainer: Manuel J. A. Eugster <manuel@mjae.net>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘MASS’ ‘TSP’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-
-checking R code for possible problems ... NOTE
-ginv.zalphasfn: no visible global function definition for ‘ginv’
-tspsimplex_projection: no visible global function definition for
-  ‘solve_TSP’
-tspsimplex_projection: no visible global function definition for ‘TSP’
-```
-
-## archivist (2.0.1)
-Maintainer: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>  
-Bug reports: https://github.com/pbiecek/archivist/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking examples ... ERROR
-Running examples in ‘archivist-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: aread
-> ### Title: Read Artifacts Given as md5hashes from the Repository
-> ### Aliases: aread
-> 
-> ### ** Examples
-> 
-> # read the object from local directory
-> setLocalRepo(system.file("graphGallery", package = "archivist"))
-> pl <- aread("600bda83cb840947976bd1ce3a11879d")
-> # plot it
-> pl
-Error in FUN(X[[i]], ...) : attempt to apply non-function
-Calls: <Anonymous> -> print.ggplot -> ggplot_build -> lapply -> FUN
-Execution halted
-```
-
-## ARPobservation (1.1)
-Maintainer: James E. Pustejovsky <jepusto@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## arqas (1.3)
-Maintainer: Borja Varela <borja.varela.brea@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘arqas’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘ggplot2::Geom’ when loading ‘arqas’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/arqas.Rcheck/00install.out’ for details.
-```
-
-## ARTool (0.10.0)
-Maintainer: Matthew Kay <mjskay@uw.edu>  
-Bug reports: https://github.com/mjskay/ARTool/issues/new
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘ARTool’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/ARTool.Rcheck/00install.out’ for details.
-```
-
-## asremlPlus (2.0-3)
-Maintainer: Chris Brien <Chris.Brien@unisa.edu.au>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking package dependencies ... NOTE
-Package which this enhances but not available for checking: ‘asreml’
-```
-
-## asVPC (1.0.2)
-Maintainer: Eun-Kyung Lee <lee.eunk@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## automap (1.0-14)
-Maintainer: Paul Hiemstra <paul@numbertheory.nl>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘ggplot2’ ‘gpclib’ ‘maptools’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-
-checking R code for possible problems ... NOTE
-cv.compare.ggplot: no visible global function definition for ‘ggplot’
-cv.compare.ggplot: no visible global function definition for
-  ‘aes_string’
-cv.compare.ggplot: no visible global function definition for
-  ‘facet_wrap’
-cv.compare.ggplot: no visible global function definition for
-  ‘scale_x_continuous’
-cv.compare.ggplot: no visible global function definition for
-  ‘scale_y_continuous’
-cv.compare.ggplot: no visible global function definition for
-  ‘coord_equal’
-cv.compare.ggplot: no visible global function definition for
-  ‘scale_color_gradient2’
-cv.compare.ggplot: no visible global function definition for
-  ‘scale_size_continuous’
-cv.compare.ggplot: no visible global function definition for ‘fortify’
-cv.compare.ggplot: no visible global function definition for
-  ‘geom_path’
-cv.compare.ggplot: no visible global function definition for
-  ‘geom_point’
-```
-
-## BACA (1.3)
-Maintainer: Vittorio Fortino <vittorio.fortino@ttl.fi>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘BACA’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/BACA.Rcheck/00install.out’ for details.
-```
-
-## backShift (0.1.3)
-Maintainer: Christina Heinze <heinze@stat.math.ethz.ch>  
-Bug reports: https://github.com/christinaheinze/backShift/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd cross-references ... NOTE
-Packages unavailable to check Rd xrefs: ‘InvariantCausalPrediction’, ‘CompareCausalNetworks’
-```
-
-## bamdit (2.0.1)
-Maintainer: Pablo Emilio Verde <pabloemilio.verde@hhu.de>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘bamdit’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/bamdit.Rcheck/00install.out’ for details.
-```
-
-## BBEST (0.1-5)
-Maintainer: Anton Gagin <av.gagin@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## bbmle (1.0.18)
-Maintainer: Ben Bolker <bolker@mcmaster.ca>
-
-0 errors | 0 warnings | 0 notes
-
-## BCEA (2.2-2)
-Maintainer: Gianluca Baio <gianluca@stats.ucl.ac.uk>
-
-1 error  | 0 warnings | 1 note 
-
-```
-checking examples ... ERROR
-Running examples in ‘BCEA-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: evppi
-> ### Title: Expected Value of Perfect Partial Information (EVPPI) for
-> ###   selected parameters
-> ### Aliases: evppi evppi.default
-> ### Keywords: Health economic evaluation Expected value of partial
-... 12 lines ...
-> # 
-> # Runs the health economic evaluation using BCEA
-> m <- bcea(e,c,ref=2,interventions=treats)
-> #
-> # Computes the EVPPI for a bunch of parameters
-> inp <- CreateInputs(vaccine)
-Error in CreateInputs(vaccine) : 
-  You need to install the package 'R2jags'. Please run in your R terminal:
- install.packages('R2jags')
-Execution halted
-** found \donttest examples: check also with --run-donttest
-
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘INLA’
-```
-
-## bcp (4.0.0)
-Maintainer: John W. Emerson <john.emerson@yale.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## bcrm (0.4.6)
-Maintainer: Michael Sweeting <mjs212@medschl.cam.ac.uk>
-
-1 error  | 0 warnings | 1 note 
-
-```
-checking examples ... ERROR
-Running examples in ‘bcrm-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: bcrm
-> ### Title: Bayesian Continual Reassessment Method for Phase I
-> ###   Dose-Escalation Trials
-> ### Aliases: bcrm
-> 
-... 132 lines ...
-> ## Using rjags (requires JAGS to be installed)
-> TwoPLogistic.mean.bcrm<-bcrm(stop=list(nmax=18),data=data,sdose=sdose
-+   ,dose=dose,ff="logit2",prior.alpha=list(4,mu,Sigma),target.tox=target.tox
-+   ,constrain=FALSE,pointest="mean",method="rjags")
-Error: .onLoad failed in loadNamespace() for 'rjags', details:
-  call: dyn.load(file, DLLpath = DLLpath, ...)
-  error: unable to load shared object '/Users/hadley/R-revdep/rjags/libs/rjags.so':
-  dlopen(/Users/hadley/R-revdep/rjags/libs/rjags.so, 10): Library not loaded: /usr/local/lib/libjags.3.dylib
-  Referenced from: /Users/hadley/R-revdep/rjags/libs/rjags.so
-  Reason: image not found
-Execution halted
-
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘BRugs’
-```
-
-## bde (1.0.1)
-Maintainer: Guzman Santafe <guzman.santafe@unavarra.es>
-
-0 errors | 0 warnings | 0 notes
-
-## bdscale (1.2)
-Maintainer: Dave Mills <dave.a.mills@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘bdscale’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘scales::alpha’ when loading ‘bdscale’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/bdscale.Rcheck/00install.out’ for details.
-```
-
-## bdvis (0.1.0)
-Maintainer: Vijay Barve <vijay.barve@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘bdvis’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘bdvis’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘bdvis’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/bdvis.Rcheck/00install.out’ for details.
-```
-
-## benchmark (0.3-6)
-Maintainer: Manuel J. A. Eugster <manuel@mjae.net>
-
-0 errors | 1 warning  | 2 notes
-
-```
-checking whether package ‘benchmark’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘scales::alpha’ when loading ‘benchmark’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/benchmark.Rcheck/00install.out’ for details.
-
-checking dependencies in R code ... NOTE
-'library' or 'require' call to ‘multcomp’ in package code.
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-
-checking R code for possible problems ... NOTE
-boxplot.AlgorithmPerformance: no visible binding for global variable
-  ‘algorithms’
-boxplot.AlgorithmPerformance: no visible binding for global variable
-  ‘value’
-boxplot.AlgorithmPerformance: no visible binding for global variable
-  ‘samples’
-bsgraph0.dist: no visible global function definition for ‘addEdge’
-bsgraph0.graphNEL: no visible global function definition for
-  ‘getDefaultAttrs’
-... 14 lines ...
-  ‘samples’
-plot.DatasetCharacterization: no visible global function definition for
-  ‘theme_text’
-plot.TestResult: no visible binding for global variable ‘samples’
-plot.TestResult: no visible binding for global variable ‘value’
-stripchart.AlgorithmPerformance: no visible binding for global variable
-  ‘algorithms’
-stripchart.AlgorithmPerformance: no visible binding for global variable
-  ‘value’
-stripchart.AlgorithmPerformance: no visible binding for global variable
-  ‘samples’
-```
-
-## benchmarkme (0.2.3)
-Maintainer: Colin Gillespie <csgillespie@gmail.com>  
-Bug reports: https://github.com/csgillespie/benchmarkme/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘RcppZiggurat’
-```
-
-## benchmarkmeData (0.2.2)
-Maintainer: Colin Gillespie <csgillespie@gmail.com>  
-Bug reports: https://github.com/csgillespie/benchmarkme-data/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘benchmarkme’
-```
-
-## binom (1.1-1)
-Maintainer: Sundar Dorai-Raj <sdorairaj@gmail.com>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘ggplot2’ ‘lattice’ ‘polynom’ ‘tcltk’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-
-checking R code for possible problems ... NOTE
-binom.bayes.densityplot: no visible global function definition for
-  ‘ggplot’
-binom.bayes.densityplot: no visible global function definition for
-  ‘aes_string’
-binom.bayes.densityplot: no visible global function definition for
-  ‘geom_polygon’
-binom.bayes.densityplot: no visible global function definition for
-  ‘facet_wrap’
-binom.bayes.densityplot: no visible global function definition for
-... 95 lines ...
-  ‘tklabel’
-tkbinom.power2 : <local>: no visible global function definition for
-  ‘tkradiobutton’
-tkbinom.power2 : <local>: no visible global function definition for
-  ‘tkcheckbutton’
-tkbinom.power2 : <local>: no visible global function definition for
-  ‘tkscale’
-tkbinom.power2 : <local>: no visible global function definition for
-  ‘tkbutton’
-tkbinom.power2 : <local> : <anonymous>: no visible global function
-  definition for ‘tkdestroy’
-```
-
-## biogas (1.2.1)
-Maintainer: Sasha D. Hafner <saha@kbm.sdu.dk>
-
-0 errors | 0 warnings | 0 notes
-
-## biogram (1.2)
-Maintainer: Michal Burdukiewicz <michalburdukiewicz@gmail.com>  
-Bug reports: https://github.com/michbur/biogram/issues
-
-0 errors | 0 warnings | 0 notes
-
-## bioinactivation (1.1.1)
-Maintainer: Alberto Garre <garre.alberto@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## biomod2 (3.1-64)
-Maintainer: Damien Georges <damien.georges2@gmail.com>  
-Bug reports: <https://r-forge.r-project.org/R/?group_id=302>
-
-0 errors | 1 warning  | 2 notes
-
-```
-checking whether package ‘biomod2’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘randomForest::margin’ when loading ‘biomod2’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/biomod2.Rcheck/00install.out’ for details.
-
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘gam’ ‘mgcv’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-
-checking R code for possible problems ... NOTE
-.transform.outputs,list : .local: missing arguments not allowed in
-  calls to ‘c’
-Projection,ANY-ANY-data.frame : .local: no visible binding for global
-  variable ‘kept.models.name’
-Projection,ANY-ANY-data.frame : .local: no visible binding for global
-  variable ‘scaled.models’
-Projection,ANY-ANY-data.frame : .local: no visible binding for global
-  variable ‘models.options’
-Projection,ANY-ANY-data.frame : .local : <anonymous> : <anonymous>: no
-  visible binding for global variable ‘models.evaluation’
-getModelsPredictionEval,BIOMOD.models.out : .local: no visible binding
-  for global variable ‘models.prediction.eval’
-getProjection,BIOMOD.projection.out : .local: no visible binding for
-  global variable ‘bm_proj’
-```
-
-## BioStatR (2.0.0)
-Maintainer: Frederic Bertrand <frederic.bertrand@math.unistra.fr>
-
-0 errors | 0 warnings | 0 notes
-
-## BlandAltmanLeh (0.3.1)
-Maintainer: Bernhard Lehnert <bernhard.lehnert@uni-greifswald.de>
-
-0 errors | 0 warnings | 0 notes
-
-## blockseg (0.2)
-Maintainer: Julien Chiquet <julien.chiquet@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## bmmix (0.1-2)
-Maintainer: Thibaut Jombart <t.jombart@imperial.ac.uk>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-```
-
-## bodenmiller (0.1)
-Maintainer: Yann Abraham <yann.abraham@gmail.com>  
-Bug reports: https://github.com/yannabraham/bodenmiller/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is  8.9Mb
-  sub-directories of 1Mb or more:
-    data   8.7Mb
-```
-
-## bootnet (0.2)
-Maintainer: Sacha Epskamp <mail@sachaepskamp.com>
-
-0 errors | 0 warnings | 0 notes
-
-## brainGraph (0.55.0)
-Maintainer: Christopher G. Watson <cgwatson@bu.edu>  
-Bug reports: 
-        https://groups.google.com/forum/?hl=en#!forum/brainGraph-help
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘brainGraph’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/brainGraph.Rcheck/00install.out’ for details.
-```
-
-## breakpoint (1.2)
-Maintainer: Priyadarshana W.J.R.M. <mjayawardana@swin.edu.au>
-
-0 errors | 0 warnings | 0 notes
-
-## brms (0.8.0)
-Maintainer: Paul-Christian Buerkner <paul.buerkner@gmail.com>  
-Bug reports: http://github.com/paul-buerkner/brms/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘brms’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/brms.Rcheck/00install.out’ for details.
-```
-
-## broman (0.62-1)
-Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## broom (0.4.0)
-Maintainer: David Robinson <admiral.david@gmail.com>  
-Bug reports: http://github.com/dgrtwo/broom/issues
-
-0 errors | 0 warnings | 0 notes
-
-## brotli (0.5)
-Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>  
-Bug reports: http://github.com/jeroenooms/brotli/issues
-
-0 errors | 0 warnings | 0 notes
-
-## BTSPAS (2014.0901)
-Maintainer: Carl J Schwarz <cschwarz@stat.sfu.ca>
-
-1 error  | 0 warnings | 1 note 
-
-```
-checking whether package ‘BTSPAS’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/BTSPAS.Rcheck/00install.out’ for details.
-
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘BRugs’
-```
-
-## capm (0.9.0)
-Maintainer: Oswaldo Santos Baquero <oswaldosant@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘capm’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘sp::nowrapSpatialLines’ when loading ‘capm’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/capm.Rcheck/00install.out’ for details.
-```
-
-## caret (6.0-64)
-Maintainer: Max Kuhn <Max.Kuhn@pfizer.com>  
-Bug reports: https://github.com/topepo/caret/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘caret’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/caret.Rcheck/00install.out’ for details.
-```
-
-## caretEnsemble (2.0.0)
-Maintainer: Zachary A. Deane-Mayer <zach.mayer@gmail.com>  
-Bug reports: https://github.com/zachmayer/caretEnsemble/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘caretEnsemble’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/caretEnsemble.Rcheck/00install.out’ for details.
-```
-
-## cate (1.0.4)
-Maintainer: Qingyuan Zhao <qyzhao@stanford.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## catenary (1.1.1)
-Maintainer: Jonathan Tuke <simon.tuke@adelaide.edu.au>
-
-0 errors | 0 warnings | 0 notes
-
-## Causata (4.2-0)
-Maintainer: Justin Hemann <justinh@causata.com>
-
-0 errors | 0 warnings | 5 notes
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Title field: should not end in a period.
-
-checking top-level files ... NOTE
-Non-standard file/directory found at top level:
-  ‘integration_tests’
-
-checking R code for possible problems ... NOTE
-GetMetadata.Connect: no visible global function definition for
-  ‘dbGetQuery’
-GetRawData.Connect: no visible global function definition for
-  ‘dbGetQuery’
-
-checking line endings in Makefiles ... NOTE
-Found the following Makefile(s) without a final LF:
-  inst/doc/Makefile
-Some ‘make’ programs ignore lines not ending in LF.
-
-checking files in ‘vignettes’ ... NOTE
-The following files look like leftovers/mistakes:
-  ‘Causata-vignette.log’
-Please remove them from your package.
-The following directory looks like a leftover from 'knitr':
-  ‘figure’
-Please remove from your package.
-```
-
-## cda (1.5.1)
-Maintainer: Baptiste Auguie <baptiste.auguie@gmail.com>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking R code for possible problems ... NOTE
-rgl.ellipsoid: no visible global function definition for ‘cube3d’
-rgl_annotate: no visible global function definition for ‘axes3d’
-rgl_annotate: no visible global function definition for ‘axis3d’
-rgl_annotate: no visible global function definition for ‘title3d’
-
-checking for GNU extensions in Makefiles ... NOTE
-GNU make is a SystemRequirements.
-```
-
-## ChainLadder (0.2.2)
-Maintainer: Markus Gesmann <markus.gesmann@googlemail.com>  
-Bug reports: https://github.com/mages/ChainLadder/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘ChainLadder’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/ChainLadder.Rcheck/00install.out’ for details.
-```
-
-## ChannelAttributionApp (1.1)
-Maintainer: Davide Altomare <davide.altomare@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ChaosGame (0.1)
-Maintainer: Manuela Schreyer <manuelalarissa.schreyer@sbg.ac.at>
-
-0 errors | 0 warnings | 0 notes
-
-## checkmate (1.7.2)
-Maintainer: Michel Lang <michellang@gmail.com>  
-Bug reports: https://github.com/mllg/checkmate/issues
-
-0 errors | 0 warnings | 0 notes
-
-## choroplethr (3.5.0)
-Maintainer: Ari Lamstein <arilamstein@gmail.com>  
-Bug reports: https://github.com/arilamstein/choroplethr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## choroplethrAdmin1 (1.1.0)
-Maintainer: Ari Lamstein <arilamstein@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is 18.0Mb
-  sub-directories of 1Mb or more:
-    data  17.9Mb
-```
-
-## choroplethrMaps (1.0)
-Maintainer: Ari Lamstein <arilamstein@gmail.com>  
-Bug reports: https://github.com/trulia/choroplethrMaps/issues
-
-0 errors | 0 warnings | 0 notes
-
-## chron (2.3-47)
-Maintainer: Kurt Hornik <Kurt.Hornik@R-project.org>
-
-0 errors | 0 warnings | 0 notes
-
-## CINOEDV (2.0)
-Maintainer: Junliang Shang <shangjunliang110@163.com>
-
-0 errors | 0 warnings | 0 notes
-
-## cjoint (2.0.3)
-Maintainer: Anton Strezhnev <astrezhnev@fas.harvard.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## classify (1.3)
-Maintainer: Dr Chris Wheadon <chris.wheadon@gmail.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘classify’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/classify.Rcheck/00install.out’ for details.
-```
-
-## classyfire (0.1-2)
-Maintainer: Eleni Chatzimichali <ea.chatzimichali@gmail.com>  
-Bug reports: https://github.com/eaHat/classyfire/issues
-
-0 errors | 0 warnings | 0 notes
-
-## clhs (0.5-5)
-Maintainer: Pierre Roudier <roudierp@landcareresearch.co.nz>
-
-0 errors | 0 warnings | 0 notes
-
-## clifro (2.4-1)
-Maintainer: Blake Seers <blake.seers@gmail.com>  
-Bug reports: https://github.com/ropensci/clifro/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ClimClass (2.0.1)
-Maintainer: Emanuele Eccel <emanuele.eccel@fmach.it>
-
-0 errors | 0 warnings | 0 notes
-
-## climwin (0.1.2)
-Maintainer: Liam D. Bailey <liam.bailey@anu.edu.au>
-
-0 errors | 0 warnings | 0 notes
-
-## clusterfly (0.4)
-Maintainer: Hadley Wickham <h.wickham@gmail.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Package required but not available: ‘rggobi’
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## clustrd (0.1.2)
-Maintainer: Angelos Markos <amarkos@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-```
-
-## cmaesr (1.0.1)
-Maintainer: Jakob Bossek <j.bossek@gmail.com>  
-Bug reports: https://github.com/jakobbossek/cmaesr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## codingMatrices (0.2.0)
-Maintainer: Bill Venables <Bill.Venables@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## codyn (1.0.1)
-Maintainer: Matthew B. Jones <jones@nceas.ucsb.edu>  
-Bug reports: https://github.com/laurenmh/codyn/issues
-
-0 errors | 0 warnings | 0 notes
-
-## coefplot (1.2.4)
-Maintainer: Jared P. Lander <packages@jaredlander.com>
-
-0 errors | 0 warnings | 0 notes
-
-## cofeatureR (1.0.1)
-Maintainer: Fong Chun Chan <fongchunchan@gmail.com>  
-Bug reports: https://github.com/tinyheero/cofeatureR/issues
-
-0 errors | 0 warnings | 0 notes
-
-## coloc (2.3-1)
-Maintainer: Chris Wallace <chris.wallace@cimr.cam.ac.uk>  
-Bug reports: https://github.com/chr1swallace/coloc/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking R code for possible problems ... NOTE
-coloc.abf.snpStats: no visible global function definition for
-  ‘single.snp.tests’
-coloc.abf.snpStats: no visible global function definition for
-  ‘col.summary’
-fillin: no visible global function definition for ‘col.summary’
-fillin: no visible global function definition for ‘snp.imputation’
-fillin: no visible global function definition for ‘impute.snps’
-plot,colocPCs-missing : .local: no visible binding for global variable
-  ‘object’
-```
-
-## CommT (0.1.1)
-Maintainer: Michael Gruenstaeudl <mi.gruenstaeudl@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## complmrob (0.6.1)
-Maintainer: David Kepplinger <david.kepplinger@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## confidence (1.1-0)
-Maintainer: Dennis J. J. Walvoort <dennis.Walvoort@wur.nl>
-
-0 errors | 0 warnings | 0 notes
-
-## conformal (0.1)
-Maintainer: Isidro Cortes <isidrolauscher@gmail.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘conformal’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/conformal.Rcheck/00install.out’ for details.
-```
-
-## contoureR (1.0.5)
-Maintainer: Nicholas Hamilton <n.hamilton@unsw.edu.au>
-
-0 errors | 0 warnings | 0 notes
-
-## cooccur (1.3)
-Maintainer: Daniel M. Griffith <griffith.dan@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## COPASutils (0.1.6)
-Maintainer: Erik Andersen <erik.andersen@northwestern.edu>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘COPASutils’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘kernlab::alpha’ when loading ‘COPASutils’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/COPASutils.Rcheck/00install.out’ for details.
-```
-
-## CopulaDTA (0.0.2)
-Maintainer: Victoria N Nyaga <victoria.nyaga@outlook.com>
-
-0 errors | 0 warnings | 0 notes
-
-## corkscrew (1.1)
-Maintainer: Santhosh Sasanapuri <santhosh458@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## cosinor (1.1)
-Maintainer: Michael Sachs <sachsmc@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking R code for possible problems ... NOTE
-cosinor_analyzer: no visible binding for global variable ‘vitamind’
-```
-
-## CosmoPhotoz (0.1)
-Maintainer: Rafael S. de Souza <rafael.2706@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## covmat (1.0)
-Maintainer: Rohit Arora <emailrohitarora@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## cowplot (0.6.0)
-Maintainer: Claus O. Wilke <wilke@austin.utexas.edu>  
-Bug reports: https://github.com/wilkelab/cowplot/issues
-
-0 errors | 0 warnings | 0 notes
-
-## cplm (0.7-4)
-Maintainer: Yanwei (Wayne) Zhang <actuary_zhang@hotmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## crawl (2.0)
-Maintainer: Devin S. Johnson <devin.johnson@noaa.gov>
-
-0 errors | 0 warnings | 0 notes
-
-## cricketr (0.0.12)
-Maintainer: Tinniam V Ganesh <tvganesh.85@gmail.com>  
-Bug reports: https://github.com/tvganesh/cricketr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## crmPack (0.1.8)
-Maintainer: Daniel Sabanes Bove <sabanesd@roche.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘crmPack’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/crmPack.Rcheck/00install.out’ for details.
-```
-
-## Crossover (0.1-15)
-Maintainer: Kornelius Rohmeyer <rohmeyer@small-projects.de>  
-Bug reports: https://github.com/kornl/Crossover/issues
-
-0 errors | 0 warnings | 0 notes
-
-## CRTgeeDR (1.1)
-Maintainer: PRAGUE melanie <mprague@hsph.harvard.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## cutoffR (1.0)
-Maintainer: Lingbing Feng <fenglb88@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## cvxclustr (1.1.1)
-Maintainer: Eric C. Chi <ecchi1105@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking line endings in Makefiles ... NOTE
-Found the following Makefile(s) without a final LF:
-  src/Makevars
-Some ‘make’ programs ignore lines not ending in LF.
-```
-
-## dae (2.7-6)
-Maintainer: Chris Brien <Chris.Brien@unisa.edu.au>
-
-0 errors | 0 warnings | 0 notes
-
-## dams (0.1)
-Maintainer: Gopi Goteti <my.ration.shop@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## data.table (1.9.6)
-Maintainer: Matt Dowle <mattjdowle@gmail.com>  
-Bug reports: https://github.com/Rdatatable/data.table/issues
-
-0 errors | 0 warnings | 0 notes
-
-## dcmr (1.0)
-Maintainer: Diane Losardo <dlosardo@amplify.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking R code for possible problems ... NOTE
-plot,attribute.class-missing : .local: no visible binding for global
-  variable ‘attr.number’
-plot,attribute.class-missing : .local: no visible binding for global
-  variable ‘mean.attr’
-plot,attribute.profile.class-missing : .local: no visible binding for
-  global variable ‘attr.profile.number’
-plot,attribute.profile.class-missing : .local: no visible binding for
-  global variable ‘mean.attr.profile’
-summary,attribute.class : .local: no visible binding for global
-  variable ‘value’
-summary,attribute.profile.class : .local: no visible binding for global
-  variable ‘max.class’
-```
-
-## ddpcr (1.0.1)
-Maintainer: Dean Attali <daattali@gmail.com>  
-Bug reports: https://github.com/daattali/ddpcr/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is  5.2Mb
-  sub-directories of 1Mb or more:
-    sample_data   4.0Mb
-```
-
-## Deducer (0.7-9)
-Maintainer: Ian Fellows <ian@fellstat.com>
-
-0 errors | 0 warnings | 0 notes
-
-## demi (1.1.2)
-Maintainer: Sten Ilmjarv <sten.ilmjarv@gmail.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Packages required but not available: ‘affxparser’ ‘oligo’
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## dendextend (1.1.8)
-Maintainer: Tal Galili <tal.galili@gmail.com>  
-Bug reports: https://github.com/talgalili/dendextend/issues
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking package dependencies ... NOTE
-Packages which this enhances but not available for checking:
-  ‘labeltodendro’ ‘dendroextras’
-
-checking Rd cross-references ... NOTE
-Packages unavailable to check Rd xrefs: ‘dendroextras’, ‘moduleColor’
-```
-
-## DepthProc (1.0.7)
-Maintainer: Zygmunt Zawadzki <zawadzkizygmunt@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## DescribeDisplay (0.2.5)
-Maintainer: Di Cook <dicook@monash.edu>  
-Bug reports: https://github.com/ggobi/DescribeDisplay/issues
-
-0 errors | 0 warnings | 0 notes
-
-## dfexplore (0.2.1)
-Maintainer: Joris Muller <joris.muller@etu.unistra.fr>
-
-0 errors | 0 warnings | 0 notes
-
-## DFIT (1.0-2)
-Maintainer: Victor H. Cervantes <vhcervantesb@unal.edu.co>
-
-0 errors | 0 warnings | 0 notes
-
-## dielectric (0.2.3)
-Maintainer: Baptiste Auguie <baptiste.auguie@gmail.com>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Title field: should not end in a period.
-
-checking dependencies in R code ... NOTE
-Package in Depends field not imported from: ‘methods’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-L2eV: no visible binding for global variable ‘constants’
-L2w: no visible binding for global variable ‘constants’
-eV2L: no visible binding for global variable ‘constants’
-t2eV: no visible binding for global variable ‘constants’
-```
-
-## diffeR (0.0-4)
-Maintainer: Al� Santacruz <amsantac@unal.edu.co>
-
-0 errors | 0 warnings | 0 notes
-
-## directlabels (2015.12.16)
-Maintainer: Toby Dylan Hocking <tdhock5@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## disclapmix (1.6.2)
-Maintainer: Mikkel Meyer Andersen <mikl@math.aau.dk>
-
-0 errors | 0 warnings | 0 notes
-
-## diveRsity (1.9.89)
-Maintainer: Kevin Keenan <kkeenan02@qub.ac.uk>
-
-0 errors | 0 warnings | 0 notes
-
-## dMod (0.1)
-Maintainer: Daniel Kaschek <daniel.kaschek@physik.uni-freiburg.de>
-
-0 errors | 0 warnings | 0 notes
-
-## doBy (4.5-14)
-Maintainer: S�ren H�jsgaard <sorenh@math.aau.dk>
-
-0 errors | 0 warnings | 0 notes
-
-## dotwhisker (0.2.0.4)
-Maintainer: Yue Hu <yue-hu-1@uiowa.edu>  
-Bug reports: https://github.com/fsolt/dotwhisker/issues
-
-1 error  | 0 warnings | 1 note 
-
-```
-checking examples ... ERROR
-Running examples in ‘dotwhisker-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: add_brackets
-> ### Title: Add Labelled Brackets to Group Predictors in a Dot-and-Whisker
-> ###   Plot
-> ### Aliases: add_brackets
-> 
-... 25 lines ...
-+     theme(legend.position="none")
-Scale for 'y' is already present. Adding another scale for 'y', which will
-replace the existing scale.
-> 
-> two_brackets <- list(c("Engine", "cyl", "disp"), c("Not Engine", "(Intercept)", "wt"))
-> 
-> g <- p %>% add_brackets(two_brackets)
-> 
-> grid.draw(g)  # to display
-Error: could not find function "grid.draw"
-Execution halted
-
-checking re-building of vignette outputs ... NOTE
-Error in re-building vignettes:
-  ...
-Loading required package: sandwich
-Loading required package: lmtest
-Loading required package: zoo
-
-Attaching package: 'zoo'
-
-The following objects are masked from 'package:base':
-... 8 lines ...
-The following object is masked from 'package:dplyr':
-
-    select
-
-Loading required package: betareg
-Scale for 'y' is already present. Adding another scale for 'y', which
-will replace the existing scale.
-Quitting from lines 168-210 (dotwhisker-vignette.Rmd) 
-Error: processing vignette 'dotwhisker-vignette.Rmd' failed with diagnostics:
-could not find function "grid.draw"
-Execution halted
-```
-
-## dpcR (0.2)
-Maintainer: Michal Burdukiewicz <michalburdukiewicz@gmail.com>  
-Bug reports: https://github.com/michbur/dpcR/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking re-building of vignette outputs ... NOTE
-Error in re-building vignettes:
-  ...
-Quitting from lines 428-436 (overview.Rmd) 
-Error: processing vignette 'overview.Rmd' failed with diagnostics:
-Unknown parameters: y
-Execution halted
-
-```
-
-## dplyr (0.4.3)
-Maintainer: Hadley Wickham <hadley@rstudio.com>  
-Bug reports: https://github.com/hadley/dplyr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## drLumi (0.1.2)
-Maintainer: Hector Sanz <hector.sanz@isglobal.org>
-
-0 errors | 0 warnings | 0 notes
-
-## dslice (1.1.5)
-Maintainer: Chao Ye <yechao1009@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## dsm (2.2.9)
-Maintainer: David Lawrence Miller <dave@ninepointeightone.net>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking dependencies in R code ... NOTE
-Unexported objects imported by ':::' calls:
-  ‘mrds:::assign.par’ ‘mrds:::create.ddfobj’ ‘mrds:::detfct’
-  ‘mrds:::process.data’
-  See the note in ?`:::` about the use of this operator.
-```
-
-## DTR (1.7)
-Maintainer: Xinyu Tang <xtang@uams.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## DTRlearn (1.2)
-Maintainer: Ying Liu <yl2802@cumc.columbia.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## dtwclust (2.1.0)
-Maintainer: Alexis Sarda <alexis.sarda@gmail.com>  
-Bug reports: https://github.com/asardaes/dtwclust/issues
-
-0 errors | 0 warnings | 0 notes
-
-## dtwSat (0.1.0)
-Maintainer: Victor Maus <vwmaus1@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## DVHmetrics (0.3.4)
-Maintainer: Daniel Wollschlaeger <wollschlaeger@uni-mainz.de>
-
-0 errors | 0 warnings | 0 notes
-
-## DynNom (2.0)
-Maintainer: Amirhossein Jalali <a.jalali2@nuigalway.ie>
-
-0 errors | 0 warnings | 0 notes
-
-## dynsim (1.2.1)
-Maintainer: Christopher Gandrud <christopher.gandrud@gmail.com>  
-Bug reports: https://github.com/christophergandrud/dynsim/issues
-
-0 errors | 0 warnings | 0 notes
-
-## dynsurv (0.2-2)
-Maintainer: Jun Yan <jun.yan@uconn.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## earlywarnings (1.0.59)
-Maintainer: Vasilis Dakos <vasilis.dakos@gmail.com>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-
-checking R code for possible problems ... NOTE
-PlotPotential: no visible global function definition for ‘aes’
-PlotPotential: no visible global function definition for ‘geom_tile’
-PlotPotential: no visible global function definition for
-  ‘scale_fill_gradient’
-PlotPotential: no visible global function definition for ‘stat_contour’
-PlotPotential: no visible global function definition for ‘xlab’
-PlotPotential: no visible global function definition for ‘ylab’
-PlotPotential: no visible global function definition for ‘labs’
-```
-
-## EasyHTMLReport (0.1.1)
-Maintainer: Yohei Sato <yohei0511@gmail.com>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking top-level files ... NOTE
-Non-standard files/directories found at top level:
-  ‘easy_html_report_tmp_1376284934.59207.tsv’
-  ‘easy_html_report_tmp_1376284935.5951.tsv’
-  ‘easy_html_report_tmp_1376284936.59848.tsv’
-
-checking dependencies in R code ... NOTE
-Namespaces in Imports field not imported from:
-  ‘ggplot2’ ‘reshape2’ ‘scales’ ‘xtable’
-  All declared Imports should be used.
-Packages in Depends field not imported from:
-  ‘base64enc’ ‘knitr’ ‘markdown’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-.file_attachment: no visible global function definition for
-  ‘base64encode’
-easyHtmlReport: no visible global function definition for ‘knit’
-easyHtmlReport: no visible global function definition for
-  ‘markdownToHTML’
-```
-
-## ecb (0.1)
-Maintainer: Eric Persson <expersso5@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ecoengine (1.9.1)
-Maintainer: Karthik Ram <karthik.ram@gmail.com>  
-Bug reports: https://github.com/ropensci/ecoengine/issues
-
-0 errors | 0 warnings | 0 notes
-
-## EcoGenetics (1.2.0-2)
-Maintainer: Leandro Roser <learoser@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## edeaR (0.3.2)
-Maintainer: Gert Janssenswillen <gert.janssenswillen@uhasselt.be>
-
-0 errors | 0 warnings | 0 notes
-
-## edgar (1.0.4)
-Maintainer: Gunratan Lonare <lonare.gunratan@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## eemR (0.1.2)
-Maintainer: Philippe Massicotte <pm@bios.au.dk>  
-Bug reports: https://github.com/PMassicotte/eemR/issues
-
-0 errors | 0 warnings | 0 notes
-
-## eeptools (0.9.1)
-Maintainer: Jared E. Knowles <jknowles@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## EFDR (0.1.1)
-Maintainer: Andrew Zammit-Mangion <andrewzm@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## EffectLiteR (0.4-1)
-Maintainer: Axel Mayer <amayer2010@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ega (1.0.1)
-Maintainer: Daniel Schmolze <ega@schmolze.com>
-
-0 errors | 0 warnings | 0 notes
-
-## egcm (1.0.8)
-Maintainer: Matthew Clegg <matthewcleggphd@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## emil (2.2.3)
-Maintainer: Christofer Backlin <emil@christofer.backlin.se>  
-Bug reports: https://github.com/Molmed/emil/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking examples ... ERROR
-Running examples in ‘emil-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: modeling_procedure
-> ### Title: Setup a modeling procedure
-> ### Aliases: modeling_procedure
-> 
-> ### ** Examples
-... 69 lines ...
-   number of parameter sets to tune over: 6
-   tuned: no
-> 
-> # 6: Train elastic nets using the caret package's model fitting framework
-> library(caret)
-Loading required package: lattice
-Loading required package: ggplot2
-Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-  namespace ‘nlme’ 3.1-122 is already loaded, but >= 3.1.123 is required
-Error: package or namespace load failed for ‘caret’
-Execution halted
-```
-
-## emojifont (0.3.1)
-Maintainer: Guangchuang Yu <guangchuangyu@gmail.com>  
-Bug reports: https://github.com/GuangchuangYu/emojifont/issues
-
-0 errors | 0 warnings | 0 notes
-
-## EmpiricalCalibration (1.1.0)
-Maintainer: Martijn Schuemie <schuemie@ohdsi.org>  
-Bug reports: https://github.com/OHDSI/EmpiricalCalibration/issues
-
-0 errors | 0 warnings | 0 notes
-
-## enigma (0.2.0)
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>  
-Bug reports: https://github.com/ropengov/enigma/issues
-
-0 errors | 0 warnings | 0 notes
-
-## EpiDynamics (0.3.0)
-Maintainer: Oswaldo Santos Baquero <oswaldosant@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## episensr (0.7.2)
-Maintainer: Denis Haine <denis.haine@gmail.com>  
-Bug reports: https://github.com/dhaine/episensr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ESGtoolkit (0.1)
-Maintainer: Thierry Moudiki <thierry.moudiki@gmail.com>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Title field: should not end in a period.
-
-checking R code for possible problems ... NOTE
-esgplotshocks: no visible global function definition for ‘geom_point’
-esgplotshocks: no visible global function definition for ‘aes’
-esgplotshocks: no visible global function definition for ‘theme’
-esgplotshocks: no visible global function definition for
-  ‘element_blank’
-esgplotshocks: no visible global function definition for
-  ‘scale_color_manual’
-esgplotshocks: no visible global function definition for ‘geom_density’
-esgplotshocks: no visible global function definition for
-  ‘scale_fill_manual’
-esgplotshocks: no visible global function definition for ‘coord_flip’
-esgplotts: no visible global function definition for ‘xlab’
-esgplotts: no visible global function definition for ‘ylab’
-esgplotts: no visible global function definition for ‘theme’
-```
-
-## etm (0.6-2)
-Maintainer: Arthur Allignol <arthur.allignol@uni-ulm.de>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-```
-
-## eurostat (1.2.13)
-Maintainer: Lahti Leo <louhos@googlegroups.com>  
-Bug reports: https://github.com/ropengov/eurostat/issues
-
-0 errors | 0 warnings | 0 notes
-
-## eva (0.1.3)
-Maintainer: Brian Bader <brianbader@mail.com>  
-Bug reports: https://github.com/geekman1/eva_package/issues
-
-0 errors | 0 warnings | 0 notes
-
-## evaluate (0.8)
-Maintainer: Yihui Xie <xie@yihui.name>  
-Bug reports: https://github.com/hadley/evaluate/issues
-
-0 errors | 0 warnings | 0 notes
-
-## evolqg (0.2-2)
-Maintainer: Diogo Melo <diogro@usp.br>  
-Bug reports: https://github.com/lem-usp/evolqg/issues
-
-0 errors | 0 warnings | 0 notes
-
-## Evomorph (0.9)
-Maintainer: Juan Manuel Cabrera <juanmanuelcabrera1@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## explor (0.1)
-Maintainer: Julien Barnier <julien.barnier@ens-lyon.fr>
-
-0 errors | 0 warnings | 0 notes
-
-## exploreR (0.1)
-Maintainer: Michael Coates <azhain@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## exreport (0.4.1)
-Maintainer: Jacinto Arias <jacinto.arias@uclm.es>
-
-0 errors | 0 warnings | 0 notes
-
-## ExtDist (0.6-3)
-Maintainer: A. Jonathan R. Godfrey <a.j.godfrey@massey.ac.nz>
-
-0 errors | 0 warnings | 0 notes
-
-## extracat (1.7-4)
-Maintainer: Alexander Pilhoefer <alexander.pilhoefer@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘extracat’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘ggplot2::unit’ when loading ‘extracat’
-  Warning: replacing previous import by ‘ggplot2::arrow’ when loading ‘extracat’
-  Warning: replacing previous import by ‘scales::alpha’ when loading ‘extracat’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/extracat.Rcheck/00install.out’ for details.
-```
-
-## eyetrackingR (0.1.4)
-Maintainer: Jacob Dink <jacobwdink@gmail.com>  
-Bug reports: https://github.com/jwdink/eyetrackingR/issues
-
-2 errors | 0 warnings | 0 notes
-
-```
-checking examples ... ERROR
-Running examples in ‘eyetrackingR-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: analyze_time_clusters
-> ### Title: Bootstrap analysis of time-clusters.
-> ### Aliases: analyze_time_clusters analyze_time_clusters.time_cluster_data
-> 
-> ### ** Examples
-... 13 lines ...
-> response_time <- make_time_sequence_data(response_window, time_bin_size = 500, aois = "Animate", 
-+                                          predictor_columns = "Sex")
-> 
-> time_cluster_data <- make_time_cluster_data(data = response_time, predictor_column = "SexM", 
-+                          aoi = "Animate", test = "lmer", 
-+                          threshold = 1.5, 
-+                          formula = LogitAdjusted ~ Sex + (1|Trial) + (1|ParticipantName))
-Error in analyze_time_bins.time_sequence_data(data = list(ParticipantName = c(1L,  : 
-  All time-bins produced same error: ''data' not found, and some variables missing from formula environment'
-Calls: make_time_cluster_data ... <Anonymous> -> analyze_time_bins.time_sequence_data
-Execution halted
-
-checking tests ... ERROR
-Running the tests in ‘tests/testthat.R’ failed.
-Last 13 lines of output:
-  > test_check("eyetrackingR")
-  Avg. window length in new data will be 5500
-  Performing Trackloss Analysis...
-  Will exclude trials whose trackloss proportion is greater than : 0.25
-  	...removed  33  trials.
-  Computing t.test for each time bin...
-  Computing t.test for each time bin...
-  Computing lmer for each time bin...
-  At least one time-bin produced errors--be sure to check 'Error' col in output.
-  Error in analyze_time_bins.time_sequence_data(df_time_within, predictor_column = "SexM:TargetInanimate",  : 
-    All time-bins produced same error: ''data' not found, and some variables missing from formula environment'
-  Calls: test_check ... analyze_time_bins -> analyze_time_bins.time_sequence_data
-  Execution halted
-```
-
-## ez (4.3)
-Maintainer: Michael A. Lawrence <mike.lwrnc@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ezsim (0.5.5)
-Maintainer: TszKin Julian Chan <ctszkin@gmail.com>  
-Bug reports: TszKin Julian Chan <ctszkin@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-```
-
-## FAOSTAT (2.0)
-Maintainer: Filippo Gheri <filippo.gheri@fao.org>
-
-0 errors | 1 warning  | 1 note 
-
-```
-checking whether package ‘FAOSTAT’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘scales::alpha’ when loading ‘FAOSTAT’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/FAOSTAT.Rcheck/00install.out’ for details.
-
-checking data for non-ASCII characters ... NOTE
-  Note: found 179 marked UTF-8 strings
-```
-
-## fbroc (0.3.1)
-Maintainer: Erik Peter <jerikpeter@googlemail.com>  
-Bug reports: http://github.com/erikpeter/fbroc/issues
-
-0 errors | 0 warnings | 0 notes
-
-## fermicatsR (1.3)
-Maintainer: Pablo Saz Parkinson <sazpark2@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## FField (0.1.0)
-Maintainer: Grigori Kapoustin <gregk@alphabetaworks.com>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘ggplot2’ ‘gridExtra’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-
-checking R code for possible problems ... NOTE
-FFieldPtRepDemo: no visible global function definition for ‘ggplot’
-FFieldPtRepDemo: no visible global function definition for ‘aes’
-FFieldPtRepDemo: no visible binding for global variable ‘mpg’
-FFieldPtRepDemo: no visible global function definition for ‘geom_point’
-FFieldPtRepDemo: no visible global function definition for ‘geom_text’
-FFieldPtRepDemo: no visible global function definition for ‘ggtitle’
-FFieldPtRepDemo: no visible global function definition for
-  ‘geom_segment’
-FFieldPtRepDemo: no visible global function definition for
-  ‘grid.arrange’
-```
-
-## fheatmap (1.0.1)
-Maintainer: Sivasish Sindiri<sentisci@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘fheatmap’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘fheatmap’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘fheatmap’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/fheatmap.Rcheck/00install.out’ for details.
-```
-
-## FinCal (0.6.2)
-Maintainer: Felix Yanhui Fan <nolanfyh@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## fishmove (0.3-3)
-Maintainer: Johannes Radinger <jradinger@igb-berlin.de>
-
-0 errors | 0 warnings | 0 notes
-
-## flowr (0.9.9.5)
-Maintainer: Sahil Seth <me@sahilseth.com>  
-Bug reports: https://github.com/sahilseth/flowr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## forestmodel (0.4.0)
-Maintainer: Nick Kennedy <r@nick-kennedy.com>
-
-0 errors | 0 warnings | 0 notes
-
-## fractional (0.1.3)
-Maintainer: Bill Venables <bill.venables@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## frailtySurv (1.2.2)
-Maintainer: John V. Monaco <vincent@vmonaco.com>  
-Bug reports: https://github.com/vmonaco/frailtySurv/issues
-
-0 errors | 0 warnings | 0 notes
-
-## freqparcoord (1.0.1)
-Maintainer: Norm Matloff <normmatloff@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## FreqProf (0.0.1)
-Maintainer: Ronald E. Robertson <rrobertson@aibrt.org>  
-Bug reports: https://github.com/AIBRT/FreqProf/issues
-
-0 errors | 0 warnings | 0 notes
-
-## freqweights (1.0.2)
-Maintainer: Emilio Torres-Manzanera <torres@uniovi.es>
-
-0 errors | 0 warnings | 0 notes
-
-## frontiles (1.2)
-Maintainer: Thibault Laurent <thibault.laurent@univ-tlse1.fr>
-
-0 errors | 0 warnings | 0 notes
-
-## fSRM (0.6.4)
-Maintainer: Felix Schönbrodt <felix@nicebread.de>
-
-0 errors | 0 warnings | 0 notes
-
-## funModeling (1.0)
-Maintainer: Pablo Casas <pabloc@datascienceheroes.com>
-
-0 errors | 0 warnings | 0 notes
-
-## fuzzyforest (1.0.0)
-Maintainer: Daniel Conn <djconn17@gmail.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking examples ... ERROR
-Running examples in ‘fuzzyforest-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: ff
-> ### Title: Fits fuzzy forest algorithm.
-> ### Aliases: ff
-> 
-> ### ** Examples
-... 9 lines ...
-Attaching package: ‘fastcluster’
-
-The following object is masked from ‘package:stats’:
-
-    hclust
-
-Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
-  there is no package called ‘GO.db’
-Error: package or namespace load failed for ‘WGCNA’
-Execution halted
-** found \donttest examples: check also with --run-donttest
-```
-
-## G2Sd (2.1.5)
-Maintainer: Regis K. Gallon <reg.gallon@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## gapmap (0.0.4)
-Maintainer: Ryo Sakai <ryo@vda-lab.be>
-
-0 errors | 0 warnings | 0 notes
-
-## gapminder (0.2.0)
-Maintainer: Jennifer Bryan <jenny@stat.ubc.ca>  
-Bug reports: https://github.com/jennybc/gapminder/issues
-
-0 errors | 0 warnings | 0 notes
-
-## gcerisk (16.1.1)
-Maintainer: Hanjie Shen <shenhanjie0418@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## gcookbook (1.0)
-Maintainer: Winston Chang <winston@stdout.org>
-
-0 errors | 0 warnings | 0 notes
-
-## GDAdata (0.93)
-Maintainer: Antony Unwin<unwin@math.uni-augsburg.de>
-
-0 errors | 0 warnings | 0 notes
-
-## GenCAT (1.0.2)
-Maintainer: Eric Reed <reeder@bu.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## gender (0.5.1)
-Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>  
-Bug reports: https://github.com/ropensci/gender/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘genderdata’
-```
-
-## geneSLOPE (0.36.6)
-Maintainer: Piotr Sobczyk <piotr.sobczyk@pwr.edu.pl>  
-Bug reports: https://github.com/psobczyk/geneSLOPE/issues
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘geneSLOPE’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘geneSLOPE’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘geneSLOPE’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/geneSLOPE.Rcheck/00install.out’ for details.
-```
-
-## geoknife (1.2.1)
-Maintainer: Jordan Read <jread@usgs.gov>  
-Bug reports: https://github.com/USGS-R/geoknife/issues
-
-0 errors | 0 warnings | 0 notes
-
-## geomnet (0.0.1)
-Maintainer: Samantha Tyner <sctyner@iastate.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## GERGM (0.7.4)
-Maintainer: Matthew J. Denny <mdenny@psu.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## GetTDData (1.0)
-Maintainer: Marcelo Perlin <marceloperlin@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## gettingtothebottom (3.2)
-Maintainer: Jocelyn T. Chi <jocelynchi@alum.berkeley.edu>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘gettingtothebottom’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘gettingtothebottom’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘gettingtothebottom’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/gettingtothebottom.Rcheck/00install.out’ for details.
-```
-
-## gfcanalysis (1.4)
-Maintainer: Alex Zvoleff <azvoleff@conservation.org>  
-Bug reports: https://github.com/azvoleff/gfcanalysis/issues
-
-0 errors | 0 warnings | 0 notes
-
-## GGally (1.0.1)
-Maintainer: Barret Schloerke <schloerke@gmail.com>  
-Bug reports: https://github.com/ggobi/ggally/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is  7.8Mb
-  sub-directories of 1Mb or more:
-    doc   6.8Mb
-```
-
-## ggalt (0.1.1)
-Maintainer: Bob Rudis <bob@rudis.net>  
-Bug reports: https://github.com/hrbrmstr/ggalt/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ggbeeswarm (0.5.0)
-Maintainer: Erik Clarke <erikclarke@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ggcorrplot (0.1.1)
-Maintainer: Alboukadel Kassambara <alboukadel.kassambara@gmail.com>  
-Bug reports: https://github.com/kassambara/ggcorrplot/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ggdendro (0.1-18)
-Maintainer: Andrie de Vries <apdevries@gmail.com>  
-Bug reports: https://github.com/andrie/ggdendro/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ggenealogy (0.1.0)
-Maintainer: Lindsay Rutter <lrutter@iastate.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## ggExtra (0.3.4)
-Maintainer: Dean Attali <daattali@gmail.com>  
-Bug reports: https://github.com/daattali/ggExtra/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ggfortify (0.1.0)
-Maintainer: Masaaki Horikoshi <sinhrks@gmail.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking tests ... ERROR
-Running the tests in ‘tests/test-all.R’ failed.
-Last 13 lines of output:
-  x[3]: "mean"
-  y[3]: "variance"
-  
-  x[4]: "variance"
-  
-  Loading required package: urca
-  Loading required package: lmtest
-  testthat results ================================================================
-  OK: 548 SKIPPED: 1 FAILED: 1
-  1. Failure (at test-changepoint.R#24): fortify.cpt works for AirPassengers 
-  
-  Error: testthat unit tests failed
-  Execution halted
-```
-
-## ggiraph (0.1.0)
-Maintainer: David Gohel <david.gohel@ardata.fr>  
-Bug reports: https://github.com/davidgohel/ggiraph/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ggmap (2.6.1)
-Maintainer: David Kahle <david.kahle@gmail.com>  
-Bug reports: https://github.com/dkahle/ggmap/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ggmcmc (0.7.3)
-Maintainer: Xavier Fernández i Marín <xavier.fim@gmail.com>  
-Bug reports: https://github.com/xfim/ggmcmc/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ggparallel (0.1.2)
-Maintainer: Heike Hofmann <hofmann@iastate.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## ggpmisc (0.2.6)
-Maintainer: Pedro J. Aphalo <pedro.aphalo@helsinki.fi>  
-Bug reports: https://bitbucket.org/aphalo/ggpmisc
-
-0 errors | 0 warnings | 0 notes
-
-## ggRandomForests (1.2.1)
-Maintainer: John Ehrlinger <john.ehrlinger@gmail.com>  
-Bug reports: https://github.com/ehrlinger/ggRandomForests/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is  5.9Mb
-  sub-directories of 1Mb or more:
-    data   2.6Mb
-    doc    3.0Mb
-```
-
-## ggrepel (0.5)
-Maintainer: Kamil Slowikowski <kslowikowski@fas.harvard.edu>  
-Bug reports: http://github.com/slowkow/ggrepel/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ggROC (1.0)
-Maintainer: Honglong Wu <wuhonglong.china@gmail.com>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-Package listed in more than one of Depends, Imports, Suggests, Enhances:
-  ‘ggplot2’
-A package should be listed in only one of these fields.
-
-checking dependencies in R code ... NOTE
-Package in Depends field not imported from: ‘ggplot2’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-ggroc: no visible global function definition for ‘ggplot’
-ggroc: no visible global function definition for ‘aes’
-ggroc: no visible global function definition for ‘geom_point’
-ggroc: no visible global function definition for ‘geom_line’
-ggroc: no visible global function definition for ‘theme’
-ggroc: no visible global function definition for ‘element_text’
-ggroc: no visible global function definition for ‘labs’
-ggroc: no visible global function definition for ‘ggsave’
-```
-
-## ggseas (0.2.1)
-Maintainer: Peter Ellis <peter.ellis2013nz@gmail.com>  
-Bug reports: https://github.com/ellisp/ggseas/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ggsn (0.3.0)
-Maintainer: Oswaldo Santos Baquero <oswaldosant@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ggspectra (0.1.6)
-Maintainer: Pedro J. Aphalo <pedro.aphalo@helsinki.fi>  
-Bug reports: https://bitbucket.org/aphalo/ggspectra
-
-0 errors | 0 warnings | 0 notes
-
-## ggswissmaps (0.0.8)
-Maintainer: Sandro Petrillo Burri <gibo.gaf@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is  5.1Mb
-  sub-directories of 1Mb or more:
-    R      3.4Mb
-    data   1.6Mb
-```
-
-## ggtern (2.0.1)
-Maintainer: Nicholas Hamilton <nick@ggtern.com>
-
-1 error  | 1 warning  | 0 notes
-
-```
-checking examples ... ERROR
-Running examples in ‘ggtern-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: convenience_functions
-> ### Title: Theme Convenience Functions
-> ### Aliases: convenience convenience_functions theme_convenience
-> 
-> ### ** Examples
-> 
-> 
-> #Load data and create the base plot.
-> data(Feldspar)
-> plot <- ggtern(data=Feldspar,aes(x=An,y=Ab,z=Or)) + geom_point() + theme_bw()
-> plot
-Error in ggint$map_layout(panel, plot$facet, layer_data, plot$data) : 
-  unused argument (plot$data)
-Calls: <Anonymous> -> print.ggplot -> ggplot_build -> <Anonymous>
-Execution halted
-
-checking whether package ‘ggtern’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘plyr::join’ when loading ‘ggtern’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/ggtern.Rcheck/00install.out’ for details.
-```
-
-## ggthemes (3.0.2)
-Maintainer: Jeffrey B. Arnold <jeffrey.arnold@gmail.com>  
-Bug reports: http://github.com/jrnold/ggthemes
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking tests ... ERROR
-Running the tests in ‘tests/testthat.R’ failed.
-Last 13 lines of output:
-  tests/testthat/test-utilities.r:20:1: style: lines should not be more than 80 characters.
-    expect_identical(finite.cases(data.frame(x = Inf)),                      FALSE)
-  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  tests/testthat/test-utilities.r:21:1: style: lines should not be more than 80 characters.
-    expect_identical(finite.cases(data.frame(x = c(4, 5), y = c(-Inf, 12))), c(FALSE, TRUE))
-  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  
-  testthat results ================================================================
-  OK: 0 SKIPPED: 0 FAILED: 1
-  1. Failure: Package Style 
-  
-  Error: testthat unit tests failed
-  Execution halted
-```
-
-## gitter (1.1.1)
-Maintainer: Omar Wagih <wagih@ebi.ac.uk>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘gitter’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘gitter’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/gitter.Rcheck/00install.out’ for details.
-```
-
-## glinternet (1.0.0)
-Maintainer: Michael Lim <michael626@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## glycanr (0.2.0)
-Maintainer: Ivo Ugrina <ivo@iugrina.com>  
-Bug reports: https://github.com/iugrina/glycanr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## gmum.r (0.2.1)
-Maintainer: Stanislaw Jastrzebski <staszek.jastrzebski@gmail.com>  
-Bug reports: https://github.com/gmum/gmum.r/issues
-
-0 errors | 0 warnings | 0 notes
-
-## gmwm (2.0.0)
-Maintainer: Stephane Guerrier <stephane@illinois.edu>  
-Bug reports: https://github.com/SMAC-Group/gmwm/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘imudata’
-```
-
-## googlesheets (0.1.0)
-Maintainer: Jennifer Bryan <jenny@stat.ubc.ca>  
-Bug reports: https://github.com/jennybc/googlesheets/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking re-building of vignette outputs ... NOTE
-Error in re-building vignettes:
-  ...
-Quitting from lines 115-119 (basic-usage.Rmd) 
-Error: processing vignette 'basic-usage.Rmd' failed with diagnostics:
-unused argument (na.strings = c("", "NA"))
-Execution halted
-
-```
-
-## GOplot (1.0.1)
-Maintainer: Wencke Walter <wencke.walter@arcor.de>  
-Bug reports: https://github.com/wencke/wencke.github.io/issues
-
-0 errors | 0 warnings | 0 notes
-
-## gpmap (0.1.1)
-Maintainer: Arne B. Gjuvsland <arne.gjuvsland@nmbu.no>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-
-checking dependencies in R code ... NOTE
-Packages in Depends field not imported from:
-  ‘foreach’ ‘ggplot2’ ‘isotone’ ‘plyr’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-decompose_monotone: no visible global function definition for ‘%dopar%’
-decompose_monotone: no visible global function definition for ‘foreach’
-decompose_monotone: no visible global function definition for ‘%do%’
-decompose_monotone_single: no visible global function definition for
-  ‘%dopar%’
-decompose_monotone_single: no visible global function definition for
-  ‘foreach’
-decompose_monotone_single: no visible global function definition for
-  ‘laply’
-... 40 lines ...
-plot3_dec: no visible global function definition for ‘aes_string’
-plot3_dec: no visible global function definition for ‘geom_line’
-plot3_dec: no visible global function definition for ‘facet_grid’
-plot3_dec: no visible global function definition for ‘labs’
-plot3_orig: no visible global function definition for ‘%do%’
-plot3_orig: no visible global function definition for ‘foreach’
-plot3_orig: no visible global function definition for ‘ggplot’
-plot3_orig: no visible global function definition for ‘aes_string’
-plot3_orig: no visible global function definition for ‘geom_line’
-plot3_orig: no visible global function definition for ‘facet_wrap’
-plot3_orig: no visible global function definition for ‘labs’
-```
-
-## granovaGG (1.4.0)
-Maintainer: Brian A. Danielak <brian@briandk.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘granovaGG’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘plyr::join’ when loading ‘granovaGG’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/granovaGG.Rcheck/00install.out’ for details.
-```
-
-## greport (0.5-3)
-Maintainer: Frank E Harrell Jr <f.harrell@vanderbilt.edu>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking R code for possible problems ... NOTE
-accrualReport: multiple local function definitions for ‘g’ with
-  different formal arguments
-```
-
-## gridDebug (0.5-0)
-Maintainer: Paul Murrell <p.murrell@auckland.ac.nz>
-
-0 errors | 0 warnings | 0 notes
-
-## gridExtra (2.2.1)
-Maintainer: Baptiste Auguie <baptiste.auguie@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## growcurves (0.2.4.0)
-Maintainer: Terrance Savitsky <tds151@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## growfunctions (0.12)
-Maintainer: Terrance Savitsky <tds151@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## gsDesign (3.0-1)
-Maintainer: Keaven Anderson <keaven_anderson@merck.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking R code for possible problems ... NOTE
-plotgsCP: no visible global function definition for ‘opts’
-plotgsPower: no visible global function definition for ‘opts’
-qplotit: no visible global function definition for ‘opts’
-```
-
-## GSE (3.3)
-Maintainer: Andy Leung <andy.leung@stat.ubc.ca>
-
-0 errors | 0 warnings | 0 notes
-
-## gtrendsR (1.3.2)
-Maintainer: Philippe Massicotte <pmassicotte@hotmail.com>  
-Bug reports: https://github.com/PMassicotte/gtrendsR/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking data for non-ASCII characters ... NOTE
-  Note: found 689 marked UTF-8 strings
-```
-
-## gunsales (0.1.0)
-Maintainer: Dirk Eddelbuettel <edd@debian.org>
-
-0 errors | 0 warnings | 0 notes
-
-## h2o (3.6.0.8)
-Maintainer: Tom Kraljevic <tomk@0xdata.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is 48.9Mb
-  sub-directories of 1Mb or more:
-    java  48.0Mb
-```
-
-## hazus (0.1)
-Maintainer: Gopi Goteti <my.ration.shop@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## hdm (0.1.0)
-Maintainer: Martin Spindler <spindler@mea.mpisoc.mpg.de>
-
-0 errors | 0 warnings | 0 notes
-
-## hdnom (3.0)
-Maintainer: Nan Xiao <nanx@uchicago.edu>  
-Bug reports: https://github.com/road2stat/hdnom/issues
-
-0 errors | 0 warnings | 0 notes
-
-## hdr (0.1)
-Maintainer: Eric Persson <expersso5@gmail.com>  
-Bug reports: https://github.com/expersso/hdr
-
-0 errors | 0 warnings | 0 notes
-
-## heemod (0.2.0)
-Maintainer: Antoine Filipovic-Pierucci <pierucci@gmail.com>  
-Bug reports: https://github.com/pierucci/heemod/issues
-
-0 errors | 0 warnings | 0 notes
-
-## hierarchicalDS (2.9)
-Maintainer: Paul B Conn <paul.conn@noaa.gov>
-
-0 errors | 0 warnings | 0 notes
-
-## HighDimOut (1.0.0)
-Maintainer: Cheng Fan <raja8885@hotmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## HistData (0.7-6)
-Maintainer: Michael Friendly <friendly@yorku.ca>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd cross-references ... NOTE
-Packages unavailable to check Rd xrefs: ‘Guerry’, ‘alr3’, ‘agridat’
-```
-
-## HistDAWass (0.1.4)
-Maintainer: Antonio Irpino <antonio.irpino@unina2.it>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘HistDAWass’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘HistDAWass’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘HistDAWass’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/HistDAWass.Rcheck/00install.out’ for details.
-```
-
-## historydata (0.1)
-Maintainer: Lincoln Mullen <lincoln@lincolnmullen.com>  
-Bug reports: https://github.com/ropensci/historydata/issues
-
-0 errors | 0 warnings | 0 notes
-
-## HiveR (0.2.46)
-Maintainer: Bryan A. Hanson <hanson@depauw.edu>  
-Bug reports: https://github.com/bryanhanson/HiveR/issues
-
-0 errors | 0 warnings | 0 notes
-
-## HLMdiag (0.3.1)
-Maintainer: Adam Loy <loyad01@gmail.com>  
-Bug reports: https://github.com/aloy/HLMdiag/issues
-
-0 errors | 0 warnings | 0 notes
-
-## Hmisc (3.17-2)
-Maintainer: Frank E Harrell Jr <f.harrell@vanderbilt.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## httk (1.4)
-Maintainer: John Wambaugh <wambaugh.john@epa.gov>
-
-0 errors | 0 warnings | 0 notes
-
-## HWxtest (1.1.7)
-Maintainer: Bill Engels <wrengels@wisc.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## hybridModels (0.2.6)
-Maintainer: Fernando S. Marques <fernandosix@gmail.com>  
-Bug reports: https://github.com/fernandosm/hybridModels/issues
-
-0 errors | 0 warnings | 0 notes
-
-## hyfo (1.3.6)
-Maintainer: Yuanchao Xu <xuyuanchao37@gmail.com>  
-Bug reports: https://github.com/Yuanchao-Xu/hyfo/issues
-
-0 errors | 0 warnings | 0 notes
-
-## hyperSpec (0.98-20150304)
-Maintainer: Claudia Beleites <chemometrie@beleites.de>
-
-0 errors | 1 warning  | 1 note 
-
-```
-checking whether package ‘hyperSpec’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘hyperSpec’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/hyperSpec.Rcheck/00install.out’ for details.
-
-checking R code for possible problems ... NOTE
-Warning: local assignments to syntactic functions: ~
-Warning: local assignments to syntactic functions: ~
-```
-
-## IAT (0.2)
-Maintainer: Dan Martin <dpmartin42@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ibmdbR (1.47.1)
-Maintainer: Michael Wurst <inza@de.ibm.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Package required but not available: ‘RODBC’
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## icd9 (1.3)
-Maintainer: Jack O. Wasey <jack@jackwasey.com>  
-Bug reports: https://github.com/jackwasey/icd9/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking data for non-ASCII characters ... NOTE
-  Note: found 14 marked Latin-1 strings
-  Note: found 39 marked UTF-8 strings
-```
-
-## idm (1.3)
-Maintainer: Angelos Markos <amarkos@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ifaTools (0.8)
-Maintainer: Joshua N. Pritikin <jpritikin@pobox.com>
-
-0 errors | 0 warnings | 0 notes
-
-## IMP (1.1)
-Maintainer: Anup Nair <nairanup50695@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## iNEXT (2.0.5)
-Maintainer: T. C. Hsieh <euler96@gmail.com>  
-Bug reports: https://github.com/JohnsonHsieh/iNEXT/issues
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking Rd cross-references ... WARNING
-Missing link or links in documentation object 'ggiNEXT.Rd':
-  ‘ggplot2’
-
-See section 'Cross-references' in the 'Writing R Extensions' manual.
-
-```
-
-## Information (0.0.7)
-Maintainer: Larsen Kim <kblarsen4@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## InformationValue (1.2.1)
-Maintainer: Selva Prabhakaran <selva86@gmail.com>  
-Bug reports: https://github.com/selva86/InformationValue/issues License:
-        GPL (>= 2)
-
-0 errors | 0 warnings | 0 notes
-
-## InSilicoVA (1.0)
-Maintainer: Zehang Li <lizehang@uw.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## IntegratedJM (1.4)
-Maintainer: Rudradev Sengupta <rudradev.sengupta@uhasselt.be>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘IntegratedJM’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘IntegratedJM’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘IntegratedJM’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/IntegratedJM.Rcheck/00install.out’ for details.
-```
-
-## interplot (0.1.1.1)
-Maintainer: Yue Hu <yue-hu-1@uiowa.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## intsvy (1.8)
-Maintainer: Daniel Caro <daniel.caro@education.ox.ac.uk>  
-Bug reports: https://github.com/eldafani/intsvy/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ITEMAN (1.0)
-Maintainer: Cengiz Zopluoglu <c.zopluoglu@miami.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## JacobiEigen (0.2-2)
-Maintainer: Bill Venables <Bill.Venables@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## kdetrees (0.1.5)
-Maintainer: Grady Weyenberg <grady.weyenberg@uky.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## kfigr (1.2)
-Maintainer: Michael C Koohafkan <michael.koohafkan@gmail.com>  
-Bug reports: https://github.com/mkoohafkan/kfigr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## Kmisc (0.5.0)
-Maintainer: Kevin Ushey <kevinushey@gmail.com>  
-Bug reports: https://github.com/kevinushey/Kmisc/issues
-
-0 errors | 0 warnings | 0 notes
-
-## knitrBootstrap (1.0.0)
-Maintainer: Jim Hester <james.f.hester@gmail.com>  
-Bug reports: https://github.com/jimhester/knitrBootstrap/issues
-
-0 errors | 0 warnings | 0 notes
-
-## kobe (1.3.2)
-Maintainer: Laurence Kell <laurie.kell@iccat.int>
-
-0 errors | 1 warning  | 1 note 
-
-```
-checking whether package ‘kobe’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘kobe’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/kobe.Rcheck/00install.out’ for details.
-
-checking R code for possible problems ... NOTE
-kobe2sm,data.frame : .local: no visible global function definition for
-  ‘kobe2smFn’
-kobe,data.frame-missing : .local : <anonymous>: no visible global
-  function definition for ‘kobeFn’
-```
-
-## Lahman (4.0-1)
-Maintainer: Chris Dalzell <cdalzell@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is  7.5Mb
-  sub-directories of 1Mb or more:
-    data   7.2Mb
-```
-
-## LambertW (0.6.2)
-Maintainer: Georg M. Goerg <im@gmge.org>
-
-0 errors | 0 warnings | 0 notes
-
-## LANDD (1.0.0)
-Maintainer: Shangzhao Qiu <qsz1328@gmail.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘LANDD’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/LANDD.Rcheck/00install.out’ for details.
-```
-
-## latex2exp (0.4.0)
-Maintainer: Stefano Meschiari <stefano.meschiari@gmail.com>  
-Bug reports: https://github.com/stefano-meschiari/latex2exp/issues
-
-0 errors | 0 warnings | 0 notes
-
-## lda (1.4.2)
-Maintainer: Jonathan Chang <slycoder@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ldatuning (0.1.0)
-Maintainer: Murzintcev Nikita <nikita@lreis.ac.cn>  
-Bug reports: https://github.com/nikita-moor/ldatuning/issues
-
-0 errors | 0 warnings | 0 notes
-
-## LDheatmap (0.99-1)
-Maintainer: Brad McNeney <mcneney@sfu.ca>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘GenomicRanges’ ‘chopsticks’ ‘rtracklayer’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-Package in Depends field not imported from: ‘grid’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-LDheatmap : makeImageRect: no visible global function definition for
-  ‘rectGrob’
-LDheatmap : makeImageRect: no visible global function definition for
-  ‘gpar’
-LDheatmap : makeImageText: no visible global function definition for
-  ‘textGrob’
-LDheatmap : makeImageText: no visible global function definition for
-  ‘gpar’
-LDheatmap : LDheatmap.Legend.add: no visible global function definition
-... 206 lines ...
-recombRate: no visible global function definition for ‘textGrob’
-recombRate: no visible global function definition for ‘gpar’
-recombRate: no visible global function definition for ‘unit’
-recombRate: no visible global function definition for ‘editGrob’
-recombRate: no visible global function definition for ‘convertWidth’
-recombRate: no visible global function definition for ‘grobWidth’
-recombRate: no visible global function definition for ‘gTree’
-recombRate: no visible global function definition for ‘gList’
-recombRate: no visible global function definition for ‘rectGrob’
-recombRate: no visible global function definition for ‘addGrob’
-recombRate: no visible global function definition for ‘grid.draw’
-```
-
-## learnstats (0.1.1)
-Maintainer: Daniel Walter <dswalter@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## LexisPlotR (0.2)
-Maintainer: Philipp Ottolinger <philipp@ottolinger.de>
-
-0 errors | 0 warnings | 0 notes
-
-## likeLTD (6.0.4)
-Maintainer: Christopher Steele <c.steele.11@ucl.ac.uk>
-
-0 errors | 0 warnings | 0 notes
-
-## likert (1.3.3)
-Maintainer: Jason Bryer <jason@bryer.org>  
-Bug reports: https://github.com/jbryer/likert/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking data for non-ASCII characters ... NOTE
-  Note: found 7 marked UTF-8 strings
-```
-
-## llama (0.9.1)
-Maintainer: Lars Kotthoff <larsko@cs.ubc.ca>
-
-0 errors | 0 warnings | 0 notes
-
-## lme4 (1.1-11)
-Maintainer: Ben Bolker <bbolker+lme4@gmail.com>  
-Bug reports: https://github.com/lme4/lme4/issues
-
-2 errors | 0 warnings | 1 note 
-
-```
-checking examples ... ERROR
-Running examples in ‘lme4-Ex.R’ failed
-The error occurred in:
-
-
-R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
-Copyright (C) 2015 The R Foundation for Statistical Computing
-Platform: x86_64-apple-darwin13.4.0 (64-bit)
-
-R is free software and comes with ABSOLUTELY NO WARRANTY.
-... 25 lines ...
-+ },
-+ pos = 'CheckExEnv')
-> 
-> ### * </HEADER>
-> library('lme4')
-Loading required package: Matrix
-Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-  namespace ‘nlme’ 3.1-122 is being loaded, but >= 3.1.123 is required
-Error: package or namespace load failed for ‘lme4’
-Execution halted
-** found \donttest examples: check also with --run-donttest
-
-checking tests ... ERROR
-Running the tests in ‘tests/AAAtest-all.R’ failed.
-Last 13 lines of output:
-  +     print(warnings()) # TODO? catch most of these by expect_warning(..)
-  + } else {
-  +     cat( "package 'testthat' not available, cannot run unit tests\n" )
-  + }
-  Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-    namespace 'nlme' 3.1-122 is being loaded, but >= 3.1.123 is required
-  Loading required package: lme4
-  Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-    namespace 'nlme' 3.1-122 is being loaded, but >= 3.1.123 is required
-  Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-    namespace 'nlme' 3.1-122 is being loaded, but >= 3.1.123 is required
-  Calls: test_check ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
-  Execution halted
-
-checking installed package size ... NOTE
-  installed size is  5.8Mb
-  sub-directories of 1Mb or more:
-    doc        1.8Mb
-    testdata   1.5Mb
-```
-
-## lmerTest (2.0-30)
-Maintainer: Alexandra Kuznetsova <alku@dtu.dk>
-
-0 errors | 0 warnings | 0 notes
-
-## lmms (1.3)
-Maintainer: Jasmin Straube <j.straube@qfab.org>
-
-0 errors | 0 warnings | 0 notes
-
-## localgauss (0.35)
-Maintainer: Tore Selland Kleppe <tore.kleppe@uis.no>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘localgauss’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/localgauss.Rcheck/00install.out’ for details.
-```
-
-## LocFDRPois (1.0.0)
-Maintainer: Kris Sankaran <kriss1@stanford.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## logisticPCA (0.1)
-Maintainer: Andrew J. Landgraf <andland@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## LOGIT (1.3)
-Maintainer: Rafael S. de Souza <rafael.2706@gmail.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘LOGIT’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/LOGIT.Rcheck/00install.out’ for details.
-```
-
-## lsbclust (1.0.4)
-Maintainer: Pieter Schoonees <schoonees@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## lsl (0.5.1)
-Maintainer: Po-Hsien Huang <psyphh@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ltbayes (0.3)
-Maintainer: Timothy R. Johnson <trjohns@uidaho.edu>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘ltbayes’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/ltbayes.Rcheck/00install.out’ for details.
-```
-
-## MAc (1.1)
-Maintainer: AC Del Re <acdelre@gmail.com>
-
-0 errors | 0 warnings | 4 notes
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘R2wd’
-
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘R2wd’ ‘ggplot2’ ‘metafor’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-
-checking S3 generic/method consistency ... NOTE
-Found the following apparent S3 methods exported but not registered:
-  mareg.default print.icclist print.macat print.mareg print.omni
-  print.summary.mareg r2.mareg summary.mareg wd.default wd.macat
-  wd.mareg wd.omni
-See section ‘Registering S3 methods’ in the ‘Writing R Extensions’
-manual.
-
-checking R code for possible problems ... NOTE
-CatModf: warning in pchisq(out$Q, out$df, lower = FALSE): partial
-  argument match of 'lower' to 'lower.tail'
-CatModr: warning in pchisq(out$Q, out$df, lower = FALSE): partial
-  argument match of 'lower' to 'lower.tail'
-OmnibusES: warning in pchisq(Q, df, lower = FALSE): partial argument
-  match of 'lower' to 'lower.tail'
-macat: warning in pchisq(temp$Q, temp$df, lower = FALSE): partial
-  argument match of 'lower' to 'lower.tail'
-macat: warning in pchisq(out$Q, out$df, lower = FALSE): partial
-... 94 lines ...
-wd.macat: no visible global function definition for ‘wdNewDoc’
-wd.macat: no visible global function definition for ‘wdHeading’
-wd.macat: no visible global function definition for ‘wdTable’
-wd.mareg: no visible global function definition for ‘wdGet’
-wd.mareg: no visible global function definition for ‘wdNewDoc’
-wd.mareg: no visible global function definition for ‘wdHeading’
-wd.mareg: no visible global function definition for ‘wdTable’
-wd.omni: no visible global function definition for ‘wdGet’
-wd.omni: no visible global function definition for ‘wdNewDoc’
-wd.omni: no visible global function definition for ‘wdHeading’
-wd.omni: no visible global function definition for ‘wdTable’
-```
-
-## MAd (0.8-2)
-Maintainer: AC Del Re <acdelre@gmail.com>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘R2wd’
-
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘R2wd’ ‘ggplot2’ ‘metafor’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-
-checking S3 generic/method consistency ... NOTE
-Found the following apparent S3 methods exported but not registered:
-  mareg.default print.icclist print.macat print.mareg print.omni
-  print.summary.mareg r2.mareg summary.mareg wd.default wd.macat
-  wd.mareg wd.omni
-See section ‘Registering S3 methods’ in the ‘Writing R Extensions’
-manual.
-```
-
-## maddison (0.1)
-Maintainer: Eric Persson <expersso5@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## mapr (0.2.0)
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>  
-Bug reports: https://github.com/ropensci/mapr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## marked (1.1.10)
-Maintainer: Jeff Laake <Jeff.Laake@noaa.gov>
-
-0 errors | 0 warnings | 0 notes
-
-## marmap (0.9.5)
-Maintainer: Eric Pante <pante.eric@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## matrixStats (0.50.1)
-Maintainer: Henrik Bengtsson <henrikb@braju.com>  
-Bug reports: https://github.com/HenrikBengtsson/matrixStats/issues
-
-0 errors | 0 warnings | 0 notes
-
-## MAVIS (1.1.1)
-Maintainer: William Kyle Hamilton <kyle.hamilton@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## MaxentVariableSelection (1.0-0)
-Maintainer: "Alexander Jueterbock" <Alexander-Jueterbock@web.de>
-
-0 errors | 0 warnings | 0 notes
-
-## MCMC.OTU (1.0.10)
-Maintainer: Mikhail V. Matz <matz@utexas.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## MCMC.qpcr (1.2.2)
-Maintainer: Mikhail V. Matz <matz@utexas.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## mcprofile (0.2-1)
-Maintainer: Daniel Gerhard <00gerhard@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## medicalrisk (1.2)
-Maintainer: Patrick McCormick <patrick.mccormick@alum.mit.edu>  
-Bug reports: https://github.com/patrickmdnet/medicalrisk/issues
-
-0 errors | 0 warnings | 0 notes
-
-## MergeGUI (0.2-1)
-Maintainer: Xiaoyue Cheng <xycheng@iastate.edu>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘MergeGUI’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/MergeGUI.Rcheck/00install.out’ for details.
-```
-
-## merTools (0.2.0)
-Maintainer: Jared E. Knowles <jknowles@gmail.com>  
-Bug reports: http://www.github.com/jknowles/merTools
-
-0 errors | 0 warnings | 0 notes
-
-## metagen (1.0)
-Maintainer: Thomas W. D. Möbius <kontakt@thomasmoebius.de>
-
-0 errors | 0 warnings | 0 notes
-
-## metaheur (0.1.0)
-Maintainer: Markus Vattulainen <markus.vattulainen@gmail.com>
-
-2 errors | 1 warning  | 0 notes
-
-```
-checking examples ... ERROR
-Running examples in ‘metaheur-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: getbestheur
-> ### Title: getbestheur
-> ### Aliases: getbestheur
-> 
-> ### ** Examples
-> 
-> result <- metaheur(examplegrid)
-Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-  namespace ‘nlme’ 3.1-122 is already loaded, but >= 3.1.123 is required
-Calls: metaheur ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
-Execution halted
-
-checking tests ... ERROR
-Running the tests in ‘tests/testthat.R’ failed.
-Last 13 lines of output:
-  
-  Type 'demo()' for some demos, 'help()' for on-line help, or
-  'help.start()' for an HTML browser interface to help.
-  Type 'q()' to quit R.
-  
-  > library(testthat)
-  > library(metaheur)
-  > 
-  > test_check("metaheur")
-  Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-    namespace 'nlme' 3.1-122 is already loaded, but >= 3.1.123 is required
-  Calls: test_check ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
-  Execution halted
-
-checking for missing documentation entries ... WARNING
-Note: the specification for S3 class “family” in package ‘MatrixModels’ seems equivalent to one from package ‘lme4’: not turning on duplicate class definitions for this class.
-All user-level objects in a package should have documentation entries.
-See chapter ‘Writing R documentation files’ in the ‘Writing R
-Extensions’ manual.
-```
-
-## metaMix (0.2)
-Maintainer: Sofia Morfopoulou <sofia.morfopoulou.10@ucl.ac.uk>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Package required but not available: ‘Rmpi’
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## meteogRam (1.0)
-Maintainer: Bogdan Bochenek <bogdan.bochenek@uj.edu.pl>
-
-0 errors | 0 warnings | 0 notes
-
-## Methplot (1.0)
-Maintainer: Xin Yang <xin.yang@cimr.cam.ac.uk>
-
-0 errors | 1 warning  | 1 note 
-
-```
-checking whether package ‘Methplot’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘Methplot’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘Methplot’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/Methplot.Rcheck/00install.out’ for details.
-
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-```
-
-## metricsgraphics (0.9.0)
-Maintainer: Bob Rudis <bob@rudis.net>  
-Bug reports: https://github.com/hrbrmstr/metricsgraphics/issues
-
-0 errors | 0 warnings | 0 notes
-
-## MGLM (0.0.7)
-Maintainer: Yiwen Zhang <yzhang31@ncsu.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## microbenchmark (1.4-2.1)
-Maintainer: Olaf Mersmann <olafm@p-value.net>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking for GNU extensions in Makefiles ... NOTE
-GNU make is a SystemRequirements.
-```
-
-## micromap (1.9.2)
-Maintainer: Tom Kincaid <Kincaid.Tom@epa.gov>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘micromap’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘sp::nowrapSpatialLines’ when loading ‘micromap’
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘micromap’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘micromap’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/micromap.Rcheck/00install.out’ for details.
-```
-
-## miscset (1.0.0)
-Maintainer: Sven E. Templer <sven.templer@gmail.com>  
-Bug reports: https://github.com/setempler/miscset/issues
-
-0 errors | 0 warnings | 0 notes
-
-## MissingDataGUI (0.2-4)
-Maintainer: Xiaoyue Cheng <xycheng@unomaha.edu>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘MissingDataGUI’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/MissingDataGUI.Rcheck/00install.out’ for details.
-```
-
-## mistat (1.0-3)
-Maintainer: Daniele Amberti <daniele.amberti@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## mistral (2.0.1)
-Maintainer: Bertrand Iooss <biooss@yahoo.fr>
-
-0 errors | 0 warnings | 0 notes
-
-## MIXFIM (1.0)
-Maintainer: Marie-Karelle Riviere-Jourdan <eldamjh@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## mixOmics (5.2.0)
-Maintainer: Kim-Anh Le Cao <k.lecao@uq.edu.au>  
-Bug reports: mixomics@math.univ-toulouse.fr or
-        https://bitbucket.org/klecao/package-mixomics/issues
-
-0 errors | 0 warnings | 0 notes
-
-## mizer (0.2)
-Maintainer: Finlay Scott <finlay.scott@jrc.ec.europa.eu>
-
-0 errors | 1 warning  | 1 note 
-
-```
-checking whether package ‘mizer’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘mizer’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘mizer’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/mizer.Rcheck/00install.out’ for details.
-
-checking R code for possible problems ... NOTE
-getFMort,MizerSim-missing : .local: warning in
-  get_time_elements(object, time_range, slot = "effort"): partial
-  argument match of 'slot' to 'slot_name'
-getFMortGear,MizerSim-missing : .local: warning in
-  get_time_elements(object, time_range, slot = "effort"): partial
-  argument match of 'slot' to 'slot_name'
-plotFMort,MizerSim : .local: warning in scale_y_continuous(name =
-  "Total fishing mortality", lim = c(0, max(plot_dat$value))): partial
-  argument match of 'lim' to 'limits'
-... 32 lines ...
-  ‘Species’
-plotYield,MizerSim : .local: no visible binding for global variable
-  ‘value’
-plotYield,MizerSim : .local: no visible binding for global variable
-  ‘Species’
-plotYieldGear,MizerSim : .local: no visible binding for global variable
-  ‘value’
-plotYieldGear,MizerSim : .local: no visible binding for global variable
-  ‘Species’
-plotYieldGear,MizerSim : .local: no visible binding for global variable
-  ‘gear’
-```
-
-## mlr (2.8)
-Maintainer: Bernd Bischl <bernd_bischl@gmx.net>  
-Bug reports: https://github.com/mlr-org/mlr/issues
-
-2 errors | 0 warnings | 0 notes
-
-```
-checking examples ... ERROR
-Running examples in ‘mlr-Ex.R’ failed
-The error most likely occurred in:
-
-> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
-> ### Name: getCaretParamSet
-> ### Title: Get tuning parameters from a learner of the caret R-package.
-> ### Aliases: getCaretParamSet
-> 
-> ### ** Examples
-> 
-> library(caret)
-Loading required package: lattice
-Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-  namespace ‘nlme’ 3.1-122 is already loaded, but >= 3.1.123 is required
-Error: package or namespace load failed for ‘caret’
-Execution halted
-** found \donttest examples: check also with --run-donttest
-
-checking tests ... ERROR
-Running the tests in ‘tests/run-base.R’ failed.
-Last 13 lines of output:
-  
-  testthat results ================================================================
-  OK: 1757 SKIPPED: 1 FAILED: 7
-  1. Error: basic PreprocWrapperCaret works 
-  2. Error: generateCalibrationData 
-  3. Error: generateLearningCurve 
-  4. Error: generatePartialPredictionData 
-  5. Error: generateThreshVsPerfData 
-  6. Error: getCaretParamSet 
-  7. Error: BenchmarkResult 
-  
-  Error: testthat unit tests failed
-  Execution halted
-```
-
-## mlxR (2.2.0)
-Maintainer: Marc Lavielle <Marc.Lavielle@inria.fr>  
-Bug reports: https://github.com/MarcLavielle/mlxR/issues
-
-0 errors | 0 warnings | 0 notes
-
-## Mobilize (2.16-4)
-Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking R code for possible problems ... NOTE
-biplot.character: no visible global function definition for ‘opts’
-biplot.character: no visible global function definition for
-  ‘theme_blank’
-distributionplot.factor: no visible global function definition for
-  ‘opts’
-distributionplot.factor: no visible global function definition for
-  ‘theme_text’
-scatterplot: no visible global function definition for ‘opts’
-scatterplot: no visible global function definition for ‘theme_text’
-timeplot: no visible global function definition for ‘opts’
-```
-
-## moonBook (0.1.3)
-Maintainer: Keon-Woong Moon <cardiomoon@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking files in ‘vignettes’ ... NOTE
-The following directory looks like a leftover from 'knitr':
-  ‘figure’
-Please remove from your package.
-```
-
-## morse (2.1.1)
-Maintainer: Philippe Ruiz <philippe.ruiz@univ-lyon1.fr>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘morse’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/morse.Rcheck/00install.out’ for details.
-```
-
-## mosaic (0.13.0)
-Maintainer: Randall Pruim <rpruim@calvin.edu>  
-Bug reports: https://github.com/ProjectMOSAIC/mosaic/issues
-
-0 errors | 0 warnings | 0 notes
-
-## mpoly (1.0.0)
-Maintainer: David Kahle <david.kahle@gmail.com>  
-Bug reports: https://github.com/dkahle/mpoly/issues
-
-0 errors | 0 warnings | 0 notes
-
-## MRMR (0.1.3)
-Maintainer: Brian A. Fannin <BFannin@RedwoodsGroup.com>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-
-checking R code for possible problems ... NOTE
-PlotResiduals: no visible global function definition for ‘.’
-```
-
-## MSG (0.3)
-Maintainer: Yihui Xie <xie@yihui.name>  
-Bug reports: https://github.com/yihui/MSG/issues
-
-0 errors | 0 warnings | 0 notes
-
-## multilevelPSA (1.2.4)
-Maintainer: Jason Bryer <jason@bryer.org>  
-Bug reports: https://github.com/jbryer/multilevelPSA/issues
-
-0 errors | 0 warnings | 0 notes
-
-## MultiMeta (0.1)
-Maintainer: Dragana Vuckovic <dragana.vuckovic@burlo.trieste.it>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘MultiMeta’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘MultiMeta’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘MultiMeta’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/MultiMeta.Rcheck/00install.out’ for details.
-```
-
-## multitable (1.6)
-Maintainer: Steve C Walker <steve.walker@utoronto.ca>
-
-1 error  | 0 warnings | 1 note 
-
-```
-checking running R code from vignettes ... ERROR
-Errors in running code in vignettes:
-when running code in ‘multitable.Rnw’
-  ...
-> library("ggplot2")
-
-> library("arm")
-Loading required package: lme4
-Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-  namespace ‘nlme’ 3.1-122 is already loaded, but >= 3.1.123 is required
-
-  When sourcing ‘multitable.R’:
-Error: package ‘lme4’ could not be loaded
-Execution halted
-
-
-checking re-building of vignette outputs ... NOTE
-Error in re-building vignettes:
-  ...
-The following object is masked from ‘package:arm’:
-
-    rescale
-
-dimids automatically generated
-dimids automatically generated
-omitting width because it is not replicated along MARGIN
-... 8 lines ...
-
-omitting life.history because of the following error:
- Error in median.default(newX[, i], ...) : need numeric data
-
-omitting trophic because it is not replicated along MARGIN
-omitting life.history because it is not replicated along MARGIN
-
-Error: processing vignette 'multitable.Rnw' failed with diagnostics:
- chunk 57 (label = a faceted ggplot scatterplot from a data list) 
-Error : Unknown parameters: family, form
-Execution halted
-```
-
-## munsell (0.4.3)
-Maintainer: Charlotte Wickham <cwickham@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## mvtboost (0.4.1)
-Maintainer: Patrick Miller <patrick.mil10@gmail.com>  
-Bug reports: https://github.com/patr1ckm/mvtboost/issues
-
-0 errors | 0 warnings | 0 notes
-
-## mwaved (1.1.1)
-Maintainer: Justin Rory Wishart <j.wishart@unsw.edu.au>  
-Bug reports: https://github.com/jrwishart/mwaved/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘mwaved’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/mwaved.Rcheck/00install.out’ for details.
-```
-
-## myTAI (0.3.0)
-Maintainer: Hajk-Georg Drost <hajk-georg.drost@informatik.uni-halle.de>  
-Bug reports: https://github.com/HajkD/myTAI/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ncappc (0.2.1.1)
-Maintainer: Chayan Acharya <chayan.acharya@farmbio.uu.se>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘ncappc’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘ncappc’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘ncappc’
-  Warning: replacing previous import by ‘scales::alpha’ when loading ‘ncappc’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/ncappc.Rcheck/00install.out’ for details.
-```
-
-## NeatMap (0.3.6.2)
-Maintainer: Satwik Rajaram <satwik@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking compiled code ... NOTE
-File ‘NeatMap/libs/NeatMap.so’:
-  Found ‘_rand’, possibly from ‘rand’ (C)
-    Object: ‘nMDS_R.o’
-  Found ‘_srand’, possibly from ‘srand’ (C)
-    Object: ‘nMDS_R.o’
-
-Compiled code should not call entry points which might terminate R nor
-write to stdout/stderr instead of to the console, nor the system RNG.
-
-See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
-```
-
-## netgen (1.3)
-Maintainer: Jakob Bossek <j.bossek@gmail.com>  
-Bug reports: https://github.com/jakobbossek/netgen/issues
-
-0 errors | 0 warnings | 0 notes
-
-## networkreporting (0.0.1)
-Maintainer: Dennis Feehan <dfeehan@princeton.edu>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Title field: should not end in a period.
-```
-
-## NeuralNetTools (1.4.0)
-Maintainer: Marcus W. Beck <mbafs2012@gmail.com>  
-Bug reports: https://github.com/fawda123/NeuralNetTools/issues
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘NeuralNetTools’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘scales::alpha’ when loading ‘NeuralNetTools’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/NeuralNetTools.Rcheck/00install.out’ for details.
-```
-
-## NlsyLinks (2.0.1)
-Maintainer: Will Beasley <wibeasley@hotmail.com>  
-Bug reports: https://github.com/LiveOak/NlsyLinks/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is  6.3Mb
-  sub-directories of 1Mb or more:
-    data   4.3Mb
-    doc    1.0Mb
-```
-
-## NMF (0.20.6)
-Maintainer: Renaud Gaujoux <renaud@tx.technion.ac.il>  
-Bug reports: http://github.com/renozao/NMF/issues
-
-0 errors | 1 warning  | 3 notes
-
-```
-checking whether package ‘NMF’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘ggplot2::unit’ when loading ‘NMF’
-  Warning: replacing previous import by ‘ggplot2::arrow’ when loading ‘NMF’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/NMF.Rcheck/00install.out’ for details.
-
-checking package dependencies ... NOTE
-Packages suggested but not available for checking: ‘RcppOctave’ ‘doMPI’
-
-checking R code for possible problems ... NOTE
-algorithm,NMFStrategyOctave : .local: no visible global function
-  definition for ‘fstop’
-evar,ANY : .local: no visible binding for global variable ‘Biobase’
-nmf,matrix-numeric-NMFStrategy : .local : run.all: no visible binding
-  for global variable ‘n’
-nmf,matrix-numeric-NMFStrategy : .local : run.all: no visible binding
-  for global variable ‘RNGobj’
-rss,matrix : .local: no visible binding for global variable ‘Biobase’
-
-checking Rd cross-references ... NOTE
-Package unavailable to check Rd xrefs: ‘RcppOctave’
-```
-
-## NNTbiomarker (0.29.11)
-Maintainer: Roger Day <day01@pitt.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## NORRRM (1.0.0)
-Maintainer: Renee Gonzalez Guzman <rguzman@cicese.edu.mx>
-
-0 errors | 0 warnings | 0 notes
-
-## nparACT (0.3)
-Maintainer: Christine Blume <christine.blume@sbg.ac.at>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘nparACT’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘nparACT’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘nparACT’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/nparACT.Rcheck/00install.out’ for details.
-```
-
-## npregfast (1.2.1)
-Maintainer: Marta Sestelo <sestelo@uvigo.es>  
-Bug reports: http://github.com/sestelo/npregfast/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘npregfast’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/npregfast.Rcheck/00install.out’ for details.
-```
-
-## nullabor (0.3.1)
-Maintainer: Di Cook <dicook@iastate.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## oapackage (2.0.23)
-Maintainer: Pieter Thijs Eendebak <pieter.eendebak@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## oaPlots (0.0.25)
-Maintainer: Jason Waddell <jason.waddell@openanalytics.eu>
-
-0 errors | 0 warnings | 0 notes
-
-## oaxaca (0.1.3)
-Maintainer: Marek Hlavac <hlavac@fas.harvard.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## obAnalytics (0.1.0)
-Maintainer: Philip Stubbings <phil@parasec.net>  
-Bug reports: https://github.com/phil8192/ob-analytics/issues
-
-0 errors | 0 warnings | 0 notes
-
-## OECD (0.2.2)
-Maintainer: Eric Persson <expersso5@gmail.com>  
-Bug reports: https://www.github.com/expersso/OECD/issues
-
-0 errors | 0 warnings | 0 notes
-
-## OpasnetUtils (1.2.0)
-Maintainer: Teemu Rintala <teemu.rintala.a@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## OpenStreetMap (0.3.2)
-Maintainer: Ian Fellows <ian@fellstat.com>
-
-0 errors | 0 warnings | 0 notes
-
-## optiRum (0.37.3)
-Maintainer: Stephanie Locke <stephanie.g.locke@gmail.com>  
-Bug reports: https://github.com/stephlocke/optiRum/issues
-
-0 errors | 0 warnings | 0 notes
-
-## orderedLasso (1.7)
-Maintainer: Xiaotong Suo <xiaotong@stanford.edu>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking S3 generic/method consistency ... NOTE
-Found the following apparent S3 methods exported but not registered:
-  predict.orderedLasso predict.orderedLasso.path predict.timeLagLasso
-  predict.timeLagLasso.path
-See section ‘Registering S3 methods’ in the ‘Writing R Extensions’
-manual.
-```
-
-## orgR (0.9.0)
-Maintainer: Yi Tang <yi.tang.uk@me.com>
-
-0 errors | 0 warnings | 0 notes
-
-## OriGen (1.4.3)
-Maintainer: John Michael O. Ranola <ranolaj@uw.edu>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘OriGen’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/OriGen.Rcheck/00install.out’ for details.
-```
-
-## OutbreakTools (0.1-14)
-Maintainer: Thibaut Jombart <thibautjombart@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## P2C2M (0.7.6)
-Maintainer: Michael Gruenstaeudl <mi.gruenstaeudl@gmail.com>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking package dependencies ... NOTE
-Packages suggested but not available for checking:
-  ‘genealogicalSorting’ ‘phybase’ ‘Rmpi’
-
-checking data for non-ASCII characters ... NOTE
-  Note: found 490 marked UTF-8 strings
-```
-
-## pa (1.2-1)
-Maintainer: Yang Lu <yang.lu2014@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking dependencies in R code ... NOTE
-Package in Depends field not imported from: ‘grid’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-```
-
-## packcircles (0.1.1)
-Maintainer: Michael Bedward <michael.bedward@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## pagenum (1.0)
-Maintainer: Kevin Wright <kw.stat@gmail.com>  
-Bug reports: https://github.com/kwstat/pagenum/issues
-
-0 errors | 0 warnings | 0 notes
-
-## PairedData (1.0.1)
-Maintainer: Stephane Champely <champely@univ-lyon1.fr>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' calls to packages already attached by Depends:
-  ‘MASS’ ‘gld’ ‘mvtnorm’
-  Please remove these calls from your code.
-
-checking S3 generic/method consistency ... NOTE
-Found the following apparent S3 methods exported but not registered:
-  bonettseier.var.test.default bonettseier.var.test.paired
-  grambsch.var.test.default grambsch.var.test.paired
-  imam.var.test.default imam.var.test.paired levene.var.test.default
-  levene.var.test.paired mcculloch.var.test.default
-  mcculloch.var.test.paired sandvikolsson.var.test.default
-  sandvikolsson.var.test.paired t.test.paired t.test.paired
-  var.test.default var.test.paired wilcox.test.paired
-  winsor.cor.test.default winsor.cor.test.paired yuen.t.test.default
-  yuen.t.test.formula yuen.t.test.paired
-See section ‘Registering S3 methods’ in the ‘Writing R Extensions’
-manual.
-
-checking Rd line widths ... NOTE
-Rd file 'mcculloch.var.test.Rd':
-  \usage lines wider than 90 characters:
-            alternative = c("two.sided", "less", "greater"),method= c("spearman","pearson", "kendall"),
-
-Rd file 'plot.Rd':
-  \usage lines wider than 90 characters:
-     plot(x, groups=NULL,subjects=NULL, facet=TRUE,type=c("correlation","BA","McNeil","profile"),...)
-
-These lines will be truncated in the PDF manual.
-```
-
-## paleofire (1.1.8)
-Maintainer: Olivier Blarquez <blarquez@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## palettetown (0.1.0)
-Maintainer: Tim Lucas <timcdlucas@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## pAnalysis (2.0)
-Maintainer: Joseph G Kreke <jkreke2@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## pander (0.6.0)
-Maintainer: Gergely Daróczi <daroczig@rapporter.net>  
-Bug reports: https://github.com/rapporter/pander/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ParamHelpers (1.7)
-Maintainer: Bernd Bischl <bernd_bischl@gmx.net>  
-Bug reports: https://github.com/berndbischl/ParamHelpers/issues
-
-0 errors | 0 warnings | 0 notes
-
-## partialAR (1.0.5)
-Maintainer: Matthew Clegg <matthewcleggphd@gmail.com>
-
-0 errors | 1 warning  | 1 note 
-
-```
-checking whether package ‘partialAR’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘partialAR’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘partialAR’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/partialAR.Rcheck/00install.out’ for details.
-
-checking R code for possible problems ... NOTE
-Warning: replacing previous import by ‘grid::arrow’ when loading ‘partialAR’
-Warning: replacing previous import by ‘grid::unit’ when loading ‘partialAR’
-```
-
-## PASWR2 (1.0.2)
-Maintainer: Alan T. Arnholt <arnholtat@appstate.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## patPRO (1.1.0)
-Maintainer: Geoffrey D Hannigan <ghanni@upenn.edu>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘patPRO’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘plyr::join’ when loading ‘patPRO’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/patPRO.Rcheck/00install.out’ for details.
-```
-
-## pauwels2014 (1.0)
-Maintainer: Edouard Pauwels <pauwelsed@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Title field: should not end in a period.
-```
-
-## PAWL (0.5)
-Maintainer: Pierre Jacob <pierre.jacob.work@gmail.com>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' calls to packages already attached by Depends:
-  ‘foreach’ ‘ggplot2’ ‘reshape’
-  Please remove these calls from your code.
-Packages in Depends field not imported from:
-  ‘foreach’ ‘ggplot2’ ‘methods’ ‘mvtnorm’ ‘reshape’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-ConvertResults: no visible global function definition for ‘%do%’
-ConvertResults: no visible global function definition for ‘foreach’
-PlotAllVar: no visible global function definition for ‘melt’
-PlotAllVar: no visible global function definition for ‘ggplot’
-PlotAllVar: no visible global function definition for ‘aes’
-PlotAllVar: no visible global function definition for ‘geom_line’
-PlotAllVar: no visible global function definition for ‘facet_wrap’
-PlotAllVar: no visible global function definition for ‘theme’
-PlotAllVar: no visible global function definition for ‘element_text’
-... 32 lines ...
-PlotLogTheta: no visible global function definition for ‘geom_vline’
-PlotLogTheta: no visible global function definition for ‘theme’
-PlotNbins: no visible global function definition for ‘ggplot’
-PlotNbins: no visible global function definition for ‘aes_string’
-PlotNbins: no visible global function definition for ‘geom_step’
-PlotNbins: no visible global function definition for ‘ylim’
-PlotNbins: no visible global function definition for ‘ylab’
-PlotNbins: no visible global function definition for ‘xlab’
-PlotNbins: no visible global function definition for ‘theme’
-createTrimodalTarget : generate: no visible global function definition
-  for ‘rmvnorm’
-
-checking Rd line widths ... NOTE
-Rd file 'createAdaptiveRandomWalkProposal.Rd':
-  \usage lines wider than 90 characters:
-         createAdaptiveRandomWalkProposal(nchains, targetdimension, adaptiveproposal, adaptationrate, sigma_init)
-
-These lines will be truncated in the PDF manual.
-```
-
-## PBImisc (1.0)
-Maintainer: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## PDQutils (0.1.3)
-Maintainer: Steven E. Pav <shabbychef@gmail.com>  
-Bug reports: https://github.com/shabbychef/PDQutils/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking re-building of vignette outputs ... NOTE
-Error in re-building vignettes:
-  ...
-Warning in (function (source = "clipboard", comment = getOption("formatR.comment",  :
-  The argument 'keep.blank.line' is deprecated; please use 'blank'
-Warning in (function (source = "clipboard", comment = getOption("formatR.comment",  :
-  The argument 'keep.blank.line' is deprecated; please use 'blank'
-Quitting from lines 734-750 (PDQutils.Rnw) 
-Error: processing vignette 'PDQutils.Rnw' failed with diagnostics:
-Unknown parameters: dist
-Execution halted
-
-```
-
-## PedCNV (0.1)
-Maintainer: Meiling Liu <meiling.sta@gmail.com>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Title field: should not end in a period.
-
-checking dependencies in R code ... NOTE
-Packages in Depends field not imported from:
-  ‘Rcpp’ ‘RcppArmadillo’ ‘ggplot2’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-plot.clust: no visible global function definition for ‘qplot’
-plot.clust: no visible global function definition for ‘geom_histogram’
-plot.clust: no visible global function definition for ‘aes_string’
-```
-
-## peptider (0.2.2)
-Maintainer: Eric Hare <erichare@iastate.edu>  
-Bug reports: https://github.com/heike/peptider/issues
-
-0 errors | 0 warnings | 0 notes
-
-## pequod (0.0-5)
-Maintainer: Alberto Mirisola <alberto.mirisola@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## performanceEstimation (1.0.2)
-Maintainer: Luis Torgo <ltorgo@dcc.fc.up.pt>  
-Bug reports: https://github.com/ltorgo/performanceEstimation/issues
-
-0 errors | 0 warnings | 0 notes
-
-## permubiome (1.0)
-Maintainer: Alfonso Benitez-Paez <abenitez@iata.csic.es>
-
-0 errors | 0 warnings | 0 notes
-
-## perry (0.2.0)
-Maintainer: Andreas Alfons <alfons@ese.eur.nl>
-
-0 errors | 0 warnings | 0 notes
-
-## perspectev (1.1)
-Maintainer: Kenneth B. Hoehn <perspectev@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## PhaseType (0.1.3)
-Maintainer: Louis Aslett <louis@maths.tcd.ie>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking dependencies in R code ... NOTE
-Packages in Depends field not imported from:
-  ‘ggplot2’ ‘reshape’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-plot.phtMCMC: no visible global function definition for ‘ggplot’
-plot.phtMCMC: no visible global function definition for ‘melt’
-plot.phtMCMC: no visible global function definition for ‘geom_line’
-plot.phtMCMC: no visible global function definition for ‘aes_string’
-plot.phtMCMC: no visible global function definition for ‘geom_smooth’
-plot.phtMCMC: no visible global function definition for ‘facet_wrap’
-plot.phtMCMC: no visible global function definition for ‘ggtitle’
-plot.phtMCMC: no visible global function definition for ‘xlab’
-plot.phtMCMC: no visible global function definition for ‘ylab’
-plot.phtMCMC: no visible global function definition for ‘geom_density’
-
-checking compiled code ... NOTE
-File ‘PhaseType/libs/PhaseType.so’:
-  Found ‘_rand’, possibly from ‘rand’ (C)
-    Object: ‘LJMA_arms.o’
-
-Compiled code should not call entry points which might terminate R nor
-write to stdout/stderr instead of to the console, nor the system RNG.
-
-See ‘Writing portable packages’ in the ‘Writing R Extensions’ manual.
-```
-
-## Phxnlme (1.0.0)
-Maintainer: Chay Ngee Lim <limxx356@umn.edu>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘Phxnlme’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘Phxnlme’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘Phxnlme’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/Phxnlme.Rcheck/00install.out’ for details.
-```
-
-## physiology (0.2.2)
-Maintainer: Jack O. Wasey <jack@jackwasey.com>  
-Bug reports: https://github.com/jackwasey/physiology/issues
-
-0 errors | 0 warnings | 0 notes
-
-## pid (0.36)
-Maintainer: Kevin Dunn <kevin.dunn@mcmaster.ca>  
-Bug reports: https://bitbucket.org/kevindunn/r-pid
-
-0 errors | 0 warnings | 0 notes
-
-## pipe.design (0.3)
-Maintainer: Michael Sweeting <mjs212@medschl.cam.ac.uk>
-
-0 errors | 0 warnings | 0 notes
-
-## pitchRx (1.8.2)
-Maintainer: Carson Sievert <cpsievert1@gmail.com>  
-Bug reports: http://github.com/cpsievert/pitchRx/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘ggsubplot’
-```
-
-## PKgraph (1.7)
-Maintainer: Xiaoyong Sun <johnsunx1@gmail.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Package required but not available: ‘rggobi’
-
-Depends: includes the non-default packages:
-  ‘RGtk2’ ‘gWidgetsRGtk2’ ‘cairoDevice’ ‘lattice’ ‘rggobi’ ‘ggplot2’
-  ‘proto’
-Adding so many packages to the search path is excessive and importing
-selectively is preferable.
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## PKreport (1.5)
-Maintainer: Xiaoyong Sun <johnsunx1@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## planar (1.6)
-Maintainer: Baptiste Auguie <baptiste.auguie@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## playwith (0.9-54)
-Maintainer: Felix Andrews <felix@nfrac.org>
-
-1 error  | 0 warnings | 1 note 
-
-```
-checking whether package ‘playwith’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/playwith.Rcheck/00install.out’ for details.
-
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘latticist’
-```
-
-## plotly (2.0.16)
-Maintainer: Carson Sievert <cpsievert1@gmail.com>  
-Bug reports: https://github.com/ropensci/plotly/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking tests ... ERROR
-Running the tests in ‘tests/testthat.R’ failed.
-Last 13 lines of output:
-  1. Failure (at test-ggplot-bar.R#62): dates work well with bar charts 
-  2. Failure (at test-ggplot-date.R#13): datetimes are converted to e.g. 2013-01-02 05:00:00 
-  3. Failure (at test-ggplot-date.R#26): class Date is supported 
-  4. Failure (at test-ggplot-date.R#46): scale_x_date and irregular time series work 
-  5. Failure (at test-ggplot-date.R#47): scale_x_date and irregular time series work 
-  6. Failure (at test-ggplot-histogram.R#12): geom_histogram(aes(fill = ..count..)) works 
-  7. Failure (at test-ggplot-histogram.R#136): dates work well with histograms 
-  8. Failure (at test-ggplot-histogram.R#250): datetime binning for class POSIXt works in histograms 
-  9. Failure (at test-ggplot-histogram.R#258): datetime binning for class Date works in histograms 
-  
-  Error: testthat unit tests failed
-  In addition: There were 50 or more warnings (use warnings() to see the first 50)
-  Execution halted
-```
-
-## PlotPrjNetworks (1.0.0)
-Maintainer: Joaquin Bienvenido Ordieres Mere <j.ordieres@upm.es>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘PlotPrjNetworks’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘PlotPrjNetworks’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘PlotPrjNetworks’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/PlotPrjNetworks.Rcheck/00install.out’ for details.
-```
-
-## plotROC (2.0.1)
-Maintainer: Michael C Sachs <sachsmc@gmail.com>  
-Bug reports: http://github.com/sachsmc/plotROC/issues
-
-0 errors | 0 warnings | 0 notes
-
-## plspm (0.4.7)
-Maintainer: Gaston Sanchez <gaston.stat@gmail.com>  
-Bug reports: https://github.com/gastonstat/plspm/issues
-
-0 errors | 0 warnings | 0 notes
-
-## pmc (1.0.1)
-Maintainer: Carl Boettiger <cboettig@gmail.com>  
-Bug reports: https://github.com/cboettig/pmc/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Package required but not available: ‘ouch’
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## pogit (1.0.1)
-Maintainer: Michaela Dvorzak <m.dvorzak@gmx.at>
-
-0 errors | 0 warnings | 0 notes
-
-## pointRes (1.1.1)
-Maintainer: Marieke van der Maaten-Theunissen <marieketheunissen@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## pollstR (1.2.1)
-Maintainer: Jeffrey B. Arnold <jeffrey.arnold@gmail.com>  
-Bug reports: https://github.com/rOpenGov/pollstR/issues
-
-0 errors | 0 warnings | 0 notes
-
-## pomp (1.3.1.1)
-Maintainer: Aaron A. King <kingaa@umich.edu>  
-Bug reports: http://github.com/kingaa/pomp/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘pomp’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/pomp.Rcheck/00install.out’ for details.
-```
-
-## PopED (0.3.0)
-Maintainer: Andrew C. Hooker <andrew.hooker@farmbio.uu.se>  
-Bug reports: https://github.com/andrewhooker/PopED/issues
-
-0 errors | 0 warnings | 0 notes
-
-## popEpi (0.2.1)
-Maintainer: Joonas Miettinen <joonas.miettinen@cancer.fi>  
-Bug reports: https://github.com/WetRobot/popEpi/issues
-
-0 errors | 0 warnings | 0 notes
-
-## PopGenReport (2.2)
-Maintainer: Bernd Gruber <bernd.gruber@canberra.edu.au>
-
-0 errors | 0 warnings | 0 notes
-
-## popgraph (1.4)
-Maintainer: Rodney J. Dyer <rjdyer@vcu.edu>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Title field: should not end in a period.
-```
-
-## poppr (2.1.0)
-Maintainer: Zhian N. Kamvar <kamvarz@science.oregonstate.edu>  
-Bug reports: https://github.com/grunwaldlab/poppr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## popReconstruct (1.0-4)
-Maintainer: "Mark C. Wheldon" <mwheldon@aut.ac.nz>
-
-0 errors | 0 warnings | 0 notes
-
-## PortfolioEffectHFT (1.5)
-Maintainer: Aleksey Zemnitskiy <aleksey.zemnitskiy@portfolioeffect.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is  6.2Mb
-  sub-directories of 1Mb or more:
-    java   5.0Mb
-```
-
-## PPtreeViz (1.3.0)
-Maintainer: Eun-Kyung Lee <lee.eunk@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘PPtreeViz’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘PPtreeViz’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘PPtreeViz’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/PPtreeViz.Rcheck/00install.out’ for details.
-```
-
-## prcbench (0.2.0)
-Maintainer: Takaya Saito <takaya.saito@outlook.com>  
-Bug reports: https://github.com/takayasaito/prcbench/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Package required but not available: ‘PerfMeas’
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## precintcon (2.2.1)
-Maintainer: Lucas Venezian Povoa <lucasvenez@gmail.com>  
-Bug reports: https://github.com/lucasvenez/precintcon/issues
-
-0 errors | 0 warnings | 0 notes
-
-## precrec (0.2.0)
-Maintainer: Takaya Saito <takaya.saito@outlook.com>  
-Bug reports: https://github.com/takayasaito/precrec/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking tests ... ERROR
-Running the tests in ‘tests/testthat.R’ failed.
-Last 13 lines of output:
-  3: In class(pp) == c("gtable", "grob", "gDesc") :
-    longer object length is not a multiple of shorter object length
-  4: In class(pp) == c("gtable", "grob", "gDesc") :
-    longer object length is not a multiple of shorter object length
-  5: In class(pp) == c("gtable", "grob", "gDesc") :
-    longer object length is not a multiple of shorter object length
-  6: In class(pp) == c("gtable", "grob", "gDesc") :
-    longer object length is not a multiple of shorter object length
-  7: In class(pp) == c("gtable", "grob", "gDesc") :
-    longer object length is not a multiple of shorter object length
-  8: In class(pp) == c("gtable", "grob", "gDesc") :
-    longer object length is not a multiple of shorter object length
-  Execution halted
-```
-
-## predictmeans (0.99)
-Maintainer: Dongwen Luo <dongwen.luo@agresearch.co.nz>
-
-0 errors | 0 warnings | 0 notes
-
-## PReMiuM (3.1.3)
-Maintainer: Silvia Liverani <liveranis@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## preproviz (0.1.1)
-Maintainer: Markus Vattulainen <markus.vattulainen@gmail.com>  
-Bug reports: https://github.com/mvattulainen/preproviz/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking tests ... ERROR
-Running the tests in ‘tests/testthat.R’ failed.
-Last 13 lines of output:
-  
-  Type 'demo()' for some demos, 'help()' for on-line help, or
-  'help.start()' for an HTML browser interface to help.
-  Type 'q()' to quit R.
-  
-  > library(testthat)
-  > library(preproviz)
-  > 
-  > test_check("preproviz")
-  Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
-    namespace 'nlme' 3.1-122 is already loaded, but >= 3.1.123 is required
-  Calls: test_check ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
-  Execution halted
-```
-
-## prevR (3.3)
-Maintainer: Joseph Larmarange <joseph.larmarange@ird.fr>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd cross-references ... NOTE
-Package unavailable to check Rd xrefs: ‘sparr’
-```
-
-## pRF (1.2)
-Maintainer: Ankur Chakravarthy <ankur.chakravarthy.10@ucl.ac.uk>
-
-0 errors | 0 warnings | 0 notes
-
-## primerTree (1.0.3)
-Maintainer: Jim Hester <james.f.hester@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘primerTree’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘plyr::join’ when loading ‘primerTree’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/primerTree.Rcheck/00install.out’ for details.
-```
-
-## prism (0.0.7)
-Maintainer: Hart Edmund <Edmund.m.hart@gmail.com>  
-Bug reports: http://github.com/ropensci/prism/issues
-
-0 errors | 0 warnings | 0 notes
-
-## PRISMA (0.2-5)
-Maintainer: Tammo Krueger <tammokrueger@googlemail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## profileR (0.3-2)
-Maintainer: Christopher David Desjardins <cddesjardins@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## profr (0.3.1)
-Maintainer: Hadley Wickham <h.wickham@gmail.com>  
-Bug reports: https://github.com/hadley/profr/issues
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' call to ‘ggplot2’ in package code.
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-
-checking R code for possible problems ... NOTE
-ggplot.profr: no visible global function definition for ‘ggplot’
-ggplot.profr: no visible global function definition for ‘geom_rect’
-ggplot.profr: no visible global function definition for ‘aes’
-ggplot.profr: no visible global function definition for ‘geom_text’
-ggplot.profr: no visible global function definition for
-  ‘scale_y_continuous’
-ggplot.profr: no visible global function definition for
-  ‘scale_x_continuous’
-```
-
-## ProgGUIinR (0.0-4)
-Maintainer: John Verzani <verzani@math.csi.cuny.edu>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘qtbase’
-
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-
-checking R code for possible problems ... NOTE
-browseRGtk2Files: no visible global function definition for ‘gtkWindow’
-browseRGtk2Files: no visible global function definition for ‘gtkVBox’
-browseRGtk2Files: no visible global function definition for
-  ‘gtkToolbar’
-browseRGtk2Files: no visible global function definition for ‘gtkHPaned’
-browseRGtk2Files: no visible global function definition for ‘gtkFrame’
-browseRGtk2Files: no visible global function definition for
-  ‘gtkTextView’
-browseRGtk2Files: no visible global function definition for
-... 146 lines ...
-  ‘gtkEntryCompletionNew’
-showGtkWidgetInfo: no visible global function definition for
-  ‘gtkListStore’
-showGtkWidgetInfo: no visible global function definition for
-  ‘gtkTextView’
-showGtkWidgetInfo: no visible global function definition for
-  ‘gtkScrolledWindow’
-showGtkWidgetInfo : getSignalText: no visible global function
-  definition for ‘gtkTypeGetSignals’
-showGtkWidgetInfo: no visible global function definition for
-  ‘gSignalConnect’
-```
-
-## ProjectTemplate (0.6)
-Maintainer: Kirill Mueller <krlmlr+r@mailbox.org>  
-Bug reports: https://github.com/johnmyleswhite/ProjectTemplate/issues
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘RODBC’
-
-checking DESCRIPTION meta-information ... NOTE
-Malformed Title field: should not end in a period.
-```
-
-## proportion (1.2.0)
-Maintainer: Rajeswaran Viswanathan <v.rajeswaran@gmail.com>  
-Bug reports: https://github.com/RajeswaranV/proportion/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd cross-references ... NOTE
-Packages unavailable to check Rd xrefs: ‘PropCIs’, ‘BlakerCI’, ‘prevalence’
-```
-
-## proteomics (0.2)
-Maintainer: Thomas W. D. Möbius <kontakt@thomasmoebius.de>
-
-0 errors | 0 warnings | 0 notes
-
-## PRROC (1.1)
-Maintainer: Jan Grau <grau@informatik.uni-halle.de>
-
-0 errors | 0 warnings | 0 notes
-
-## PSAboot (1.1.4)
-Maintainer: Jason Bryer <jason@bryer.org>  
-Bug reports: https://github.com/jbryer/PSAboot/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking data for non-ASCII characters ... NOTE
-  Note: found 4 marked UTF-8 strings
-```
-
-## PSCBS (0.61.0)
-Maintainer: Henrik Bengtsson <henrikb@braju.com>  
-Bug reports: https://github.com/HenrikBengtsson/PSCBS/issues
-
-0 errors | 0 warnings | 0 notes
-
-## pscore (0.1-2)
-Maintainer: Joshua F. Wiley <jwiley.psych@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## psd (1.0-1)
-Maintainer: Andrew J. Barbour <andy.barbour@gmail.com>  
-Bug reports: https://github.com/abarbour/psd/issues
-
-0 errors | 0 warnings | 0 notes
-
-## pseval (1.0.0)
-Maintainer: Michael C Sachs <sachsmc@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘printr’
-```
-
-## pxweb (0.6.0)
-Maintainer: Mans Magnusson <mons.magnusson@gmail.com>  
-Bug reports: https://github.com/rOpenGov/pxweb/issues
-
-0 errors | 0 warnings | 0 notes
-
-## QCAtools (0.2.1)
-Maintainer: Jirka Lewandowski <jirka.lewandowski@wzb.eu>
-
-0 errors | 0 warnings | 0 notes
-
-## qdap (2.2.4)
-Maintainer: Tyler Rinker <tyler.rinker@gmail.com>  
-Bug reports: http://github.com/trinker/qdap/issues
-
-0 errors | 0 warnings | 0 notes
-
-## qgraph (1.3.2)
-Maintainer: Sacha Epskamp <mail@sachaepskamp.com>
-
-0 errors | 0 warnings | 0 notes
-
-## qicharts (0.5.0)
-Maintainer: Jacob Anhoej <jacob@anhoej.net>
-
-0 errors | 0 warnings | 0 notes
-
-## quadrupen (0.2-4)
-Maintainer: Julien Chiquet <julien.chiquet@genopole.cnrs.fr>
-
-0 errors | 1 warning  | 1 note 
-
-```
-checking whether package ‘quadrupen’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘quadrupen’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘quadrupen’
-  Warning: replacing previous import by ‘scales::alpha’ when loading ‘quadrupen’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/quadrupen.Rcheck/00install.out’ for details.
-
-checking R code for possible problems ... NOTE
-plot,cvpen : .local: no visible binding for global variable ‘lambda1’
-plot,cvpen : .local: no visible binding for global variable ‘lambda2’
-plot,cvpen : .local: no visible binding for global variable ‘serr’
-plot,cvpen : .local: no visible binding for global variable ‘xval’
-plot,cvpen : .local: no visible binding for global variable
-  ‘lambda.choice’
-plot,quadrupen : .local: no visible binding for global variable
-  ‘variables’
-plot,stability.path : .local: no visible binding for global variable
-  ‘variables’
-```
-
-## QualInt (1.0.0)
-Maintainer: Lixi Yu <lixi-yu@uiowa.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## qualvar (0.1.0)
-Maintainer: Joel Gombin <joel.gombin@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## quanteda (0.9.4)
-Maintainer: Kenneth Benoit <kbenoit@lse.ac.uk>  
-Bug reports: https://github.com/kbenoit/quanteda/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking data for non-ASCII characters ... NOTE
-  Note: found 1 marked Latin-1 string
-  Note: found 750 marked UTF-8 strings
-  Note: found 7 strings marked as "bytes"
-```
-
-## QuantumClone (0.15.11)
-Maintainer: Paul Deveau <paul.deveau@curie.fr>
-
-0 errors | 0 warnings | 0 notes
-
-## quickpsy (0.1.2)
-Maintainer: Linares Daniel <danilinares@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## qwraps2 (0.1.2)
-Maintainer: Peter DeWitt <dewittpe@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## R2admb (0.7.13)
-Maintainer: Ben Bolker <bolker@mcmaster.ca>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking R code for possible problems ... NOTE
-Found the following calls to attach():
-File ‘R2admb/R/check_section.R’:
-  attach(R_list, name = "R_list", warn.conflicts = FALSE)
-See section ‘Good practice’ in ‘?attach’.
-```
-
-## R6 (2.1.2)
-Maintainer: Winston Chang <winston@stdout.org>
-
-0 errors | 0 warnings | 0 notes
-
-## rags2ridges (2.0)
-Maintainer: Carel F.W. Peeters <cf.peeters@vumc.nl>
-
-0 errors | 0 warnings | 0 notes
-
-## raincpc (0.4)
-Maintainer: Gopi Goteti <my.ration.shop@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## rAltmetric (0.6)
-Maintainer: Karthik Ram <karthik.ram@gmail.com>  
-Bug reports: https://github.com/ropensci/rAltmetric/issues/
-
-0 errors | 0 warnings | 0 notes
-
-## RAM (1.2.1.3)
-Maintainer: Wen Chen <Wen.Chen@agr.gc.ca>  
-Bug reports: https://bitbucket.org/Wen_Chen/ram_releases/issues/
-
-0 errors | 0 warnings | 0 notes
-
-## randomizeR (1.1.0)
-Maintainer: Diane Uschner <duschner@ukaachen.de>
-
-0 errors | 0 warnings | 0 notes
-
-## randomUniformForest (1.1.5)
-Maintainer: Saip Ciss <saip.ciss@wanadoo.fr>
-
-0 errors | 0 warnings | 0 notes
-
-## rangeMapper (0.3-0)
-Maintainer: Mihai Valcu <valcu@orn.mpg.de>
-
-0 errors | 0 warnings | 0 notes
-
-## rangemodelR (1.0)
-Maintainer: Aniruddha Marathe <aniruddha.pravin.marathe@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## rasterVis (0.37)
-Maintainer: Oscar Perpinan Lamigueiro <oscar.perpinan@gmail.com>  
-Bug reports: https://github.com/oscarperpinan/rastervis/issues
-
-0 errors | 0 warnings | 0 notes
-
-## rattle (4.1.0)
-Maintainer: Graham Williams <Graham.Williams@togaware.com>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking package dependencies ... NOTE
-Packages suggested but not available for checking: ‘rggobi’ ‘RODBC’
-
-checking installed package size ... NOTE
-  installed size is  6.8Mb
-  sub-directories of 1Mb or more:
-    data   2.5Mb
-    etc    1.9Mb
-    po     1.2Mb
-
-checking dependencies in R code ... NOTE
-
-(R:95196): Gtk-WARNING **: gtk_disable_setlocale() must be called before gtk_init()
-```
-
-## rbefdata (0.3.5)
-Maintainer: Claas-Thido Pfaff <claas-thido.pfaff@idiv-biodiversity.de>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking R code for possible problems ... NOTE
-bef.get.categories_for: no visible binding for global variable ‘id’
-bef.portal.get.categories_for: no visible binding for global variable
-  ‘id’
-```
-
-## rbison (0.4.8)
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>  
-Bug reports: https://github.com/ropensci/rbison/issues
-
-0 errors | 0 warnings | 0 notes
-
-## rchess (0.1)
-Maintainer: Joshua Kunst <jbkunst@gmail.com>  
-Bug reports: https://github.com/jbkunst/rchess/issues
-
-0 errors | 0 warnings | 0 notes
-
-## rclinicaltrials (1.4.1)
-Maintainer: Michael C Sachs <sachsmc@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## RcmdrPlugin.KMggplot2 (0.2-3)
-Maintainer: Triad sou. <triadsou@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## RcmdrPlugin.MA (0.0-2)
-Maintainer: A. C. Del Re <acdelre@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## RCMIP5 (1.1)
-Maintainer: Kathe Todd-Brown <ktoddbrown@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘ggplot2’ ‘ncdf’ ‘ncdf4’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-```
-
-## rddtools (0.4.0)
-Maintainer: Bastiaan Quast <bquast@gmail.com>  
-Bug reports: https://github.com/bquast/RDDtools/issues
-
-0 errors | 0 warnings | 0 notes
-
-## RDML (0.9-1)
-Maintainer: Konstantin A. Blagodatskikh <k.blag@yandex.ru>
-
-0 errors | 0 warnings | 0 notes
-
-## RDS (0.7-5)
-Maintainer: Mark S. Handcock <handcock@stat.ucla.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## reda (0.2.1)
-Maintainer: Wenjie Wang <wenjie.2.wang@uconn.edu>  
-Bug reports: https://github.com/wenjie2wang/reda/issues
-
-0 errors | 0 warnings | 0 notes
-
-## refund (0.1-14)
-Maintainer: Lei Huang <huangracer@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## refund.shiny (0.2.0)
-Maintainer: Julia Wrobel <jw3134@cumc.columbia.edu>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘refund.shiny’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/refund.shiny.Rcheck/00install.out’ for details.
-```
-
-## rem (1.1.2)
-Maintainer: Laurence Brandenberger <laurence.brandenberger@eawag.ch>
-
-0 errors | 0 warnings | 0 notes
-
-## repijson (0.1.0)
-Maintainer: Andy South <southandy@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ReporteRs (0.8.5)
-Maintainer: David Gohel <david.gohel@lysis-consultants.fr>  
-Bug reports: https://github.com/davidgohel/ReporteRs/issues
-
-0 errors | 0 warnings | 0 notes
-
-## reproducer (0.1.4)
-Maintainer: Lech Madeyski <lech.madeyski@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## reval (2.0.0)
-Maintainer: Michael C Koohafkan <michael.koohafkan@gmail.com>  
-Bug reports: https://github.com/mkoohafkan/reval/issues
-
-0 errors | 0 warnings | 0 notes
-
-## rex (1.0.1)
-Maintainer: Jim Hester <james.f.hester@gmail.com>  
-Bug reports: https://github.com/kevinushey/rex/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking re-building of vignette outputs ... NOTE
-Error in re-building vignettes:
-  ...
-Read 1000 items
-Quitting from lines 69-71 (log_parsing.Rmd) 
-Error: processing vignette 'log_parsing.Rmd' failed with diagnostics:
-StatBin requires a continuous x variable the x variable is discrete. Perhaps you want stat="count"?
-Execution halted
-
-```
-
-## rfigshare (0.3.7)
-Maintainer: Carl Boettiger <cboettig@gmail.com>  
-Bug reports: https://github.com/ropensci/rfigshare/issues
-
-0 errors | 0 warnings | 0 notes
-
-## rfisheries (0.2)
-Maintainer: Karthik Ram <karthik.ram@gmail.com>  
-Bug reports: http://www.github.com/ropensci/rfisheries/issues/new
-
-0 errors | 0 warnings | 0 notes
-
-## RFmarkerDetector (1.0.1)
-Maintainer: Piergiorgio Palla <piergiorgio.palla@diee.unica.it>
-
-0 errors | 0 warnings | 0 notes
-
-## rfordummies (0.1.2)
-Maintainer: Andrie de Vries <apdevries@gmail.com>  
-Bug reports: https://github.com/andrie/rfordummies/issues
-
-0 errors | 0 warnings | 0 notes
-
-## rfPermute (1.9.3)
-Maintainer: Eric Archer <eric.archer@noaa.gov>
-
-0 errors | 0 warnings | 0 notes
-
-## rgbif (0.9.2)
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>  
-Bug reports: https://github.com/ropensci/rgbif/issues
-
-0 errors | 0 warnings | 0 notes
-
-## RGraphics (2.0-13)
-Maintainer: Paul Murrell <paul@stat.auckland.ac.nz>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘rggobi’
-
-checking installed package size ... NOTE
-  installed size is  9.6Mb
-  sub-directories of 1Mb or more:
-    extra   9.4Mb
-
-checking dependencies in R code ... NOTE
-
-(R:206): Gtk-WARNING **: gtk_disable_setlocale() must be called before gtk_init()
-```
-
-## RImagePalette (0.1.1)
-Maintainer: Joel Carlson <jnkcarlson@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## rinat (0.1.4)
-Maintainer: Edmund Hart <edmund.m.hart@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## rivr (1.1)
-Maintainer: Michael C Koohafkan <michael.koohafkan@gmail.com>  
-Bug reports: https://github.com/mkoohafkan/rivr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## RJafroc (0.1.1)
-Maintainer: Xuetong Zhai <xuetong.zhai@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## rms (4.4-2)
-Maintainer: Frank E Harrell Jr <f.harrell@vanderbilt.edu>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd cross-references ... NOTE
-Packages unavailable to check Rd xrefs: ‘multiwayvcov’, ‘treatSens’
-```
-
-## rnoaa (0.5.2)
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>  
-Bug reports: http://www.github.com/ropensci/rnoaa/issues
-
-0 errors | 0 warnings | 0 notes
-
-## robCompositions (2.0.0)
-Maintainer: Matthias Templ <templ@tuwien.ac.at>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd cross-references ... NOTE
-Package unavailable to check Rd xrefs: ‘StatDA’
-```
-
-## robustbase (0.92-5)
-Maintainer: Martin Maechler <maechler@stat.math.ethz.ch>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd cross-references ... NOTE
-Package unavailable to check Rd xrefs: ‘robustX’
-```
-
-## RobustEM (1.0)
-Maintainer: Aishat Aloba <adetokaloba@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘RobustEM’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘RobustEM’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘RobustEM’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/RobustEM.Rcheck/00install.out’ for details.
-```
-
-## robustHD (0.5.1)
-Maintainer: Andreas Alfons <alfons@ese.eur.nl>
-
-0 errors | 0 warnings | 0 notes
-
-## robustlmm (1.8)
-Maintainer: Manuel Koller <koller.manuel@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## rollply (0.4.2)
-Maintainer: Alexandre Genin <alex@lecairn.org>  
-Bug reports: https://github.com/alexgenin/rollply
-
-0 errors | 0 warnings | 0 notes
-
-## rorutadis (0.3.1)
-Maintainer: Krzysztof Ciomek <k.ciomek@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## rotations (1.5)
-Maintainer: Bryan Stanfill <bstanfill2003@gmail.com>  
-Bug reports: https://github.com/stanfill/rotationsC/issues
-
-0 errors | 0 warnings | 0 notes
-
-## rpdo (0.1.1)
-Maintainer: Joe Thorley <joe@poissonconsulting.ca>
-
-0 errors | 0 warnings | 0 notes
-
-## rpf (0.51)
-Maintainer: Joshua Pritikin <jpritikin@pobox.com>
-
-0 errors | 0 warnings | 0 notes
-
-## rplexos (1.1.4)
-Maintainer: Eduardo Ibanez <edu.ibanez@gmail.com>  
-Bug reports: https://github.com/NREL/rplexos/issues
-
-0 errors | 0 warnings | 0 notes
-
-## rplos (0.5.6)
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>  
-Bug reports: https://github.com/ropensci/rplos/issues
-
-0 errors | 0 warnings | 0 notes
-
-## RPPanalyzer (1.4.3)
-Maintainer: Astrid Wachter <astrid.wachter@med.uni-goettingen.de>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is  5.3Mb
-  sub-directories of 1Mb or more:
-    extdata   4.5Mb
-```
-
-## RSA (0.9.10)
-Maintainer: Felix Schönbrodt <felix@nicebread.de>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘RSA’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/RSA.Rcheck/00install.out’ for details.
-```
-
-## RSDA (1.3)
-Maintainer: Oldemar Rodriguez <oldemar.rodriguez@ucr.ac.cr>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘RSDA’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘scales::alpha’ when loading ‘RSDA’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/RSDA.Rcheck/00install.out’ for details.
-```
-
-## rSPACE (1.2.0)
-Maintainer: Martha Ellis <martha.ellis@gmail.com>  
-Bug reports: http://github.com/mmellis/rSPACE/issues
-
-0 errors | 0 warnings | 0 notes
-
-## rstan (2.9.0-3)
-Maintainer: Ben Goodrich <benjamin.goodrich@columbia.edu>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘rstan’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/rstan.Rcheck/00install.out’ for details.
-```
-
-## rstanarm (2.9.0-3)
-Maintainer: Ben Goodrich <benjamin.goodrich@columbia.edu>  
-Bug reports: https://github.com/stan-dev/rstanarm/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘rstanarm’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/rstanarm.Rcheck/00install.out’ for details.
-```
-
-## RStoolbox (0.1.4)
-Maintainer: Benjamin Leutner <benjamin.leutner@uni-wuerzburg.de>  
-Bug reports: https://github.com/bleutner/RStoolbox/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘RStoolbox’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/RStoolbox.Rcheck/00install.out’ for details.
-```
-
-## rsvd (0.3)
-Maintainer: N. Benjamin Erichson <nbe@st-andrews.ac.uk>  
-Bug reports: https://github.com/Benli11/rPCA
-
-0 errors | 0 warnings | 0 notes
-
-## rsvg (0.4)
-Maintainer: Jeroen Ooms <jeroen.ooms@stat.ucla.edu>  
-Bug reports: https://github.com/jeroenooms/rsvg/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘rsvg’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/rsvg.Rcheck/00install.out’ for details.
-```
-
-## rtematres (0.2)
-Maintainer: Claas-Thido Pfaff <claas-thido.pfaff@idiv-biodiversity.de>
-
-0 errors | 0 warnings | 0 notes
-
-## rtf (0.4-11)
-Maintainer: Michael E. Schaffer <mschaff@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking S3 generic/method consistency ... NOTE
-Found the following apparent S3 methods exported but not registered:
-  addHeader.RTF addNewLine.RTF addPageBreak.RTF addParagraph.RTF
-  addPlot.RTF addPng.RTF addSessionInfo.RTF addTOC.RTF addTable.RTF
-  addText.RTF addTrellisObject.RTF decreaseIndent.RTF done.RTF
-  endParagraph.RTF increaseIndent.RTF setFontSize.RTF
-  startParagraph.RTF view.RTF
-See section ‘Registering S3 methods’ in the ‘Writing R Extensions’
-manual.
-```
-
-## rtimes (0.3.0)
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>  
-Bug reports: https://github.com/ropengov/rtimes/issues
-
-0 errors | 0 warnings | 0 notes
-
-## rvertnet (0.4.1)
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>  
-Bug reports: https://github.com/ropensci/rvertnet/issues
-
-0 errors | 0 warnings | 0 notes
-
-## rWBclimate (0.1.3)
-Maintainer: Edmund Hart <edmund.m.hart@gmail.com>  
-Bug reports: http://github.com/ropensci/rWBclimate/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking R code for possible problems ... NOTE
-check_ISO_code: no visible binding for global variable ‘NoAm_country’
-check_ISO_code: no visible binding for global variable ‘SoAm_country’
-check_ISO_code: no visible binding for global variable ‘Oceana_country’
-check_ISO_code: no visible binding for global variable ‘Africa_country’
-check_ISO_code: no visible binding for global variable ‘Asia_country’
-check_ISO_code: no visible binding for global variable ‘Eur_country’
-```
-
-## rwirelesscom (1.4.3)
-Maintainer: Alberto Gutierrez <algutier1@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## ryouready (0.4)
-Maintainer: Mark Heckmann <heckmann.mark@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## Rz (0.9-1)
-Maintainer: Masahiro Hayashi <rinm884@gmail.com>
-
-0 errors | 1 warning  | 2 notes
-
-```
-checking dependencies in R code ... WARNING
-'library' or 'require' call to ‘vcd’ in package code.
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-Packages in Depends field not imported from:
-  ‘foreign’ ‘ggplot2’ ‘grid’ ‘psych’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-Unexported object imported by a ':::' call: ‘foreign:::adQuote’
-  See the note in ?`:::` about the use of this operator.
-  Including base/recommended package(s):
-  ‘foreign’
-
-checking S3 generic/method consistency ... NOTE
-Found the following apparent S3 methods exported but not registered:
-  summary.CrossTable
-See section ‘Registering S3 methods’ in the ‘Writing R Extensions’
-manual.
-
-checking R code for possible problems ... NOTE
-gtkFileChooserDialogFilteredActivate: no visible binding for global
-  variable ‘theme_grey’
-summary.CrossTable: no visible global function definition for
-  ‘assocstats’
-```
-
-## sadists (0.2.1)
-Maintainer: Steven E. Pav <shabbychef@gmail.com>  
-Bug reports: https://github.com/shabbychef/sadists/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking re-building of vignette outputs ... NOTE
-Error in re-building vignettes:
-  ...
-Warning in (function (source = "clipboard", comment = getOption("formatR.comment",  :
-  The argument 'keep.blank.line' is deprecated; please use 'blank'
-Loading required package: ggplot2
-Loading required package: grid
-Warning in (function (source = "clipboard", comment = getOption("formatR.comment",  :
-  The argument 'keep.blank.line' is deprecated; please use 'blank'
-Loading required package: polynom
-Quitting from lines 409-415 (sadists.Rnw) 
-Error: processing vignette 'sadists.Rnw' failed with diagnostics:
-Unknown parameters: dist
-Execution halted
-
-```
-
-## saeSim (0.7.0)
-Maintainer: Sebastian Warnholz <Sebastian.Warnholz@fu-berlin.de>  
-Bug reports: https://github.com/wahani/saeSim/issues
-
-0 errors | 0 warnings | 0 notes
-
-## SamplerCompare (1.2.7)
-Maintainer: Madeleine Thompson <madeleineth@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## sand (1.0.2)
-Maintainer: Gabor Csardi <csardi.gabor@gmail.com>  
-Bug reports: https://github.com/kolaczyk/sand/issues
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking package dependencies ... NOTE
-Packages suggested but not available for checking: ‘GO.db’ ‘org.Sc.sgd.db’
-
-checking data for non-ASCII characters ... NOTE
-  Note: found 6 marked UTF-8 strings
-```
-
-## SCGLR (2.0.2)
-Maintainer: Guillaume Cornu <gcornu@cirad.fr>
-
-0 errors | 1 warning  | 1 note 
-
-```
-checking whether package ‘SCGLR’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘SCGLR’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘SCGLR’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/SCGLR.Rcheck/00install.out’ for details.
-
-checking re-building of vignette outputs ... NOTE
-Error in re-building vignettes:
-  ...
-Quitting from lines 242-243 (scglrVignettes.rnw) 
-Error: processing vignette 'scglrVignettes.rnw' failed with diagnostics:
-stat_count() must not be used with a y aesthetic.
-Execution halted
-
-```
-
-## SciencesPo (1.3.9)
-Maintainer: Daniel Marcelino <dmarcelino@live.com>  
-Bug reports: http://github.com/danielmarcelino/SciencesPo/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking re-building of vignette outputs ... NOTE
-Error in re-building vignettes:
-  ...
-Units                 Measurement System Units
-bhodrick93            Bekaert's and Hodrick's (1993) Data
-cathedrals            Cathedrals
-cgreene76             Christensen's and Greene's (1976) Data
-galton                Galton's Family Data on Human Stature.
-griliches76           Griliches's (1976) Data
-ltaylor96             Lothian's and Taylor's (1996) Data Set
-... 8 lines ...
-turnout               Turnout Data
-twins                 Burt's twin data
-words                 Word frequencies from Mosteller and Wallace
-
-Loading required package: SciencesPo
-initializing ... done
-
-Quitting from lines 395-399 (SciencesPo.Rmd) 
-Error: processing vignette 'SciencesPo.Rmd' failed with diagnostics:
-polygon edge not found
-Execution halted
-```
-
-## scmamp (0.2.5)
-Maintainer: Borja Calvo <borja.calvo@ehu.eus>  
-Bug reports: https://github.com/b0rxa/scmamp/issues
-
-0 errors | 0 warnings | 0 notes
-
-## SDaA (0.1-3)
-Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>
-
-0 errors | 0 warnings | 0 notes
-
-## sdcMicro (4.6.0)
-Maintainer: Matthias Templ <matthias.templ@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## sdmvspecies (0.3.2)
-Maintainer: Xiaoquan Kong <u1mail2me@gmail.com>  
-Bug reports: https://github.com/howl-anderson/sdmvspecies/issues
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking for executable files ... WARNING
-Found the following executable file:
-  inst/external/env/bio14.bil
-Source packages should not contain undeclared executable files.
-See section ‘Package structure’ in the ‘Writing R Extensions’ manual.
-```
-
-## season (0.3-5)
-Maintainer: Adrian Barnett <a.barnett@qut.edu.au>
-
-0 errors | 0 warnings | 0 notes
-
-## SEERaBomb (2015.2)
-Maintainer: Tomas Radivoyevitch <radivot@ccf.org>
-
-0 errors | 0 warnings | 0 notes
-
-## seewave (2.0.2)
-Maintainer: Jerome Sueur <sueur@mnhn.fr>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘seewave’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/seewave.Rcheck/00install.out’ for details.
-```
-
-## selfea (1.0.1)
-Maintainer: Lang Ho Lee <langholee@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## SemiParBIVProbit (3.6-1)
-Maintainer: Giampiero Marra <giampiero.marra@ucl.ac.uk>
-
-0 errors | 0 warnings | 0 notes
-
-## sensitivity (1.11.1)
-Maintainer: Bertrand Iooss <biooss@yahoo.fr>
-
-0 errors | 0 warnings | 0 notes
-
-## SensMixed (2.0-9)
-Maintainer: Alexandra Kuznetsova <alku@dtu.dk>
-
-0 errors | 0 warnings | 0 notes
-
-## SeqFeatR (0.2.0)
-Maintainer: Bettina Budeus <bettina.budeus@stud.uni-due.de>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Package required but not available: ‘widgetTools’
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## sgd (1.1)
-Maintainer: Dustin Tran <dustin@cs.columbia.edu>  
-Bug reports: https://github.com/airoldilab/sgd/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘sgd’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/sgd.Rcheck/00install.out’ for details.
-```
-
-## sglr (0.7)
-Maintainer: Balasubramanian Narasimhan <naras@stat.stanford.edu>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-
-checking R code for possible problems ... NOTE
-plotBoundary: no visible global function definition for
-  ‘scale_y_continuous’
-```
-
-## shazam (0.1.2)
-Maintainer: Jason Vander Heiden <jason.vanderheiden@yale.edu>  
-Bug reports: https://bitbucket.org/kleinstein/shazam/issues
-
-0 errors | 0 warnings | 0 notes
-
-## SHELF (1.1.0)
-Maintainer: Jeremy Oakley <j.oakley@sheffield.ac.uk>  
-Bug reports: https://github.com/OakleyJ/SHELF/issues
-
-0 errors | 0 warnings | 0 notes
-
-## shiny (0.13.1)
-Maintainer: Winston Chang <winston@rstudio.com>  
-Bug reports: https://github.com/rstudio/shiny/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is  6.2Mb
-  sub-directories of 1Mb or more:
-    www   5.1Mb
-```
-
-## shinystan (2.1.0)
-Maintainer: Jonah Gabry <jsg2201@columbia.edu>  
-Bug reports: https://github.com/stan-dev/shinystan/issues/
-
-0 errors | 0 warnings | 0 notes
-
-## sidier (3.0.1)
-Maintainer: A.J. Muñoz-Pajares <ajesusmp@ugr.es>
-
-0 errors | 0 warnings | 0 notes
-
-## simcausal (0.5.0)
-Maintainer: Oleg Sofrygin <oleg.sofrygin@gmail.com>  
-Bug reports: https://github.com/osofr/simcausal/issues
-
-0 errors | 0 warnings | 0 notes
-
-## SimDesign (0.7)
-Maintainer: Phil Chalmers <rphilip.chalmers@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘doMPI’
-```
-
-## simmer (3.1.2)
-Maintainer: Iñaki Ucar <i.ucar86@gmail.com>  
-Bug reports: https://github.com/Bart6114/simmer/issues
-
-0 errors | 0 warnings | 0 notes
-
-## simmr (0.3)
-Maintainer: Andrew Parnell <andrew.parnell@ucd.ie>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘simmr’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/simmr.Rcheck/00install.out’ for details.
-```
-
-## simPH (1.3.5)
-Maintainer: Christopher Gandrud <christopher.gandrud@gmail.com>  
-Bug reports: https://github.com/christophergandrud/simPH/issues
-
-0 errors | 0 warnings | 0 notes
-
-## simTool (1.0.3)
-Maintainer: Marsel Scheer <scheer@freescience.de>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Title field: should not end in a period.
-```
-
-## sinaplot (0.1.3)
-Maintainer: Nikos Sidiropoulos <nikos.sidiro@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## SixSigma (0.9-2)
-Maintainer: Emilio L. Cano <emilio.lopez@urjc.es>
-
-0 errors | 0 warnings | 0 notes
-
-## sjPlot (1.9.1)
-Maintainer: Daniel Lüdecke <d.luedecke@uke.de>  
-Bug reports: https://github.com/sjPlot/devel/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘sjPlot’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/sjPlot.Rcheck/00install.out’ for details.
-```
-
-## slackr (1.2)
-Maintainer: Bob Rudis <bob@rudis.net>  
-Bug reports: https://github.com/hrbrmstr/slackr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## SmarterPoland (1.5)
-Maintainer: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking data for non-ASCII characters ... NOTE
-  Note: found 1122 marked UTF-8 strings
-```
-
-## SMFI5 (1.0)
-Maintainer: Bruno Remillard <bruno.remillard@hec.ca>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' calls to packages already attached by Depends:
-  ‘ggplot2’ ‘reshape’
-  Please remove these calls from your code.
-Packages in Depends field not imported from:
-  ‘corpcor’ ‘ggplot2’ ‘reshape’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-bond.cir: no visible global function definition for ‘melt’
-bond.cir: no visible global function definition for ‘ggplot’
-bond.cir: no visible global function definition for ‘aes’
-bond.cir: no visible global function definition for ‘geom_line’
-bond.cir: no visible global function definition for ‘ggtitle’
-bond.vasicek: no visible global function definition for ‘melt’
-bond.vasicek: no visible global function definition for ‘ggplot’
-bond.vasicek: no visible global function definition for ‘aes’
-bond.vasicek: no visible global function definition for ‘geom_line’
-... 15 lines ...
-est.vasicek: no visible global function definition for ‘pseudoinverse’
-sim.cir: no visible global function definition for ‘melt’
-sim.cir: no visible global function definition for ‘ggplot’
-sim.cir: no visible global function definition for ‘aes’
-sim.cir: no visible global function definition for ‘geom_line’
-sim.cir: no visible global function definition for ‘ggtitle’
-sim.vasicek: no visible global function definition for ‘melt’
-sim.vasicek: no visible global function definition for ‘ggplot’
-sim.vasicek: no visible global function definition for ‘aes’
-sim.vasicek: no visible global function definition for ‘geom_line’
-sim.vasicek: no visible global function definition for ‘ggtitle’
-```
-
-## smoof (1.2)
-Maintainer: Jakob Bossek <j.bossek@gmail.com>  
-Bug reports: https://github.com/jakobbossek/smoof/issues
-
-0 errors | 0 warnings | 0 notes
-
-## snht (1.0.3)
-Maintainer: Josh Browning <jbrownin@mines.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## snpEnrichment (1.7.0)
-Maintainer: Mickael Canouil <mickael.canouil@cnrs.fr>  
-Bug reports: https://github.com/mcanouil/snpEnrichment/issues
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘snpEnrichment’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘snpEnrichment’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘snpEnrichment’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/snpEnrichment.Rcheck/00install.out’ for details.
-```
-
-## soc.ca (0.7.3)
-Maintainer: Anton Grau Larsen <agl.dbp@cbs.dk>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking data for non-ASCII characters ... NOTE
-  Note: found 833 marked UTF-8 strings
-```
-
-## Sofi (0.0.26)
-Maintainer: Jose D. Loera <jose.loera@inegi.org.mx>  
-Bug reports: https://github.com/loerasg/Sofi/issues
-
-0 errors | 0 warnings | 0 notes
-
-## solarius (0.3.0.2)
-Maintainer: Andrey Ziyatdinov <andrey.ziyatdinov@upc.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## sorvi (0.7.26)
-Maintainer: Leo Lahti <louhos@googlegroups.com>  
-Bug reports: https://github.com/ropengov/sorvi/issues
-
-0 errors | 0 warnings | 0 notes
-
-## sotkanet (0.9.21)
-Maintainer: Leo Lahti <louhos@googlegroups.com>  
-Bug reports: https://github.com/ropengov/sotkanet/issues
-
-0 errors | 0 warnings | 0 notes
-
-## SpaDES (1.1.1)
-Maintainer: Alex M Chubaty <alexander.chubaty@canada.ca>  
-Bug reports: https://github.com/PredictiveEcology/SpaDES/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Packages required but not available: ‘fpCompare’ ‘secr’
-
-Package suggested but not available for checking: ‘fastshp’
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## sparkTable (1.1.0)
-Maintainer: Alexander Kowarik <alexander.kowarik@statistik.gv.at>  
-Bug reports: https://github.com/alexkowa/sparkTable/issues
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘sparkTable’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘sparkTable’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘sparkTable’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/sparkTable.Rcheck/00install.out’ for details.
-```
-
-## SparseFactorAnalysis (1.0)
-Maintainer: Marc Ratkovic <ratkovic@princeton.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## sparsereg (1.1)
-Maintainer: Marc Ratkovic <ratkovic@princeton.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## spcosa (0.3-6)
-Maintainer: Dennis Walvoort <dennis.Walvoort@wur.nl>
-
-0 errors | 0 warnings | 0 notes
-
-## specmine (1.0)
-Maintainer: Christopher Costa <chrisbcl@hotmail.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Packages required but not available: ‘ChemoSpec’ ‘Metrics’ ‘MAIT’
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## spikeSlabGAM (1.1-9)
-Maintainer: Fabian Scheipl
- <fabian.scheipl@stat.uni-muenchen.de>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘spikeSlabGAM’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘scales::alpha’ when loading ‘spikeSlabGAM’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘spikeSlabGAM’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/spikeSlabGAM.Rcheck/00install.out’ for details.
-```
-
-## spoccutils (0.1.0)
-Maintainer: Scott Chamberlain <myrmecocystus@gmail.com>  
-Bug reports: https://github.com/ropensci/spoccutils/issues
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘spoccutils’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘spoccutils’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/spoccutils.Rcheck/00install.out’ for details.
-```
-
-## SPOT (1.0.5543)
-Maintainer: Martin Zaefferer <martin.zaefferer@gmx.de>
-
-0 errors | 0 warnings | 0 notes
-
-## sprm (1.2.2)
-Maintainer: Irene Hoffmann <irene.hoffmann@tuwien.ac.at>
-
-0 errors | 0 warnings | 0 notes
-
-## srvyr (0.1.0)
-Maintainer: Greg Freedman <greg.freedman@gmail.com>  
-Bug reports: https://github.com/gergness/srvyr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## ss3sim (0.9.0)
-Maintainer: Sean Anderson <sean@seananderson.ca>
-
-0 errors | 0 warnings | 0 notes
-
-## starma (1.3)
-Maintainer: Felix Cheysson <felix@cheysson.fr>
-
-0 errors | 0 warnings | 0 notes
-
-## statar (0.6.0)
-Maintainer: Matthieu Gomez <mattg@princeton.edu>  
-Bug reports: https://github.com/matthieugomez/statar/issues
-
-0 errors | 0 warnings | 0 notes
-
-## statebins (1.2.2)
-Maintainer: Bob Rudis <bob@rudis.net>  
-Bug reports: https://github.com/hrbrmstr/statebins/issues
-
-0 errors | 0 warnings | 0 notes
-
-## StatRank (0.0.6)
-Maintainer: Hossein Azari Soufiani <azari.hossein@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## structSSI (1.1.1)
-Maintainer: Kris Sankaran <kriss1@stanford.edu>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking R code for possible problems ... NOTE
-plot,GBH-ANY : .local: no visible binding for global variable
-  ‘sorted.hyp’
-plot,GBH-ANY : .local: no visible binding for global variable ‘pval’
-plot,GBH-ANY : .local: no visible binding for global variable ‘group’
-plot,GBH-ANY : .local: no visible binding for global variable ‘type’
-```
-
-## strvalidator (1.6.0)
-Maintainer: Oskar Hansson <oskar.hansson@fhi.no>  
-Bug reports: https://github.com/OskarHansson/strvalidator/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘strvalidator’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/strvalidator.Rcheck/00install.out’ for details.
-```
-
-## SuperLearner (2.0-19)
-Maintainer: Eric Polley <polley.eric@mayo.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## survminer (0.2.0)
-Maintainer: Alboukadel Kassambara <alboukadel.kassambara@gmail.com>  
-Bug reports: https://github.com/kassambara/survminer/issues
-
-0 errors | 0 warnings | 0 notes
-
-## survMisc (0.5.0)
-Maintainer: Chris Dardis <christopherdardis@gmail.com>  
-Bug reports: https://github.com/dardisco/survMisc/issues
-
-0 errors | 0 warnings | 0 notes
-
-## SurvRank (0.1)
-Maintainer: Michael Laimighofer <michael.laimighofer@helmholtz-muenchen.de>
-
-0 errors | 0 warnings | 0 notes
-
-## sValues (0.1.4)
-Maintainer: Carlos Cinelli <carloscinelli@hotmail.com>  
-Bug reports: https://github.com/carloscinelli/sValues
-
-0 errors | 0 warnings | 0 notes
-
-## svdvis (0.1)
-Maintainer: Neo Christopher Chung <nchchung@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## SWMPr (2.1.4)
-Maintainer: Marcus W. Beck <mbafs2012@gmail.com>  
-Bug reports: https://github.com/fawda123/SWMPr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## synthpop (1.2-0)
-Maintainer: Beata Nowok <beata.nowok@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## tableone (0.7.3)
-Maintainer: Kazuki Yoshida <kazukiyoshida@mail.harvard.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## tabplot (1.1)
-Maintainer: Martijn Tennekes <mtennekes@gmail.com>
-
-0 errors | 0 warnings | 3 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘classInt’ ‘shiny’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-
-checking R code for possible problems ... NOTE
-binRanges: no visible binding for global variable ‘ri’
-bin_data: no visible global function definition for ‘vw<-’
-bin_data: no visible global function definition for ‘chunk’
-bin_data: no visible global function definition for ‘ff’
-bin_data: no visible global function definition for ‘physical’
-bin_data : <anonymous>: no visible global function definition for
-  ‘vmode’
-bin_data : <anonymous>: no visible global function definition for
-  ‘is.factor.ff’
-... 11 lines ...
-tablePrepare: no visible global function definition for ‘ff’
-tablePrepare: no visible global function definition for ‘chunk’
-tablePrepare: no visible global function definition for ‘fforder’
-tablePrepare: no visible binding for global variable ‘fforder’
-tablePrepare: no visible binding for global variable ‘ffdf’
-tableplot: no visible global function definition for ‘vmode’
-tableplot: no visible global function definition for ‘physical’
-tableplot : <anonymous>: no visible global function definition for
-  ‘is.factor.ff’
-tableplot : <anonymous>: no visible global function definition for
-  ‘vmode’
-
-checking files in ‘vignettes’ ... NOTE
-The following directory looks like a leftover from 'knitr':
-  ‘figure’
-Please remove from your package.
-```
-
-## tadaatoolbox (0.9.0)
-Maintainer: Lukas Burk <lukas@quantenbrot.de>  
-Bug reports: https://github.com/tadaadata/tadaatoolbox/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘tadaatoolbox’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/tadaatoolbox.Rcheck/00install.out’ for details.
-```
-
-## taRifx (1.0.6)
-Maintainer: Ari B. Friedman <abfriedman@gmail.com>
-
-0 errors | 0 warnings | 4 notes
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Title field: should not end in a period.
-
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘gdata’ ‘ggplot2’ ‘grid’ ‘lattice’ ‘xtable’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-
-checking S3 generic/method consistency ... NOTE
-Found the following apparent S3 methods exported but not registered:
-  as.matrix.by stack.list
-See section ‘Registering S3 methods’ in the ‘Writing R Extensions’
-manual.
-
-checking R code for possible problems ... NOTE
-autoplot.microbenchmark: no visible global function definition for
-  ‘ggplot’
-autoplot.microbenchmark: no visible global function definition for
-  ‘aes’
-autoplot.microbenchmark: no visible global function definition for
-  ‘coord_cartesian’
-autoplot.microbenchmark: no visible global function definition for
-  ‘stat_summary’
-autoplot.microbenchmark: no visible global function definition for
-... 48 lines ...
-xtable.CrossTable: no visible global function definition for
-  ‘display<-’
-xtable.summary.lme: no visible global function definition for
-  ‘caption<-’
-xtable.summary.lme: no visible global function definition for ‘label<-’
-xtable.summary.lme: no visible global function definition for ‘align<-’
-xtable.summary.lme: no visible global function definition for
-  ‘digits<-’
-xtable.summary.lme: no visible global function definition for
-  ‘display<-’
-xtablelm: no visible global function definition for ‘xtable’
-```
-
-## TcGSA (0.10.1)
-Maintainer: Boris P. Hejblum <bhejblum@hsph.harvard.edu>  
-Bug reports: https://github.com/borishejblum/TcGSA/issues
-
-0 errors | 0 warnings | 0 notes
-
-## tcR (2.2.1.7)
-Maintainer: Vadim Nazarov <vdm.nazarov@gmail.com>  
-Bug reports: https://github.com/imminfo/tcr/issues
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking installed package size ... NOTE
-  installed size is  5.6Mb
-  sub-directories of 1Mb or more:
-    data   1.2Mb
-    doc    3.9Mb
-
-checking dependencies in R code ... NOTE
-Namespace in Imports field not imported from: ‘scales’
-  All declared Imports should be used.
-```
-
-## tdr (0.11)
-Maintainer: Oscar Perpinan Lamigueiro <oscar.perpinan@gmail.com>  
-Bug reports: https://github.com/oscarperpinan/tdr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## TeachingDemos (2.10)
-Maintainer: Greg Snow <538280@gmail.com>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘R2wd’
-
-checking dependencies in R code ... NOTE
-alloc: invalid block: 0x1057913a8: 0 0
-```
-
-## tidyjson (0.2.1)
-Maintainer: Jeremy Stanley <jeremy.stanley@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## tigerstats (0.2.7)
-Maintainer: Homer White <hwhite0@georgetowncollege.edu>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘tigerstats’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/tigerstats.Rcheck/00install.out’ for details.
-```
-
-## tigris (0.2.2)
-Maintainer: Kyle Walker <kyle.walker@tcu.edu>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘tigris’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘sp::nowrapSpatialLines’ when loading ‘tigris’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/tigris.Rcheck/00install.out’ for details.
-```
-
-## tikzDevice (0.10-1)
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>  
-Bug reports: https://github.com/yihui/tikzDevice/issues
-
-0 errors | 0 warnings | 0 notes
-
-## timeit (0.2.1)
-Maintainer: Kevin Ushey <kevinushey@gmail.com>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' call to ‘ggplot2’ in package code.
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-Package in Depends field not imported from: ‘microbenchmark’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-determine_replications: no visible global function definition for
-  ‘microbenchmark’
-plot.timeit: no visible global function definition for ‘ggplot’
-plot.timeit: no visible global function definition for ‘aes’
-plot.timeit: no visible global function definition for ‘geom_boxplot’
-plot.timeit: no visible global function definition for ‘geom_point’
-plot.timeit: no visible global function definition for ‘xlab’
-plot.timeit: no visible global function definition for ‘ylab’
-plot.timeit: no visible global function definition for ‘ggtitle’
-plot.timeit: no visible global function definition for ‘coord_flip’
-```
-
-## timeline (0.9)
-Maintainer: Jason Bryer <jason@bryer.org>  
-Bug reports: https://github.com/jbryer/timeline/issues
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' call to ‘shiny’ in package code.
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-Package in Depends field not imported from: ‘ggplot2’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-timeline: no visible global function definition for ‘ggplot’
-timeline: no visible global function definition for ‘geom_segment’
-timeline: no visible global function definition for ‘aes_string’
-timeline: no visible global function definition for ‘geom_rect’
-timeline: no visible global function definition for ‘geom_text’
-timeline: no visible global function definition for ‘theme’
-timeline: no visible global function definition for ‘element_blank’
-timeline: no visible global function definition for ‘xlab’
-timeline: no visible global function definition for ‘ylab’
-timeline: no visible global function definition for ‘xlim’
-timeline: no visible global function definition for
-  ‘scale_y_continuous’
-timeline: no visible global function definition for ‘geom_point’
-timeline: no visible global function definition for ‘scale_color_grey’
-timeline: no visible global function definition for ‘geom_hline’
-```
-
-## TimeProjection (0.2.0)
-Maintainer: Jeffrey Wong <jeff.ct.wong@gmail.com>
-
-0 errors | 0 warnings | 2 notes
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘ggplot2’ ‘plyr’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-Packages in Depends field not imported from:
-  ‘Matrix’ ‘lubridate’ ‘timeDate’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-is.Bizday: no visible global function definition for ‘isWeekday’
-plotCalendarHeatmap: no visible global function definition for ‘ddply’
-plotCalendarHeatmap: no visible global function definition for ‘.’
-plotCalendarHeatmap: no visible binding for global variable ‘year’
-plotCalendarHeatmap: no visible binding for global variable ‘month’
-plotCalendarHeatmap: no visible binding for global variable ‘week’
-plotCalendarHeatmap: no visible global function definition for ‘ggplot’
-plotCalendarHeatmap: no visible global function definition for ‘aes’
-plotCalendarHeatmap: no visible binding for global variable ‘monthweek’
-plotCalendarHeatmap: no visible binding for global variable ‘weekday’
-plotCalendarHeatmap: no visible global function definition for
-  ‘geom_tile’
-plotCalendarHeatmap: no visible global function definition for
-  ‘facet_grid’
-plotCalendarHeatmap: no visible global function definition for
-  ‘scale_fill_gradientn’
-projectDate: no visible global function definition for ‘holidayNYSE’
-projectDate: no visible global function definition for
-  ‘sparse.model.matrix’
-```
-
-## toaster (0.4.2)
-Maintainer: Gregory Kanevsky <gregory.kanevsky@teradata.com>  
-Bug reports: https://github.com/teradata-aster-field/toaster/issues
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking package dependencies ... ERROR
-Package required but not available: ‘RODBC’
-
-See section ‘The DESCRIPTION file’ in the ‘Writing R Extensions’
-manual.
-```
-
-## tourr (0.5.4)
-Maintainer: Hadley Wickham <h.wickham@gmail.com>  
-Bug reports: https://github.com/ggobi/tourr/
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking dependencies in R code ... NOTE
-'library' or 'require' calls in package code:
-  ‘TeachingDemos’ ‘ash’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-```
-
-## tourrGui (0.4)
-Maintainer: Dianne Cook <dicook@iastate.edu>
-
-0 errors | 0 warnings | 4 notes
-
-```
-checking package dependencies ... NOTE
-Package suggested but not available for checking: ‘rggobi’
-
-checking DESCRIPTION meta-information ... NOTE
-License components which are templates and need '+ file LICENSE':
-  MIT
-
-checking dependencies in R code ... NOTE
-'library' or 'require' calls to packages already attached by Depends:
-  ‘Cairo’ ‘RGtk2’ ‘colorspace’ ‘gWidgets’ ‘tourr’
-  Please remove these calls from your code.
-'library' or 'require' calls in package code:
-  ‘TeachingDemos’ ‘ash’
-  Please use :: or requireNamespace() instead.
-  See section 'Suggested packages' in the 'Writing R Extensions' manual.
-Packages in Depends field not imported from:
-  ‘Cairo’ ‘RGtk2’ ‘colorspace’ ‘gWidgets’ ‘tourr’
-  These packages need to be imported from (in the NAMESPACE file)
-  for when this namespace is loaded but not attached.
-
-checking R code for possible problems ... NOTE
-.create_1d_tour: no visible global function definition for ‘gmessage’
-.create_1d_tour: no visible global function definition for
-  ‘display_dist’
-.create_1d_tour: no visible global function definition for ‘grand_tour’
-.create_1d_tour: no visible global function definition for
-  ‘little_tour’
-.create_1d_tour: no visible global function definition for
-  ‘guided_tour’
-.create_1d_tour: no visible binding for global variable ‘holes’
-... 654 lines ...
-gui_xy : pause: no visible global function definition for
-  ‘gtkIdleRemove’
-gui_xy : pause: no visible global function definition for ‘gIdleAdd’
-gui_xy: no visible global function definition for ‘ggroup’
-gui_xy: no visible global function definition for ‘gbutton’
-gui_xy : <anonymous>: no visible global function definition for
-  ‘dispose’
-gui_xy : <anonymous>: no visible global function definition for
-  ‘gmessage’
-gui_xy: no visible global function definition for ‘CairoX11’
-gui_xy: no visible global function definition for ‘visible<-’
-```
-
-## trackeR (0.0.1)
-Maintainer: Hannah Frick <h.frick@ucl.ac.uk>
-
-0 errors | 0 warnings | 0 notes
-
-## trapezoid (2.0-0)
-Maintainer: Jeremy Thoms Hetzel <jthetzel@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## TreatmentSelection (1.2.0)
-Maintainer: Marshall Brown <mdbrown@fhcrc.org>
-
-0 errors | 0 warnings | 0 notes
-
-## treeclim (1.0.13)
-Maintainer: Christian Zang <christian.zang@wzw.tum.de>
-
-0 errors | 0 warnings | 0 notes
-
-## treecm (1.2.2)
-Maintainer: Marco Bascietto <marco.bascietto@entecra.it>
-
-0 errors | 0 warnings | 0 notes
-
-## treemap (2.4)
-Maintainer: Martijn Tennekes <mtennekes@gmail.com>
-
-0 errors | 1 warning  | 0 notes
-
-```
-checking whether package ‘treemap’ can be installed ... WARNING
-Found the following significant warnings:
-  Warning: replacing previous import by ‘grid::arrow’ when loading ‘treemap’
-  Warning: replacing previous import by ‘grid::unit’ when loading ‘treemap’
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/treemap.Rcheck/00install.out’ for details.
-```
-
-## treescape (1.8.15)
-Maintainer: Michelle Kendall <m.kendall@imperial.ac.uk>
-
-0 errors | 0 warnings | 0 notes
-
-## TriMatch (0.9.7)
-Maintainer: Jason Bryer <jason@bryer.org>  
-Bug reports: https://github.com/jbryer/TriMatch/issues
-
-0 errors | 0 warnings | 0 notes
-
-## TripleR (1.4.1)
-Maintainer: Felix Schönbrodt <felix.schoenbrodt@psy.lmu.de>
-
-0 errors | 0 warnings | 0 notes
-
-## TSMining (1.0)
-Maintainer: Cheng Fan <raja8885@hotmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## tspmeta (1.2)
-Maintainer: Bernd Bischl <bernd_bischl@gmx.net>  
-Bug reports: https://github.com/berndbischl/tspmeta/issues
-
-0 errors | 0 warnings | 0 notes
-
-## tufterhandout (1.2.1)
-Maintainer: Michael C Sachs <sachsmc@gmail.com>  
-Bug reports: http://github.com/sachsmc/tufterhandout/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-```
-
-## tvm (0.3.0)
-Maintainer: Juan Manuel Truppia <jmtruppia@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## tweet2r (0.4.1)
-Maintainer: Pau Aragó <parago@uji.es>
-
-0 errors | 0 warnings | 0 notes
-
-## ukgasapi (0.13)
-Maintainer: Timothy Wong <timothy.wong@hotmail.co.uk>  
-Bug reports: https://github.com/timothy-wong/ukgasapi/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd line widths ... NOTE
-Rd file 'dataItemExplorer.Rd':
-  \usage lines wider than 90 characters:
-       apiurl = "http://marketinformation.natgrid.co.uk/MIPIws-public/public/publicwebservice.asmx")
-
-These lines will be truncated in the PDF manual.
-```
-
-## UpSetR (1.1.1)
-Maintainer: Jake Conway <jake_conway@student.uml.edu>  
-Bug reports: http://github.com/hms-dbmi/UpSetR/issues
-
-0 errors | 0 warnings | 0 notes
-
-## useful (1.2.0)
-Maintainer: Jared P. Lander <packages@jaredlander.com>
-
-0 errors | 0 warnings | 0 notes
-
-## userfriendlyscience (0.4-0)
-Maintainer: Gjalt-Jorn Peters <gjalt-jorn@userfriendlyscience.com>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘userfriendlyscience’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/userfriendlyscience.Rcheck/00install.out’ for details.
-```
-
-## UsingR (2.0-5)
-Maintainer: John Verzani <verzani@math.csi.cuny.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## varbvs (1.0)
-Maintainer: Peter Carbonetto <pcarbo@uchicago.edu>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking foreign function calls ... NOTE
-Calls with DUP:
-   .C("varbvsbinupdateR", n = as.integer(n), m = as.integer(m), 
-       X = X, sa = as.double(sa), logodds = as.double(logodds), 
-       u = as.double(stats$u), xy = as.double(stats$xy), xu = as.double(stats$xu), 
-       d = as.double(stats$d), alpha = as.double(alpha0), mu = as.double(mu0), 
-       Xr = as.double(Xr0), S = as.integer(S - 1), DUP = FALSE)
-   .C("varbvsupdateR", n = as.integer(n), m = as.integer(m), X = X, 
-       sigma = as.double(sigma), sa = as.double(sa), logodds = as.double(logodds), 
-       xy = as.double(xy), d = as.double(d), alpha = as.double(alpha0), 
-       mu = as.double(mu0), Xr = as.double(Xr0), S = as.integer(S - 
-           1), DUP = FALSE)
-DUP is no longer supported and will be ignored.
-```
-
-## varian (0.2.2)
-Maintainer: Joshua F. Wiley <josh@elkhartgroup.com>  
-Bug reports: https://github.com/ElkhartGroup/varian/issues
-
-0 errors | 0 warnings | 0 notes
-
-## vcdExtra (0.7-0)
-Maintainer: Michael Friendly <friendly@yorku.ca>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd cross-references ... NOTE
-Package unavailable to check Rd xrefs: ‘alr3’
-```
-
-## vcfR (1.0.0)
-Maintainer: Brian J. Knaus <briank.lists@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## vdg (1.1.3)
-Maintainer: Pieter Schoonees <schoonees@gmail.com>
-
-0 errors | 0 warnings | 0 notes
-
-## vdmR (0.2.2)
-Maintainer: Tomokazu Fujino <fujino@fwu.ac.jp>
-
-0 errors | 0 warnings | 0 notes
-
-## vipor (0.3.2)
-Maintainer: Scott Sherrill-Mix <shescott@upenn.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## viridis (0.3.2)
-Maintainer: Simon Garnier <garnier@njit.edu>  
-Bug reports: https://github.com/sjmgarnier/viridis/issues
-
-0 errors | 0 warnings | 0 notes
-
-## viridisLite (0.1.1)
-Maintainer: Simon Garnier <garnier@njit.edu>  
-Bug reports: https://github.com/sjmgarnier/viridisLite/issues
-
-0 errors | 0 warnings | 0 notes
-
-## vmsbase (2.1)
-Maintainer: Lorenzo D'Andrea <support@vmsbase.org>
-
-1 error  | 0 warnings | 0 notes
-
-```
-checking whether package ‘vmsbase’ can be installed ... ERROR
-Installation failed.
-See ‘/Users/hadley/Documents/ggplot/ggplot/revdep/checks/vmsbase.Rcheck/00install.out’ for details.
-```
-
-## vrcp (0.1.1)
-Maintainer: Yulei Wang <yxw390@case.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## waffle (0.5.0)
-Maintainer: Bob Rudis <bob@rudis.net>  
-Bug reports: https://github.com/hrbrmstr/waffle/issues
-
-0 errors | 0 warnings | 0 notes
-
-## wakefield (0.2.1)
-Maintainer: Tyler Rinker <tyler.rinker@gmail.com>  
-Bug reports: https://github.com/trinker/wakefield/issues
-
-0 errors | 0 warnings | 0 notes
-
-## walkr (0.3.3)
-Maintainer: Andy Yao <andy.yao17@gmail.com>  
-Bug reports: https://github.com/andyyao95/walkr/issues
-
-0 errors | 0 warnings | 0 notes
-
-## warbleR (1.1.0)
-Maintainer: Marcelo Araya-Salas <marceloa27@gmail.com>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd cross-references ... NOTE
-Package unavailable to check Rd xrefs: ‘monitoR’
-```
-
-## Wats (0.10.3)
-Maintainer: Will Beasley <wibeasley@hotmail.com>  
-Bug reports: https://github.com/OuhscBbmc/Wats/issues
-
-0 errors | 0 warnings | 0 notes
-
-## wesanderson (0.3.2)
-Maintainer: Karthik Ram <karthik.ram@gmail.com>  
-Bug reports: https://github.com/karthik/wesanderson/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking DESCRIPTION meta-information ... NOTE
-Malformed Description field: should contain one or more complete sentences.
-```
-
-## WHO (0.1)
-Maintainer: Eric Persson <expersso5@gmail.com>  
-Bug reports: https://www.github.com/expersso/WHO/issues
-
-0 errors | 0 warnings | 0 notes
-
-## wikipediatrend (1.1.7)
-Maintainer: Peter Meissner <retep.meissner@gmail.com>  
-Bug reports: https://github.com/petermeissner/wikipediatrend/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking package dependencies ... NOTE
-Packages suggested but not available for checking:
-  ‘AnomalyDetection’ ‘BreakoutDetection’
-```
-
-## wordbankr (0.1)
-Maintainer: Mika Braginsky <mika.br@gmail.com>  
-Bug reports: http://github.com/langcog/wordbankr/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking dependencies in R code ... NOTE
-Namespace in Imports field not imported from: ‘RMySQL’
-  All declared Imports should be used.
-```
-
-## wppExplorer (1.7-1)
-Maintainer: Hana Sevcikova <hanas@uw.edu>
-
-0 errors | 0 warnings | 0 notes
-
-## wq (0.4.5)
-Maintainer: Alan Jassby <wq@fastmail.net>
-
-0 errors | 0 warnings | 0 notes
-
-## wrswoR.benchmark (0.1-1)
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>  
-Bug reports: https://github.com/krlmlr/wrswoR.benchmark/issues
-
-0 errors | 0 warnings | 0 notes
-
-## wrswoR (1.0)
-Maintainer: Kirill Müller <krlmlr+r@mailbox.org>  
-Bug reports: https://github.com/krlmlr/wrswoR/issues
-
-0 errors | 0 warnings | 0 notes
-
-## x.ent (1.1.2)
-Maintainer: Tien T. Phan <phantien84@gmail.com>  
-Bug reports: https://github.com/tienpt/x.ent/issues
-
-0 errors | 0 warnings | 0 notes
-
-## xgboost (0.4-3)
-Maintainer: Tong He <hetong007@gmail.com>  
-Bug reports: https://github.com/dmlc/xgboost/issues
-
-0 errors | 0 warnings | 0 notes
-
-## xkcd (0.0.5)
-Maintainer: Emilio Torres-Manzanera <torres@uniovi.es>
-
-0 errors | 0 warnings | 0 notes
-
-## XLConnect (0.2-11)
-Maintainer: Martin Studer <martin.studer@mirai-solutions.com>  
-Bug reports: https://github.com/miraisolutions/xlconnect/issues
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking installed package size ... NOTE
-  installed size is  6.4Mb
-  sub-directories of 1Mb or more:
-    java        4.1Mb
-    unitTests   1.0Mb
-```
-
-## zoo (1.7-12)
-Maintainer: Achim Zeileis <Achim.Zeileis@R-project.org>
-
-0 errors | 0 warnings | 1 note 
-
-```
-checking Rd cross-references ... NOTE
-Package unavailable to check Rd xrefs: ‘stinepack’
-```
-
-## zooaRch (1.2)
-Maintainer: Erik Otarola-Castillo <eotarolacastillo@fas.harvard.edu>
-
-0 errors | 0 warnings | 0 notes
+|tz       |America/New_York             |
+|date     |2018-06-16                   |
+
+# Dependencies
+
+|package |old   |new        |Δ  |
+|:-------|:-----|:----------|:--|
+|ggplot2 |2.2.1 |2.2.1.9000 |*  |
+|munsell |NA    |0.5.0      |*  |
+|pillar  |NA    |1.2.3      |*  |
+|utf8    |NA    |1.1.4      |*  |
+
+# Revdeps
+
+## Couldn't check (79)
+
+|package                                                            |version   |error    |warning |note |
+|:------------------------------------------------------------------|:---------|:--------|:-------|:----|
+|[AneuFinder](problems.md#aneufinder)                               |1.8.0     |1        |        |1    |
+|[BaalChIP](problems.md#baalchip)                                   |1.6.0     |1        |        |2    |
+|[BACCT](problems.md#bacct)                                         |1.0       |1        |        |     |
+|[bamdit](problems.md#bamdit)                                       |3.1.0     |1        |        |     |
+|[BayesRS](problems.md#bayesrs)                                     |0.1.3     |1        |        |     |
+|[BNSP](problems.md#bnsp)                                           |2.0.6     |1        |        |     |
+|[bsam](problems.md#bsam)                                           |1.1.2     |1        |        |     |
+|[BTSPAS](problems.md#btspas)                                       |2014.0901 |1        |        |1    |
+|[classify](problems.md#classify)                                   |1.3       |1        |        |     |
+|[CNEr](problems.md#cner)                                           |1.16.1    |1        |1       |2    |
+|[CNVrd2](problems.md#cnvrd2)                                       |1.18.0    |1        |        |     |
+|[crmPack](problems.md#crmpack)                                     |0.2.7     |1        |        |     |
+|[DaMiRseq](problems.md#damirseq)                                   |1.4.2     |1        |        |3    |
+|[DeepBlueR](problems.md#deepbluer)                                 |1.6.0     |1        |        |1    |
+|DFIT                                                               |?         |         |        |     |
+|[DiffBind](problems.md#diffbind)                                   |2.8.0     |1        |        |2    |
+|dtwSat                                                             |?         |         |        |     |
+|[dynr](problems.md#dynr)                                           |0.1.12-5  |1        |        |     |
+|[eegc](problems.md#eegc)                                           |1.6.1     |1        |1       |2    |
+|[ewoc](problems.md#ewoc)                                           |0.2.0     |1        |        |     |
+|[facopy](problems.md#facopy)                                       |1.13.0    |1        |        |1    |
+|[fingerPro](problems.md#fingerpro)                                 |1.0       |1        |        |     |
+|[GenVisR](problems.md#genvisr)                                     |1.12.1    |1        |        |3    |
+|ggthemes                                                           |?         |         |        |     |
+|[GGtools](problems.md#ggtools)                                     |5.16.0    |1        |        |6    |
+|[glmmTMB](problems.md#glmmtmb)                                     |0.2.1.0   |1        |        |1    |
+|[gQTLstats](problems.md#gqtlstats)                                 |1.12.0    |1        |        |4    |
+|[Guitar](problems.md#guitar)                                       |1.18.0    |1        |        |3    |
+|[HTSSIP](problems.md#htssip)                                       |1.4.0     |1        |        |1    |
+|[iBMQ](problems.md#ibmq)                                           |1.20.0    |1        |        |1    |
+|[ideal](problems.md#ideal)                                         |1.4.0     |1        |        |2    |
+|[IrisSpatialFeatures](problems.md#irisspatialfeatures)             |1.3.0     |1        |        |     |
+|[MAGeCKFlute](problems.md#mageckflute)                             |1.0.0     |1        |        |1    |
+|[magick](problems.md#magick)                                       |1.9       |1        |        |     |
+|[MEAL](problems.md#meal)                                           |1.10.1    |1        |1       |4    |
+|[MethylAid](problems.md#methylaid)                                 |1.14.0    |1        |        |1    |
+|[mglR](problems.md#mglr)                                           |0.1.0     |__+1__   |-1      |     |
+|MLZ                                                                |?         |         |        |     |
+|[morse](problems.md#morse)                                         |3.1.1     |1        |        |     |
+|[MSnbase](problems.md#msnbase)                                     |2.6.1     |1        |        |3    |
+|[msPurity](problems.md#mspurity)                                   |1.6.2     |1        |        |2    |
+|[mwaved](problems.md#mwaved)                                       |1.1.5     |1        |        |     |
+|NetworkRiskMeasures                                                |?         |         |        |     |
+|networktools                                                       |?         |         |        |     |
+|Pbase                                                              |?         |         |        |     |
+|pbcmc                                                              |?         |         |        |     |
+|PBImisc                                                            |?         |         |        |     |
+|[pcaPA](problems.md#pcapa)                                         |2.0.2     |1        |        |     |
+|pcrsim                                                             |?         |         |        |     |
+|pdp                                                                |?         |         |        |     |
+|pdSpecEst                                                          |?         |         |        |     |
+|[PGPC](problems.md#pgpc)                                           |1.8.0     |1        |        |5    |
+|[phase1RMD](problems.md#phase1rmd)                                 |1.0.8     |1        |        |     |
+|[phylosim](problems.md#phylosim)                                   |3.0.2     |1        |        |     |
+|[pRoloc](problems.md#proloc)                                       |1.20.1    |1        |        |3    |
+|psycho                                                             |?         |         |        |     |
+|QuantNorm                                                          |?         |         |        |     |
+|rbokeh                                                             |?         |         |        |     |
+|[RcmdrPlugin.FuzzyClust](problems.md#rcmdrpluginfuzzyclust)        |1.1       |1        |        |     |
+|[RforProteomics](problems.md#rforproteomics)                       |1.18.1    |1        |        |1    |
+|[RiboProfiling](problems.md#riboprofiling)                         |1.10.0    |1 __+2__ |1       |1    |
+|[rpanel](problems.md#rpanel)                                       |1.1-4     |1        |        |     |
+|[rstanarm](problems.md#rstanarm)                                   |2.17.4    |1        |        |3    |
+|[rsvg](problems.md#rsvg)                                           |1.3       |1        |        |     |
+|[sampleClassifier](problems.md#sampleclassifier)                   |1.4.0     |1        |        |     |
+|[SC3](problems.md#sc3)                                             |1.8.0     |1        |        |1    |
+|[seewave](problems.md#seewave)                                     |2.1.0     |1        |        |1    |
+|[SeqFeatR](problems.md#seqfeatr)                                   |0.2.7     |1        |        |     |
+|[sf](problems.md#sf)                                               |0.6-3     |1        |        |     |
+|[sgmcmc](problems.md#sgmcmc)                                       |0.2.2     |1        |4       |4    |
+|[simulator](problems.md#simulator)                                 |0.2.0     |1        |        |     |
+|[Single.mTEC.Transcriptomes](problems.md#singlemtectranscriptomes) |1.8.0     |1        |1       |1    |
+|[SNPhood](problems.md#snphood)                                     |1.10.0    |1        |        |3    |
+|[TCGAbiolinks](problems.md#tcgabiolinks)                           |2.8.1     |2        |        |2    |
+|[TeachingDemos](problems.md#teachingdemos)                         |2.10      |1        |        |1    |
+|TimerQuant                                                         |?         |         |        |     |
+|[tricolore](problems.md#tricolore)                                 |1.0.3     |1        |        |     |
+|[XBSeq](problems.md#xbseq)                                         |1.12.0    |1        |        |2    |
+|[zooaRchGUI](problems.md#zooarchgui)                               |1.0.2     |1        |        |     |
+
+## Broken (101)
+
+|package                                              |version       |error     |warning     |note     |
+|:----------------------------------------------------|:-------------|:---------|:-----------|:--------|
+|[amplican](problems.md#amplican)                     |1.2.0         |__+2__    |1 __+1__    |2        |
+|[bayesAB](problems.md#bayesab)                       |1.1.0         |__+1__    |1           |         |
+|[bayesplot](problems.md#bayesplot)                   |1.5.0         |__+1__    |1           |1        |
+|[benchmark](problems.md#benchmark)                   |0.3-6         |          |1 __+1__    |2        |
+|[benchr](problems.md#benchr)                         |0.2.0         |__+1__    |1           |         |
+|[BioPET](problems.md#biopet)                         |0.2.1         |__+1__    |1           |         |
+|[BrailleR](problems.md#brailler)                     |0.28.0        |__+2__    |1 __+1__    |1        |
+|[cellWise](problems.md#cellwise)                     |2.0.8         |          |1 __+1__    |         |
+|[choroplethr](problems.md#choroplethr)               |3.6.1         |__+1__    |1           |         |
+|[chromstaR](problems.md#chromstar)                   |1.6.0         |__+1__    |2           |2        |
+|[civis](problems.md#civis)                           |1.4.0         |__+1__    |1           |         |
+|[clustree](problems.md#clustree)                     |0.1.2         |__+1__    |1 __+1__    |         |
+|[colorplaner](problems.md#colorplaner)               |0.1.3         |__+2__    |1 __+1__    |         |
+|[cosinor2](problems.md#cosinor2)                     |0.1.0         |__+1__    |1           |         |
+|[countytimezones](problems.md#countytimezones)       |1.0.0         |          |1 __+1__    |         |
+|[cowplot](problems.md#cowplot)                       |0.9.2         |__+1__    |1           |         |
+|[cricketr](problems.md#cricketr)                     |0.0.15        |          |1 __+1__    |         |
+|[DendroSync](problems.md#dendrosync)                 |0.1.0         |__+1__    |1           |         |
+|[derfinderPlot](problems.md#derfinderplot)           |1.14.0        |__+2__    |1 __+1__    |1        |
+|[dextergui](problems.md#dextergui)                   |0.1.3         |          |2 __+1__    |1        |
+|[dgo](problems.md#dgo)                               |0.2.14        |__+1__    |1           |         |
+|[dMod](problems.md#dmod)                             |0.4           |__+1__    |1 __+1__    |         |
+|[docxtools](problems.md#docxtools)                   |0.1.2         |__+1__    |1           |         |
+|[emojifont](problems.md#emojifont)                   |0.5.1         |          |1 __+1__    |1        |
+|[esetVis](problems.md#esetvis)                       |1.6.0         |          |1 __+1__    |3        |
+|[extracat](problems.md#extracat)                     |1.7-5         |__+1__    |1           |         |
+|[fastR2](problems.md#fastr2)                         |0.2.0         |__+1__    |1 __+1__    |1        |
+|[fiftystater](problems.md#fiftystater)               |1.0.1         |          |1 __+1__    |         |
+|[forecast](problems.md#forecast)                     |8.3           |__+1__    |1           |1        |
+|[ForecastComb](problems.md#forecastcomb)             |1.2           |          |1 __+1__    |1        |
+|[foreSIGHT](problems.md#foresight)                   |0.9.2         |__+1__    |1 __+1__    |         |
+|[FourCSeq](problems.md#fourcseq)                     |1.14.0        |__+1__    |3           |3        |
+|[fpp2](problems.md#fpp2)                             |2.3           |          |1 __+1__    |         |
+|[GDCRNATools](problems.md#gdcrnatools)               |1.0.0         |__+1__    |2           |3        |
+|[GenomicDataCommons](problems.md#genomicdatacommons) |1.4.1         |-1        |1 __+1__    |1        |
+|[GeomComb](problems.md#geomcomb)                     |1.0           |          |1 __+1__    |         |
+|[ggbio](problems.md#ggbio)                           |1.28.0        |__+1__    |2           |2        |
+|[ggcyto](problems.md#ggcyto)                         |1.8.0         |__+1__    |1 __+1__    |3        |
+|[ggdistribute](problems.md#ggdistribute)             |1.0.1         |__+1__    |1           |         |
+|[ggedit](problems.md#ggedit)                         |0.2.1         |__+1__    |1           |         |
+|[ggFacetSample](problems.md#ggfacetsample)           |1.0.0         |__+1__    |1           |1        |
+|[ggforce](problems.md#ggforce)                       |0.1.2         |          |2 __+1__    |         |
+|[ggformula](problems.md#ggformula)                   |0.7.0         |__+1__    |1 __+1__    |         |
+|[gggenes](problems.md#gggenes)                       |0.3.0         |__+2__    |1 __+1__    |         |
+|[gghighlight](problems.md#gghighlight)               |0.0.1         |__+2__    |1           |         |
+|[ggiraphExtra](problems.md#ggiraphextra)             |0.1.0         |__+2__    |1 __+1__    |1        |
+|[ggmap](problems.md#ggmap)                           |2.6.1         |__+1__    |1           |         |
+|[ggmosaic](problems.md#ggmosaic)                     |0.1.2         |__+1__    |1 __+1__    |1 __+1__ |
+|[ggpol](problems.md#ggpol)                           |0.0.1         |__+1__    |1 __+1__    |1        |
+|[ggpubr](problems.md#ggpubr)                         |0.1.6         |__+1__    |1           |         |
+|[ggpval](problems.md#ggpval)                         |0.2.0         |__+2__    |1 __+1__    |         |
+|[ggraph](problems.md#ggraph)                         |1.0.1         |__+1__    |1 __+2__    |__+1__   |
+|[ggstance](problems.md#ggstance)                     |0.3           |__+1__    |1           |1        |
+|[ggtree](problems.md#ggtree)                         |1.12.0        |          |1 __+1__    |1        |
+|[gwascat](problems.md#gwascat)                       |2.12.0        |-1 __+2__ |1           |6        |
+|[healthcareai](problems.md#healthcareai)             |2.0.0         |__+1__    |1           |         |
+|[heatmaply](problems.md#heatmaply)                   |0.14.1        |__+1__    |1           |1 -1     |
+|[heatwaveR](problems.md#heatwaver)                   |0.2.7         |__+1__    |1           |1        |
+|[hyperSpec](problems.md#hyperspec)                   |0.99-20171005 |__+1__    |1           |3        |
+|[imputeTestbench](problems.md#imputetestbench)       |3.0.1         |          |1 __+1__    |         |
+|[INDperform](problems.md#indperform)                 |0.1.0         |__+1__    |1           |1        |
+|[jcolors](problems.md#jcolors)                       |0.0.2         |__+1__    |1           |         |
+|[jtools](problems.md#jtools)                         |1.0.0         |__+1__    |1 __+1__    |1        |
+|[lavaSearch2](problems.md#lavasearch2)               |1.3.3         |          |1 __+1__    |         |
+|[mafs](problems.md#mafs)                             |0.0.3         |          |1 __+1__    |1        |
+|[malariaAtlas](problems.md#malariaatlas)             |0.0.1         |__+1__    |1           |1        |
+|[MethylMix](problems.md#methylmix)                   |2.10.0        |__+1__    |2           |1        |
+|[mosaic](problems.md#mosaic)                         |1.2.0         |__+1__    |2           |2        |
+|[mosaicModel](problems.md#mosaicmodel)               |0.3.0         |          |1 __+1__    |1        |
+|[msgbsR](problems.md#msgbsr)                         |1.4.0         |__+1__    |2           |3        |
+|[oddsratio](problems.md#oddsratio)                   |1.0.2         |__+2__    |1 __+1__    |         |
+|[optiRum](problems.md#optirum)                       |0.37.3        |__+1__    |1           |         |
+|[otvPlots](problems.md#otvplots)                     |0.2.0         |__+1__    |1           |1        |
+|[phyloseq](problems.md#phyloseq)                     |1.24.0        |__+1__    |1 __+1__    |3        |
+|[phyloseqGraphTest](problems.md#phyloseqgraphtest)   |0.0.1         |__+1__    |1 __+1__    |1        |
+|[platetools](problems.md#platetools)                 |0.1.0         |__+1__    |1           |         |
+|[plotly](problems.md#plotly)                         |4.7.1         |__+1__    |1           |1        |
+|[plotROC](problems.md#plotroc)                       |2.2.0         |          |1 __+1__    |         |
+|[Rariant](problems.md#rariant)                       |1.16.0        |__+1__    |1 -1 __+1__ |3        |
+|[reghelper](problems.md#reghelper)                   |0.3.3         |__+1__    |1           |         |
+|[regionReport](problems.md#regionreport)             |1.14.0        |__+1__    |1 __+1__    |1        |
+|[RITAN](problems.md#ritan)                           |1.3.0         |-1        |__+1__      |3        |
+|[robustbase](problems.md#robustbase)                 |0.93-0        |__+1__    |1           |2        |
+|[RStoolbox](problems.md#rstoolbox)                   |0.2.1         |__+1__    |1           |         |
+|[scatterpie](problems.md#scatterpie)                 |0.1.0         |__+1__    |1 __+1__    |         |
+|[Sconify](problems.md#sconify)                       |1.0.0         |__+1__    |1 __+1__    |         |
+|[SIMAT](problems.md#simat)                           |1.12.0        |__+1__    |1 -1        |2        |
+|[SimDesign](problems.md#simdesign)                   |1.10.1        |          |1 __+1__    |1        |
+|[sugrrants](problems.md#sugrrants)                   |0.1.2         |__+1__    |1 __+1__    |         |
+|[svdvis](problems.md#svdvis)                         |0.1           |__+1__    |1 __+1__    |         |
+|[synthpop](problems.md#synthpop)                     |1.4-3         |__+1__    |1           |1        |
+|[toaster](problems.md#toaster)                       |0.5.5         |__+1__    |1           |         |
+|[TPP](problems.md#tpp)                               |3.8.1         |__+1__    |2           |3        |
+|[trackr](problems.md#trackr)                         |0.7.5         |__+2__    |2           |1        |
+|[ukgasapi](problems.md#ukgasapi)                     |0.13          |__+1__    |1           |         |
+|[vdmR](problems.md#vdmr)                             |0.2.5         |__+1__    |2           |1        |
+|[voxel](problems.md#voxel)                           |1.3.4         |__+1__    |1           |1        |
+|[WRTDStidal](problems.md#wrtdstidal)                 |1.1.0         |          |1 __+1__    |         |
+|[xkcd](problems.md#xkcd)                             |0.0.5         |__+1__    |2           |         |
+|[XLConnect](problems.md#xlconnect)                   |0.2-15        |__+1__    |1           |2        |
+|[xpose](problems.md#xpose)                           |0.4.2         |__+2__    |1 __+1__    |         |
+
+## All (2152)
+
+|package                                                                |version       |error     |warning     |note     |
+|:----------------------------------------------------------------------|:-------------|:---------|:-----------|:--------|
+|[abctools](problems.md#abctools)                                       |1.1.1         |          |1           |         |
+|[abd](problems.md#abd)                                                 |0.2-8         |          |1           |         |
+|[ABHgenotypeR](problems.md#abhgenotyper)                               |1.0.1         |          |1           |         |
+|[acc](problems.md#acc)                                                 |1.3.3         |          |1           |         |
+|[accSDA](problems.md#accsda)                                           |1.0.0         |          |1           |1        |
+|[ACDm](problems.md#acdm)                                               |1.0.4         |          |1           |         |
+|[ACSNMineR](problems.md#acsnminer)                                     |0.16.8.25     |          |1           |         |
+|[actogrammr](problems.md#actogrammr)                                   |0.2.3         |          |1           |         |
+|[adapr](problems.md#adapr)                                             |2.0.0         |          |1           |1        |
+|[AdaptGauss](problems.md#adaptgauss)                                   |1.3.3         |          |1           |         |
+|[adaptiveGPCA](problems.md#adaptivegpca)                               |0.1.2         |          |1           |         |
+|[adegenet](problems.md#adegenet)                                       |2.1.1         |          |1           |1        |
+|[adklakedata](problems.md#adklakedata)                                 |0.6.1         |          |1           |         |
+|[admixturegraph](problems.md#admixturegraph)                           |1.0.2         |          |1           |         |
+|[ADMMsigma](problems.md#admmsigma)                                     |2.0           |          |1           |         |
+|[advclust](problems.md#advclust)                                       |0.4           |          |1           |         |
+|[afex](problems.md#afex)                                               |0.20-2        |          |1           |2        |
+|[affycoretools](problems.md#affycoretools)                             |1.52.1        |          |1           |2        |
+|[AFM](problems.md#afm)                                                 |1.2.4         |          |1           |         |
+|[afmToolkit](problems.md#afmtoolkit)                                   |0.0.1         |          |1           |1        |
+|[agridat](problems.md#agridat)                                         |1.13          |          |1           |         |
+|[agriTutorial](problems.md#agritutorial)                               |0.1.3         |          |1           |         |
+|[ahnr](problems.md#ahnr)                                               |0.2.0         |          |1           |         |
+|[AID](problems.md#aid)                                                 |2.3           |          |1           |         |
+|[aimPlot](problems.md#aimplot)                                         |1.0.0         |          |1           |         |
+|[aire.zmvm](problems.md#airezmvm)                                      |0.6.1         |          |1           |1        |
+|[ALA4R](problems.md#ala4r)                                             |1.6.0         |          |2           |         |
+|[alakazam](problems.md#alakazam)                                       |0.2.10        |          |1           |         |
+|[alfred](problems.md#alfred)                                           |0.1.6         |          |1           |         |
+|[AlignStat](problems.md#alignstat)                                     |1.3.1         |          |1           |         |
+|[alphahull](problems.md#alphahull)                                     |2.1           |          |1           |1        |
+|[ameco](problems.md#ameco)                                             |0.2.9         |          |1           |1        |
+|[aMNLFA](problems.md#amnlfa)                                           |0.1           |          |1           |1        |
+|[amplican](problems.md#amplican)                                       |1.2.0         |__+2__    |1 __+1__    |2        |
+|[AmpliconDuo](problems.md#ampliconduo)                                 |1.1           |          |1           |         |
+|[ampliQueso](problems.md#ampliqueso)                                   |1.18.0        |          |2           |5        |
+|[Anaquin](problems.md#anaquin)                                         |2.4.0         |          |1           |3        |
+|[anchoredDistr](problems.md#anchoreddistr)                             |1.0.3         |          |1           |         |
+|[AneuFinder](problems.md#aneufinder)                                   |1.8.0         |1         |            |1        |
+|[AnglerCreelSurveySimulation](problems.md#anglercreelsurveysimulation) |1.0.2         |          |1           |         |
+|[annotatr](problems.md#annotatr)                                       |1.6.0         |          |1           |1        |
+|[ANOM](problems.md#anom)                                               |0.5           |          |2           |         |
+|[anomalize](problems.md#anomalize)                                     |0.1.1         |          |1           |1        |
+|[anomalyDetection](problems.md#anomalydetection)                       |0.2.5         |          |1           |1        |
+|[antitrust](problems.md#antitrust)                                     |0.99.10       |          |1           |1        |
+|[aop](problems.md#aop)                                                 |1.0.0         |          |1           |         |
+|[aoristic](problems.md#aoristic)                                       |0.6           |          |1           |2        |
+|[apsimr](problems.md#apsimr)                                           |1.2           |          |2           |1        |
+|[ArchaeoPhases](problems.md#archaeophases)                             |1.3           |          |1           |1        |
+|[archetypes](problems.md#archetypes)                                   |2.2-0         |          |1           |3        |
+|[archivist](problems.md#archivist)                                     |2.3.1         |          |1           |2        |
+|[ARPobservation](problems.md#arpobservation)                           |1.1           |          |2           |1        |
+|[ARTool](problems.md#artool)                                           |0.10.4        |          |1           |         |
+|[ashr](problems.md#ashr)                                               |2.2-7         |          |1           |1        |
+|[ASICS](problems.md#asics)                                             |1.0.0         |          |1           |         |
+|[aslib](problems.md#aslib)                                             |0.1           |          |1           |         |
+|[asremlPlus](problems.md#asremlplus)                                   |2.0-12        |          |1           |1        |
+|[AssetCorr](problems.md#assetcorr)                                     |1.0.0         |          |1           |1        |
+|[ASSIGN](problems.md#assign)                                           |1.16.0        |          |1           |1        |
+|[assignPOP](problems.md#assignpop)                                     |1.1.4         |          |1           |         |
+|[asVPC](problems.md#asvpc)                                             |1.0.2         |          |1           |1        |
+|[atlantistools](problems.md#atlantistools)                             |0.4.3         |          |1           |         |
+|[auditor](problems.md#auditor)                                         |0.2.1         |          |1           |         |
+|[autoimage](problems.md#autoimage)                                     |2.0           |          |1           |1        |
+|[automap](problems.md#automap)                                         |1.0-14        |          |1           |2        |
+|[autoplotly](problems.md#autoplotly)                                   |0.1.2         |          |1           |         |
+|[BaalChIP](problems.md#baalchip)                                       |1.6.0         |1         |            |2        |
+|[BACA](problems.md#baca)                                               |1.3           |          |1           |         |
+|[BacArena](problems.md#bacarena)                                       |1.7           |1         |            |         |
+|[BACCT](problems.md#bacct)                                             |1.0           |1         |            |         |
+|[backShift](problems.md#backshift)                                     |0.1.4.2       |          |1           |1        |
+|[bacon](problems.md#bacon)                                             |1.8.0         |          |1           |1        |
+|[ballr](problems.md#ballr)                                             |0.2.0         |          |1           |         |
+|[bamdit](problems.md#bamdit)                                           |3.1.0         |1         |            |         |
+|[bang](problems.md#bang)                                               |1.0.0         |          |1           |         |
+|[base2grob](problems.md#base2grob)                                     |0.0.3         |          |1           |         |
+|[basecallQC](problems.md#basecallqc)                                   |1.4.0         |          |1           |         |
+|[BASiCS](problems.md#basics)                                           |1.2.1         |          |1           |         |
+|[BatchGetSymbols](problems.md#batchgetsymbols)                         |2.1           |          |1           |         |
+|[BatchMap](problems.md#batchmap)                                       |1.0.2.0       |          |1           |         |
+|[BAwiR](problems.md#bawir)                                             |1.1           |          |1           |         |
+|[bayesAB](problems.md#bayesab)                                         |1.1.0         |__+1__    |1           |         |
+|[bayesammi](problems.md#bayesammi)                                     |0.1.0         |          |1           |         |
+|[bayesbio](problems.md#bayesbio)                                       |1.0.0         |          |1           |         |
+|[bayesDP](problems.md#bayesdp)                                         |1.3.1         |          |1           |1        |
+|[BayesFM](problems.md#bayesfm)                                         |0.1.2         |          |1           |         |
+|[bayesplot](problems.md#bayesplot)                                     |1.5.0         |__+1__    |1           |1        |
+|[BayesRS](problems.md#bayesrs)                                         |0.1.3         |1         |            |         |
+|[baystability](problems.md#baystability)                               |0.1.0         |          |1           |1        |
+|[BBEST](problems.md#bbest)                                             |0.1-6         |          |1           |         |
+|[bbmle](problems.md#bbmle)                                             |1.0.20        |          |2           |         |
+|[BCEA](problems.md#bcea)                                               |2.2-5         |1         |1           |1        |
+|[BCellMA](problems.md#bcellma)                                         |0.3.4         |          |1           |         |
+|[Bclim](problems.md#bclim)                                             |3.1.2         |          |1           |1        |
+|[bcmaps](problems.md#bcmaps)                                           |0.17.1        |          |1           |1        |
+|[bcp](problems.md#bcp)                                                 |4.0.2         |          |1           |         |
+|[bcrm](problems.md#bcrm)                                               |0.4.7         |1         |1           |1        |
+|[bde](problems.md#bde)                                                 |1.0.1         |          |1           |1        |
+|[bdscale](problems.md#bdscale)                                         |2.0.0         |          |1           |         |
+|[bdvis](problems.md#bdvis)                                             |0.2.20        |          |1           |         |
+|[bea.R](problems.md#bear)                                              |1.0.6         |          |1           |1        |
+|[beadarray](problems.md#beadarray)                                     |2.30.0        |          |2           |5        |
+|[beadplexr](problems.md#beadplexr)                                     |0.1.0         |          |1           |         |
+|[BEARscc](problems.md#bearscc)                                         |1.0.0         |          |1           |         |
+|[belg](problems.md#belg)                                               |0.2.1         |          |1           |         |
+|[bench](problems.md#bench)                                             |1.0.1         |          |1           |         |
+|[benchmark](problems.md#benchmark)                                     |0.3-6         |          |1 __+1__    |2        |
+|[benchmarkme](problems.md#benchmarkme)                                 |0.6.0         |          |1           |         |
+|[benchr](problems.md#benchr)                                           |0.2.0         |__+1__    |1           |         |
+|[benthos](problems.md#benthos)                                         |1.3-5         |          |1           |         |
+|[BETS](problems.md#bets)                                               |0.4.3         |          |1           |         |
+|[bfw](problems.md#bfw)                                                 |0.0.1         |          |1           |1        |
+|[bib2df](problems.md#bib2df)                                           |1.0.1         |          |1           |         |
+|[bibliometrix](problems.md#bibliometrix)                               |1.9.3         |          |1           |         |
+|[biclust](problems.md#biclust)                                         |2.0.1         |          |1           |         |
+|[BiDimRegression](problems.md#bidimregression)                         |2.0.0         |          |1           |         |
+|[bife](problems.md#bife)                                               |0.5           |          |1           |         |
+|[bigKRLS](problems.md#bigkrls)                                         |3.0.0         |          |1           |         |
+|[BIGL](problems.md#bigl)                                               |1.2.0         |          |1           |         |
+|[billboarder](problems.md#billboarder)                                 |0.2.2         |          |1           |         |
+|[BinarybalancedCut](problems.md#binarybalancedcut)                     |0.2           |          |1           |         |
+|[binom](problems.md#binom)                                             |1.1-1         |          |1           |3        |
+|[bioassayR](problems.md#bioassayr)                                     |1.18.0        |          |1           |         |
+|[biobroom](problems.md#biobroom)                                       |1.12.0        |          |2           |2        |
+|[BiocOncoTK](problems.md#bioconcotk)                                   |1.0.0         |          |1           |2        |
+|[biogas](problems.md#biogas)                                           |1.10.3        |          |2           |         |
+|[biogram](problems.md#biogram)                                         |1.4           |          |1           |         |
+|[Biograph](problems.md#biograph)                                       |2.0.6         |          |1           |         |
+|[Bioi](problems.md#bioi)                                               |0.2.9         |          |1           |         |
+|[bioinactivation](problems.md#bioinactivation)                         |1.2.1         |          |1           |         |
+|[biomod2](problems.md#biomod2)                                         |3.3-7         |          |1           |3        |
+|[BioNetStat](problems.md#bionetstat)                                   |1.0.4         |          |1           |1        |
+|[bioOED](problems.md#biooed)                                           |0.1.4         |          |1           |         |
+|[BioPET](problems.md#biopet)                                           |0.2.1         |__+1__    |1           |         |
+|[bioplots](problems.md#bioplots)                                       |0.0.1         |          |1           |1        |
+|[bioset](problems.md#bioset)                                           |0.2.2         |          |1           |         |
+|[BioStatR](problems.md#biostatr)                                       |2.0.0         |          |1           |1        |
+|[biotmle](problems.md#biotmle)                                         |1.4.0         |          |1           |1        |
+|[BIS](problems.md#bis)                                                 |0.2.1         |          |1           |         |
+|[bisect](problems.md#bisect)                                           |0.9.0         |          |1           |         |
+|[BlandAltmanLeh](problems.md#blandaltmanleh)                           |0.3.1         |          |1           |         |
+|[blandr](problems.md#blandr)                                           |0.5.1         |          |1           |1        |
+|[blastula](problems.md#blastula)                                       |0.2.0         |          |1           |1        |
+|[blkbox](problems.md#blkbox)                                           |1.0           |          |1           |2        |
+|[blockseg](problems.md#blockseg)                                       |0.2           |          |1           |         |
+|[BloodCancerMultiOmics2017](problems.md#bloodcancermultiomics2017)     |1.0.1         |          |2           |1        |
+|[blorr](problems.md#blorr)                                             |0.1.0         |          |1           |1        |
+|[blscrapeR](problems.md#blscraper)                                     |3.1.2         |1         |1           |         |
+|[bmlm](problems.md#bmlm)                                               |1.3.6         |          |1           |1        |
+|[bmmix](problems.md#bmmix)                                             |0.1-2         |          |1           |2        |
+|[BNSP](problems.md#bnsp)                                               |2.0.6         |1         |            |         |
+|[bodenmiller](problems.md#bodenmiller)                                 |0.1           |          |1           |1        |
+|[bomrang](problems.md#bomrang)                                         |0.2.0         |          |1           |1        |
+|[bootnet](problems.md#bootnet)                                         |1.0.1         |          |1           |         |
+|[bossMaps](problems.md#bossmaps)                                       |0.1.0         |          |1           |1        |
+|[BPEC](problems.md#bpec)                                               |1.2.1         |          |1           |         |
+|[BPRMeth](problems.md#bprmeth)                                         |1.6.0         |          |1           |2        |
+|[BradleyTerryScalable](problems.md#bradleyterryscalable)               |0.1.0         |          |1           |         |
+|[braidReports](problems.md#braidreports)                               |0.5.3         |          |1           |         |
+|[BrailleR](problems.md#brailler)                                       |0.28.0        |__+2__    |1 __+1__    |1        |
+|[brainGraph](problems.md#braingraph)                                   |2.2.0         |          |1           |1        |
+|[branchpointer](problems.md#branchpointer)                             |1.6.0         |          |2           |1        |
+|[brazilmaps](problems.md#brazilmaps)                                   |0.1.0         |          |1           |1        |
+|[breakDown](problems.md#breakdown)                                     |0.1.6         |          |1           |         |
+|[breakpoint](problems.md#breakpoint)                                   |1.2           |          |1           |         |
+|[breathtestcore](problems.md#breathtestcore)                           |0.4.1         |          |1           |1        |
+|[breathteststan](problems.md#breathteststan)                           |0.4.1         |1         |1           |         |
+|[BreedingSchemeLanguage](problems.md#breedingschemelanguage)           |0.9.5         |          |1           |         |
+|[bridgedist](problems.md#bridgedist)                                   |0.1.0         |          |1           |         |
+|[bridger2](problems.md#bridger2)                                       |0.1.0         |          |1           |         |
+|[brms](problems.md#brms)                                               |2.3.1         |          |2           |1        |
+|[broman](problems.md#broman)                                           |0.67-4        |          |1           |         |
+|[broom](problems.md#broom)                                             |0.4.4         |          |2           |         |
+|[brotli](problems.md#brotli)                                           |1.2           |          |1           |         |
+|[brt](problems.md#brt)                                                 |1.3.0         |          |1           |         |
+|[bsam](problems.md#bsam)                                               |1.1.2         |1         |            |         |
+|[bsamGP](problems.md#bsamgp)                                           |1.2.1         |          |1           |         |
+|[BSDA](problems.md#bsda)                                               |1.2.0         |          |1           |         |
+|[BSL](problems.md#bsl)                                                 |0.1.1         |          |1           |         |
+|[bssm](problems.md#bssm)                                               |0.1.5         |          |1           |         |
+|[btergm](problems.md#btergm)                                           |1.9.1         |          |3           |         |
+|[BTSPAS](problems.md#btspas)                                           |2014.0901     |1         |            |1        |
+|[BubbleTree](problems.md#bubbletree)                                   |2.10.0        |          |1           |2        |
+|[bulletr](problems.md#bulletr)                                         |0.1           |          |1           |         |
+|[burnr](problems.md#burnr)                                             |0.2.2         |          |1           |         |
+|[C443](problems.md#c443)                                               |1.0.0         |          |1           |         |
+|[CAFE](problems.md#cafe)                                               |1.16.0        |          |1           |3        |
+|[caffsim](problems.md#caffsim)                                         |0.2.2         |          |1           |1        |
+|[CAGEr](problems.md#cager)                                             |1.22.1        |          |1           |1        |
+|[CAISEr](problems.md#caiser)                                           |0.2.1         |          |1           |         |
+|[CALF](problems.md#calf)                                               |0.2.0         |          |1           |         |
+|[CaliCo](problems.md#calico)                                           |0.1.0         |          |1           |1        |
+|[cancensus](problems.md#cancensus)                                     |0.1.7         |          |1           |         |
+|[CAnD](problems.md#cand)                                               |1.12.0        |          |1           |2        |
+|[capm](problems.md#capm)                                               |0.11.0        |          |1           |         |
+|[caret](problems.md#caret)                                             |6.0-80        |          |1           |1        |
+|[caretEnsemble](problems.md#caretensemble)                             |2.0.0         |          |1           |         |
+|[casebase](problems.md#casebase)                                       |0.1.0         |          |1           |         |
+|[CAST](problems.md#cast)                                               |0.2.0         |          |1           |         |
+|[CATALYST](problems.md#catalyst)                                       |1.4.2         |          |1           |3        |
+|[cate](problems.md#cate)                                               |1.0.4         |          |2           |         |
+|[catenary](problems.md#catenary)                                       |1.1.2         |          |1           |1        |
+|[CausalImpact](problems.md#causalimpact)                               |1.2.3         |          |1           |1        |
+|[Causata](problems.md#causata)                                         |4.2-0         |          |2           |2        |
+|[cbar](problems.md#cbar)                                               |0.1.3         |          |1           |         |
+|[ccfa](problems.md#ccfa)                                               |1.0.0         |          |1           |         |
+|[CDECRetrieve](problems.md#cdecretrieve)                               |0.1.1         |          |1           |1        |
+|[cdom](problems.md#cdom)                                               |0.1.0         |          |1           |         |
+|[cellHTS2](problems.md#cellhts2)                                       |2.44.0        |          |3           |5        |
+|[cellity](problems.md#cellity)                                         |1.8.0         |          |1           |         |
+|[CellNOptR](problems.md#cellnoptr)                                     |1.26.0        |          |2           |3        |
+|[cellWise](problems.md#cellwise)                                       |2.0.8         |          |1 __+1__    |         |
+|[CEMiTool](problems.md#cemitool)                                       |1.4.0         |          |1           |2        |
+|[census](problems.md#census)                                           |0.2.0         |          |1           |         |
+|[Census2016](problems.md#census2016)                                   |0.2.0         |          |1           |1        |
+|[CGPfunctions](problems.md#cgpfunctions)                               |0.4           |          |1           |2        |
+|[ChainLadder](problems.md#chainladder)                                 |0.2.6         |          |1           |1        |
+|[ChannelAttributionApp](problems.md#channelattributionapp)             |1.1           |          |1           |1        |
+|[ChaosGame](problems.md#chaosgame)                                     |0.3           |          |1           |         |
+|[checkmate](problems.md#checkmate)                                     |1.8.5         |          |1           |         |
+|[ChemmineR](problems.md#chemminer)                                     |3.32.1        |2         |3           |5        |
+|[childsds](problems.md#childsds)                                       |0.6.7         |          |1           |2        |
+|[ChIPexoQual](problems.md#chipexoqual)                                 |1.4.0         |          |1           |         |
+|[ChIPQC](problems.md#chipqc)                                           |1.16.0        |          |1           |5        |
+|[ChIPseeker](problems.md#chipseeker)                                   |1.16.0        |          |1           |1        |
+|[ChIPSeqSpike](problems.md#chipseqspike)                               |1.0.0         |1         |2           |         |
+|[ChocoLattes](problems.md#chocolattes)                                 |0.1.0         |          |1           |1        |
+|[cholera](problems.md#cholera)                                         |0.4.0         |          |1           |1        |
+|[choroplethr](problems.md#choroplethr)                                 |3.6.1         |__+1__    |1           |         |
+|[choroplethrAdmin1](problems.md#choroplethradmin1)                     |1.1.1         |          |1           |1        |
+|[choroplethrMaps](problems.md#choroplethrmaps)                         |1.0.1         |          |1           |         |
+|[chorrrds](problems.md#chorrrds)                                       |0.1.4         |          |1           |3        |
+|[chromstaR](problems.md#chromstar)                                     |1.6.0         |__+1__    |2           |2        |
+|[chromVAR](problems.md#chromvar)                                       |1.2.0         |          |1           |         |
+|[chron](problems.md#chron)                                             |2.3-52        |          |1           |         |
+|[CINNA](problems.md#cinna)                                             |1.1.41        |          |1           |1        |
+|[circglmbayes](problems.md#circglmbayes)                               |1.2.3         |          |1           |         |
+|[civis](problems.md#civis)                                             |1.4.0         |__+1__    |1           |         |
+|[cjoint](problems.md#cjoint)                                           |2.0.6         |          |1           |         |
+|[ck37r](problems.md#ck37r)                                             |1.0.0         |          |1           |         |
+|[classifierplots](problems.md#classifierplots)                         |1.3.3         |          |1           |1        |
+|[classify](problems.md#classify)                                       |1.3           |1         |            |         |
+|[ClassifyR](problems.md#classifyr)                                     |2.0.3         |          |2           |1        |
+|[classyfire](problems.md#classyfire)                                   |0.1-2         |          |1           |1        |
+|[cleanEHR](problems.md#cleanehr)                                       |1.0           |          |1           |         |
+|[clhs](problems.md#clhs)                                               |0.6-0         |          |1           |1        |
+|[clickstream](problems.md#clickstream)                                 |1.3.0         |          |1           |         |
+|[clifro](problems.md#clifro)                                           |3.1-5         |          |1           |         |
+|[climbeR](problems.md#climber)                                         |0.0.1         |          |1           |         |
+|[ClimClass](problems.md#climclass)                                     |2.1.0         |          |1           |         |
+|[climwin](problems.md#climwin)                                         |1.2.0         |          |1           |         |
+|[clinDR](problems.md#clindr)                                           |1.8           |          |1           |         |
+|[CLLmethylation](problems.md#cllmethylation)                           |1.0.0         |          |1           |         |
+|[clusterfly](problems.md#clusterfly)                                   |0.4           |1         |            |         |
+|[clusterlab](problems.md#clusterlab)                                   |0.0.2.0       |          |1           |         |
+|[clusternomics](problems.md#clusternomics)                             |0.1.1         |          |1           |         |
+|[clusterProfiler](problems.md#clusterprofiler)                         |3.8.1         |          |1           |1        |
+|[ClusterR](problems.md#clusterr)                                       |1.1.2         |          |1           |         |
+|[ClusterSignificance](problems.md#clustersignificance)                 |1.8.0         |          |1           |1        |
+|[clustMD](problems.md#clustmd)                                         |1.2.1         |          |1           |         |
+|[clustRcompaR](problems.md#clustrcompar)                               |0.2.0         |          |1           |         |
+|[clustrd](problems.md#clustrd)                                         |1.2.2         |          |1           |         |
+|[clustree](problems.md#clustree)                                       |0.1.2         |__+1__    |1 __+1__    |         |
+|[cmaesr](problems.md#cmaesr)                                           |1.0.3         |          |1           |         |
+|[CNEr](problems.md#cner)                                               |1.16.1        |1         |1           |2        |
+|[CNPBayes](problems.md#cnpbayes)                                       |1.10.0        |          |3           |2        |
+|[CNVPanelizer](problems.md#cnvpanelizer)                               |1.12.0        |          |2           |1        |
+|[CNVrd2](problems.md#cnvrd2)                                           |1.18.0        |1         |            |         |
+|[coalitions](problems.md#coalitions)                                   |0.6.2         |          |1           |         |
+|[cobalt](problems.md#cobalt)                                           |3.2.3         |          |1           |         |
+|[cocoreg](problems.md#cocoreg)                                         |0.1.1         |          |1           |         |
+|[codebook](problems.md#codebook)                                       |0.5.9         |1         |1           |2        |
+|[codingMatrices](problems.md#codingmatrices)                           |0.3.2         |          |2           |         |
+|[codyn](problems.md#codyn)                                             |2.0.0         |          |1           |         |
+|[coefplot](problems.md#coefplot)                                       |1.2.6         |          |1           |         |
+|[cofeatureR](problems.md#cofeaturer)                                   |1.1.0         |          |1           |         |
+|[CoGAPS](problems.md#cogaps)                                           |3.0.0         |          |1           |3        |
+|[cogena](problems.md#cogena)                                           |1.14.0        |          |2           |2        |
+|[coinmarketcapr](problems.md#coinmarketcapr)                           |0.1           |          |1           |         |
+|[CollapsABEL](problems.md#collapsabel)                                 |0.10.11       |          |1           |         |
+|[CollapseLevels](problems.md#collapselevels)                           |0.2.0         |          |1           |         |
+|[coloc](problems.md#coloc)                                             |3.1           |          |1           |1        |
+|[colocalization](problems.md#colocalization)                           |1.0.0         |          |1           |         |
+|[colorednoise](problems.md#colorednoise)                               |1.0.3         |          |1           |         |
+|[colormap](problems.md#colormap)                                       |0.1.4         |          |1           |         |
+|[colorpatch](problems.md#colorpatch)                                   |0.1.2         |          |1           |1        |
+|[colorplaner](problems.md#colorplaner)                                 |0.1.3         |__+2__    |1 __+1__    |         |
+|[colourpicker](problems.md#colourpicker)                               |1.0           |          |1           |         |
+|[CommT](problems.md#commt)                                             |0.1.1         |          |1           |1        |
+|[compcodeR](problems.md#compcoder)                                     |1.16.0        |          |2           |3        |
+|[CompGO](problems.md#compgo)                                           |1.16.0        |          |2           |1        |
+|[complmrob](problems.md#complmrob)                                     |0.6.1         |          |1           |         |
+|[comtradr](problems.md#comtradr)                                       |0.2.1         |          |1           |1        |
+|[CONFESS](problems.md#confess)                                         |1.8.0         |          |3           |1        |
+|[confidence](problems.md#confidence)                                   |1.1-2         |          |2           |         |
+|[ConfoundedMeta](problems.md#confoundedmeta)                           |1.3.0         |          |1           |         |
+|[congressbr](problems.md#congressbr)                                   |0.1.3         |          |1           |1        |
+|[Conigrave](problems.md#conigrave)                                     |0.1.1         |          |1           |         |
+|[consensusOV](problems.md#consensusov)                                 |1.2.0         |          |1           |         |
+|[consensusSeekeR](problems.md#consensusseeker)                         |1.8.0         |          |1           |         |
+|[constellation](problems.md#constellation)                             |0.2.0         |          |1           |         |
+|[contiBAIT](problems.md#contibait)                                     |1.8.0         |          |1           |2        |
+|[contoureR](problems.md#contourer)                                     |1.0.5         |          |1           |         |
+|[cooccur](problems.md#cooccur)                                         |1.3           |          |1           |         |
+|[CoordinateCleaner](problems.md#coordinatecleaner)                     |1.0-7         |          |1           |1        |
+|[CopulaDTA](problems.md#copuladta)                                     |1.0.0         |          |1           |         |
+|[corkscrew](problems.md#corkscrew)                                     |1.1           |          |1           |         |
+|[corrr](problems.md#corrr)                                             |0.2.1         |          |1           |         |
+|[coseq](problems.md#coseq)                                             |1.4.0         |1         |            |         |
+|[cosinor](problems.md#cosinor)                                         |1.1           |          |1           |1        |
+|[cosinor2](problems.md#cosinor2)                                       |0.1.0         |__+1__    |1           |         |
+|[CosmoPhotoz](problems.md#cosmophotoz)                                 |0.1           |          |1           |1        |
+|[CountClust](problems.md#countclust)                                   |1.8.0         |          |1           |1        |
+|[countyfloods](problems.md#countyfloods)                               |0.1.0         |          |1           |1        |
+|[countytimezones](problems.md#countytimezones)                         |1.0.0         |          |1 __+1__    |         |
+|[countyweather](problems.md#countyweather)                             |0.1.0         |          |1           |1        |
+|[covafillr](problems.md#covafillr)                                     |0.4.2         |          |1           |         |
+|[cowbell](problems.md#cowbell)                                         |0.1.0         |          |1           |1        |
+|[cowplot](problems.md#cowplot)                                         |0.9.2         |__+1__    |1           |         |
+|[coxed](problems.md#coxed)                                             |0.1.1         |          |1           |         |
+|[cplm](problems.md#cplm)                                               |0.7-7         |          |1           |1        |
+|[cpr](problems.md#cpr)                                                 |0.2.3         |          |1           |         |
+|[cpvSNP](problems.md#cpvsnp)                                           |1.12.0        |          |1           |3        |
+|[cr17](problems.md#cr17)                                               |0.1.0         |          |1           |         |
+|[cranly](problems.md#cranly)                                           |0.2           |          |1           |1        |
+|[crawl](problems.md#crawl)                                             |2.1.1         |          |1           |         |
+|[cRegulome](problems.md#cregulome)                                     |0.1.1         |          |1           |1        |
+|[cricketr](problems.md#cricketr)                                       |0.0.15        |          |1 __+1__    |         |
+|[CrispRVariants](problems.md#crisprvariants)                           |1.8.0         |          |1           |         |
+|[crmPack](problems.md#crmpack)                                         |0.2.7         |1         |            |         |
+|[crossmeta](problems.md#crossmeta)                                     |1.6.0         |          |2           |3        |
+|[Crossover](problems.md#crossover)                                     |0.1-17        |          |2           |         |
+|[CrossScreening](problems.md#crossscreening)                           |0.1.1         |          |2           |         |
+|[crosstalk](problems.md#crosstalk)                                     |1.0.0         |          |1           |         |
+|[CRTgeeDR](problems.md#crtgeedr)                                       |2.0           |          |1           |         |
+|[csabounds](problems.md#csabounds)                                     |1.0.0         |          |1           |1        |
+|[csp](problems.md#csp)                                                 |0.1.0         |          |1           |2        |
+|[CTDquerier](problems.md#ctdquerier)                                   |1.0.0         |          |1           |2        |
+|[ctsGE](problems.md#ctsge)                                             |1.6.1         |          |1           |         |
+|[cummeRbund](problems.md#cummerbund)                                   |2.22.0        |          |1           |6        |
+|[curatedBreastData](problems.md#curatedbreastdata)                     |2.8.0         |          |1           |2        |
+|[curatedMetagenomicData](problems.md#curatedmetagenomicdata)           |1.10.0        |          |1           |1        |
+|[cutoffR](problems.md#cutoffr)                                         |1.0           |          |1           |1        |
+|[cutpointr](problems.md#cutpointr)                                     |0.7.3         |          |1           |         |
+|[CVE](problems.md#cve)                                                 |1.6.0         |          |2           |1        |
+|[cvequality](problems.md#cvequality)                                   |0.1.3         |          |1           |         |
+|[CVglasso](problems.md#cvglasso)                                       |1.0           |          |1           |         |
+|[cvxclustr](problems.md#cvxclustr)                                     |1.1.1         |          |1           |2        |
+|[Cyclops](problems.md#cyclops)                                         |1.3.4         |          |1           |         |
+|[cystiSim](problems.md#cystisim)                                       |0.1.0         |          |1           |         |
+|[cytofkit](problems.md#cytofkit)                                       |1.12.0        |          |1           |2        |
+|[cytometree](problems.md#cytometree)                                   |1.1.1         |          |1           |         |
+|[dada2](problems.md#dada2)                                             |1.8.0         |          |1           |5        |
+|[dae](problems.md#dae)                                                 |3.0-16        |          |1           |         |
+|[DALEX](problems.md#dalex)                                             |0.2.3         |          |1           |         |
+|[dalmatian](problems.md#dalmatian)                                     |0.3.0         |          |2           |         |
+|[DaMiRseq](problems.md#damirseq)                                       |1.4.2         |1         |            |3        |
+|[dams](problems.md#dams)                                               |0.2           |          |1           |1        |
+|[DAPAR](problems.md#dapar)                                             |1.12.5        |1         |1           |2        |
+|[darksky](problems.md#darksky)                                         |1.3.0         |          |1           |         |
+|[dartR](problems.md#dartr)                                             |1.0.5         |          |1           |1        |
+|[DataExplorer](problems.md#dataexplorer)                               |0.6.0         |          |1           |         |
+|[dataMaid](problems.md#datamaid)                                       |1.1.2         |          |1           |         |
+|[datarobot](problems.md#datarobot)                                     |2.8.0         |1         |            |         |
+|[datasauRus](problems.md#datasaurus)                                   |0.1.2         |          |1           |         |
+|[DataVisualizations](problems.md#datavisualizations)                   |1.0.0         |          |1           |         |
+|[DBHC](problems.md#dbhc)                                               |0.0.2         |          |1           |         |
+|[dbplot](problems.md#dbplot)                                           |0.3.0         |          |1           |         |
+|[DCD](problems.md#dcd)                                                 |0.1.0         |          |1           |         |
+|[DChIPRep](problems.md#dchiprep)                                       |1.10.0        |          |1           |2        |
+|[dcmr](problems.md#dcmr)                                               |1.0           |          |1           |1        |
+|[ddpcr](problems.md#ddpcr)                                             |1.9           |          |1           |         |
+|[ddPCRclust](problems.md#ddpcrclust)                                   |1.0.1         |          |1           |2        |
+|[debrowser](problems.md#debrowser)                                     |1.8.0         |          |1           |1        |
+|[DeconRNASeq](problems.md#deconrnaseq)                                 |1.22.0        |          |1           |5        |
+|[decontam](problems.md#decontam)                                       |1.0.0         |          |1           |1        |
+|[deconvolveR](problems.md#deconvolver)                                 |1.0-3         |          |1           |         |
+|[Deducer](problems.md#deducer)                                         |0.7-9         |          |1           |         |
+|[DeepBlueR](problems.md#deepbluer)                                     |1.6.0         |1         |            |1        |
+|[deGradInfer](problems.md#degradinfer)                                 |1.0.0         |          |1           |         |
+|[DEGreport](problems.md#degreport)                                     |1.16.0        |          |1           |3        |
+|[deltaGseg](problems.md#deltagseg)                                     |1.20.0        |          |2           |5        |
+|[demi](problems.md#demi)                                               |1.1.2         |          |2           |1        |
+|[dendextend](problems.md#dendextend)                                   |1.8.0         |          |1           |2        |
+|[DendroSync](problems.md#dendrosync)                                   |0.1.0         |__+1__    |1           |         |
+|[dendroTools](problems.md#dendrotools)                                 |0.0.9         |          |1           |         |
+|[DengueRT](problems.md#denguert)                                       |1.0.1         |          |1           |         |
+|[densityClust](problems.md#densityclust)                               |0.3           |          |1           |         |
+|[DEP](problems.md#dep)                                                 |1.2.0         |          |2           |1        |
+|[DepthProc](problems.md#depthproc)                                     |2.0.3         |          |1           |         |
+|[derfinder](problems.md#derfinder)                                     |1.14.0        |          |2           |2        |
+|[derfinderPlot](problems.md#derfinderplot)                             |1.14.0        |__+2__    |1 __+1__    |1        |
+|[DescribeDisplay](problems.md#describedisplay)                         |0.2.5         |          |1           |         |
+|[descriptr](problems.md#descriptr)                                     |0.4.1         |          |1           |         |
+|[DESeq2](problems.md#deseq2)                                           |1.20.0        |          |1           |         |
+|[destiny](problems.md#destiny)                                         |2.10.2        |          |1           |5        |
+|[DEsubs](problems.md#desubs)                                           |1.6.1         |          |1           |         |
+|[detectRUNS](problems.md#detectruns)                                   |0.9.5         |          |1           |         |
+|[detzrcr](problems.md#detzrcr)                                         |0.2.3         |          |1           |1        |
+|[dexter](problems.md#dexter)                                           |0.8.0         |          |1           |         |
+|[dextergui](problems.md#dextergui)                                     |0.1.3         |          |2 __+1__    |1        |
+|[dfexplore](problems.md#dfexplore)                                     |0.2.1         |          |1           |1        |
+|DFIT                                                                   |?             |          |            |         |
+|[dfmeta](problems.md#dfmeta)                                           |1.0.0         |          |1           |         |
+|[Dforest](problems.md#dforest)                                         |0.4.2         |          |1           |         |
+|[dfped](problems.md#dfped)                                             |1.1           |          |1           |         |
+|[dfpk](problems.md#dfpk)                                               |3.4.1         |          |1           |1        |
+|[DGCA](problems.md#dgca)                                               |1.0.1         |          |1           |         |
+|[dggridR](problems.md#dggridr)                                         |2.0.3         |          |1           |         |
+|[DGM](problems.md#dgm)                                                 |1.7.2         |          |1           |         |
+|[dgo](problems.md#dgo)                                                 |0.2.14        |__+1__    |1           |         |
+|[DGVM3D](problems.md#dgvm3d)                                           |1.0.0         |          |1           |1        |
+|[diagis](problems.md#diagis)                                           |0.1.3-1       |          |1           |         |
+|[DiallelAnalysisR](problems.md#diallelanalysisr)                       |0.1.1         |          |1           |         |
+|[diceR](problems.md#dicer)                                             |0.5.1         |          |1           |         |
+|[did](problems.md#did)                                                 |1.0.0         |          |1           |         |
+|[dief](problems.md#dief)                                               |1.1           |          |1           |         |
+|[dielectric](problems.md#dielectric)                                   |0.2.3         |          |1           |3        |
+|[DiffBind](problems.md#diffbind)                                       |2.8.0         |1         |            |2        |
+|[diffcyt](problems.md#diffcyt)                                         |1.0.1         |          |1           |1        |
+|[diffeR](problems.md#differ)                                           |0.0-4         |          |1           |         |
+|[diffloop](problems.md#diffloop)                                       |1.8.0         |          |1           |1        |
+|[diffuStats](problems.md#diffustats)                                   |0.104.0       |          |1           |2        |
+|[difNLR](problems.md#difnlr)                                           |1.2.2         |          |1           |         |
+|[dimRed](problems.md#dimred)                                           |0.1.0         |          |1           |         |
+|[DirectEffects](problems.md#directeffects)                             |0.1           |          |1           |         |
+|[directlabels](problems.md#directlabels)                               |2018.05.22    |          |1           |         |
+|[dirichletprocess](problems.md#dirichletprocess)                       |0.2.1         |          |1           |1        |
+|[disclapmix](problems.md#disclapmix)                                   |1.7           |          |1           |         |
+|[diveRsity](problems.md#diversity)                                     |1.9.90        |          |1           |1        |
+|[DiversityOccupancy](problems.md#diversityoccupancy)                   |1.0.6         |1         |            |         |
+|[DLMtool](problems.md#dlmtool)                                         |5.1.3         |          |1           |         |
+|[dlookr](problems.md#dlookr)                                           |0.3.0         |          |1           |1        |
+|[dlstats](problems.md#dlstats)                                         |0.1.0         |          |1           |         |
+|[dMod](problems.md#dmod)                                               |0.4           |__+1__    |1 __+1__    |         |
+|[dmrseq](problems.md#dmrseq)                                           |1.0.0         |1         |2           |1        |
+|[doBy](problems.md#doby)                                               |4.6-1         |          |1           |1        |
+|[docxtools](problems.md#docxtools)                                     |0.1.2         |__+1__    |1           |         |
+|[dodgr](problems.md#dodgr)                                             |0.0.3         |          |2           |         |
+|[Doscheda](problems.md#doscheda)                                       |1.2.0         |          |1           |1        |
+|[DOSE](problems.md#dose)                                               |3.6.0         |          |1           |1        |
+|[DoTC](problems.md#dotc)                                               |0.2           |          |1           |         |
+|[dotwhisker](problems.md#dotwhisker)                                   |0.4.1         |          |1           |         |
+|[dpcR](problems.md#dpcr)                                               |0.4           |1         |            |         |
+|[dplyr](problems.md#dplyr)                                             |0.7.5         |          |1           |1        |
+|[dr4pl](problems.md#dr4pl)                                             |1.1.1         |          |1           |         |
+|[drake](problems.md#drake)                                             |5.1.2         |          |1           |         |
+|[drawProteins](problems.md#drawproteins)                               |1.0.0         |          |1           |         |
+|[DrBats](problems.md#drbats)                                           |0.1.4         |          |1           |         |
+|[DRIMSeq](problems.md#drimseq)                                         |1.8.0         |          |2           |         |
+|[drLumi](problems.md#drlumi)                                           |0.1.2         |          |2           |         |
+|[drugCombo](problems.md#drugcombo)                                     |1.0.2         |          |1           |         |
+|[dSimer](problems.md#dsimer)                                           |1.6.0         |          |1           |         |
+|[dslabs](problems.md#dslabs)                                           |0.3.3         |          |1           |         |
+|[dslice](problems.md#dslice)                                           |1.1.5         |          |1           |1        |
+|[dsm](problems.md#dsm)                                                 |2.2.15        |          |1           |         |
+|[DstarM](problems.md#dstarm)                                           |0.3.0         |          |1           |1        |
+|[DTR](problems.md#dtr)                                                 |1.7           |          |1           |         |
+|[DTRlearn](problems.md#dtrlearn)                                       |1.3           |          |1           |         |
+|[dtwclust](problems.md#dtwclust)                                       |5.4.1         |          |2           |1        |
+|dtwSat                                                                 |?             |          |            |         |
+|[DVHmetrics](problems.md#dvhmetrics)                                   |0.3.7         |          |2           |         |
+|[dynfrail](problems.md#dynfrail)                                       |0.5.2         |          |1           |         |
+|[DynNom](problems.md#dynnom)                                           |4.1.1         |          |1           |         |
+|[dynOmics](problems.md#dynomics)                                       |1.0           |          |1           |         |
+|[dynr](problems.md#dynr)                                               |0.1.12-5      |1         |            |         |
+|[dynRB](problems.md#dynrb)                                             |0.11          |          |1           |         |
+|[dynsim](problems.md#dynsim)                                           |1.2.1         |          |2           |         |
+|[dynsurv](problems.md#dynsurv)                                         |0.3-6         |          |1           |         |
+|[earlywarnings](problems.md#earlywarnings)                             |1.0.59        |          |1           |2        |
+|[earthtones](problems.md#earthtones)                                   |0.1.0         |          |1           |         |
+|[EasyHTMLReport](problems.md#easyhtmlreport)                           |0.1.1         |          |1           |2        |
+|[EbayesThresh](problems.md#ebayesthresh)                               |1.4-12        |          |1           |         |
+|[ecb](problems.md#ecb)                                                 |0.2           |          |1           |         |
+|[ecd](problems.md#ecd)                                                 |0.9.1         |          |1           |         |
+|[echo.find](problems.md#echofind)                                      |1.0.1         |          |1           |         |
+|[echor](problems.md#echor)                                             |0.1.0         |          |1           |         |
+|[ecoengine](problems.md#ecoengine)                                     |1.11.0        |          |1           |1        |
+|[EcoGenetics](problems.md#ecogenetics)                                 |1.2.1-4       |          |1           |         |
+|[ecolottery](problems.md#ecolottery)                                   |1.0.0         |          |1           |         |
+|[EcoNetGen](problems.md#econetgen)                                     |0.2.0         |          |1           |         |
+|[ecotox](problems.md#ecotox)                                           |1.3.1         |          |1           |         |
+|[ecr](problems.md#ecr)                                                 |2.1.0         |          |1           |         |
+|[EDA](problems.md#eda)                                                 |1.0.1         |          |1           |         |
+|[eda4treeR](problems.md#eda4treer)                                     |0.2.0         |          |1           |1        |
+|[edarf](problems.md#edarf)                                             |1.1.1         |          |1           |         |
+|[edeaR](problems.md#edear)                                             |0.8.0         |          |1           |         |
+|[edfReader](problems.md#edfreader)                                     |1.2.0         |          |1           |         |
+|[edgar](problems.md#edgar)                                             |1.0.9         |          |1           |         |
+|[edgarWebR](problems.md#edgarwebr)                                     |1.0.0         |          |1           |         |
+|[edge](problems.md#edge)                                               |2.12.0        |          |2           |1        |
+|[edstan](problems.md#edstan)                                           |1.0.6         |          |1           |         |
+|[eechidna](problems.md#eechidna)                                       |1.1           |          |1           |1        |
+|[eegc](problems.md#eegc)                                               |1.6.1         |1         |1           |2        |
+|[EEM](problems.md#eem)                                                 |1.1.1         |          |1           |         |
+|[eemR](problems.md#eemr)                                               |0.1.5         |          |1           |         |
+|[eeptools](problems.md#eeptools)                                       |1.2.0         |          |1           |         |
+|[eesim](problems.md#eesim)                                             |0.1.0         |          |1           |         |
+|[EFDR](problems.md#efdr)                                               |0.1.1         |          |1           |1        |
+|[effectFusion](problems.md#effectfusion)                               |1.0           |          |1           |         |
+|[EffectLiteR](problems.md#effectliter)                                 |0.4-2         |          |1           |         |
+|[effectR](problems.md#effectr)                                         |1.0.1         |          |1           |         |
+|[ega](problems.md#ega)                                                 |2.0.0         |          |1           |         |
+|[egcm](problems.md#egcm)                                               |1.0.12        |          |1           |         |
+|[egg](problems.md#egg)                                                 |0.2.0         |          |1           |         |
+|[EGSEA](problems.md#egsea)                                             |1.8.0         |          |2           |1        |
+|[eiCompare](problems.md#eicompare)                                     |2.1           |          |1           |         |
+|[ELMER](problems.md#elmer)                                             |2.4.3         |          |2           |4        |
+|[EMAtools](problems.md#ematools)                                       |0.1.3         |          |1           |         |
+|[emdi](problems.md#emdi)                                               |1.1.2         |          |1           |2        |
+|[EMDomics](problems.md#emdomics)                                       |2.10.0        |          |1           |2        |
+|[emil](problems.md#emil)                                               |2.2.8         |          |1           |1        |
+|[emmeans](problems.md#emmeans)                                         |1.2.1         |          |1           |1        |
+|[EMMIXgene](problems.md#emmixgene)                                     |0.1.0         |          |1           |         |
+|[emojifont](problems.md#emojifont)                                     |0.5.1         |          |1 __+1__    |1        |
+|[EmpiricalCalibration](problems.md#empiricalcalibration)               |1.3.6         |          |1           |         |
+|[emuR](problems.md#emur)                                               |1.0.0         |          |1           |         |
+|[enetLTS](problems.md#enetlts)                                         |0.1.0         |          |1           |         |
+|[enpls](problems.md#enpls)                                             |6.0           |          |1           |         |
+|[enrichplot](problems.md#enrichplot)                                   |1.0.2         |          |1           |         |
+|[enrichwith](problems.md#enrichwith)                                   |0.1.1         |          |1           |1        |
+|[EnsCat](problems.md#enscat)                                           |1.1           |          |1           |         |
+|[envalysis](problems.md#envalysis)                                     |0.3.3         |          |1           |         |
+|[EnvStats](problems.md#envstats)                                       |2.3.0         |          |2           |1        |
+|[EpiCurve](problems.md#epicurve)                                       |2.1-1         |          |1           |         |
+|[EpiDynamics](problems.md#epidynamics)                                 |0.3.0         |          |1           |         |
+|[EpiModel](problems.md#epimodel)                                       |1.6.5         |          |2           |         |
+|[epiphy](problems.md#epiphy)                                           |0.3.4         |          |1           |         |
+|[episensr](problems.md#episensr)                                       |0.9.2         |          |1           |1        |
+|[episheet](problems.md#episheet)                                       |0.2.0         |          |1           |         |
+|[erccdashboard](problems.md#erccdashboard)                             |1.14.0        |          |1           |2        |
+|[erma](problems.md#erma)                                               |0.12.0        |          |1           |2        |
+|[ERSA](problems.md#ersa)                                               |0.1.0         |          |1           |1        |
+|[esATAC](problems.md#esatac)                                           |1.2.1         |          |1           |3        |
+|[esetVis](problems.md#esetvis)                                         |1.6.0         |          |1 __+1__    |3        |
+|[ESGtoolkit](problems.md#esgtoolkit)                                   |0.1           |          |2           |2        |
+|[esmisc](problems.md#esmisc)                                           |0.0.3         |          |1           |         |
+|[ESTER](problems.md#ester)                                             |0.2.0         |          |1           |         |
+|[etl](problems.md#etl)                                                 |0.3.7         |          |1           |         |
+|[etm](problems.md#etm)                                                 |0.6-2.1       |          |1           |1        |
+|[europepmc](problems.md#europepmc)                                     |0.3           |          |1           |         |
+|[eurostat](problems.md#eurostat)                                       |3.2.1         |          |1           |2        |
+|[evaluate](problems.md#evaluate)                                       |0.10.1        |          |1           |         |
+|[evaluator](problems.md#evaluator)                                     |0.2.3         |          |1           |         |
+|[EValue](problems.md#evalue)                                           |1.1.4         |          |1           |1        |
+|[EventStudy](problems.md#eventstudy)                                   |0.34          |          |1           |2        |
+|[evolqg](problems.md#evolqg)                                           |0.2-5         |2         |1           |1        |
+|[EvolutionaryGames](problems.md#evolutionarygames)                     |0.1.0         |          |1           |         |
+|[Evomorph](problems.md#evomorph)                                       |0.9           |          |1           |         |
+|[evoper](problems.md#evoper)                                           |0.4.0         |          |1           |         |
+|[ewoc](problems.md#ewoc)                                               |0.2.0         |1         |            |         |
+|[ExPanDaR](problems.md#expandar)                                       |0.2.0         |          |1           |1        |
+|[explor](problems.md#explor)                                           |0.3.3         |          |1           |         |
+|[exploreR](problems.md#explorer)                                       |0.1           |          |1           |         |
+|[expss](problems.md#expss)                                             |0.8.7         |          |1           |         |
+|[exreport](problems.md#exreport)                                       |0.4.1         |          |1           |         |
+|[extracat](problems.md#extracat)                                       |1.7-5         |__+1__    |1           |         |
+|[eyelinker](problems.md#eyelinker)                                     |0.1           |          |1           |         |
+|[eyetrackingR](problems.md#eyetrackingr)                               |0.1.7         |          |1           |         |
+|[ez](problems.md#ez)                                                   |4.4-0         |          |1           |         |
+|[ezsim](problems.md#ezsim)                                             |0.5.5         |          |1           |3        |
+|[facerec](problems.md#facerec)                                         |0.1.0         |          |1           |         |
+|[facopy](problems.md#facopy)                                           |1.13.0        |1         |            |1        |
+|[FactoClass](problems.md#factoclass)                                   |1.2.4         |          |1           |         |
+|[factoextra](problems.md#factoextra)                                   |1.0.5         |          |1           |1        |
+|[factorMerger](problems.md#factormerger)                               |0.3.6         |          |1           |1        |
+|[FAOSTAT](problems.md#faostat)                                         |2.0           |          |2           |2        |
+|[fastqcr](problems.md#fastqcr)                                         |0.1.0         |          |1           |         |
+|[fastR2](problems.md#fastr2)                                           |0.2.0         |__+1__    |1 __+1__    |1        |
+|[fbroc](problems.md#fbroc)                                             |0.4.0         |          |1           |         |
+|[fCCAC](problems.md#fccac)                                             |1.6.0         |          |1           |2        |
+|[fcm](problems.md#fcm)                                                 |0.1.3         |          |1           |         |
+|[fdANOVA](problems.md#fdanova)                                         |0.1.1         |          |1           |1        |
+|[FDboost](problems.md#fdboost)                                         |0.3-1         |          |2           |         |
+|[fdq](problems.md#fdq)                                                 |0.2           |          |1           |         |
+|[fence](problems.md#fence)                                             |1.0           |          |1           |         |
+|[fergm](problems.md#fergm)                                             |0.2.1         |          |2           |         |
+|[fermicatsR](problems.md#fermicatsr)                                   |1.4           |          |1           |         |
+|[fetchR](problems.md#fetchr)                                           |2.1-0         |          |1           |         |
+|[FField](problems.md#ffield)                                           |0.1.0         |          |1           |2        |
+|[Fgmutils](problems.md#fgmutils)                                       |0.9.4         |          |1           |         |
+|[fgsea](problems.md#fgsea)                                             |1.6.0         |          |1           |         |
+|[fiftystater](problems.md#fiftystater)                                 |1.0.1         |          |1 __+1__    |         |
+|[FinCal](problems.md#fincal)                                           |0.6.3         |          |1           |         |
+|[FindIt](problems.md#findit)                                           |1.1.4         |          |1           |         |
+|[FindMyFriends](problems.md#findmyfriends)                             |1.10.0        |          |2           |1        |
+|[findviews](problems.md#findviews)                                     |0.1.3         |          |1           |         |
+|[fingerPro](problems.md#fingerpro)                                     |1.0           |1         |            |         |
+|[fingertipsR](problems.md#fingertipsr)                                 |0.1.7         |          |1           |1        |
+|[fishmove](problems.md#fishmove)                                       |0.3-3         |          |1           |1        |
+|[fitbitScraper](problems.md#fitbitscraper)                             |0.1.8         |          |2           |         |
+|[fitdistrplus](problems.md#fitdistrplus)                               |1.0-9         |          |1           |1        |
+|[fitur](problems.md#fitur)                                             |0.5.25        |          |1           |         |
+|[flacco](problems.md#flacco)                                           |1.7           |          |1           |         |
+|[flexrsurv](problems.md#flexrsurv)                                     |1.4.1         |          |1           |         |
+|[FLightR](problems.md#flightr)                                         |0.4.6         |          |1           |1        |
+|[flippant](problems.md#flippant)                                       |1.1.0         |          |1           |         |
+|[flowAI](problems.md#flowai)                                           |1.8.0         |          |1           |2        |
+|[flowCHIC](problems.md#flowchic)                                       |1.14.0        |          |1           |5        |
+|[flowDiv](problems.md#flowdiv)                                         |2.0           |          |1           |         |
+|[flowr](problems.md#flowr)                                             |0.9.10        |          |1           |         |
+|[flowTime](problems.md#flowtime)                                       |1.4.0         |          |1           |         |
+|[fmriqa](problems.md#fmriqa)                                           |0.3.0         |          |1           |         |
+|[fontHind](problems.md#fonthind)                                       |0.1.1         |          |2           |1        |
+|[fontMPlus](problems.md#fontmplus)                                     |0.1.1         |          |2           |1        |
+|[forcats](problems.md#forcats)                                         |0.3.0         |          |1           |         |
+|[forecast](problems.md#forecast)                                       |8.3           |__+1__    |1           |1        |
+|[ForecastComb](problems.md#forecastcomb)                               |1.2           |          |1 __+1__    |1        |
+|[ForecastFramework](problems.md#forecastframework)                     |0.9.0         |          |2           |         |
+|[forecastHybrid](problems.md#forecasthybrid)                           |2.2.12        |          |1           |         |
+|[foreSIGHT](problems.md#foresight)                                     |0.9.2         |__+1__    |1 __+1__    |         |
+|[forestinventory](problems.md#forestinventory)                         |0.3.1         |          |1           |         |
+|[forestmodel](problems.md#forestmodel)                                 |0.5.0         |          |1           |         |
+|[forestr](problems.md#forestr)                                         |1.0.1         |          |1           |         |
+|[forwards](problems.md#forwards)                                       |0.1.0         |          |1           |         |
+|[FourCSeq](problems.md#fourcseq)                                       |1.14.0        |__+1__    |3           |3        |
+|[fourierin](problems.md#fourierin)                                     |0.2.2         |          |1           |         |
+|[fpp2](problems.md#fpp2)                                               |2.3           |          |1 __+1__    |         |
+|[fractional](problems.md#fractional)                                   |0.1.3         |          |1           |         |
+|[frailtyEM](problems.md#frailtyem)                                     |0.8.8         |          |1           |1        |
+|[frailtySurv](problems.md#frailtysurv)                                 |1.3.4         |          |2           |         |
+|[FREddyPro](problems.md#freddypro)                                     |1.0           |1         |1           |         |
+|[freqparcoord](problems.md#freqparcoord)                               |1.0.1         |          |1           |         |
+|[FreqProf](problems.md#freqprof)                                       |0.0.1         |          |1           |         |
+|[frequencyConnectedness](problems.md#frequencyconnectedness)           |0.2.0         |          |1           |         |
+|[freqweights](problems.md#freqweights)                                 |1.0.4         |          |1           |         |
+|[FRK](problems.md#frk)                                                 |0.2.1         |          |2           |2        |
+|[frontiles](problems.md#frontiles)                                     |1.2           |          |1           |2        |
+|[FSelectorRcpp](problems.md#fselectorrcpp)                             |0.1.8         |          |1           |         |
+|[fSRM](problems.md#fsrm)                                               |0.6.4         |          |1           |         |
+|[FunciSNP](problems.md#funcisnp)                                       |1.24.0        |          |1           |3        |
+|[funData](problems.md#fundata)                                         |1.2           |          |1           |         |
+|[funModeling](problems.md#funmodeling)                                 |1.6.7         |          |1           |         |
+|[funnelR](problems.md#funnelr)                                         |0.1.0         |          |1           |         |
+|[funrar](problems.md#funrar)                                           |1.2.2         |          |1           |         |
+|[furrowSeg](problems.md#furrowseg)                                     |1.8.0         |          |3           |2        |
+|[fuser](problems.md#fuser)                                             |1.0.0         |          |2           |         |
+|[futureheatwaves](problems.md#futureheatwaves)                         |1.0.3         |          |1           |         |
+|[fuzzyforest](problems.md#fuzzyforest)                                 |1.0.5         |          |1           |         |
+|[fuzzyjoin](problems.md#fuzzyjoin)                                     |0.1.4         |          |1           |         |
+|[G2Sd](problems.md#g2sd)                                               |2.1.5         |          |1           |         |
+|[GADMTools](problems.md#gadmtools)                                     |2.2-1         |          |1           |         |
+|[gaiah](problems.md#gaiah)                                             |0.0.2         |          |1           |1        |
+|[gapfill](problems.md#gapfill)                                         |0.9.6         |          |1           |1        |
+|[gapmap](problems.md#gapmap)                                           |0.0.4         |          |1           |         |
+|[gapminder](problems.md#gapminder)                                     |0.3.0         |          |1           |         |
+|[GARS](problems.md#gars)                                               |1.0.0         |          |2           |         |
+|[gastempt](problems.md#gastempt)                                       |0.4.01        |          |1           |1        |
+|[GCalignR](problems.md#gcalignr)                                       |1.0.1         |          |1           |         |
+|[gcatest](problems.md#gcatest)                                         |1.10.0        |          |2           |1        |
+|[gcerisk](problems.md#gcerisk)                                         |18.02.22      |          |1           |         |
+|[gcookbook](problems.md#gcookbook)                                     |1.0           |          |1           |         |
+|[gCrisprTools](problems.md#gcrisprtools)                               |1.8.0         |          |1           |1        |
+|[GD](problems.md#gd)                                                   |1.5           |          |1           |         |
+|[GDAdata](problems.md#gdadata)                                         |0.93          |          |1           |         |
+|[GDCRNATools](problems.md#gdcrnatools)                                 |1.0.0         |__+1__    |2           |3        |
+|[GDINA](problems.md#gdina)                                             |2.1.15        |          |1           |         |
+|[GEM](problems.md#gem)                                                 |1.6.0         |          |1           |         |
+|[genBaRcode](problems.md#genbarcode)                                   |1.0.0         |          |1           |         |
+|[genBart](problems.md#genbart)                                         |1.0.1         |          |1           |1        |
+|[gender](problems.md#gender)                                           |0.5.2         |          |1           |1        |
+|[GENEAsphere](problems.md#geneasphere)                                 |1.4           |1         |            |         |
+|[GeneralizedUmatrix](problems.md#generalizedumatrix)                   |1.0.0         |          |1           |         |
+|[geneSLOPE](problems.md#geneslope)                                     |0.37.0        |          |1           |         |
+|[genlogis](problems.md#genlogis)                                       |1.0.0         |1         |1           |         |
+|[GenoGAM](problems.md#genogam)                                         |1.8.0         |          |3           |3        |
+|[genogeographer](problems.md#genogeographer)                           |0.1.8         |          |1           |         |
+|[genomation](problems.md#genomation)                                   |1.12.0        |          |1           |4        |
+|[genomeplot](problems.md#genomeplot)                                   |1.0           |          |1           |         |
+|[GenomicDataCommons](problems.md#genomicdatacommons)                   |1.4.1         |-1        |1 __+1__    |1        |
+|[GenomicInteractions](problems.md#genomicinteractions)                 |1.14.0        |          |1           |1        |
+|[genotypeeval](problems.md#genotypeeval)                               |1.12.0        |          |2           |1        |
+|[GenVisR](problems.md#genvisr)                                         |1.12.1        |1         |            |3        |
+|[geofacet](problems.md#geofacet)                                       |0.1.9         |          |1           |1        |
+|[geoknife](problems.md#geoknife)                                       |1.5.5         |          |1           |         |
+|[GeomComb](problems.md#geomcomb)                                       |1.0           |          |1 __+1__    |         |
+|[geomerge](problems.md#geomerge)                                       |0.3.0         |          |1           |         |
+|[geomnet](problems.md#geomnet)                                         |0.2.0         |          |1           |         |
+|[geotoolsR](problems.md#geotoolsr)                                     |1.0           |          |1           |         |
+|[geozoning](problems.md#geozoning)                                     |1.0.0         |          |1           |1        |
+|[GERGM](problems.md#gergm)                                             |0.13.0        |          |1           |         |
+|[GerminaR](problems.md#germinar)                                       |1.2           |          |1           |1        |
+|[germinationmetrics](problems.md#germinationmetrics)                   |0.1.0         |          |1           |         |
+|[gespeR](problems.md#gesper)                                           |1.12.0        |          |3           |1        |
+|[getCRUCLdata](problems.md#getcrucldata)                               |0.2.3         |          |1           |1        |
+|[GetDFPData](problems.md#getdfpdata)                                   |0.7           |          |1           |         |
+|[GetHFData](problems.md#gethfdata)                                     |1.5           |          |1           |         |
+|[GetITRData](problems.md#getitrdata)                                   |0.7           |          |1           |         |
+|[GetLattesData](problems.md#getlattesdata)                             |0.9           |          |1           |         |
+|[getmstatistic](problems.md#getmstatistic)                             |0.1.1         |          |1           |         |
+|[getTBinR](problems.md#gettbinr)                                       |0.5.4         |          |1           |         |
+|[GetTDData](problems.md#gettddata)                                     |1.3.1         |          |1           |         |
+|[gfcanalysis](problems.md#gfcanalysis)                                 |1.4           |          |1           |         |
+|[gfer](problems.md#gfer)                                               |0.1.10        |          |1           |1        |
+|[ggallin](problems.md#ggallin)                                         |0.1.1         |          |1           |         |
+|[ggalluvial](problems.md#ggalluvial)                                   |0.6.0         |          |1           |         |
+|[GGally](problems.md#ggally)                                           |1.4.0         |          |1           |         |
+|[ggalt](problems.md#ggalt)                                             |0.4.0         |          |1           |1        |
+|[ggbeeswarm](problems.md#ggbeeswarm)                                   |0.6.0         |          |1           |1        |
+|[ggbio](problems.md#ggbio)                                             |1.28.0        |__+1__    |2           |2        |
+|[ggbuildr](problems.md#ggbuildr)                                       |0.1.0         |          |1           |         |
+|[ggChernoff](problems.md#ggchernoff)                                   |0.2.0         |          |1           |         |
+|[ggconf](problems.md#ggconf)                                           |0.1.3         |          |1           |         |
+|[ggcorrplot](problems.md#ggcorrplot)                                   |0.1.1         |          |1           |         |
+|[ggcyto](problems.md#ggcyto)                                           |1.8.0         |__+1__    |1 __+1__    |3        |
+|[ggdag](problems.md#ggdag)                                             |0.1.0         |          |1           |1        |
+|[ggdendro](problems.md#ggdendro)                                       |0.1-20        |          |1           |         |
+|[ggdistribute](problems.md#ggdistribute)                               |1.0.1         |__+1__    |1           |         |
+|[ggdmc](problems.md#ggdmc)                                             |0.1.3.9       |          |1           |         |
+|[GGEBiplots](problems.md#ggebiplots)                                   |0.1.1         |          |1           |1        |
+|[ggedit](problems.md#ggedit)                                           |0.2.1         |__+1__    |1           |         |
+|[ggeffects](problems.md#ggeffects)                                     |0.3.4         |          |1           |1        |
+|[ggenealogy](problems.md#ggenealogy)                                   |0.3.0         |          |1           |3        |
+|[ggetho](problems.md#ggetho)                                           |0.3.2         |          |1           |         |
+|[ggExtra](problems.md#ggextra)                                         |0.8           |          |1           |1        |
+|[ggFacetSample](problems.md#ggfacetsample)                             |1.0.0         |__+1__    |1           |1        |
+|[ggfan](problems.md#ggfan)                                             |0.1.2         |          |1           |1        |
+|[ggfittext](problems.md#ggfittext)                                     |0.5.0         |          |1           |         |
+|[ggfocus](problems.md#ggfocus)                                         |0.8           |          |1           |         |
+|[ggforce](problems.md#ggforce)                                         |0.1.2         |          |2 __+1__    |         |
+|[ggformula](problems.md#ggformula)                                     |0.7.0         |__+1__    |1 __+1__    |         |
+|[ggfortify](problems.md#ggfortify)                                     |0.4.5         |          |1           |         |
+|[gggenes](problems.md#gggenes)                                         |0.3.0         |__+2__    |1 __+1__    |         |
+|[ggghost](problems.md#ggghost)                                         |0.2.1         |          |1           |         |
+|[ggguitar](problems.md#ggguitar)                                       |0.1.1         |          |1           |1        |
+|[gghalfnorm](problems.md#gghalfnorm)                                   |1.1.2         |          |1           |         |
+|[gghighlight](problems.md#gghighlight)                                 |0.0.1         |__+2__    |1           |         |
+|[ggimage](problems.md#ggimage)                                         |0.1.6         |          |1           |1        |
+|[ggiraph](problems.md#ggiraph)                                         |0.4.3         |          |1           |         |
+|[ggiraphExtra](problems.md#ggiraphextra)                               |0.1.0         |__+2__    |1 __+1__    |1        |
+|[ggjoy](problems.md#ggjoy)                                             |0.4.1         |          |1           |         |
+|[gglogo](problems.md#gglogo)                                           |0.1.3         |          |2           |1        |
+|[ggloop](problems.md#ggloop)                                           |0.1.0         |          |1           |         |
+|[gglorenz](problems.md#gglorenz)                                       |0.0.1         |          |1           |         |
+|[ggmap](problems.md#ggmap)                                             |2.6.1         |__+1__    |1           |         |
+|[ggmcmc](problems.md#ggmcmc)                                           |1.1           |          |2           |         |
+|[ggmosaic](problems.md#ggmosaic)                                       |0.1.2         |__+1__    |1 __+1__    |1 __+1__ |
+|[ggmuller](problems.md#ggmuller)                                       |0.5.1         |          |1           |         |
+|[ggnetwork](problems.md#ggnetwork)                                     |0.5.1         |          |1           |         |
+|[ggparallel](problems.md#ggparallel)                                   |0.2.0         |          |1           |         |
+|[ggplotAssist](problems.md#ggplotassist)                               |0.1.3         |          |1           |1        |
+|[ggplotgui](problems.md#ggplotgui)                                     |1.0.0         |          |1           |         |
+|[ggplotify](problems.md#ggplotify)                                     |0.0.2         |          |1           |         |
+|[ggpmisc](problems.md#ggpmisc)                                         |0.2.17        |          |1           |1        |
+|[ggpol](problems.md#ggpol)                                             |0.0.1         |__+1__    |1 __+1__    |1        |
+|[ggpolypath](problems.md#ggpolypath)                                   |0.1.0         |          |1           |         |
+|[ggpubr](problems.md#ggpubr)                                           |0.1.6         |__+1__    |1           |         |
+|[ggpval](problems.md#ggpval)                                           |0.2.0         |__+2__    |1 __+1__    |         |
+|[ggQC](problems.md#ggqc)                                               |0.0.2         |          |1           |         |
+|[ggQQunif](problems.md#ggqqunif)                                       |0.1.5         |          |1           |1        |
+|[ggquickeda](problems.md#ggquickeda)                                   |0.1.0         |          |1           |1        |
+|[ggquiver](problems.md#ggquiver)                                       |0.1.0         |          |1           |         |
+|[ggRandomForests](problems.md#ggrandomforests)                         |2.0.1         |          |1           |1        |
+|[ggraph](problems.md#ggraph)                                           |1.0.1         |__+1__    |1 __+2__    |__+1__   |
+|[ggraptR](problems.md#ggraptr)                                         |1.0           |          |1           |2        |
+|[ggrepel](problems.md#ggrepel)                                         |0.8.0         |          |1           |         |
+|[ggridges](problems.md#ggridges)                                       |0.5.0         |          |1           |1        |
+|[ggROC](problems.md#ggroc)                                             |1.0           |          |1           |3        |
+|[ggsci](problems.md#ggsci)                                             |2.9           |          |1           |         |
+|[ggseas](problems.md#ggseas)                                           |0.5.4         |          |1           |         |
+|[ggseqlogo](problems.md#ggseqlogo)                                     |0.1           |          |1           |         |
+|[ggsignif](problems.md#ggsignif)                                       |0.4.0         |          |1           |         |
+|[ggsn](problems.md#ggsn)                                               |0.4.0         |          |1           |         |
+|[ggspatial](problems.md#ggspatial)                                     |0.2.1         |          |1           |         |
+|[ggspectra](problems.md#ggspectra)                                     |0.2.4-1       |          |1           |         |
+|[ggstance](problems.md#ggstance)                                       |0.3           |__+1__    |1           |1        |
+|[ggstatsplot](problems.md#ggstatsplot)                                 |0.0.3         |          |1           |         |
+|[ggswissmaps](problems.md#ggswissmaps)                                 |0.1.1         |          |1           |         |
+|[ggtern](problems.md#ggtern)                                           |2.2.1         |1         |            |         |
+|[ggThemeAssist](problems.md#ggthemeassist)                             |0.1.5         |          |1           |         |
+|ggthemes                                                               |?             |          |            |         |
+|[GGtools](problems.md#ggtools)                                         |5.16.0        |1         |            |6        |
+|[ggtree](problems.md#ggtree)                                           |1.12.0        |          |1 __+1__    |1        |
+|[ghibli](problems.md#ghibli)                                           |0.1.1         |          |1           |1        |
+|[gitter](problems.md#gitter)                                           |1.1.1         |          |5           |4        |
+|[GJRM](problems.md#gjrm)                                               |0.1-4         |          |1           |         |
+|[glmmTMB](problems.md#glmmtmb)                                         |0.2.1.0       |1         |            |1        |
+|[glue](problems.md#glue)                                               |1.2.0         |          |1           |         |
+|[gMOIP](problems.md#gmoip)                                             |1.1.0         |          |1           |         |
+|[GOexpress](problems.md#goexpress)                                     |1.14.0        |          |1           |5        |
+|[gofMC](problems.md#gofmc)                                             |1.1.2         |          |1           |         |
+|[gogamer](problems.md#gogamer)                                         |0.4.3         |1         |1           |         |
+|[GoogleGenomics](problems.md#googlegenomics)                           |2.2.0         |1         |1           |1        |
+|[googlesheets](problems.md#googlesheets)                               |0.2.2         |          |1           |         |
+|[GOplot](problems.md#goplot)                                           |1.0.2         |          |1           |         |
+|[GOsummaries](problems.md#gosummaries)                                 |2.16.1        |          |1           |3        |
+|[GOTHiC](problems.md#gothic)                                           |1.16.0        |          |2           |2        |
+|[gpmap](problems.md#gpmap)                                             |0.1.1         |          |1           |3        |
+|[gQTLstats](problems.md#gqtlstats)                                     |1.12.0        |1         |            |4        |
+|[granovaGG](problems.md#granovagg)                                     |1.4.0         |          |1           |         |
+|[grapherator](problems.md#grapherator)                                 |1.0.0         |          |1           |1        |
+|[GraphPCA](problems.md#graphpca)                                       |1.1           |          |1           |         |
+|[grattan](problems.md#grattan)                                         |1.6.0.0       |          |1           |1        |
+|[Greg](problems.md#greg)                                               |1.2.2         |          |1           |1        |
+|[GRENITS](problems.md#grenits)                                         |1.32.0        |          |1           |3        |
+|[greport](problems.md#greport)                                         |0.7-1         |          |1           |1        |
+|[gridDebug](problems.md#griddebug)                                     |0.5-0         |          |1           |         |
+|[gridExtra](problems.md#gridextra)                                     |2.3           |          |1           |         |
+|[gridsampler](problems.md#gridsampler)                                 |0.6           |          |1           |1        |
+|[GRmetrics](problems.md#grmetrics)                                     |1.6.0         |          |1           |1        |
+|[GROAN](problems.md#groan)                                             |1.1.0         |          |1           |         |
+|[groupdata2](problems.md#groupdata2)                                   |1.0.0         |          |1           |         |
+|[growcurves](problems.md#growcurves)                                   |0.2.4.1       |          |1           |         |
+|[growfunctions](problems.md#growfunctions)                             |0.14          |          |1           |         |
+|[growthcurver](problems.md#growthcurver)                               |0.2.1         |          |1           |         |
+|[GSCA](problems.md#gsca)                                               |2.10.0        |          |1           |4        |
+|[gsDesign](problems.md#gsdesign)                                       |3.0-1         |          |2           |1        |
+|[GSE](problems.md#gse)                                                 |4.1           |          |1           |1        |
+|[gsloid](problems.md#gsloid)                                           |0.1.0         |          |1           |         |
+|[GSODR](problems.md#gsodr)                                             |1.2.0         |          |1           |         |
+|[GSparO](problems.md#gsparo)                                           |1.0           |          |1           |         |
+|[gsynth](problems.md#gsynth)                                           |1.0.6         |          |1           |         |
+|[gtrendsR](problems.md#gtrendsr)                                       |1.4.1         |          |1           |         |
+|[GUIgems](problems.md#guigems)                                         |0.1           |1         |            |         |
+|[Guitar](problems.md#guitar)                                           |1.18.0        |1         |            |3        |
+|[gunsales](problems.md#gunsales)                                       |0.1.2         |          |1           |         |
+|[gutenbergr](problems.md#gutenbergr)                                   |0.1.4         |          |1           |1        |
+|[gwascat](problems.md#gwascat)                                         |2.12.0        |-1 __+2__ |1           |6        |
+|[gwdegree](problems.md#gwdegree)                                       |0.1.1         |          |1           |         |
+|[gWQS](problems.md#gwqs)                                               |1.1.0         |          |1           |         |
+|[h2o](problems.md#h2o)                                                 |3.18.0.11     |          |1           |1        |
+|[h5vc](problems.md#h5vc)                                               |2.14.0        |          |1           |2        |
+|[Haplin](problems.md#haplin)                                           |7.0.0         |          |1           |1        |
+|[harrietr](problems.md#harrietr)                                       |0.2.3         |          |1           |         |
+|[hazus](problems.md#hazus)                                             |0.1           |          |1           |1        |
+|[hBayesDM](problems.md#hbayesdm)                                       |0.5.0         |          |1           |1        |
+|[HBP](problems.md#hbp)                                                 |0.1.2         |          |1           |         |
+|[HDCytoData](problems.md#hdcytodata)                                   |1.0.0         |          |1           |         |
+|[hdm](problems.md#hdm)                                                 |0.2.3         |          |2           |         |
+|[hdme](problems.md#hdme)                                               |0.2.0         |          |1           |1        |
+|[hdnom](problems.md#hdnom)                                             |5.0           |          |1           |         |
+|[hdrcde](problems.md#hdrcde)                                           |3.2           |          |1           |         |
+|[healthcareai](problems.md#healthcareai)                               |2.0.0         |__+1__    |1           |         |
+|[heatmaply](problems.md#heatmaply)                                     |0.14.1        |__+1__    |1           |1 -1     |
+|[heatwaveR](problems.md#heatwaver)                                     |0.2.7         |__+1__    |1           |1        |
+|[heemod](problems.md#heemod)                                           |0.9.2         |          |1           |         |
+|[hei](problems.md#hei)                                                 |0.1.0         |          |1           |1        |
+|[hesim](problems.md#hesim)                                             |0.1.0         |          |1           |         |
+|[heuristica](problems.md#heuristica)                                   |1.0.1         |          |1           |         |
+|[hexSticker](problems.md#hexsticker)                                   |0.4.3         |          |1           |         |
+|[hhi](problems.md#hhi)                                                 |1.1.0         |          |1           |         |
+|[hiAnnotator](problems.md#hiannotator)                                 |1.14.0        |          |1           |2        |
+|[HIBAG](problems.md#hibag)                                             |1.16.0        |          |1           |         |
+|[HiCcompare](problems.md#hiccompare)                                   |1.2.0         |          |1           |2        |
+|[hierarchicalDS](problems.md#hierarchicalds)                           |2.9           |          |1           |1        |
+|[hierarchicalSets](problems.md#hierarchicalsets)                       |1.0.2         |          |1           |1        |
+|[highcharter](problems.md#highcharter)                                 |0.5.0         |          |1           |1        |
+|[HighDimOut](problems.md#highdimout)                                   |1.0.0         |          |1           |1        |
+|[hIRT](problems.md#hirt)                                               |0.1.2         |          |1           |         |
+|[HistData](problems.md#histdata)                                       |0.8-4         |          |1           |1        |
+|[HistDAWass](problems.md#histdawass)                                   |1.0.1         |          |1           |         |
+|[historydata](problems.md#historydata)                                 |0.1           |          |1           |         |
+|[HLMdiag](problems.md#hlmdiag)                                         |0.3.1         |          |1           |         |
+|[Hmisc](problems.md#hmisc)                                             |4.1-1         |          |1           |         |
+|[HMP](problems.md#hmp)                                                 |1.5.1         |          |1           |1        |
+|[HMP16SData](problems.md#hmp16sdata)                                   |1.0.0         |          |1           |1        |
+|[HoRM](problems.md#horm)                                               |0.1.1         |          |1           |         |
+|[horserule](problems.md#horserule)                                     |1.0.0         |          |1           |1        |
+|[hrbrthemes](problems.md#hrbrthemes)                                   |0.5.0         |          |1           |         |
+|[HRM](problems.md#hrm)                                                 |0.9.1         |          |1           |1        |
+|[HTSSIP](problems.md#htssip)                                           |1.4.0         |1         |            |1        |
+|[httk](problems.md#httk)                                               |1.8           |          |1           |1        |
+|[hurricaneexposure](problems.md#hurricaneexposure)                     |0.0.1         |          |1           |1        |
+|[hutils](problems.md#hutils)                                           |1.1.0         |          |1           |         |
+|[huxtable](problems.md#huxtable)                                       |4.0.0         |1         |1           |         |
+|[HWxtest](problems.md#hwxtest)                                         |1.1.7         |          |1           |         |
+|[hybridModels](problems.md#hybridmodels)                               |0.3.5         |          |1           |         |
+|[hydrolinks](problems.md#hydrolinks)                                   |0.10.0        |          |1           |1        |
+|[hydroscoper](problems.md#hydroscoper)                                 |1.0.0         |          |1           |1        |
+|[hyfo](problems.md#hyfo)                                               |1.3.9         |          |1           |         |
+|[hyperSpec](problems.md#hyperspec)                                     |0.99-20171005 |__+1__    |1           |3        |
+|[IAPWS95](problems.md#iapws95)                                         |1.0.0         |          |1           |2        |
+|[IAT](problems.md#iat)                                                 |0.3           |          |1           |         |
+|[ibmdbR](problems.md#ibmdbr)                                           |1.50.0        |          |2           |1        |
+|[iBMQ](problems.md#ibmq)                                               |1.20.0        |1         |            |1        |
+|[icarus](problems.md#icarus)                                           |0.3.0         |1         |1           |1        |
+|[iCNV](problems.md#icnv)                                               |1.0.0         |          |2           |         |
+|[iCOBRA](problems.md#icobra)                                           |1.8.0         |          |1           |         |
+|[icr](problems.md#icr)                                                 |0.5.4         |          |1           |         |
+|[ICtest](problems.md#ictest)                                           |0.3-1         |          |1           |1        |
+|[IDE](problems.md#ide)                                                 |0.1.0         |          |2           |         |
+|[ideal](problems.md#ideal)                                             |1.4.0         |1         |            |2        |
+|[idealstan](problems.md#idealstan)                                     |0.2.7         |          |2           |1        |
+|[idm](problems.md#idm)                                                 |1.8.1         |          |1           |         |
+|[ifaTools](problems.md#ifatools)                                       |0.14          |          |2           |         |
+|[IGP](problems.md#igp)                                                 |0.1.0         |          |1           |         |
+|[IHW](problems.md#ihw)                                                 |1.8.0         |          |1           |2        |
+|[IHWpaper](problems.md#ihwpaper)                                       |1.7.0         |          |3           |2        |
+|[iJRF](problems.md#ijrf)                                               |1.1-4         |          |1           |         |
+|[imageData](problems.md#imagedata)                                     |0.1-50        |          |1           |         |
+|[imager](problems.md#imager)                                           |0.41.1        |          |1           |1        |
+|[imaginator](problems.md#imaginator)                                   |0.1.1         |          |1           |         |
+|[IMAS](problems.md#imas)                                               |1.4.0         |          |1           |1        |
+|[imbalance](problems.md#imbalance)                                     |1.0.0         |          |1           |         |
+|[Imetagene](problems.md#imetagene)                                     |1.10.0        |          |1           |         |
+|[iml](problems.md#iml)                                                 |0.5.1         |          |1           |         |
+|[ImmuneSpaceR](problems.md#immunespacer)                               |1.8.1         |1         |2           |1        |
+|[IMP](problems.md#imp)                                                 |1.1           |          |1           |         |
+|[ImpulseDE2](problems.md#impulsede2)                                   |1.4.0         |          |1           |1        |
+|[imputeTestbench](problems.md#imputetestbench)                         |3.0.1         |          |1 __+1__    |         |
+|[IncDTW](problems.md#incdtw)                                           |1.0.3         |          |1           |         |
+|[incidence](problems.md#incidence)                                     |1.3.1         |          |1           |         |
+|[incR](problems.md#incr)                                               |1.1.0         |          |1           |1        |
+|[inctools](problems.md#inctools)                                       |1.0.11        |          |1           |         |
+|[IncucyteDRC](problems.md#incucytedrc)                                 |0.5.4         |          |1           |         |
+|[INDperform](problems.md#indperform)                                   |0.1.0         |__+1__    |1           |1        |
+|[iNEXT](problems.md#inext)                                             |2.0.12        |          |1           |         |
+|[iNextPD](problems.md#inextpd)                                         |0.3.2         |          |1           |         |
+|[infer](problems.md#infer)                                             |0.2.0         |          |1           |         |
+|[Information](problems.md#information)                                 |0.0.9         |          |1           |         |
+|[InformationValue](problems.md#informationvalue)                       |1.2.3         |          |1           |1        |
+|[inlabru](problems.md#inlabru)                                         |2.1.3         |          |1           |2        |
+|[InSilicoVA](problems.md#insilicova)                                   |1.2.0         |          |1           |         |
+|[InTAD](problems.md#intad)                                             |1.0.0         |          |1           |         |
+|[IntClust](problems.md#intclust)                                       |0.0.2         |          |1           |2        |
+|[IntegratedJM](problems.md#integratedjm)                               |1.6           |          |1           |         |
+|[IntegratedMRF](problems.md#integratedmrf)                             |1.1.8         |          |1           |         |
+|[interactiveDisplay](problems.md#interactivedisplay)                   |1.18.0        |          |3           |2        |
+|[interflex](problems.md#interflex)                                     |1.0.4         |          |1           |         |
+|[interplot](problems.md#interplot)                                     |0.1.5         |          |1           |         |
+|[intsvy](problems.md#intsvy)                                           |2.1           |          |1           |         |
+|[IONiseR](problems.md#ioniser)                                         |2.4.0         |          |1           |2        |
+|[ipft](problems.md#ipft)                                               |0.7.2         |          |1           |         |
+|[iprior](problems.md#iprior)                                           |0.7.1         |          |1           |         |
+|[IPtoCountry](problems.md#iptocountry)                                 |0.0.1         |          |1           |         |
+|[ipumsr](problems.md#ipumsr)                                           |0.2.0         |          |1           |         |
+|[IrisSpatialFeatures](problems.md#irisspatialfeatures)                 |1.3.0         |1         |            |         |
+|[iSEE](problems.md#isee)                                               |1.0.1         |          |1           |2        |
+|[isobar](problems.md#isobar)                                           |1.26.0        |          |2           |4        |
+|[IsoformSwitchAnalyzeR](problems.md#isoformswitchanalyzer)             |1.2.0         |          |1           |3        |
+|[isomiRs](problems.md#isomirs)                                         |1.8.0         |          |1           |4        |
+|[itan](problems.md#itan)                                               |1.0           |          |1           |         |
+|[iteremoval](problems.md#iteremoval)                                   |1.0.0         |          |1           |         |
+|[ITGM](problems.md#itgm)                                               |0.6           |          |1           |         |
+|[ITNr](problems.md#itnr)                                               |0.2.0         |          |1           |1        |
+|[IVAS](problems.md#ivas)                                               |2.0.0         |          |2           |1        |
+|[ivmodel](problems.md#ivmodel)                                         |1.7.1         |          |1           |         |
+|[ivygapSE](problems.md#ivygapse)                                       |1.2.0         |          |1           |2        |
+|[iWISA](problems.md#iwisa)                                             |1.0-2         |          |1           |         |
+|[jcext](problems.md#jcext)                                             |0.1           |          |1           |         |
+|[jcolors](problems.md#jcolors)                                         |0.0.2         |__+1__    |1           |         |
+|[jmv](problems.md#jmv)                                                 |0.8.6.2       |          |1           |1        |
+|[jmvcore](problems.md#jmvcore)                                         |0.9.1         |          |1           |         |
+|[joineRmeta](problems.md#joinermeta)                                   |0.1.1         |          |1           |1        |
+|[joineRML](problems.md#joinerml)                                       |0.4.2         |          |2           |         |
+|[jtools](problems.md#jtools)                                           |1.0.0         |__+1__    |1 __+1__    |1        |
+|[JWileymisc](problems.md#jwileymisc)                                   |0.2.1         |          |1           |         |
+|[kamila](problems.md#kamila)                                           |0.1.1.2       |          |1           |1        |
+|[kdetrees](problems.md#kdetrees)                                       |0.1.5         |          |1           |2        |
+|[kdtools](problems.md#kdtools)                                         |0.3.1         |          |1           |         |
+|[kendallRandomWalks](problems.md#kendallrandomwalks)                   |0.9.2         |          |1           |1        |
+|[keras](problems.md#keras)                                             |2.1.6         |          |1           |         |
+|[kerasformula](problems.md#kerasformula)                               |1.0.0         |          |1           |         |
+|[kfigr](problems.md#kfigr)                                             |1.2           |          |1           |         |
+|[kgschart](problems.md#kgschart)                                       |1.3.5         |          |1           |         |
+|[kissDE](problems.md#kissde)                                           |1.0.0         |          |1           |1        |
+|[kmed](problems.md#kmed)                                               |0.0.1         |          |1           |         |
+|[knitrBootstrap](problems.md#knitrbootstrap)                           |1.0.2         |          |1           |         |
+|[konfound](problems.md#konfound)                                       |0.1.0         |          |1           |         |
+|[KraljicMatrix](problems.md#kraljicmatrix)                             |0.2.1         |          |1           |1        |
+|[KSD](problems.md#ksd)                                                 |1.0.0         |          |1           |         |
+|[l1kdeconv](problems.md#l1kdeconv)                                     |1.2.0         |          |1           |         |
+|[Lahman](problems.md#lahman)                                           |6.0-0         |          |1           |1        |
+|[LambertW](problems.md#lambertw)                                       |0.6.4         |          |2           |         |
+|[LANDD](problems.md#landd)                                             |1.1.0         |          |1           |1        |
+|[landscapetools](problems.md#landscapetools)                           |0.3.0         |          |1           |         |
+|[lans2r](problems.md#lans2r)                                           |1.0.5         |          |1           |         |
+|[largeVis](problems.md#largevis)                                       |0.2.1.1       |          |1           |1        |
+|[latex2exp](problems.md#latex2exp)                                     |0.4.0         |          |1           |         |
+|[lavaSearch2](problems.md#lavasearch2)                                 |1.3.3         |          |1 __+1__    |         |
+|[LBSPR](problems.md#lbspr)                                             |0.1.2         |          |1           |         |
+|[lda](problems.md#lda)                                                 |1.4.2         |          |1           |         |
+|[ldatuning](problems.md#ldatuning)                                     |0.2.0         |          |1           |         |
+|[LDheatmap](problems.md#ldheatmap)                                     |0.99-4        |          |1           |1        |
+|[ldhmm](problems.md#ldhmm)                                             |0.4.5         |          |1           |         |
+|[LEAP](problems.md#leap)                                               |0.2           |          |1           |1        |
+|[learningCurve](problems.md#learningcurve)                             |1.1.2         |          |1           |1        |
+|[learnstats](problems.md#learnstats)                                   |0.1.1         |          |1           |1        |
+|[LedPred](problems.md#ledpred)                                         |1.14.0        |          |1           |3        |
+|[lemon](problems.md#lemon)                                             |0.3.3         |          |1           |         |
+|[LexisPlotR](problems.md#lexisplotr)                                   |0.3           |          |1           |         |
+|[lfa](problems.md#lfa)                                                 |1.10.0        |          |3           |1        |
+|[lg](problems.md#lg)                                                   |0.1.0         |          |1           |         |
+|[lifelogr](problems.md#lifelogr)                                       |0.1.0         |          |1           |         |
+|[likeLTD](problems.md#likeltd)                                         |6.3.0         |          |1           |1        |
+|[likert](problems.md#likert)                                           |1.3.5         |          |1           |2        |
+|[lime](problems.md#lime)                                               |0.4.0         |-1        |1           |         |
+|[LINC](problems.md#linc)                                               |1.8.0         |          |1           |3        |
+|[lindia](problems.md#lindia)                                           |0.9           |          |1           |         |
+|[LineagePulse](problems.md#lineagepulse)                               |1.0.0         |          |2           |1        |
+|[linear.tools](problems.md#lineartools)                                |1.3.0         |          |1           |         |
+|[Linnorm](problems.md#linnorm)                                         |2.4.0         |          |1           |1        |
+|[listdtr](problems.md#listdtr)                                         |1.0           |          |1           |         |
+|[live](problems.md#live)                                               |1.5.7         |          |1           |1        |
+|[llama](problems.md#llama)                                             |0.9.1         |          |1           |         |
+|[lme4](problems.md#lme4)                                               |1.1-17        |          |1           |2        |
+|[lmerTest](problems.md#lmertest)                                       |3.0-1         |          |1           |         |
+|[lmms](problems.md#lmms)                                               |1.3.3         |          |1           |         |
+|[LocalControl](problems.md#localcontrol)                               |1.1.1         |          |1           |1        |
+|[LocFDRPois](problems.md#locfdrpois)                                   |1.0.0         |          |1           |1        |
+|[logihist](problems.md#logihist)                                       |1.0           |          |1           |         |
+|[logisticPCA](problems.md#logisticpca)                                 |0.2           |          |1           |         |
+|[LOGIT](problems.md#logit)                                             |1.3           |1         |1           |         |
+|[logitnorm](problems.md#logitnorm)                                     |0.8.36        |          |1           |         |
+|[Logolas](problems.md#logolas)                                         |1.4.0         |          |1           |         |
+|[lolR](problems.md#lolr)                                               |2.0           |          |1           |1        |
+|[longCatEDA](problems.md#longcateda)                                   |0.31          |          |1           |         |
+|[longRPart2](problems.md#longrpart2)                                   |0.2.3         |          |1           |         |
+|[lpdensity](problems.md#lpdensity)                                     |0.2.2         |          |1           |         |
+|[LPWC](problems.md#lpwc)                                               |0.99.3        |          |1           |1        |
+|[lsbclust](problems.md#lsbclust)                                       |1.0.5         |          |1           |         |
+|[lsl](problems.md#lsl)                                                 |0.5.6         |          |1           |         |
+|[lslx](problems.md#lslx)                                               |0.6.2         |          |1           |1        |
+|[lspartition](problems.md#lspartition)                                 |0.1           |          |1           |         |
+|[lspline](problems.md#lspline)                                         |1.0-0         |          |1           |         |
+|[ltbayes](problems.md#ltbayes)                                         |0.4           |          |1           |         |
+|[lvplot](problems.md#lvplot)                                           |0.2.0         |          |1           |         |
+|[LymphoSeq](problems.md#lymphoseq)                                     |1.8.0         |          |1           |1        |
+|[m2b](problems.md#m2b)                                                 |1.0           |          |1           |1        |
+|[M3C](problems.md#m3c)                                                 |1.2.0         |          |1           |3        |
+|[MAc](problems.md#mac)                                                 |1.1           |          |1           |3        |
+|[macleish](problems.md#macleish)                                       |0.3.2         |          |1           |         |
+|[MACPET](problems.md#macpet)                                           |1.0.0         |          |1           |         |
+|[MAd](problems.md#mad)                                                 |0.8-2         |          |1           |3        |
+|[maddison](problems.md#maddison)                                       |0.1           |          |1           |         |
+|[mafs](problems.md#mafs)                                               |0.0.3         |          |1 __+1__    |1        |
+|[maftools](problems.md#maftools)                                       |1.6.07        |          |1           |3        |
+|[MAGeCKFlute](problems.md#mageckflute)                                 |1.0.0         |1         |            |1        |
+|[magick](problems.md#magick)                                           |1.9           |1         |            |         |
+|[malariaAtlas](problems.md#malariaatlas)                               |0.0.1         |__+1__    |1           |1        |
+|[manhattanly](problems.md#manhattanly)                                 |0.2.0         |          |1           |1        |
+|[mapfuser](problems.md#mapfuser)                                       |0.1.2         |1         |            |         |
+|[mapr](problems.md#mapr)                                               |0.4.0         |          |1           |1        |
+|[margins](problems.md#margins)                                         |0.3.23        |          |2           |2        |
+|[marked](problems.md#marked)                                           |1.2.1         |          |1           |1        |
+|[marmap](problems.md#marmap)                                           |1.0           |          |1           |         |
+|[MARSS](problems.md#marss)                                             |3.10.8        |          |1           |1        |
+|[MAST](problems.md#mast)                                               |1.6.1         |          |1           |3        |
+|[matchingMarkets](problems.md#matchingmarkets)                         |0.3-5         |          |2           |1        |
+|[matrixStats](problems.md#matrixstats)                                 |0.53.1        |          |1           |         |
+|[mau](problems.md#mau)                                                 |0.1.2         |          |1           |         |
+|[MAVIS](problems.md#mavis)                                             |1.1.3         |          |1           |         |
+|[MaxentVariableSelection](problems.md#maxentvariableselection)         |1.0-3         |          |1           |         |
+|[mbgraphic](problems.md#mbgraphic)                                     |1.0.0         |          |1           |         |
+|[MCbiclust](problems.md#mcbiclust)                                     |1.4.0         |          |1           |1        |
+|[MCMC.OTU](problems.md#mcmcotu)                                        |1.0.10        |          |2           |         |
+|[MCMC.qpcr](problems.md#mcmcqpcr)                                      |1.2.3         |          |2           |         |
+|[mcMST](problems.md#mcmst)                                             |1.0.1         |          |1           |1        |
+|[Mcomp](problems.md#mcomp)                                             |2.7           |          |1           |         |
+|[mcprofile](problems.md#mcprofile)                                     |0.2-3         |          |1           |         |
+|[mCSEA](problems.md#mcsea)                                             |1.0.1         |          |1           |         |
+|[mdp](problems.md#mdp)                                                 |1.0.0         |          |1           |         |
+|[mdpeer](problems.md#mdpeer)                                           |1.0.1         |          |1           |1        |
+|[mdsr](problems.md#mdsr)                                               |0.1.5         |          |1           |2        |
+|[MEAL](problems.md#meal)                                               |1.10.1        |1         |1           |4        |
+|[meaRtools](problems.md#meartools)                                     |1.0.3         |          |1           |1        |
+|[medicalrisk](problems.md#medicalrisk)                                 |1.2           |          |1           |         |
+|[medicare](problems.md#medicare)                                       |0.2.1         |          |1           |         |
+|[medmod](problems.md#medmod)                                           |1.0.0         |          |1           |1        |
+|[MEGENA](problems.md#megena)                                           |1.3.6         |          |1           |         |
+|[mekko](problems.md#mekko)                                             |0.1.0         |          |1           |         |
+|[meltt](problems.md#meltt)                                             |0.4.0         |          |1           |         |
+|[mem](problems.md#mem)                                                 |2.13          |          |1           |         |
+|[memapp](problems.md#memapp)                                           |2.10          |          |1           |1        |
+|[meme](problems.md#meme)                                               |0.2.0         |          |1           |1        |
+|[memery](problems.md#memery)                                           |0.5.0         |          |1           |1        |
+|[MendelianRandomization](problems.md#mendelianrandomization)           |0.3.0         |          |1           |         |
+|[MergeGUI](problems.md#mergegui)                                       |0.2-1         |1         |            |         |
+|[merTools](problems.md#mertools)                                       |0.4.1         |          |1           |         |
+|[messina](problems.md#messina)                                         |1.16.0        |          |2           |3        |
+|[metabomxtr](problems.md#metabomxtr)                                   |1.14.0        |          |1           |1        |
+|[metacart](problems.md#metacart)                                       |1.0-0         |          |1           |         |
+|[metacoder](problems.md#metacoder)                                     |0.2.1         |          |1           |1        |
+|[MetaComp](problems.md#metacomp)                                       |1.1.1         |          |1           |         |
+|[MetaCyto](problems.md#metacyto)                                       |1.2.0         |          |1           |1        |
+|[metaforest](problems.md#metaforest)                                   |0.1.2         |          |1           |         |
+|[metagen](problems.md#metagen)                                         |1.0           |          |1           |1        |
+|[metagene](problems.md#metagene)                                       |2.12.1        |          |1           |3        |
+|[metaheur](problems.md#metaheur)                                       |0.2.0         |          |1           |         |
+|[MetaIntegrator](problems.md#metaintegrator)                           |1.0.3         |          |1           |         |
+|[MetaLonDA](problems.md#metalonda)                                     |1.1.0         |          |1           |         |
+|[MetamapsDB](problems.md#metamapsdb)                                   |0.0.2         |          |1           |1        |
+|[metamisc](problems.md#metamisc)                                       |0.1.9         |          |1           |         |
+|[metaMix](problems.md#metamix)                                         |0.2           |1         |            |         |
+|[metaplotr](problems.md#metaplotr)                                     |0.0.3         |          |1           |         |
+|[metaviz](problems.md#metaviz)                                         |0.2.0         |          |1           |         |
+|[meteogRam](problems.md#meteogram)                                     |1.0           |          |1           |1        |
+|[methimpute](problems.md#methimpute)                                   |1.2.0         |          |2           |         |
+|[Methplot](problems.md#methplot)                                       |1.0           |          |1           |2        |
+|[MethylAid](problems.md#methylaid)                                     |1.14.0        |1         |            |1        |
+|[methylInheritance](problems.md#methylinheritance)                     |1.4.0         |          |1           |         |
+|[MethylMix](problems.md#methylmix)                                     |2.10.0        |__+1__    |2           |1        |
+|[methylumi](problems.md#methylumi)                                     |2.26.0        |          |4           |8        |
+|[methyvim](problems.md#methyvim)                                       |1.2.0         |          |1           |         |
+|[metricsgraphics](problems.md#metricsgraphics)                         |0.9.0         |          |1           |         |
+|[mfa](problems.md#mfa)                                                 |1.2.0         |          |1           |         |
+|[mfGARCH](problems.md#mfgarch)                                         |0.1.3         |          |1           |         |
+|[mgc](problems.md#mgc)                                                 |1.0.1         |          |1           |         |
+|[MGLM](problems.md#mglm)                                               |0.1.0         |          |1           |         |
+|[mglR](problems.md#mglr)                                               |0.1.0         |__+1__    |-1          |         |
+|[mhtboot](problems.md#mhtboot)                                         |1.3.3         |          |2           |         |
+|[microbenchmark](problems.md#microbenchmark)                           |1.4-4         |          |1           |         |
+|[microbiome](problems.md#microbiome)                                   |1.2.1         |          |1           |         |
+|[micromap](problems.md#micromap)                                       |1.9.3         |          |1           |1        |
+|[microplot](problems.md#microplot)                                     |1.0-39        |          |1           |1        |
+|[microsamplingDesign](problems.md#microsamplingdesign)                 |1.0.2         |          |1           |         |
+|[MIGSA](problems.md#migsa)                                             |1.4.0         |1         |1           |1        |
+|[milr](problems.md#milr)                                               |0.3.0         |          |1           |         |
+|[MIMOSA](problems.md#mimosa)                                           |1.18.0        |          |2           |2        |
+|[MineICA](problems.md#mineica)                                         |1.20.0        |          |1           |5        |
+|[MIRA](problems.md#mira)                                               |1.2.0         |          |1           |         |
+|[MiRAnorm](problems.md#miranorm)                                       |1.0.0         |          |1           |1        |
+|[mirIntegrator](problems.md#mirintegrator)                             |1.10.0        |          |1           |2        |
+|[Mirsynergy](problems.md#mirsynergy)                                   |1.16.0        |          |1           |1        |
+|[miscset](problems.md#miscset)                                         |1.1.0         |          |1           |         |
+|[MissingDataGUI](problems.md#missingdatagui)                           |0.2-5         |1         |            |         |
+|[missRows](problems.md#missrows)                                       |1.0.0         |          |2           |         |
+|[mistat](problems.md#mistat)                                           |1.0-5         |          |1           |1        |
+|[mistral](problems.md#mistral)                                         |2.1.0         |          |1           |         |
+|[MIXFIM](problems.md#mixfim)                                           |1.0           |          |1           |         |
+|[mixKernel](problems.md#mixkernel)                                     |0.1           |          |1           |         |
+|[mixOmics](problems.md#mixomics)                                       |6.3.2         |          |1           |1        |
+|[mixpack](problems.md#mixpack)                                         |0.3.6         |          |1           |         |
+|[mixR](problems.md#mixr)                                               |0.1.1         |          |1           |         |
+|[MixSIAR](problems.md#mixsiar)                                         |3.1.10        |2         |1           |2        |
+|[mizer](problems.md#mizer)                                             |1.0           |1         |2           |1        |
+|[MKmisc](problems.md#mkmisc)                                           |1.0           |          |1           |1        |
+|[mlbgameday](problems.md#mlbgameday)                                   |0.1.2         |          |1           |1        |
+|[mleap](problems.md#mleap)                                             |0.1.2         |          |1           |         |
+|[mlmc](problems.md#mlmc)                                               |1.0.0         |          |1           |         |
+|[mlogit](problems.md#mlogit)                                           |0.3-0         |          |2           |         |
+|[mlr](problems.md#mlr)                                                 |2.12.1        |          |1           |1        |
+|[mlrMBO](problems.md#mlrmbo)                                           |1.1.1         |          |1           |         |
+|[MLSeq](problems.md#mlseq)                                             |1.20.3        |          |2           |1        |
+|[mlxR](problems.md#mlxr)                                               |3.3.0         |          |1           |         |
+|MLZ                                                                    |?             |          |            |         |
+|[MMDiff2](problems.md#mmdiff2)                                         |1.8.0         |          |2           |3        |
+|[mmpf](problems.md#mmpf)                                               |0.0.4         |          |1           |         |
+|[MMPPsampler](problems.md#mmppsampler)                                 |1.0           |          |1           |         |
+|[mnreadR](problems.md#mnreadr)                                         |2.0.0         |          |1           |         |
+|[Mobilize](problems.md#mobilize)                                       |2.16-4        |          |1           |1        |
+|[modcmfitr](problems.md#modcmfitr)                                     |0.1.0         |          |1           |         |
+|[model4you](problems.md#model4you)                                     |0.9-2         |          |1           |         |
+|[modeldb](problems.md#modeldb)                                         |0.1.0         |          |1           |         |
+|[modelr](problems.md#modelr)                                           |0.1.2         |          |1           |         |
+|[moderndive](problems.md#moderndive)                                   |0.1.1         |          |1           |         |
+|[MOEADr](problems.md#moeadr)                                           |1.1.0         |          |1           |         |
+|[momentuHMM](problems.md#momentuhmm)                                   |1.4.1         |1         |2           |1        |
+|[Momocs](problems.md#momocs)                                           |1.2.9         |          |1           |         |
+|[monocle](problems.md#monocle)                                         |2.8.0         |          |2           |3        |
+|[MonteCarlo](problems.md#montecarlo)                                   |1.0.5         |          |1           |         |
+|[moonBook](problems.md#moonbook)                                       |0.1.8         |          |1           |         |
+|[morse](problems.md#morse)                                             |3.1.1         |1         |            |         |
+|[mortAAR](problems.md#mortaar)                                         |1.0.0         |          |1           |         |
+|[MortalityTables](problems.md#mortalitytables)                         |1.0           |          |1           |1        |
+|[mosaic](problems.md#mosaic)                                           |1.2.0         |__+1__    |2           |2        |
+|[mosaicData](problems.md#mosaicdata)                                   |0.16.0        |          |1           |1        |
+|[mosaicModel](problems.md#mosaicmodel)                                 |0.3.0         |          |1 __+1__    |1        |
+|[mousetrap](problems.md#mousetrap)                                     |3.1.0         |          |1           |         |
+|[moveHMM](problems.md#movehmm)                                         |1.6           |          |2           |         |
+|[moveVis](problems.md#movevis)                                         |0.9.6         |          |1           |         |
+|[mplot](problems.md#mplot)                                             |1.0.1         |          |1           |         |
+|[MplusAutomation](problems.md#mplusautomation)                         |0.7-2         |          |2           |         |
+|[mpoly](problems.md#mpoly)                                             |1.0.5         |          |1           |         |
+|[mrfDepth](problems.md#mrfdepth)                                       |1.0.6         |          |1           |         |
+|[mrMLM](problems.md#mrmlm)                                             |3.0           |          |1           |         |
+|[mrMLM.GUI](problems.md#mrmlmgui)                                      |3.1           |          |1           |         |
+|[MRMR](problems.md#mrmr)                                               |0.1.4         |          |1           |         |
+|[MSCMT](problems.md#mscmt)                                             |1.3.3         |1         |            |         |
+|[MSG](problems.md#msg)                                                 |0.3           |          |1           |         |
+|[msgbsR](problems.md#msgbsr)                                           |1.4.0         |__+1__    |2           |3        |
+|[MSnbase](problems.md#msnbase)                                         |2.6.1         |1         |            |3        |
+|[MSnID](problems.md#msnid)                                             |1.14.0        |          |1           |2        |
+|[msPurity](problems.md#mspurity)                                       |1.6.2         |1         |            |2        |
+|[MSstats](problems.md#msstats)                                         |3.12.2        |          |1           |1        |
+|[MSstatsQC](problems.md#msstatsqc)                                     |1.2.0         |          |1           |1        |
+|[mtconnectR](problems.md#mtconnectr)                                   |1.1.0         |          |1           |         |
+|[mthapower](problems.md#mthapower)                                     |0.1.0         |          |1           |         |
+|[mudata2](problems.md#mudata2)                                         |1.0.2         |          |1           |         |
+|[mudfold](problems.md#mudfold)                                         |1.1.0         |          |1           |         |
+|[multdyn](problems.md#multdyn)                                         |1.6           |          |1           |         |
+|[MultiBD](problems.md#multibd)                                         |0.2.0         |          |2           |         |
+|[MultiDataSet](problems.md#multidataset)                               |1.8.0         |          |1           |3        |
+|[multiDimBio](problems.md#multidimbio)                                 |1.1.1         |          |1           |         |
+|[multilevelPSA](problems.md#multilevelpsa)                             |1.2.5         |          |1           |         |
+|[MultiMeta](problems.md#multimeta)                                     |0.1           |          |1           |1        |
+|[multipanelfigure](problems.md#multipanelfigure)                       |1.0.0         |          |1           |         |
+|[multiROC](problems.md#multiroc)                                       |1.0.0         |          |1           |1        |
+|[MultisiteMediation](problems.md#multisitemediation)                   |0.0.2         |          |1           |         |
+|[munsell](problems.md#munsell)                                         |0.5.0         |          |1           |         |
+|[musica](problems.md#musica)                                           |0.1.3         |          |1           |         |
+|[MutationalPatterns](problems.md#mutationalpatterns)                   |1.6.1         |          |1           |1        |
+|[mutSignatures](problems.md#mutsignatures)                             |1.2           |          |1           |         |
+|[mvdalab](problems.md#mvdalab)                                         |1.4           |          |1           |         |
+|[mvtboost](problems.md#mvtboost)                                       |0.5.0         |          |1           |         |
+|[MWASTools](problems.md#mwastools)                                     |1.4.0         |          |1           |1        |
+|[mwaved](problems.md#mwaved)                                           |1.1.5         |1         |            |         |
+|[myTAI](problems.md#mytai)                                             |0.8.0         |          |1           |1        |
+|[naniar](problems.md#naniar)                                           |0.3.1         |          |1           |         |
+|[natserv](problems.md#natserv)                                         |0.1.4         |          |1           |         |
+|[NeatMap](problems.md#neatmap)                                         |0.3.6.2       |          |1           |2        |
+|[neatmaps](problems.md#neatmaps)                                       |1.0.7         |          |1           |         |
+|[netgen](problems.md#netgen)                                           |1.3           |          |1           |         |
+|[nethet](problems.md#nethet)                                           |1.12.0        |          |2           |1        |
+|[netprioR](problems.md#netprior)                                       |1.6.0         |          |1           |         |
+|[netrankr](problems.md#netrankr)                                       |0.2.0         |          |1           |         |
+|[netresponse](problems.md#netresponse)                                 |1.40.0        |          |2           |1        |
+|[netSmooth](problems.md#netsmooth)                                     |1.0.1         |          |2           |2        |
+|[NetworkChange](problems.md#networkchange)                             |0.3           |          |1           |1        |
+|[NetworkExtinction](problems.md#networkextinction)                     |0.1.0         |          |1           |         |
+|[NetworkInference](problems.md#networkinference)                       |1.2.1         |2         |2           |         |
+|[networkreporting](problems.md#networkreporting)                       |0.1.1         |          |1           |         |
+|NetworkRiskMeasures                                                    |?             |          |            |         |
+|networktools                                                           |?             |          |            |         |
+|[NeuralNetTools](problems.md#neuralnettools)                           |1.5.1         |          |1           |         |
+|[neurobase](problems.md#neurobase)                                     |1.26.1        |          |1           |         |
+|[neuropsychology](problems.md#neuropsychology)                         |0.5.0         |          |1           |1        |
+|[neutralitytestr](problems.md#neutralitytestr)                         |0.0.2         |          |1           |         |
+|[NFP](problems.md#nfp)                                                 |0.99.2        |          |2           |2        |
+|[nhstplot](problems.md#nhstplot)                                       |1.0.1         |          |1           |         |
+|[nima](problems.md#nima)                                               |0.5.0         |          |1           |1        |
+|[nimble](problems.md#nimble)                                           |0.6-11        |          |1           |1        |
+|[NIRStat](problems.md#nirstat)                                         |1.0           |          |1           |         |
+|[nlmixr](problems.md#nlmixr)                                           |0.9.1-0       |          |1           |1        |
+|[nls.multstart](problems.md#nlsmultstart)                              |1.0.0         |          |1           |         |
+|[nlstimedist](problems.md#nlstimedist)                                 |1.1.1         |          |1           |         |
+|[NlsyLinks](problems.md#nlsylinks)                                     |2.0.6         |          |2           |1        |
+|[nLTT](problems.md#nltt)                                               |1.4           |          |1           |1        |
+|[nmathresh](problems.md#nmathresh)                                     |0.1.3         |          |1           |         |
+|[NMF](problems.md#nmf)                                                 |0.21.0        |          |2           |1        |
+|[NNTbiomarker](problems.md#nntbiomarker)                               |0.29.11       |          |1           |         |
+|[noaastormevents](problems.md#noaastormevents)                         |0.1.0         |          |1           |2        |
+|[NOAAWeather](problems.md#noaaweather)                                 |0.1.0         |          |1           |1        |
+|[nonmem2R](problems.md#nonmem2r)                                       |0.1.9         |          |1           |         |
+|[nord](problems.md#nord)                                               |0.0.1         |          |1           |         |
+|[NormalizeMets](problems.md#normalizemets)                             |0.25          |          |1           |3        |
+|[NORRRM](problems.md#norrrm)                                           |1.0.0         |          |1           |1        |
+|[nparACT](problems.md#nparact)                                         |0.8           |          |1           |         |
+|[NPflow](problems.md#npflow)                                           |0.13.1        |          |1           |         |
+|[npregfast](problems.md#npregfast)                                     |1.5.1         |          |1           |         |
+|[nprobust](problems.md#nprobust)                                       |0.1.3         |          |1           |         |
+|[nucleR](problems.md#nucler)                                           |2.12.0        |          |1           |         |
+|[nullabor](problems.md#nullabor)                                       |0.3.1         |          |1           |1        |
+|[nzelect](problems.md#nzelect)                                         |0.4.0         |          |1           |2        |
+|[oaPlots](problems.md#oaplots)                                         |0.0.25        |          |1           |         |
+|[oaxaca](problems.md#oaxaca)                                           |0.1.4         |          |2           |         |
+|[obAnalytics](problems.md#obanalytics)                                 |0.1.1         |          |1           |         |
+|[observer](problems.md#observer)                                       |0.1.2         |          |1           |1        |
+|[oddsratio](problems.md#oddsratio)                                     |1.0.2         |__+2__    |1 __+1__    |         |
+|[OECD](problems.md#oecd)                                               |0.2.2         |1         |2           |         |
+|[officer](problems.md#officer)                                         |0.3.1         |          |1           |         |
+|[olsrr](problems.md#olsrr)                                             |0.5.1         |          |1           |         |
+|[omicRexposome](problems.md#omicrexposome)                             |1.2.0         |          |2           |         |
+|[OmicsPLS](problems.md#omicspls)                                       |1.1.0         |          |1           |         |
+|[oncomix](problems.md#oncomix)                                         |1.2.0         |          |1           |         |
+|[OncoSimulR](problems.md#oncosimulr)                                   |2.10.0        |1         |1           |1        |
+|[onemap](problems.md#onemap)                                           |2.1.1         |          |2           |1        |
+|[onewaytests](problems.md#onewaytests)                                 |1.7           |          |1           |         |
+|[OpasnetUtils](problems.md#opasnetutils)                               |1.3           |          |1           |         |
+|[openEBGM](problems.md#openebgm)                                       |0.6.0         |          |1           |         |
+|[openPrimeR](problems.md#openprimer)                                   |1.2.0         |          |1           |2        |
+|[opensensmapr](problems.md#opensensmapr)                               |0.4.1         |          |1           |         |
+|[OpenStreetMap](problems.md#openstreetmap)                             |0.3.3         |          |1           |         |
+|[openVA](problems.md#openva)                                           |1.0.4         |          |1           |         |
+|[OptimClassifier](problems.md#optimclassifier)                         |0.1.4         |          |1           |         |
+|[optimParallel](problems.md#optimparallel)                             |0.7-2         |          |1           |         |
+|[optiRum](problems.md#optirum)                                         |0.37.3        |__+1__    |1           |         |
+|[optiSel](problems.md#optisel)                                         |2.0           |          |1           |         |
+|[OPWeight](problems.md#opweight)                                       |1.2.0         |          |1           |         |
+|[orderedLasso](problems.md#orderedlasso)                               |1.7           |          |1           |1        |
+|[ordinalClust](problems.md#ordinalclust)                               |1.2.1         |          |1           |         |
+|[ordinalForest](problems.md#ordinalforest)                             |2.1           |          |1           |1        |
+|[ORFik](problems.md#orfik)                                             |1.0.0         |          |1           |         |
+|[Organism.dplyr](problems.md#organismdplyr)                            |1.8.0         |          |1           |2        |
+|[orgR](problems.md#orgr)                                               |0.9.0         |          |1           |         |
+|[OriGen](problems.md#origen)                                           |1.4.3         |          |1           |1        |
+|[osmplotr](problems.md#osmplotr)                                       |0.3.0         |          |1           |1        |
+|[otvPlots](problems.md#otvplots)                                       |0.2.0         |__+1__    |1           |1        |
+|[outbreaker2](problems.md#outbreaker2)                                 |1.0.1         |          |1           |1        |
+|[OutbreakTools](problems.md#outbreaktools)                             |0.1-16        |          |2           |         |
+|[OutliersO3](problems.md#outlierso3)                                   |0.5.4         |          |1           |         |
+|[overlapping](problems.md#overlapping)                                 |1.5.0         |          |1           |         |
+|[P2C2M](problems.md#p2c2m)                                             |0.7.6         |          |1           |4        |
+|[pa](problems.md#pa)                                                   |1.2-1         |          |1           |3        |
+|[PAC](problems.md#pac)                                                 |1.0.10        |          |1           |         |
+|[packcircles](problems.md#packcircles)                                 |0.3.2         |          |1           |         |
+|[pacotest](problems.md#pacotest)                                       |0.3           |          |1           |         |
+|[padr](problems.md#padr)                                               |0.4.0         |          |1           |         |
+|[pafdR](problems.md#pafdr)                                             |1.0           |          |1           |         |
+|[pagenum](problems.md#pagenum)                                         |1.1           |          |1           |         |
+|[PairedData](problems.md#paireddata)                                   |1.1.1         |          |1           |         |
+|[paleofire](problems.md#paleofire)                                     |1.2.2         |          |1           |1        |
+|[palettetown](problems.md#palettetown)                                 |0.1.1         |          |1           |         |
+|[pals](problems.md#pals)                                               |1.5           |          |1           |         |
+|[pAnalysis](problems.md#panalysis)                                     |2.0           |          |1           |         |
+|[pandaR](problems.md#pandar)                                           |1.12.0        |          |1           |3        |
+|[pander](problems.md#pander)                                           |0.6.1         |          |1           |         |
+|[panelvar](problems.md#panelvar)                                       |0.5.1         |          |1           |1        |
+|[panelView](problems.md#panelview)                                     |1.0.1         |          |1           |         |
+|[parallelDist](problems.md#paralleldist)                               |0.2.1         |          |1           |1        |
+|[ParallelTree](problems.md#paralleltree)                               |0.1.2         |          |1           |         |
+|[ParamHelpers](problems.md#paramhelpers)                               |1.10          |1         |1           |         |
+|[paramtest](problems.md#paramtest)                                     |0.1.0         |          |1           |         |
+|[parlitools](problems.md#parlitools)                                   |0.2.1         |          |1           |1        |
+|[parsemsf](problems.md#parsemsf)                                       |0.1.1         |          |1           |1        |
+|[parSim](problems.md#parsim)                                           |0.1           |          |1           |         |
+|[partialAR](problems.md#partialar)                                     |1.0.11        |          |1           |         |
+|[partialCI](problems.md#partialci)                                     |1.1.1         |          |1           |         |
+|[PASenseWear](problems.md#pasensewear)                                 |1.0           |          |1           |         |
+|[passport](problems.md#passport)                                       |0.2.0         |          |1           |         |
+|[PASWR2](problems.md#paswr2)                                           |1.0.2         |          |1           |         |
+|[pathfindR](problems.md#pathfindr)                                     |1.2.0         |          |1           |1        |
+|[PathoStat](problems.md#pathostat)                                     |1.6.1         |          |1           |         |
+|[pathVar](problems.md#pathvar)                                         |1.10.0        |          |1           |2        |
+|[patPRO](problems.md#patpro)                                           |1.1.0         |          |1           |1        |
+|[patternplot](problems.md#patternplot)                                 |0.2           |          |1           |1        |
+|[pauwels2014](problems.md#pauwels2014)                                 |1.0           |          |1           |3        |
+|[PAWL](problems.md#pawl)                                               |0.5           |          |1           |3        |
+|Pbase                                                                  |?             |          |            |         |
+|pbcmc                                                                  |?             |          |            |         |
+|PBImisc                                                                |?             |          |            |         |
+|[PCADSC](problems.md#pcadsc)                                           |0.8.0         |          |1           |1        |
+|[pcaExplorer](problems.md#pcaexplorer)                                 |2.6.0         |          |1           |3        |
+|[pcalg](problems.md#pcalg)                                             |2.6-0         |          |1           |3        |
+|[pcaMethods](problems.md#pcamethods)                                   |1.72.0        |          |1           |2        |
+|[pcaPA](problems.md#pcapa)                                             |2.0.2         |1         |            |         |
+|[pcr](problems.md#pcr)                                                 |1.1.0         |          |2           |         |
+|[pcrcoal](problems.md#pcrcoal)                                         |1.2.0         |          |1           |         |
+|pcrsim                                                                 |?             |          |            |         |
+|[PDN](problems.md#pdn)                                                 |0.1.0         |          |1           |1        |
+|pdp                                                                    |?             |          |            |         |
+|[PDQutils](problems.md#pdqutils)                                       |0.1.6         |          |2           |         |
+|pdSpecEst                                                              |?             |          |            |         |
+|[PeakError](problems.md#peakerror)                                     |2017.06.19    |          |1           |         |
+|[PeakSegDP](problems.md#peaksegdp)                                     |2017.08.15    |          |1           |         |
+|[PeakSegJoint](problems.md#peaksegjoint)                               |2017.08.11    |          |1           |         |
+|[PeakSegOptimal](problems.md#peaksegoptimal)                           |2018.05.25    |          |1           |         |
+|[PedCNV](problems.md#pedcnv)                                           |0.1           |          |1           |3        |
+|[pems.utils](problems.md#pemsutils)                                    |0.2.17.8      |          |1           |         |
+|[penaltyLearning](problems.md#penaltylearning)                         |2017.12.08    |          |1           |         |
+|[pepStat](problems.md#pepstat)                                         |1.14.0        |          |2           |3        |
+|[peptider](problems.md#peptider)                                       |0.2.2         |          |1           |         |
+|[pequod](problems.md#pequod)                                           |0.0-5         |          |1           |         |
+|[perccalc](problems.md#perccalc)                                       |1.0.1         |          |1           |         |
+|[performanceEstimation](problems.md#performanceestimation)             |1.1.0         |          |1           |         |
+|[permubiome](problems.md#permubiome)                                   |1.1           |          |1           |         |
+|[permutes](problems.md#permutes)                                       |0.1           |          |1           |         |
+|[perry](problems.md#perry)                                             |0.2.0         |          |1           |1        |
+|[personalized](problems.md#personalized)                               |0.1.5         |          |1           |         |
+|[perspectev](problems.md#perspectev)                                   |1.1           |          |1           |         |
+|[perturbatr](problems.md#perturbatr)                                   |1.0.0         |          |1           |         |
+|[perturbR](problems.md#perturbr)                                       |0.1.1         |          |1           |         |
+|[petro.One](problems.md#petroone)                                      |0.1.3         |          |1           |1        |
+|[PGA](problems.md#pga)                                                 |1.10.1        |          |2           |3        |
+|[PGPC](problems.md#pgpc)                                               |1.8.0         |1         |            |5        |
+|[PGRdup](problems.md#pgrdup)                                           |0.2.3.3       |          |1           |1        |
+|[phantasus](problems.md#phantasus)                                     |1.0.1         |          |1           |4        |
+|[phase1RMD](problems.md#phase1rmd)                                     |1.0.8         |1         |            |         |
+|[PhaseType](problems.md#phasetype)                                     |0.1.3         |          |2           |3        |
+|[phateR](problems.md#phater)                                           |0.2.7         |          |1           |         |
+|[phenopath](problems.md#phenopath)                                     |1.4.0         |          |1           |         |
+|[phenoTest](problems.md#phenotest)                                     |1.28.0        |          |1           |7        |
+|[PhenotypeSimulator](problems.md#phenotypesimulator)                   |0.2.2         |          |1           |         |
+|[PhenStat](problems.md#phenstat)                                       |2.16.0        |          |1           |1        |
+|[philr](problems.md#philr)                                             |1.6.0         |          |1           |2        |
+|[phonics](problems.md#phonics)                                         |1.0.0         |          |1           |         |
+|[photobiologyFilters](problems.md#photobiologyfilters)                 |0.4.4         |          |1           |1        |
+|[photobiologyInOut](problems.md#photobiologyinout)                     |0.4.14        |          |1           |         |
+|[photobiologyLamps](problems.md#photobiologylamps)                     |0.4.2         |          |1           |2        |
+|[photobiologyLEDs](problems.md#photobiologyleds)                       |0.4.3-1       |          |1           |         |
+|[photobiologyPlants](problems.md#photobiologyplants)                   |0.4.1         |          |2           |         |
+|[photobiologySensors](problems.md#photobiologysensors)                 |0.4.0         |          |1           |         |
+|[photobiologySun](problems.md#photobiologysun)                         |0.4.0         |          |1           |         |
+|[Phxnlme](problems.md#phxnlme)                                         |1.0.0         |          |1           |         |
+|[PhyInformR](problems.md#phyinformr)                                   |1.0           |          |1           |1        |
+|[phylopath](problems.md#phylopath)                                     |1.0.0         |          |1           |         |
+|[phyloseq](problems.md#phyloseq)                                       |1.24.0        |__+1__    |1 __+1__    |3        |
+|[phyloseqGraphTest](problems.md#phyloseqgraphtest)                     |0.0.1         |__+1__    |1 __+1__    |1        |
+|[phylosim](problems.md#phylosim)                                       |3.0.2         |1         |            |         |
+|[physiology](problems.md#physiology)                                   |0.2.2         |          |1           |         |
+|[Pi](problems.md#pi)                                                   |1.8.0         |          |1           |1        |
+|[pid](problems.md#pid)                                                 |0.36          |          |1           |         |
+|[pifpaf](problems.md#pifpaf)                                           |1.0.1         |          |1           |1        |
+|[pinbasic](problems.md#pinbasic)                                       |1.2.0         |          |1           |         |
+|[pipe.design](problems.md#pipedesign)                                  |0.5.1         |          |1           |         |
+|[pirate](problems.md#pirate)                                           |1.0.0         |          |1           |         |
+|[pitchRx](problems.md#pitchrx)                                         |1.8.2         |          |1           |1        |
+|[pivottabler](problems.md#pivottabler)                                 |0.4.0         |          |1           |1        |
+|[pkggraph](problems.md#pkggraph)                                       |0.2.2         |          |1           |         |
+|[PKgraph](problems.md#pkgraph)                                         |1.7           |1         |            |         |
+|[PKNCA](problems.md#pknca)                                             |0.8.5         |          |1           |         |
+|[PKPDmisc](problems.md#pkpdmisc)                                       |2.1.1         |          |1           |1        |
+|[PKreport](problems.md#pkreport)                                       |1.5           |          |2           |1        |
+|[planar](problems.md#planar)                                           |1.6           |          |2           |         |
+|[PlasmaMutationDetector](problems.md#plasmamutationdetector)           |1.7.2         |          |1           |         |
+|[Plasmidprofiler](problems.md#plasmidprofiler)                         |0.1.6         |          |1           |         |
+|[platetools](problems.md#platetools)                                   |0.1.0         |__+1__    |1           |         |
+|[playwith](problems.md#playwith)                                       |0.9-54        |1         |            |         |
+|[plethy](problems.md#plethy)                                           |1.18.0        |          |1           |3        |
+|[plotluck](problems.md#plotluck)                                       |1.1.0         |          |1           |1        |
+|[plotly](problems.md#plotly)                                           |4.7.1         |__+1__    |1           |1        |
+|[plotMElm](problems.md#plotmelm)                                       |0.1.5         |          |1           |         |
+|[PlotPrjNetworks](problems.md#plotprjnetworks)                         |1.0.0         |          |1           |         |
+|[plotROC](problems.md#plotroc)                                         |2.2.0         |          |1 __+1__    |         |
+|[plotrr](problems.md#plotrr)                                           |1.0.0         |          |1           |1        |
+|[plspm](problems.md#plspm)                                             |0.4.9         |          |2           |         |
+|[pltesim](problems.md#pltesim)                                         |1.0           |          |1           |         |
+|[plyranges](problems.md#plyranges)                                     |1.0.3         |          |1           |         |
+|[pmc](problems.md#pmc)                                                 |1.0.3         |          |1           |         |
+|[pmxTools](problems.md#pmxtools)                                       |0.1.0         |          |1           |1        |
+|[pogos](problems.md#pogos)                                             |1.0.0         |          |1           |1        |
+|[pointRes](problems.md#pointres)                                       |1.1.3         |          |1           |         |
+|[politeness](problems.md#politeness)                                   |0.2.4         |          |1           |         |
+|[pollstR](problems.md#pollstr)                                         |2.0.1         |          |1           |         |
+|[polypoly](problems.md#polypoly)                                       |0.0.2         |          |1           |         |
+|[pomp](problems.md#pomp)                                               |1.16          |          |1           |         |
+|[pompom](problems.md#pompom)                                           |0.1.4         |          |1           |         |
+|[pooling](problems.md#pooling)                                         |1.1.1         |          |1           |         |
+|[PopED](problems.md#poped)                                             |0.3.2         |          |1           |1        |
+|[popEpi](problems.md#popepi)                                           |0.4.5         |          |1           |         |
+|[PopGenReport](problems.md#popgenreport)                               |3.0.0         |          |2           |1        |
+|[poppr](problems.md#poppr)                                             |2.8.0         |          |2           |1        |
+|[popReconstruct](problems.md#popreconstruct)                           |1.0-5         |          |1           |1        |
+|[popsom](problems.md#popsom)                                           |4.2           |          |1           |         |
+|[populationPDXdesign](problems.md#populationpdxdesign)                 |1.0.2         |          |1           |         |
+|[PortfolioEffectHFT](problems.md#portfolioeffecthft)                   |1.8           |          |2           |1        |
+|[powerbydesign](problems.md#powerbydesign)                             |1.0.4         |          |1           |         |
+|[PowerExplorer](problems.md#powerexplorer)                             |1.0.0         |          |1           |         |
+|[powerlmm](problems.md#powerlmm)                                       |0.3.0         |          |1           |         |
+|[ppcSpatial](problems.md#ppcspatial)                                   |0.2.0         |          |1           |         |
+|[PPforest](problems.md#ppforest)                                       |0.1.1         |          |1           |         |
+|[PPInfer](problems.md#ppinfer)                                         |1.6.0         |          |1           |4        |
+|[PPQplan](problems.md#ppqplan)                                         |0.1.0         |          |1           |         |
+|[PPtreeViz](problems.md#pptreeviz)                                     |2.0.3         |          |1           |1        |
+|[pqsfinder](problems.md#pqsfinder)                                     |1.8.0         |          |1           |4        |
+|[prcbench](problems.md#prcbench)                                       |0.7.3         |          |1           |         |
+|[prcr](problems.md#prcr)                                               |0.1.5         |          |1           |         |
+|[precintcon](problems.md#precintcon)                                   |2.3.0         |          |1           |         |
+|[precrec](problems.md#precrec)                                         |0.9.1         |          |1           |         |
+|[predatory](problems.md#predatory)                                     |1.2           |          |1           |         |
+|[predictionInterval](problems.md#predictioninterval)                   |1.0.0         |          |1           |         |
+|[predictmeans](problems.md#predictmeans)                               |0.99          |          |1           |1        |
+|[PredPsych](problems.md#predpsych)                                     |0.3           |          |1           |         |
+|[preference](problems.md#preference)                                   |0.2.2         |          |1           |         |
+|[PReMiuM](problems.md#premium)                                         |3.2.0         |          |1           |         |
+|[prepplot](problems.md#prepplot)                                       |0.7           |          |1           |         |
+|[preprocomb](problems.md#preprocomb)                                   |0.3.0         |          |1           |         |
+|[preprosim](problems.md#preprosim)                                     |0.2.0         |          |1           |1        |
+|[preproviz](problems.md#preproviz)                                     |0.2.0         |          |1           |         |
+|[preText](problems.md#pretext)                                         |0.6.2         |          |1           |         |
+|[prevR](problems.md#prevr)                                             |3.3           |          |1           |1        |
+|[pRF](problems.md#prf)                                                 |1.2           |          |1           |         |
+|[pricesensitivitymeter](problems.md#pricesensitivitymeter)             |0.3.2         |          |1           |         |
+|[primerTree](problems.md#primertree)                                   |1.0.3         |          |1           |         |
+|[prism](problems.md#prism)                                             |0.0.7         |          |1           |         |
+|[PRISMA](problems.md#prisma)                                           |0.2-7         |          |1           |1        |
+|[Prize](problems.md#prize)                                             |1.10.0        |          |1           |1        |
+|[pROC](problems.md#proc)                                               |1.12.1        |          |1           |         |
+|[processmapR](problems.md#processmapr)                                 |0.3.1         |          |1           |         |
+|[processmonitR](problems.md#processmonitr)                             |0.1.0         |          |1           |         |
+|[productplots](problems.md#productplots)                               |0.1.1         |          |1           |         |
+|[profileR](problems.md#profiler)                                       |0.3-5         |          |1           |         |
+|[profr](problems.md#profr)                                             |0.3.1         |          |1           |2        |
+|[profvis](problems.md#profvis)                                         |0.3.5         |          |1           |         |
+|[ProgGUIinR](problems.md#progguiinr)                                   |0.0-4         |          |1           |3        |
+|[ProjectionBasedClustering](problems.md#projectionbasedclustering)     |1.0.7         |          |1           |         |
+|[projections](problems.md#projections)                                 |0.1.1         |          |1           |1        |
+|[ProjectTemplate](problems.md#projecttemplate)                         |0.8.2         |          |1           |         |
+|[projmanr](problems.md#projmanr)                                       |0.1.1         |          |1           |         |
+|[projpred](problems.md#projpred)                                       |0.8.0         |          |1           |         |
+|[pRoloc](problems.md#proloc)                                           |1.20.1        |1         |            |3        |
+|[pRolocGUI](problems.md#prolocgui)                                     |1.14.0        |          |1           |2        |
+|[prophet](problems.md#prophet)                                         |0.3.0.1       |          |1           |         |
+|[proportion](problems.md#proportion)                                   |2.0.0         |          |1           |1        |
+|[propr](problems.md#propr)                                             |3.5.1         |          |1           |1        |
+|[proteomics](problems.md#proteomics)                                   |0.2           |          |1           |1        |
+|[proteoQC](problems.md#proteoqc)                                       |1.16.0        |          |2           |3        |
+|[PRROC](problems.md#prroc)                                             |1.3           |          |1           |1        |
+|[PSCBS](problems.md#pscbs)                                             |0.63.0        |          |1           |1        |
+|[pscore](problems.md#pscore)                                           |0.1-2         |          |1           |1        |
+|[psd](problems.md#psd)                                                 |1.0-1         |          |2           |1        |
+|[psda](problems.md#psda)                                               |1.0.0         |          |1           |1        |
+|[pseval](problems.md#pseval)                                           |1.3.0         |          |1           |         |
+|[psichomics](problems.md#psichomics)                                   |1.6.0         |          |1           |2        |
+|[PSLM2015](problems.md#pslm2015)                                       |0.2.0         |          |1           |2        |
+|[PSTR](problems.md#pstr)                                               |1.2.1         |          |1           |         |
+|[psychmeta](problems.md#psychmeta)                                     |2.1.1         |          |1           |         |
+|psycho                                                                 |?             |          |            |         |
+|[psygenet2r](problems.md#psygenet2r)                                   |1.12.0        |          |2           |3        |
+|[psyosphere](problems.md#psyosphere)                                   |0.1.4         |          |1           |         |
+|[PTXQC](problems.md#ptxqc)                                             |0.92.3        |          |1           |1        |
+|[PUlasso](problems.md#pulasso)                                         |3.1.1         |          |1           |         |
+|[PureCN](problems.md#purecn)                                           |1.10.0        |          |2           |1        |
+|[pwr](problems.md#pwr)                                                 |1.2-2         |          |1           |         |
+|[pxweb](problems.md#pxweb)                                             |0.6.37        |          |1           |         |
+|[QCAtools](problems.md#qcatools)                                       |0.2.3         |          |1           |         |
+|[qcmetrics](problems.md#qcmetrics)                                     |1.18.0        |1         |2           |2        |
+|[qcQpcr](problems.md#qcqpcr)                                           |1.5           |          |1           |         |
+|[QCSimulator](problems.md#qcsimulator)                                 |0.0.1         |          |1           |         |
+|[qdap](problems.md#qdap)                                               |2.3.0         |          |2           |1        |
+|[qgraph](problems.md#qgraph)                                           |1.5           |          |1           |         |
+|[qicharts](problems.md#qicharts)                                       |0.5.5         |          |1           |         |
+|[qicharts2](problems.md#qicharts2)                                     |0.4.0         |          |1           |         |
+|[qqplotr](problems.md#qqplotr)                                         |0.0.2         |          |1           |1        |
+|[qrqc](problems.md#qrqc)                                               |1.34.0        |          |2           |5        |
+|[qte](problems.md#qte)                                                 |1.2.2         |          |1           |         |
+|[quadrupen](problems.md#quadrupen)                                     |0.2-6         |          |1           |         |
+|[QualInt](problems.md#qualint)                                         |1.0.0         |          |1           |2        |
+|[qualvar](problems.md#qualvar)                                         |0.2.0         |          |1           |         |
+|[quantable](problems.md#quantable)                                     |0.3.6         |          |1           |         |
+|[quanteda](problems.md#quanteda)                                       |1.3.0         |          |1           |1        |
+|QuantNorm                                                              |?             |          |            |         |
+|[quantro](problems.md#quantro)                                         |1.14.0        |          |2           |         |
+|[QuantumClone](problems.md#quantumclone)                               |1.0.0.6       |          |1           |         |
+|[queuecomputer](problems.md#queuecomputer)                             |0.8.2         |          |1           |         |
+|[quickPlot](problems.md#quickplot)                                     |0.1.3         |          |1           |2        |
+|[quickpsy](problems.md#quickpsy)                                       |0.1.5         |          |1           |         |
+|[quickReg](problems.md#quickreg)                                       |1.5.0         |          |1           |2        |
+|[quokar](problems.md#quokar)                                           |0.1.0         |          |1           |1        |
+|[qvalue](problems.md#qvalue)                                           |2.12.0        |          |2           |1        |
+|[qwraps2](problems.md#qwraps2)                                         |0.3.0         |          |1           |         |
+|[R2admb](problems.md#r2admb)                                           |0.7.16        |          |2           |         |
+|[r2glmm](problems.md#r2glmm)                                           |0.1.2         |          |1           |1        |
+|[R3CPET](problems.md#r3cpet)                                           |1.12.0        |          |2           |4        |
+|[R3port](problems.md#r3port)                                           |0.1.1         |          |1           |         |
+|[R6](problems.md#r6)                                                   |2.2.2         |          |1           |         |
+|[radiant.basics](problems.md#radiantbasics)                            |0.9.5         |          |1           |1        |
+|[radiant.data](problems.md#radiantdata)                                |0.9.5         |          |1           |1        |
+|[radiant.model](problems.md#radiantmodel)                              |0.9.5         |          |1           |2        |
+|[radiant.multivariate](problems.md#radiantmultivariate)                |0.9.5         |1         |            |         |
+|[rags2ridges](problems.md#rags2ridges)                                 |2.2           |          |1           |         |
+|[ragtop](problems.md#ragtop)                                           |0.5           |          |1           |         |
+|[raincpc](problems.md#raincpc)                                         |0.4           |          |1           |1        |
+|[RAM](problems.md#ram)                                                 |1.2.1.7       |          |1           |         |
+|[randomForestExplainer](problems.md#randomforestexplainer)             |0.9           |          |1           |1        |
+|[randomizeR](problems.md#randomizer)                                   |1.4.2         |          |2           |         |
+|[randomUniformForest](problems.md#randomuniformforest)                 |1.1.5         |          |1           |1        |
+|[rangeMapper](problems.md#rangemapper)                                 |0.3-3         |          |1           |         |
+|[raptr](problems.md#raptr)                                             |0.1.1         |2         |1           |2        |
+|[Rariant](problems.md#rariant)                                         |1.16.0        |__+1__    |1 -1 __+1__ |3        |
+|[rasterVis](problems.md#rastervis)                                     |0.45          |          |1           |         |
+|[RATest](problems.md#ratest)                                           |0.1.2         |          |2           |         |
+|[RatingScaleReduction](problems.md#ratingscalereduction)               |1.2.2         |          |1           |         |
+|[rattle](problems.md#rattle)                                           |5.1.0         |1         |            |         |
+|[rbefdata](problems.md#rbefdata)                                       |0.3.5         |          |1           |1        |
+|[RBesT](problems.md#rbest)                                             |1.3-3         |          |1           |1        |
+|[rbison](problems.md#rbison)                                           |0.6.0         |          |1           |         |
+|[RBMRB](problems.md#rbmrb)                                             |2.1.2         |          |1           |         |
+|rbokeh                                                                 |?             |          |            |         |
+|[rcartocolor](problems.md#rcartocolor)                                 |0.0.22        |          |1           |         |
+|[RCAS](problems.md#rcas)                                               |1.6.0         |          |1           |1        |
+|[rcellminer](problems.md#rcellminer)                                   |2.2.0         |          |1           |4        |
+|[rCGH](problems.md#rcgh)                                               |1.10.0        |          |2           |2        |
+|[rchess](problems.md#rchess)                                           |0.1           |          |1           |         |
+|[rclimateca](problems.md#rclimateca)                                   |1.0.2         |          |1           |1        |
+|[RcmdrPlugin.FuzzyClust](problems.md#rcmdrpluginfuzzyclust)            |1.1           |1         |            |         |
+|[RcmdrPlugin.KMggplot2](problems.md#rcmdrpluginkmggplot2)              |0.2-5         |          |1           |         |
+|[RcmdrPlugin.MA](problems.md#rcmdrpluginma)                            |0.0-2         |          |1           |         |
+|[RCMIP5](problems.md#rcmip5)                                           |1.2.0         |          |1           |         |
+|[rcongresso](problems.md#rcongresso)                                   |0.4.6         |          |1           |         |
+|[RDAVIDWebService](problems.md#rdavidwebservice)                       |1.18.0        |          |2           |4        |
+|[rddensity](problems.md#rddensity)                                     |0.2.2         |          |1           |         |
+|[rddtools](problems.md#rddtools)                                       |0.4.0         |          |1           |         |
+|[rdefra](problems.md#rdefra)                                           |0.3.4         |          |1           |         |
+|[rdi](problems.md#rdi)                                                 |1.0.0         |          |1           |         |
+|[rdiversity](problems.md#rdiversity)                                   |1.2           |          |1           |         |
+|[RDML](problems.md#rdml)                                               |0.9-9         |          |2           |1        |
+|[rdpla](problems.md#rdpla)                                             |0.2.0         |          |1           |         |
+|[RDS](problems.md#rds)                                                 |0.8-1         |          |1           |         |
+|[Rdtq](problems.md#rdtq)                                               |0.1           |          |1           |         |
+|[re2r](problems.md#re2r)                                               |0.2.0         |          |1           |1        |
+|[ReactomePA](problems.md#reactomepa)                                   |1.24.0        |          |1           |         |
+|[realestateDK](problems.md#realestatedk)                               |0.1.0         |          |1           |         |
+|[recipes](problems.md#recipes)                                         |0.1.2         |          |1           |         |
+|[recoup](problems.md#recoup)                                           |1.8.0         |          |1           |1        |
+|[reda](problems.md#reda)                                               |0.4.1         |          |1           |         |
+|[rEDM](problems.md#redm)                                               |0.6.9         |          |2           |         |
+|[refuge](problems.md#refuge)                                           |0.1.1         |          |1           |         |
+|[refund](problems.md#refund)                                           |0.1-17        |          |1           |         |
+|[refund.shiny](problems.md#refundshiny)                                |0.3.0         |          |1           |         |
+|[reghelper](problems.md#reghelper)                                     |0.3.3         |__+1__    |1           |         |
+|[regionReport](problems.md#regionreport)                               |1.14.0        |__+1__    |1 __+1__    |1        |
+|[RegularizedSCA](problems.md#regularizedsca)                           |0.5.4         |          |1           |         |
+|[ReinforcementLearning](problems.md#reinforcementlearning)             |1.0.2         |          |1           |1        |
+|[reinsureR](problems.md#reinsurer)                                     |0.1.0         |          |1           |         |
+|[RelimpPCR](problems.md#relimppcr)                                     |0.2.3         |          |1           |         |
+|[rem](problems.md#rem)                                                 |1.2.8         |          |1           |         |
+|[repijson](problems.md#repijson)                                       |0.1.0         |          |1           |         |
+|[replicationInterval](problems.md#replicationinterval)                 |2.0.1         |          |1           |         |
+|[replyr](problems.md#replyr)                                           |0.9.5         |          |1           |1        |
+|[ReporteRs](problems.md#reporters)                                     |0.8.10        |          |1           |         |
+|[ReportingTools](problems.md#reportingtools)                           |2.20.0        |1         |1           |2        |
+|[reproducer](problems.md#reproducer)                                   |0.1.9         |          |1           |         |
+|[rerddap](problems.md#rerddap)                                         |0.4.2         |          |1           |1        |
+|[reReg](problems.md#rereg)                                             |1.1.4         |          |1           |         |
+|[rERR](problems.md#rerr)                                               |0.1           |          |1           |         |
+|[reval](problems.md#reval)                                             |2.0.0         |          |1           |         |
+|[revdbayes](problems.md#revdbayes)                                     |1.3.2         |          |1           |         |
+|[rex](problems.md#rex)                                                 |1.1.2         |          |1           |         |
+|[rexposome](problems.md#rexposome)                                     |1.2.0         |          |2           |2        |
+|[rfigshare](problems.md#rfigshare)                                     |0.3.7         |          |1           |1        |
+|[rfisheries](problems.md#rfisheries)                                   |0.2           |          |1           |         |
+|[rfm](problems.md#rfm)                                                 |0.1.0         |          |1           |         |
+|[RFmarkerDetector](problems.md#rfmarkerdetector)                       |1.0.1         |          |1           |         |
+|[rfordummies](problems.md#rfordummies)                                 |0.1.3         |          |1           |         |
+|[RforProteomics](problems.md#rforproteomics)                           |1.18.1        |1         |            |1        |
+|[rfPermute](problems.md#rfpermute)                                     |2.1.5         |          |1           |1        |
+|[rgbif](problems.md#rgbif)                                             |0.9.9         |          |1           |         |
+|[RGCCA](problems.md#rgcca)                                             |2.1.2         |          |1           |         |
+|[RGraphics](problems.md#rgraphics)                                     |2.0-14        |          |1           |2        |
+|[RHMS](problems.md#rhms)                                               |1.4           |          |1           |         |
+|[ri2](problems.md#ri2)                                                 |0.1.1         |          |1           |         |
+|[RiboProfiling](problems.md#riboprofiling)                             |1.10.0        |1 __+2__  |1           |1        |
+|[Rilostat](problems.md#rilostat)                                       |0.2.1         |          |1           |         |
+|[RImagePalette](problems.md#rimagepalette)                             |0.1.1         |          |1           |         |
+|[rinat](problems.md#rinat)                                             |0.1.5         |          |1           |         |
+|[riskRegression](problems.md#riskregression)                           |2018.04.21    |          |1           |         |
+|[RITAN](problems.md#ritan)                                             |1.3.0         |-1        |__+1__      |3        |
+|[RIVER](problems.md#river)                                             |1.4.0         |          |1           |         |
+|[rivr](problems.md#rivr)                                               |1.2           |          |1           |         |
+|[RJafroc](problems.md#rjafroc)                                         |1.0.2         |          |1           |         |
+|[rKIN](problems.md#rkin)                                               |0.1           |          |1           |         |
+|[rlfsm](problems.md#rlfsm)                                             |0.1.0         |          |1           |         |
+|[RmarineHeatWaves](problems.md#rmarineheatwaves)                       |0.17.0        |          |1           |         |
+|[rmcfs](problems.md#rmcfs)                                             |1.2.11        |          |2           |         |
+|[rmcorr](problems.md#rmcorr)                                           |0.3.0         |          |1           |         |
+|[RMCriteria](problems.md#rmcriteria)                                   |0.1.0         |          |1           |1        |
+|[rmetasim](problems.md#rmetasim)                                       |3.1.7         |          |1           |         |
+|[rms](problems.md#rms)                                                 |5.1-2         |          |1           |1        |
+|[rmweather](problems.md#rmweather)                                     |0.1.1         |1         |1           |1        |
+|[RNAdecay](problems.md#rnadecay)                                       |1.0.1         |          |1           |2        |
+|[RNAseqNet](problems.md#rnaseqnet)                                     |0.1.2         |          |1           |         |
+|[RnBeads](problems.md#rnbeads)                                         |1.12.1        |1         |2           |7        |
+|[RndTexExams](problems.md#rndtexexams)                                 |1.4.1         |2         |2           |         |
+|[Rnightlights](problems.md#rnightlights)                               |0.2.1         |          |1           |         |
+|[Rnits](problems.md#rnits)                                             |1.14.0        |          |2           |2        |
+|[rnoaa](problems.md#rnoaa)                                             |0.7.0         |          |1           |         |
+|[RNOmni](problems.md#rnomni)                                           |0.4.0         |          |1           |1        |
+|[rnpn](problems.md#rnpn)                                               |0.1.0         |          |1           |         |
+|[RNRCS](problems.md#rnrcs)                                             |0.2.5         |          |1           |         |
+|[rnrfa](problems.md#rnrfa)                                             |1.4.0         |          |1           |         |
+|[robCompositions](problems.md#robcompositions)                         |2.0.8         |          |2           |2        |
+|[robmed](problems.md#robmed)                                           |0.1.1         |          |1           |         |
+|[robustbase](problems.md#robustbase)                                   |0.93-0        |__+1__    |1           |2        |
+|[robustHD](problems.md#robusthd)                                       |0.5.1         |          |1           |         |
+|[robustlmm](problems.md#robustlmm)                                     |2.2-1         |          |1           |1        |
+|[rODE](problems.md#rode)                                               |0.99.6        |          |1           |1        |
+|[Roleswitch](problems.md#roleswitch)                                   |1.18.0        |          |1           |3        |
+|[rollply](problems.md#rollply)                                         |0.5.0         |          |1           |         |
+|[rolypoly](problems.md#rolypoly)                                       |0.1.0         |          |1           |1        |
+|[ropenaq](problems.md#ropenaq)                                         |0.2.6         |          |1           |         |
+|[rorutadis](problems.md#rorutadis)                                     |0.4.2         |1         |            |         |
+|[rotations](problems.md#rotations)                                     |1.5           |          |2           |1        |
+|[rpanel](problems.md#rpanel)                                           |1.1-4         |1         |            |         |
+|[rpdo](problems.md#rpdo)                                               |0.2.3         |          |1           |         |
+|[RpeakChrom](problems.md#rpeakchrom)                                   |1.1.0         |          |1           |         |
+|[rpf](problems.md#rpf)                                                 |0.59          |          |1           |         |
+|[rplos](problems.md#rplos)                                             |0.8.0         |          |1           |         |
+|[RPPanalyzer](problems.md#rppanalyzer)                                 |1.4.5         |          |2           |1        |
+|[rPref](problems.md#rpref)                                             |1.2           |          |1           |1        |
+|[rprev](problems.md#rprev)                                             |1.0.0         |          |1           |1        |
+|[Rprofet](problems.md#rprofet)                                         |2.2.0         |          |1           |         |
+|[rpsftm](problems.md#rpsftm)                                           |1.2.2         |          |1           |         |
+|[Rqc](problems.md#rqc)                                                 |1.14.0        |          |1           |1        |
+|[RQEntangle](problems.md#rqentangle)                                   |0.1.0         |          |1           |         |
+|[rrecsys](problems.md#rrecsys)                                         |0.9.7.3       |          |1           |         |
+|[rreg](problems.md#rreg)                                               |0.2.1         |          |1           |         |
+|[rrepast](problems.md#rrepast)                                         |0.6.0         |          |1           |         |
+|[rrpack](problems.md#rrpack)                                           |0.1-7         |          |1           |         |
+|[rrr](problems.md#rrr)                                                 |1.0.0         |          |1           |1        |
+|[RSA](problems.md#rsa)                                                 |0.9.11        |          |2           |         |
+|[RSAlgaeR](problems.md#rsalgaer)                                       |1.0.0         |          |1           |         |
+|[rsample](problems.md#rsample)                                         |0.0.2         |          |1           |         |
+|[rSARP](problems.md#rsarp)                                             |1.0.0         |          |1           |1        |
+|[RSDA](problems.md#rsda)                                               |2.0.4         |          |1           |         |
+|[rsimsum](problems.md#rsimsum)                                         |0.3.1         |          |1           |         |
+|[rsinaica](problems.md#rsinaica)                                       |0.5.0         |          |1           |1        |
+|[rsMove](problems.md#rsmove)                                           |0.2.3         |          |1           |1        |
+|[rsoi](problems.md#rsoi)                                               |0.3.0         |          |1           |1        |
+|[rSQM](problems.md#rsqm)                                               |1.3.14        |          |1           |         |
+|[RSSL](problems.md#rssl)                                               |0.6.1         |          |1           |         |
+|[rstan](problems.md#rstan)                                             |2.17.3        |          |1           |1        |
+|[rstanarm](problems.md#rstanarm)                                       |2.17.4        |1         |            |3        |
+|[rstansim](problems.md#rstansim)                                       |0.1.1         |          |1           |         |
+|[RStoolbox](problems.md#rstoolbox)                                     |0.2.1         |__+1__    |1           |         |
+|[rsvd](problems.md#rsvd)                                               |0.9           |          |1           |1        |
+|[rsvg](problems.md#rsvg)                                               |1.3           |1         |            |         |
+|[RSwissMaps](problems.md#rswissmaps)                                   |0.1.0         |          |1           |1        |
+|[RTCGA](problems.md#rtcga)                                             |1.10.0        |1         |1           |3        |
+|[rtematres](problems.md#rtematres)                                     |0.2           |          |1           |         |
+|[rtf](problems.md#rtf)                                                 |0.4-13        |          |1           |1        |
+|[rtide](problems.md#rtide)                                             |0.0.4         |          |1           |         |
+|[rtimes](problems.md#rtimes)                                           |0.5.0         |          |1           |         |
+|[rtimicropem](problems.md#rtimicropem)                                 |1.3           |          |1           |1        |
+|[rtip](problems.md#rtip)                                               |1.1.1         |          |1           |         |
+|[rtrek](problems.md#rtrek)                                             |0.1.0         |          |1           |1        |
+|[rTRM](problems.md#rtrm)                                               |1.18.0        |          |2           |         |
+|[RtutoR](problems.md#rtutor)                                           |1.1           |          |1           |1        |
+|[rtweet](problems.md#rtweet)                                           |0.6.0         |          |1           |1        |
+|[rubias](problems.md#rubias)                                           |0.1.0         |          |1           |1        |
+|[rusk](problems.md#rusk)                                               |0.1.1         |          |1           |         |
+|[ruv](problems.md#ruv)                                                 |0.9.7         |          |1           |         |
+|[rvertnet](problems.md#rvertnet)                                       |0.7.0         |          |1           |         |
+|[rvinecopulib](problems.md#rvinecopulib)                               |0.2.8.1.0     |          |1           |         |
+|[rWBclimate](problems.md#rwbclimate)                                   |0.1.3         |          |1           |1        |
+|[rwty](problems.md#rwty)                                               |1.0.1         |          |1           |         |
+|[RxODE](problems.md#rxode)                                             |0.7.2-1       |          |2           |1        |
+|[ryouready](problems.md#ryouready)                                     |0.4           |          |1           |         |
+|[sadists](problems.md#sadists)                                         |0.2.3         |          |2           |         |
+|[saeRobust](problems.md#saerobust)                                     |0.2.0         |          |1           |         |
+|[saeSim](problems.md#saesim)                                           |0.9.0         |          |1           |         |
+|[samExploreR](problems.md#samexplorer)                                 |1.4.0         |          |1           |3        |
+|[sampleClassifier](problems.md#sampleclassifier)                       |1.4.0         |1         |            |         |
+|[SamplerCompare](problems.md#samplercompare)                           |1.2.9         |          |1           |1        |
+|[sand](problems.md#sand)                                               |1.0.3         |          |1           |2        |
+|[santaR](problems.md#santar)                                           |1.0           |          |1           |1        |
+|[savR](problems.md#savr)                                               |1.18.0        |          |1           |2        |
+|[sbpiper](problems.md#sbpiper)                                         |1.8.0         |          |1           |         |
+|[SC3](problems.md#sc3)                                                 |1.8.0         |1         |            |1        |
+|[scanstatistics](problems.md#scanstatistics)                           |1.0.1         |          |1           |         |
+|[scater](problems.md#scater)                                           |1.8.0         |          |2           |1        |
+|[scatr](problems.md#scatr)                                             |1.0.1         |          |1           |1        |
+|[scatterpie](problems.md#scatterpie)                                   |0.1.0         |__+1__    |1 __+1__    |         |
+|[scDD](problems.md#scdd)                                               |1.4.0         |          |2           |2        |
+|[scdhlm](problems.md#scdhlm)                                           |0.3.1         |          |1           |         |
+|[scFeatureFilter](problems.md#scfeaturefilter)                         |1.0.0         |          |1           |1        |
+|[SCGLR](problems.md#scglr)                                             |2.0.3         |          |2           |         |
+|[scholar](problems.md#scholar)                                         |0.1.6         |          |1           |         |
+|[scico](problems.md#scico)                                             |1.0.0         |          |1           |         |
+|[scmamp](problems.md#scmamp)                                           |0.2.55        |          |1           |         |
+|[scmap](problems.md#scmap)                                             |1.2.0         |          |1           |1        |
+|[scmeth](problems.md#scmeth)                                           |1.0.1         |          |1           |1        |
+|[SCnorm](problems.md#scnorm)                                           |1.2.0         |          |2           |         |
+|[scone](problems.md#scone)                                             |1.4.0         |1         |            |         |
+|[Sconify](problems.md#sconify)                                         |1.0.0         |__+1__    |1 __+1__    |         |
+|[scorecard](problems.md#scorecard)                                     |0.1.8         |          |1           |         |
+|[scorecardModelUtils](problems.md#scorecardmodelutils)                 |0.0.0.9       |          |1           |         |
+|[SCORPIUS](problems.md#scorpius)                                       |1.0           |          |1           |1        |
+|[scPipe](problems.md#scpipe)                                           |1.2.1         |          |3           |2        |
+|[scran](problems.md#scran)                                             |1.8.2         |          |2           |1        |
+|[scsR](problems.md#scsr)                                               |1.16.0        |          |1           |3        |
+|[SDaA](problems.md#sdaa)                                               |0.1-3         |          |1           |2        |
+|[sdcMicro](problems.md#sdcmicro)                                       |5.3.0         |          |2           |         |
+|[SDEFSR](problems.md#sdefsr)                                           |0.7.1.0       |          |2           |1        |
+|[SDLfilter](problems.md#sdlfilter)                                     |1.1.0         |          |1           |         |
+|[sdmpredictors](problems.md#sdmpredictors)                             |0.2.6         |          |1           |         |
+|[sdmvspecies](problems.md#sdmvspecies)                                 |0.3.2         |          |1           |1        |
+|[seaaroundus](problems.md#seaaroundus)                                 |1.2.0         |          |1           |1        |
+|[season](problems.md#season)                                           |0.3.6         |          |1           |         |
+|[SEERaBomb](problems.md#seerabomb)                                     |2018.1        |          |1           |         |
+|[seewave](problems.md#seewave)                                         |2.1.0         |1         |            |1        |
+|[segclust2d](problems.md#segclust2d)                                   |0.1.0         |          |1           |         |
+|[selfea](problems.md#selfea)                                           |1.0.1         |          |1           |1        |
+|[SemNetCleaner](problems.md#semnetcleaner)                             |0.1.1         |          |1           |1        |
+|[sensiPhy](problems.md#sensiphy)                                       |0.8.2         |          |1           |         |
+|[sensitivity](problems.md#sensitivity)                                 |1.15.0        |          |1           |         |
+|[SensMap](problems.md#sensmap)                                         |0.6           |          |1           |         |
+|[SensMixed](problems.md#sensmixed)                                     |2.1-0         |          |1           |         |
+|[SensoMineR](problems.md#sensominer)                                   |1.23          |          |1           |         |
+|[SensusR](problems.md#sensusr)                                         |2.2.0         |-1        |1           |         |
+|[SentimentAnalysis](problems.md#sentimentanalysis)                     |1.3-2         |          |1           |1        |
+|[sentimentr](problems.md#sentimentr)                                   |2.3.2         |          |1           |         |
+|[sentometrics](problems.md#sentometrics)                               |0.4           |          |1           |1        |
+|[SEPA](problems.md#sepa)                                               |1.10.0        |          |2           |1        |
+|[seqbias](problems.md#seqbias)                                         |1.28.0        |          |1           |5        |
+|[seqCAT](problems.md#seqcat)                                           |1.2.1         |          |1           |         |
+|[seqcombo](problems.md#seqcombo)                                       |1.2.0         |          |1           |         |
+|[SeqFeatR](problems.md#seqfeatr)                                       |0.2.7         |1         |            |         |
+|[seqplots](problems.md#seqplots)                                       |1.18.0        |          |1           |3        |
+|[seqsetvis](problems.md#seqsetvis)                                     |1.0.2         |          |1           |         |
+|[SeqSQC](problems.md#seqsqc)                                           |1.2.0         |          |1           |1        |
+|[Seurat](problems.md#seurat)                                           |2.3.2         |          |1           |1        |
+|[sf](problems.md#sf)                                                   |0.6-3         |1         |            |         |
+|[sglr](problems.md#sglr)                                               |0.7           |          |1           |2        |
+|[sgmcmc](problems.md#sgmcmc)                                           |0.2.2         |1         |4           |4        |
+|[sGMRFmix](problems.md#sgmrfmix)                                       |0.3.0         |          |1           |         |
+|[shadowtext](problems.md#shadowtext)                                   |0.0.2         |          |1           |         |
+|[shazam](problems.md#shazam)                                           |0.1.9         |          |1           |1        |
+|[SHELF](problems.md#shelf)                                             |1.3.0         |          |1           |         |
+|[shiny](problems.md#shiny)                                             |1.1.0         |          |1           |1        |
+|[ShinyItemAnalysis](problems.md#shinyitemanalysis)                     |1.2.7         |          |1           |1        |
+|[shinyjqui](problems.md#shinyjqui)                                     |0.2.0         |          |1           |         |
+|[shinyKGode](problems.md#shinykgode)                                   |1.0.5         |          |1           |1        |
+|[shinystan](problems.md#shinystan)                                     |2.5.0         |          |1           |1        |
+|[ShortForm](problems.md#shortform)                                     |0.4.1         |          |1           |         |
+|[SIBER](problems.md#siber)                                             |2.1.3         |1         |2           |1        |
+|[sicegar](problems.md#sicegar)                                         |0.2.2         |          |1           |1        |
+|[sidier](problems.md#sidier)                                           |4.0.2         |          |1           |         |
+|[SigFuge](problems.md#sigfuge)                                         |1.18.0        |          |1           |2        |
+|[sights](problems.md#sights)                                           |1.6.0         |          |1           |         |
+|[sigmoid](problems.md#sigmoid)                                         |0.2.1         |          |1           |         |
+|[SIMAT](problems.md#simat)                                             |1.12.0        |__+1__    |1 -1        |2        |
+|[simcausal](problems.md#simcausal)                                     |0.5.4         |          |2           |         |
+|[SimCorrMix](problems.md#simcorrmix)                                   |0.1.0         |          |1           |2        |
+|[SimDesign](problems.md#simdesign)                                     |1.10.1        |          |1 __+1__    |1        |
+|[simglm](problems.md#simglm)                                           |0.7.0         |          |1           |         |
+|[simmer.plot](problems.md#simmerplot)                                  |0.1.13        |          |1           |         |
+|[simmr](problems.md#simmr)                                             |0.3           |1         |            |         |
+|[SimMultiCorrData](problems.md#simmulticorrdata)                       |0.2.1         |          |1           |1        |
+|[simPH](problems.md#simph)                                             |1.3.10        |          |2           |         |
+|[SimRepeat](problems.md#simrepeat)                                     |0.1.0         |          |1           |1        |
+|[simstudy](problems.md#simstudy)                                       |0.1.9         |          |1           |         |
+|[simTool](problems.md#simtool)                                         |1.1.0         |          |1           |         |
+|[simulator](problems.md#simulator)                                     |0.2.0         |1         |            |         |
+|[sincell](problems.md#sincell)                                         |1.12.0        |          |2           |2        |
+|[Single.mTEC.Transcriptomes](problems.md#singlemtectranscriptomes)     |1.8.0         |1         |1           |1        |
+|[singleCellTK](problems.md#singlecelltk)                               |1.0.2         |          |1           |2        |
+|[singscore](problems.md#singscore)                                     |1.0.0         |          |1           |         |
+|[SISPA](problems.md#sispa)                                             |1.10.0        |          |2           |1        |
+|[sitmo](problems.md#sitmo)                                             |1.2.2         |          |1           |         |
+|[SixSigma](problems.md#sixsigma)                                       |0.9-52        |          |1           |1        |
+|[SiZer](problems.md#sizer)                                             |0.1-5         |          |1           |         |
+|[sjlabelled](problems.md#sjlabelled)                                   |1.0.11        |          |1           |         |
+|[sjmisc](problems.md#sjmisc)                                           |2.7.2         |          |1           |         |
+|[sjPlot](problems.md#sjplot)                                           |2.4.1         |          |1           |1        |
+|[sjstats](problems.md#sjstats)                                         |0.15.0        |          |1           |1        |
+|[skynet](problems.md#skynet)                                           |1.0.1         |          |1           |1        |
+|[slackr](problems.md#slackr)                                           |1.4.2         |          |1           |         |
+|[slalom](problems.md#slalom)                                           |1.2.0         |          |1           |1        |
+|[slim](problems.md#slim)                                               |0.1.1         |          |1           |         |
+|[SmartEDA](problems.md#smarteda)                                       |0.2.0         |          |1           |1        |
+|[SmarterPoland](problems.md#smarterpoland)                             |1.7           |          |1           |2        |
+|[SMFI5](problems.md#smfi5)                                             |1.0           |          |1           |2        |
+|[SMITE](problems.md#smite)                                             |1.8.0         |          |1           |         |
+|[smoof](problems.md#smoof)                                             |1.5.1         |          |1           |         |
+|[smpic](problems.md#smpic)                                             |0.1.0         |          |1           |         |
+|[snht](problems.md#snht)                                               |1.0.5         |          |2           |         |
+|[snpEnrichment](problems.md#snpenrichment)                             |1.7.0         |          |1           |         |
+|[SNPhood](problems.md#snphood)                                         |1.10.0        |1         |            |3        |
+|[sNPLS](problems.md#snpls)                                             |0.3.31        |          |1           |         |
+|[soc.ca](problems.md#socca)                                            |0.7.3         |          |1           |1        |
+|[socialmixr](problems.md#socialmixr)                                   |0.1.2         |          |1           |1        |
+|[Sofi](problems.md#sofi)                                               |0.16.4.8      |          |1           |         |
+|[soGGi](problems.md#soggi)                                             |1.12.0        |          |4           |2        |
+|[soilcarbon](problems.md#soilcarbon)                                   |1.2.0         |          |1           |1        |
+|[solarius](problems.md#solarius)                                       |0.3.0.2       |          |1           |         |
+|[SomaticCancerAlterations](problems.md#somaticcanceralterations)       |1.16.0        |          |1           |2        |
+|[SomaticSignatures](problems.md#somaticsignatures)                     |2.16.0        |          |1           |1        |
+|[sorvi](problems.md#sorvi)                                             |0.7.26        |          |2           |1        |
+|[sotkanet](problems.md#sotkanet)                                       |0.9.48        |          |1           |         |
+|[SourceSet](problems.md#sourceset)                                     |0.1.1         |          |1           |2        |
+|[SpaCCr](problems.md#spaccr)                                           |0.1.0         |          |1           |         |
+|[sparklyr](problems.md#sparklyr)                                       |0.8.4         |          |1           |         |
+|[sparkTable](problems.md#sparktable)                                   |1.3.0         |1         |            |         |
+|[sparsediscrim](problems.md#sparsediscrim)                             |0.2.4         |          |1           |         |
+|[SparseFactorAnalysis](problems.md#sparsefactoranalysis)               |1.0           |          |1           |         |
+|[sparseMVN](problems.md#sparsemvn)                                     |0.2.1.1       |          |2           |         |
+|[sparsereg](problems.md#sparsereg)                                     |1.2           |          |1           |         |
+|[SparseSignatures](problems.md#sparsesignatures)                       |1.0.0         |          |2           |2        |
+|[sparsevar](problems.md#sparsevar)                                     |0.0.10        |          |1           |         |
+|[spartan](problems.md#spartan)                                         |3.0.1         |          |1           |         |
+|[SpatialBall](problems.md#spatialball)                                 |0.1.0         |          |1           |1        |
+|[spatialClust](problems.md#spatialclust)                               |1.1.1         |          |1           |         |
+|[SpatialEpiApp](problems.md#spatialepiapp)                             |0.3           |          |1           |2        |
+|[spatialwarnings](problems.md#spatialwarnings)                         |1.1           |          |1           |         |
+|[spbabel](problems.md#spbabel)                                         |0.4.8         |          |1           |         |
+|[spcosa](problems.md#spcosa)                                           |0.3-8         |          |1           |         |
+|[speaq](problems.md#speaq)                                             |2.3.1         |          |1           |         |
+|[specmine](problems.md#specmine)                                       |2.0.3         |          |1           |1        |
+|[spectacles](problems.md#spectacles)                                   |0.5-0         |          |1           |         |
+|[spectralAnalysis](problems.md#spectralanalysis)                       |3.12.0        |          |1           |         |
+|[spef](problems.md#spef)                                               |1.0-7         |          |1           |         |
+|[SPEI](problems.md#spei)                                               |1.7           |          |1           |         |
+|[spew](problems.md#spew)                                               |1.3.0         |          |2           |2        |
+|[spFSR](problems.md#spfsr)                                             |1.0.0         |          |1           |1        |
+|[SpidermiR](problems.md#spidermir)                                     |1.10.0        |          |2           |1        |
+|[spikeSlabGAM](problems.md#spikeslabgam)                               |1.1-11        |          |1           |1        |
+|[spind](problems.md#spind)                                             |2.1.3         |          |1           |         |
+|[splatter](problems.md#splatter)                                       |1.4.1         |          |1           |         |
+|[SPLINTER](problems.md#splinter)                                       |1.6.0         |          |1           |1        |
+|[splithalf](problems.md#splithalf)                                     |0.3.1         |          |1           |         |
+|[spmoran](problems.md#spmoran)                                         |0.1.4         |          |1           |         |
+|[SPONGE](problems.md#sponge)                                           |1.2.0         |          |1           |2        |
+|[spongecake](problems.md#spongecake)                                   |0.1.2         |          |1           |         |
+|[sppmix](problems.md#sppmix)                                           |1.0.2         |          |1           |2        |
+|[sprm](problems.md#sprm)                                               |1.2.2         |          |1           |         |
+|[SPUTNIK](problems.md#sputnik)                                         |1.0.2         |          |1           |1        |
+|[squid](problems.md#squid)                                             |0.1.1         |          |1           |         |
+|[srnadiff](problems.md#srnadiff)                                       |1.0.0         |          |1           |         |
+|[srvyr](problems.md#srvyr)                                             |0.3.3         |          |1           |         |
+|[ss3sim](problems.md#ss3sim)                                           |0.9.5         |          |1           |         |
+|[sssc](problems.md#sssc)                                               |1.0.0         |          |1           |         |
+|[ssviz](problems.md#ssviz)                                             |1.14.0        |          |2           |1        |
+|[stability](problems.md#stability)                                     |0.2.0         |          |1           |         |
+|[stacomiR](problems.md#stacomir)                                       |0.5.3.1       |1         |            |         |
+|[staRdom](problems.md#stardom)                                         |1.0.5         |          |1           |1        |
+|[starma](problems.md#starma)                                           |1.3           |          |1           |         |
+|[starmie](problems.md#starmie)                                         |0.1.2         |          |1           |2        |
+|[statar](problems.md#statar)                                           |0.6.5         |          |1           |         |
+|[statcheck](problems.md#statcheck)                                     |1.3.0         |          |1           |         |
+|[statebins](problems.md#statebins)                                     |1.2.2         |          |1           |         |
+|[STATegRa](problems.md#stategra)                                       |1.16.1        |          |1           |2        |
+|[states](problems.md#states)                                           |0.2.1         |          |1           |2        |
+|[StatRank](problems.md#statrank)                                       |0.0.6         |          |1           |         |
+|[statsDK](problems.md#statsdk)                                         |0.1.1         |          |1           |1        |
+|[statsr](problems.md#statsr)                                           |0.1-0         |          |1           |         |
+|[stminsights](problems.md#stminsights)                                 |0.2.0         |          |1           |1        |
+|[stormwindmodel](problems.md#stormwindmodel)                           |0.1.0         |          |1           |         |
+|[stpp](problems.md#stpp)                                               |2.0-3         |1         |            |         |
+|[stranger](problems.md#stranger)                                       |0.3.3         |          |1           |         |
+|[strataG](problems.md#stratag)                                         |2.0.2         |          |1           |1        |
+|[strider](problems.md#strider)                                         |1.1           |          |1           |         |
+|[StroupGLMM](problems.md#stroupglmm)                                   |0.1.0         |          |1           |1        |
+|[StructFDR](problems.md#structfdr)                                     |1.3           |          |1           |         |
+|[structSSI](problems.md#structssi)                                     |1.1.1         |          |1           |1        |
+|[strvalidator](problems.md#strvalidator)                               |2.0.0         |1         |            |         |
+|[SubgrpID](problems.md#subgrpid)                                       |0.11          |          |1           |         |
+|[subSeq](problems.md#subseq)                                           |1.10.0        |          |2           |1        |
+|[subspaceMOA](problems.md#subspacemoa)                                 |0.6.0         |          |1           |2        |
+|[sugrrants](problems.md#sugrrants)                                     |0.1.2         |__+1__    |1 __+1__    |         |
+|[summariser](problems.md#summariser)                                   |0.1.0         |          |1           |         |
+|[SummarizedBenchmark](problems.md#summarizedbenchmark)                 |1.0.3         |          |1           |4        |
+|[SUMMER](problems.md#summer)                                           |0.2.0         |          |1           |2        |
+|[superheat](problems.md#superheat)                                     |0.1.0         |          |1           |         |
+|[SuperLearner](problems.md#superlearner)                               |2.0-23        |          |2           |         |
+|[sure](problems.md#sure)                                               |0.2.0         |          |1           |1        |
+|[surveillance](problems.md#surveillance)                               |1.16.1        |          |1           |4        |
+|[survivALL](problems.md#survivall)                                     |0.9.3         |          |1           |1        |
+|[survminer](problems.md#survminer)                                     |0.4.2         |          |1           |1        |
+|[survMisc](problems.md#survmisc)                                       |0.5.4         |          |2           |         |
+|[SurvRank](problems.md#survrank)                                       |0.1           |          |1           |         |
+|[survtmle](problems.md#survtmle)                                       |1.1.0         |          |1           |         |
+|[survutils](problems.md#survutils)                                     |1.0.1         |          |1           |         |
+|[sValues](problems.md#svalues)                                         |0.1.5         |          |2           |         |
+|[SVAPLSseq](problems.md#svaplsseq)                                     |1.6.0         |          |1           |1        |
+|[svars](problems.md#svars)                                             |1.2.0         |          |1           |         |
+|[svdvis](problems.md#svdvis)                                           |0.1           |__+1__    |1 __+1__    |         |
+|[SVMMaj](problems.md#svmmaj)                                           |0.2-8         |          |1           |1        |
+|[swa](problems.md#swa)                                                 |0.8.1         |          |1           |         |
+|[SWATH2stats](problems.md#swath2stats)                                 |1.10.1        |          |1           |2        |
+|[swfdr](problems.md#swfdr)                                             |1.6.0         |          |1           |1        |
+|[swfscMisc](problems.md#swfscmisc)                                     |1.2           |          |1           |         |
+|[switchde](problems.md#switchde)                                       |1.6.0         |          |1           |1        |
+|[swmmr](problems.md#swmmr)                                             |0.8.1         |          |1           |         |
+|[SWMPr](problems.md#swmpr)                                             |2.3.0         |          |1           |         |
+|[SWMPrExtension](problems.md#swmprextension)                           |0.3.15        |          |1           |1        |
+|[synergyfinder](problems.md#synergyfinder)                             |1.6.1         |          |2           |3        |
+|[synlet](problems.md#synlet)                                           |1.10.0        |          |1           |1        |
+|[synthpop](problems.md#synthpop)                                       |1.4-3         |__+1__    |1           |1        |
+|[sysid](problems.md#sysid)                                             |1.0.4         |          |1           |         |
+|[systemPipeR](problems.md#systempiper)                                 |1.14.0        |          |3           |5        |
+|[tableone](problems.md#tableone)                                       |0.9.3         |          |1           |1        |
+|[tabplot](problems.md#tabplot)                                         |1.3-1         |          |1           |         |
+|[tadaatoolbox](problems.md#tadaatoolbox)                               |0.16.0        |          |1           |1        |
+|[taRifx](problems.md#tarifx)                                           |1.0.6         |          |1           |3        |
+|[TarSeqQC](problems.md#tarseqqc)                                       |1.10.0        |          |1           |2        |
+|[TCGAbiolinks](problems.md#tcgabiolinks)                               |2.8.1         |2         |            |2        |
+|[TCGAbiolinksGUI](problems.md#tcgabiolinksgui)                         |1.6.0         |          |2           |3        |
+|[TcGSA](problems.md#tcgsa)                                             |0.11.1        |          |1           |         |
+|[tcgsaseq](problems.md#tcgsaseq)                                       |1.6.6         |          |1           |         |
+|[tcR](problems.md#tcr)                                                 |2.2.1.11      |          |1           |3        |
+|[TCseq](problems.md#tcseq)                                             |1.4.0         |          |1           |2        |
+|[tdr](problems.md#tdr)                                                 |0.13          |          |1           |         |
+|[TeachBayes](problems.md#teachbayes)                                   |1.0           |          |1           |         |
+|[teachingApps](problems.md#teachingapps)                               |1.0.4         |          |1           |         |
+|[TeachingDemos](problems.md#teachingdemos)                             |2.10          |1         |            |1        |
+|[teamcolors](problems.md#teamcolors)                                   |0.0.1         |          |1           |         |
+|[TELP](problems.md#telp)                                               |1.0           |1         |1           |         |
+|[testassay](problems.md#testassay)                                     |0.1.0         |          |1           |         |
+|[tetraclasse](problems.md#tetraclasse)                                 |0.1.21        |          |1           |         |
+|[texmex](problems.md#texmex)                                           |2.4           |          |1           |         |
+|[texteffect](problems.md#texteffect)                                   |0.1           |          |1           |         |
+|[TFEA.ChIP](problems.md#tfeachip)                                      |1.0.0         |1         |1           |         |
+|[tfestimators](problems.md#tfestimators)                               |1.5           |          |1           |         |
+|[TFutils](problems.md#tfutils)                                         |1.0.0         |          |1           |1        |
+|[themetagenomics](problems.md#themetagenomics)                         |0.1.0         |          |1           |         |
+|[theseus](problems.md#theseus)                                         |0.1.0         |          |1           |2        |
+|[thief](problems.md#thief)                                             |0.3           |          |1           |         |
+|[thinkr](problems.md#thinkr)                                           |0.11          |          |1           |         |
+|[tictactoe](problems.md#tictactoe)                                     |0.2.2         |          |1           |         |
+|[tidycensus](problems.md#tidycensus)                                   |0.4.6         |          |1           |         |
+|[tidyhydat](problems.md#tidyhydat)                                     |0.3.4         |          |1           |         |
+|[tidyinftheo](problems.md#tidyinftheo)                                 |0.2.1         |1         |1           |1        |
+|[tidyLPA](problems.md#tidylpa)                                         |0.1.3         |          |1           |         |
+|[tidyposterior](problems.md#tidyposterior)                             |0.0.1         |          |1           |         |
+|[tidyquant](problems.md#tidyquant)                                     |0.5.5         |          |1           |         |
+|[tidytext](problems.md#tidytext)                                       |0.1.9         |          |1           |         |
+|[tidyverse](problems.md#tidyverse)                                     |1.2.1         |          |1           |1        |
+|[tidyxl](problems.md#tidyxl)                                           |1.0.1         |          |2           |         |
+|[tigerstats](problems.md#tigerstats)                                   |0.3           |          |1           |         |
+|[tigger](problems.md#tigger)                                           |0.2.11        |          |1           |         |
+|[tigris](problems.md#tigris)                                           |0.7           |          |1           |         |
+|[tikzDevice](problems.md#tikzdevice)                                   |0.11          |1         |2           |         |
+|[timeline](problems.md#timeline)                                       |0.9           |          |1           |2        |
+|[timelineR](problems.md#timeliner)                                     |0.1.0         |          |1           |         |
+|[timelineS](problems.md#timelines)                                     |0.1.1         |          |1           |1        |
+|[TimeProjection](problems.md#timeprojection)                           |0.2.0         |          |1           |2        |
+|TimerQuant                                                             |?             |          |            |         |
+|[tint](problems.md#tint)                                               |0.1.0         |          |1           |1        |
+|[TippingPoint](problems.md#tippingpoint)                               |1.1.0         |          |1           |         |
+|[TissueEnrich](problems.md#tissueenrich)                               |1.0.0         |          |1           |         |
+|[tmap](problems.md#tmap)                                               |1.11-2        |          |1           |1        |
+|[Tmisc](problems.md#tmisc)                                             |0.1.19        |          |1           |         |
+|[toaster](problems.md#toaster)                                         |0.5.5         |__+1__    |1           |         |
+|[toolmaRk](problems.md#toolmark)                                       |0.0.1         |          |1           |         |
+|[topdownr](problems.md#topdownr)                                       |1.2.0         |          |2           |3        |
+|[TOSTER](problems.md#toster)                                           |0.3.3         |          |1           |1        |
+|[totalcensus](problems.md#totalcensus)                                 |0.3.0         |          |1           |1        |
+|[tourr](problems.md#tourr)                                             |0.5.5         |          |1           |         |
+|[tourrGui](problems.md#tourrgui)                                       |0.4           |1         |            |         |
+|[toxboot](problems.md#toxboot)                                         |0.1.1         |          |1           |1        |
+|[toxplot](problems.md#toxplot)                                         |0.1.1         |          |1           |1        |
+|[TPD](problems.md#tpd)                                                 |1.0.0         |          |1           |         |
+|[TPP](problems.md#tpp)                                                 |3.8.1         |__+1__    |2           |3        |
+|[trackeR](problems.md#tracker)                                         |1.0.0         |          |1           |2        |
+|[trackr](problems.md#trackr)                                           |0.7.5         |__+2__    |2           |1        |
+|[TrafficBDE](problems.md#trafficbde)                                   |0.1.0         |          |1           |1        |
+|[TrajDataMining](problems.md#trajdatamining)                           |0.1.6         |          |1           |         |
+|[transcriptogramer](problems.md#transcriptogramer)                     |1.2.1         |          |1           |2        |
+|[transcriptR](problems.md#transcriptr)                                 |1.8.0         |          |1           |         |
+|[trapezoid](problems.md#trapezoid)                                     |2.0-0         |          |1           |2        |
+|[TreatmentSelection](problems.md#treatmentselection)                   |2.1.1         |          |1           |         |
+|[tree.bins](problems.md#treebins)                                      |0.1.1         |          |1           |         |
+|[treeclim](problems.md#treeclim)                                       |2.0.0         |          |1           |1        |
+|[treecm](problems.md#treecm)                                           |1.2.2         |          |1           |1        |
+|[treeDA](problems.md#treeda)                                           |0.0.3         |          |1           |         |
+|[treedater](problems.md#treedater)                                     |0.2.0         |          |1           |         |
+|[TreeDep](problems.md#treedep)                                         |0.1.1         |          |1           |         |
+|[treeio](problems.md#treeio)                                           |1.4.1         |          |1           |         |
+|[treemap](problems.md#treemap)                                         |2.4-2         |          |1           |         |
+|[treemapify](problems.md#treemapify)                                   |2.5.0         |          |1           |         |
+|[treespace](problems.md#treespace)                                     |1.1.3         |          |1           |1        |
+|[trelliscope](problems.md#trelliscope)                                 |0.9.8         |          |1           |         |
+|[trialr](problems.md#trialr)                                           |0.0.1         |          |1           |         |
+|[tribe](problems.md#tribe)                                             |0.1.6         |          |1           |         |
+|[tricolore](problems.md#tricolore)                                     |1.0.3         |1         |            |         |
+|[TriMatch](problems.md#trimatch)                                       |0.9.9         |          |1           |         |
+|[TripleR](problems.md#tripler)                                         |1.5.3         |          |1           |         |
+|[tRNAscanImport](problems.md#trnascanimport)                           |1.0.1         |          |1           |1        |
+|[tRophicPosition](problems.md#trophicposition)                         |0.7.5         |1         |2           |1        |
+|[tropr](problems.md#tropr)                                             |0.1.2         |          |1           |         |
+|[tsbox](problems.md#tsbox)                                             |0.0.2         |1         |1           |         |
+|[TSCAN](problems.md#tscan)                                             |1.18.0        |          |2           |1        |
+|[TSCS](problems.md#tscs)                                               |0.1.1         |          |1           |         |
+|[tsfknn](problems.md#tsfknn)                                           |0.1.0         |          |1           |         |
+|[tsibble](problems.md#tsibble)                                         |0.3.0         |          |1           |         |
+|[tsiR](problems.md#tsir)                                               |0.3.0         |          |1           |         |
+|[TSMining](problems.md#tsmining)                                       |1.0           |          |1           |1        |
+|[tspmeta](problems.md#tspmeta)                                         |1.2           |          |1           |         |
+|[TSRchitect](problems.md#tsrchitect)                                   |1.6.0         |          |1           |1        |
+|[TSrepr](problems.md#tsrepr)                                           |1.0.1         |          |1           |         |
+|[TSS.RESTREND](problems.md#tssrestrend)                                |0.2.13        |          |1           |1        |
+|[tufterhandout](problems.md#tufterhandout)                             |1.2.1         |          |1           |1        |
+|[tvm](problems.md#tvm)                                                 |0.3.0         |          |1           |         |
+|[TVTB](problems.md#tvtb)                                               |1.6.0         |          |1           |1        |
+|[tweet2r](problems.md#tweet2r)                                         |1.0           |          |1           |         |
+|[twoddpcr](problems.md#twoddpcr)                                       |1.4.1         |          |1           |1        |
+|[ubeR](problems.md#uber)                                               |0.1.4         |          |1           |         |
+|[UBL](problems.md#ubl)                                                 |0.0.6         |          |1           |         |
+|[ukbtools](problems.md#ukbtools)                                       |0.11.0        |          |1           |2        |
+|[ukgasapi](problems.md#ukgasapi)                                       |0.13          |__+1__    |1           |         |
+|[Umatrix](problems.md#umatrix)                                         |3.1           |          |1           |         |
+|[umx](problems.md#umx)                                                 |2.6.5         |2         |1           |1        |
+|[unvotes](problems.md#unvotes)                                         |0.2.0         |          |1           |1        |
+|[UpSetR](problems.md#upsetr)                                           |1.3.3         |          |1           |1        |
+|[useful](problems.md#useful)                                           |1.2.5         |          |1           |         |
+|[userfriendlyscience](problems.md#userfriendlyscience)                 |0.7.1         |          |1           |         |
+|[UsingR](problems.md#usingr)                                           |2.0-6         |          |1           |         |
+|[usmap](problems.md#usmap)                                             |0.3.0         |          |1           |2        |
+|[uSORT](problems.md#usort)                                             |1.6.0         |          |2           |1        |
+|[valr](problems.md#valr)                                               |0.4.1         |          |1           |         |
+|[valuer](problems.md#valuer)                                           |1.1.2         |          |1           |         |
+|[vanddraabe](problems.md#vanddraabe)                                   |1.0.0         |          |1           |         |
+|[varian](problems.md#varian)                                           |0.2.2         |          |1           |         |
+|[variancePartition](problems.md#variancepartition)                     |1.10.0        |          |2           |1        |
+|[VariantAnnotation](problems.md#variantannotation)                     |1.26.0        |2         |2           |5        |
+|[VarSelLCM](problems.md#varsellcm)                                     |2.1.1         |          |1           |         |
+|[vcdExtra](problems.md#vcdextra)                                       |0.7-1         |          |1           |2        |
+|[vcfR](problems.md#vcfr)                                               |1.8.0         |          |1           |         |
+|[VDAP](problems.md#vdap)                                               |2.0.0         |          |1           |         |
+|[vdg](problems.md#vdg)                                                 |1.2.0         |          |2           |         |
+|[vdiffr](problems.md#vdiffr)                                           |0.2.3         |          |1           |         |
+|[vdmR](problems.md#vdmr)                                               |0.2.5         |__+1__    |2           |1        |
+|[VetResearchLMM](problems.md#vetresearchlmm)                           |1.0.0         |          |1           |1        |
+|[vidger](problems.md#vidger)                                           |1.0.0         |          |1           |1        |
+|[vinereg](problems.md#vinereg)                                         |0.3.0         |          |1           |         |
+|[vip](problems.md#vip)                                                 |0.1.0         |          |1           |1        |
+|[vipor](problems.md#vipor)                                             |0.4.5         |          |1           |1        |
+|[viridis](problems.md#viridis)                                         |0.5.1         |          |1           |1        |
+|[viridisLite](problems.md#viridislite)                                 |0.3.0         |          |1           |         |
+|[visdat](problems.md#visdat)                                           |0.1.0         |          |1           |         |
+|[visreg](problems.md#visreg)                                           |2.5-0         |          |1           |         |
+|[visvow](problems.md#visvow)                                           |0.1.0         |          |1           |         |
+|[vlad](problems.md#vlad)                                               |0.1.0         |          |1           |         |
+|[vmd](problems.md#vmd)                                                 |0.1.0         |          |1           |         |
+|[vmsbase](problems.md#vmsbase)                                         |2.1.3         |1         |            |         |
+|[vortexR](problems.md#vortexr)                                         |1.1.5         |          |1           |         |
+|[voteogram](problems.md#voteogram)                                     |0.2.0         |          |1           |         |
+|[voxel](problems.md#voxel)                                             |1.3.4         |__+1__    |1           |1        |
+|[vpc](problems.md#vpc)                                                 |1.0.1         |          |1           |         |
+|[vqtl](problems.md#vqtl)                                               |2.0.3         |          |1           |1        |
+|[vrcp](problems.md#vrcp)                                               |0.1.1         |          |1           |         |
+|[VRPM](problems.md#vrpm)                                               |1.2           |          |1           |         |
+|[VSE](problems.md#vse)                                                 |0.99          |          |1           |         |
+|[vsn](problems.md#vsn)                                                 |3.48.1        |          |1           |1        |
+|[vtreat](problems.md#vtreat)                                           |1.0.4         |          |1           |         |
+|[VWPre](problems.md#vwpre)                                             |1.1.0         |          |1           |         |
+|[waffle](problems.md#waffle)                                           |0.7.0         |          |1           |         |
+|[wakefield](problems.md#wakefield)                                     |0.3.3         |          |1           |         |
+|[walker](problems.md#walker)                                           |0.2.1         |1         |2           |1        |
+|[walkr](problems.md#walkr)                                             |0.3.4         |          |2           |         |
+|[walrus](problems.md#walrus)                                           |1.0.1         |          |2           |1        |
+|[warbleR](problems.md#warbler)                                         |1.1.13        |          |1           |1        |
+|[waterfalls](problems.md#waterfalls)                                   |0.1.2         |          |1           |         |
+|[Wats](problems.md#wats)                                               |0.10.3        |          |1           |1        |
+|[wavClusteR](problems.md#wavcluster)                                   |2.14.0        |          |1           |2        |
+|[wbstats](problems.md#wbstats)                                         |0.2           |          |1           |1        |
+|[webr](problems.md#webr)                                               |0.1.0         |          |1           |1        |
+|[wesanderson](problems.md#wesanderson)                                 |0.3.6         |          |1           |         |
+|[wevid](problems.md#wevid)                                             |0.4.2         |          |1           |         |
+|[WHO](problems.md#who)                                                 |0.2           |          |1           |         |
+|[widyr](problems.md#widyr)                                             |0.1.1         |          |1           |         |
+|[wiggleplotr](problems.md#wiggleplotr)                                 |1.4.0         |          |2           |1        |
+|[wikipediatrend](problems.md#wikipediatrend)                           |1.1.14        |          |1           |         |
+|[windfarmGA](problems.md#windfarmga)                                   |1.2.1         |          |1           |1        |
+|[wordbankr](problems.md#wordbankr)                                     |0.3.0         |          |1           |1        |
+|[WordR](problems.md#wordr)                                             |0.3.0         |          |1           |         |
+|[wppExplorer](problems.md#wppexplorer)                                 |2.1-1         |          |1           |         |
+|[wql](problems.md#wql)                                                 |0.4.9         |          |1           |         |
+|[WRSS](problems.md#wrss)                                               |1.4           |          |1           |         |
+|[wrswoR](problems.md#wrswor)                                           |1.1           |          |1           |         |
+|[wrswoR.benchmark](problems.md#wrsworbenchmark)                        |0.2           |          |1           |         |
+|[WRTDStidal](problems.md#wrtdstidal)                                   |1.1.0         |          |1 __+1__    |         |
+|[WVPlots](problems.md#wvplots)                                         |1.0.0         |          |1           |         |
+|[x.ent](problems.md#xent)                                              |1.1.7         |          |1           |         |
+|[XBSeq](problems.md#xbseq)                                             |1.12.0        |1         |            |2        |
+|[xgboost](problems.md#xgboost)                                         |0.71.2        |          |2           |1        |
+|[XGR](problems.md#xgr)                                                 |1.1.3         |          |1           |         |
+|[xkcd](problems.md#xkcd)                                               |0.0.5         |__+1__    |2           |         |
+|[XLConnect](problems.md#xlconnect)                                     |0.2-15        |__+1__    |1           |2        |
+|[xmrr](problems.md#xmrr)                                               |1.0.1         |          |1           |         |
+|[Xplortext](problems.md#xplortext)                                     |1.1.1         |          |1           |         |
+|[xpose](problems.md#xpose)                                             |0.4.2         |__+2__    |1 __+1__    |         |
+|[xray](problems.md#xray)                                               |0.2           |          |1           |         |
+|[xsp](problems.md#xsp)                                                 |0.1.2         |          |1           |         |
+|[xtractomatic](problems.md#xtractomatic)                               |3.4.2         |          |1           |1        |
+|[xxIRT](problems.md#xxirt)                                             |2.0.3         |          |1           |1        |
+|[YAPSA](problems.md#yapsa)                                             |1.6.0         |          |1           |         |
+|[yorkr](problems.md#yorkr)                                             |0.0.7         |          |1           |         |
+|[yuimaGUI](problems.md#yuimagui)                                       |1.2.0         |          |1           |         |
+|[zebu](problems.md#zebu)                                               |0.1.2         |          |1           |         |
+|[zeitgebr](problems.md#zeitgebr)                                       |0.3.2         |          |1           |2        |
+|[zenplots](problems.md#zenplots)                                       |0.0-3         |          |1           |         |
+|[zFactor](problems.md#zfactor)                                         |0.1.7         |          |1           |1        |
+|[zFPKM](problems.md#zfpkm)                                             |1.2.0         |          |1           |1        |
+|[zinbwave](problems.md#zinbwave)                                       |1.2.0         |          |1           |         |
+|[zonator](problems.md#zonator)                                         |0.5.9         |          |1           |1        |
+|[zoo](problems.md#zoo)                                                 |1.8-2         |          |1           |2        |
+|[zooaRch](problems.md#zooarch)                                         |1.2           |          |1           |         |
+|[zooaRchGUI](problems.md#zooarchgui)                                   |1.0.2         |1         |            |         |
+|[zoocat](problems.md#zoocat)                                           |0.2.0         |          |1           |1        |
+|[ztype](problems.md#ztype)                                             |0.1.0         |          |1           |1        |
 

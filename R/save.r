@@ -1,27 +1,26 @@
 #' Save a ggplot (or other grid object) with sensible defaults
 #'
-#' \code{ggsave()} is a convenient function for saving a plot. It defaults to
+#' `ggsave()` is a convenient function for saving a plot. It defaults to
 #' saving the last plot that you displayed, using the size of the current
 #' graphics device. It also guesses the type of graphics device from the
 #' extension.
 #'
 #' @param filename File name to create on disk.
 #' @param plot Plot to save, defaults to last plot displayed.
-#' @param device Device to use (function or any of the recognized extensions,
-#'   e.g. \code{"pdf"}). By default, extracted from filename extension.
-#'   \code{ggsave} currently recognises eps/ps, tex (pictex), pdf, jpeg, tiff,
-#'   png, bmp, svg and wmf (windows only).
+#' @param device Device to use. Can be either be a device function
+#'   (e.g. [png()]), or one of "eps", "ps", "tex" (pictex),
+#'   "pdf", "jpeg", "tiff", "png", "bmp", "svg" or "wmf" (windows only).
 #' @param path Path to save plot to (combined with filename).
 #' @param scale Multiplicative scaling factor.
-#' @param width,height Plot dimensions, defaults to size of current graphics
-#'   device.
-#' @param units Units for width and height when specified explicitly (in, cm,
-#'   or mm)
-#' @param dpi Resolution used for raster outputs.
-#' @param limitsize When \code{TRUE} (the default), \code{ggsave} will not
+#' @param width,height,units Plot size in `units` ("in", "cm", or "mm").
+#'   If not supplied, uses the size of current graphics device.
+#' @param dpi Plot resolution. Also accepts a string input: "retina" (320),
+#'   "print" (300), or "screen" (72). Applies only to raster output types.
+#' @param limitsize When `TRUE` (the default), `ggsave` will not
 #'   save images larger than 50x50 inches, to prevent the common error of
 #'   specifying dimensions in pixels.
-#' @param ... Other arguments passed on to graphics device
+#' @param ... Other arguments passed on to the graphics device function,
+#'   as specified by `device`.
 #' @export
 #' @examples
 #' \dontrun{
@@ -33,6 +32,7 @@
 #' ggsave("mtcars.pdf", width = 4, height = 4)
 #' ggsave("mtcars.pdf", width = 20, height = 20, units = "cm")
 #'
+#' # delete files with base::unlink()
 #' unlink("mtcars.pdf")
 #' unlink("mtcars.png")
 #'
@@ -47,6 +47,7 @@ ggsave <- function(filename, plot = last_plot(),
                    width = NA, height = NA, units = c("in", "cm", "mm"),
                    dpi = 300, limitsize = TRUE, ...) {
 
+  dpi <- parse_dpi(dpi)
   dev <- plot_dev(device, filename, dpi = dpi)
   dim <- plot_dim(c(width, height), scale = scale, units = units,
     limitsize = limitsize)
@@ -54,11 +55,37 @@ ggsave <- function(filename, plot = last_plot(),
   if (!is.null(path)) {
     filename <- file.path(path, filename)
   }
-  dev(file = filename, width = dim[1], height = dim[2], ...)
-  on.exit(utils::capture.output(grDevices::dev.off()))
+  old_dev <- grDevices::dev.cur()
+  dev(filename = filename, width = dim[1], height = dim[2], ...)
+  on.exit(utils::capture.output({
+    grDevices::dev.off()
+    if (old_dev > 1) grDevices::dev.set(old_dev) # restore old device unless null device
+  }))
   grid.draw(plot)
 
   invisible()
+}
+
+#' Parse a DPI input from the user
+#'
+#' Allows handling of special strings when user specifies a DPI like "print".
+#'
+#' @param dpi Input value from user
+#' @return Parsed DPI input value
+#' @noRd
+parse_dpi <- function(dpi) {
+  if (is.character(dpi) && length(dpi) == 1) {
+    switch(dpi,
+      screen = 72,
+      print = 300,
+      retina = 320,
+      stop("Unknown DPI string", call. = FALSE)
+    )
+  } else if (is.numeric(dpi) && length(dpi) == 1) {
+    dpi
+  } else {
+    stop("DPI must be a single number or string", call. = FALSE)
+  }
 }
 
 plot_dim <- function(dim = c(NA, NA), scale = 1, units = c("in", "cm", "mm"),
@@ -95,16 +122,16 @@ plot_dev <- function(device, filename, dpi = 300) {
   if (is.function(device))
     return(device)
 
-  eps <- function(...) {
-    grDevices::postscript(..., onefile = FALSE, horizontal = FALSE,
+  eps <- function(filename, ...) {
+    grDevices::postscript(file = filename, ..., onefile = FALSE, horizontal = FALSE,
       paper = "special")
   }
   devices <- list(
     eps =  eps,
     ps =   eps,
-    tex =  function(...) grDevices::pictex(...),
-    pdf =  function(..., version = "1.4") grDevices::pdf(..., version = version),
-    svg =  function(...) svglite::svglite(...),
+    tex =  function(filename, ...) grDevices::pictex(file = filename, ...),
+    pdf =  function(filename, ..., version = "1.4") grDevices::pdf(file = filename, ..., version = version),
+    svg =  function(filename, ...) svglite::svglite(file = filename, ...),
     emf =  function(...) grDevices::win.metafile(...),
     wmf =  function(...) grDevices::win.metafile(...),
     png =  function(...) grDevices::png(..., res = dpi, units = "in"),

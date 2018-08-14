@@ -1,14 +1,19 @@
 #' Sequential, diverging and qualitative colour scales from colorbrewer.org
 #'
-#' ColorBrewer provides sequential, diverging and qualitative colour schemes
-#' which are particularly suited and tested to display discrete values (levels
-#' of a factor) on a map. ggplot2 can use those colours in discrete scales. It
-#' also allows to smoothly interpolate 6 colours from any palette to a
-#' continuous scale (6 colours per palette gives nice gradients; more results in
-#' more saturated colours which do not look as good). However, the original
-#' colour schemes (particularly the qualitative ones) were not intended for this
-#' and the perceptual result is left to the appreciation of the user.
-#' See \url{http://colorbrewer2.org} for more information.
+#' @description
+#' The `brewer` scales provides sequential, diverging and qualitative
+#' colour schemes from ColorBrewer. These are particularly well suited to
+#' display discrete values on a map. See \url{http://colorbrewer2.org} for
+#' more information.
+#'
+#' @note
+#' The `distiller` scales extend brewer to continuous scales by smoothly
+#' interpolating 6 colours from any palette to a continuous scale.
+#'
+#' @details
+#' The `brewer` scales were carefully designed and tested on discrete data.
+#' They were not designed to be extended to continuous data, but results often
+#' look good. Your mileage may vary.
 #'
 #' @section Palettes:
 #' The following palettes are available for use with these scales:
@@ -23,19 +28,19 @@
 #' @inheritParams scale_colour_hue
 #' @inheritParams scale_colour_gradient
 #' @inheritParams scales::gradient_n_pal
-#' @seealso Other colour scales:
-#'   \code{\link{scale_colour_gradient}},
-#'   \code{\link{scale_colour_grey}},
-#'   \code{\link{scale_colour_hue}}
+#' @param ... Other arguments passed on to [discrete_scale()] or, for
+#'   `distiller` scales, [continuous_scale()] to control name,
+#'   limits, breaks, labels and so forth.
+#' @family colour scales
 #' @rdname scale_brewer
 #' @export
 #' @examples
 #' dsamp <- diamonds[sample(nrow(diamonds), 1000), ]
 #' (d <- ggplot(dsamp, aes(carat, price)) +
 #'   geom_point(aes(colour = clarity)))
+#' d + scale_colour_brewer()
 #'
 #' # Change scale label
-#' d + scale_colour_brewer()
 #' d + scale_colour_brewer("Diamond\nclarity")
 #'
 #' # Select brewer palette to use, see ?scales::brewer_pal for more details
@@ -60,37 +65,37 @@
 #' v
 #' v + scale_fill_distiller()
 #' v + scale_fill_distiller(palette = "Spectral")
-scale_colour_brewer <- function(..., type = "seq", palette = 1, direction = 1) {
-  discrete_scale("colour", "brewer", brewer_pal(type, palette, direction), ...)
+scale_colour_brewer <- function(..., type = "seq", palette = 1, direction = 1, aesthetics = "colour") {
+  discrete_scale(aesthetics, "brewer", brewer_pal(type, palette, direction), ...)
 }
 
 #' @export
 #' @rdname scale_brewer
-scale_fill_brewer <- function(..., type = "seq", palette = 1, direction = 1) {
-  discrete_scale("fill", "brewer", brewer_pal(type, palette, direction), ...)
+scale_fill_brewer <- function(..., type = "seq", palette = 1, direction = 1, aesthetics = "fill") {
+  discrete_scale(aesthetics, "brewer", brewer_pal(type, palette, direction), ...)
 }
 
 #' @export
 #' @rdname scale_brewer
-scale_colour_distiller <- function(..., type = "seq", palette = 1, direction = -1, values = NULL, space = "Lab", na.value = "grey50", guide = "colourbar") {
+scale_colour_distiller <- function(..., type = "seq", palette = 1, direction = -1, values = NULL, space = "Lab", na.value = "grey50", guide = "colourbar", aesthetics = "colour") {
   # warn about using a qualitative brewer palette to generate the gradient
   type <- match.arg(type, c("seq", "div", "qual"))
   if (type == "qual") {
     warning("Using a discrete colour palette in a continuous scale.\n  Consider using type = \"seq\" or type = \"div\" instead", call. = FALSE)
   }
-  continuous_scale("colour", "distiller",
+  continuous_scale(aesthetics, "distiller",
     gradient_n_pal(brewer_pal(type, palette, direction)(6), values, space), na.value = na.value, guide = guide, ...)
   # NB: 6 colours per palette gives nice gradients; more results in more saturated colours which do not look as good
 }
 
 #' @export
 #' @rdname scale_brewer
-scale_fill_distiller <- function(..., type = "seq", palette = 1, direction = -1, values = NULL, space = "Lab", na.value = "grey50", guide = "colourbar") {
+scale_fill_distiller <- function(..., type = "seq", palette = 1, direction = -1, values = NULL, space = "Lab", na.value = "grey50", guide = "colourbar", aesthetics = "fill") {
   type <- match.arg(type, c("seq", "div", "qual"))
   if (type == "qual") {
     warning("Using a discrete colour palette in a continuous scale.\n  Consider using type = \"seq\" or type = \"div\" instead", call. = FALSE)
   }
-  continuous_scale("fill", "distiller",
+  continuous_scale(aesthetics, "distiller",
     gradient_n_pal(brewer_pal(type, palette, direction)(6), values, space), na.value = na.value, guide = guide, ...)
 }
 

@@ -5,9 +5,9 @@
 \title{Annotation: log tick marks}
 \usage{
 annotation_logticks(base = 10, sides = "bl", scaled = TRUE,
-  short = unit(0.1, "cm"), mid = unit(0.2, "cm"), long = unit(0.3, "cm"),
-  colour = "black", size = 0.5, linetype = 1, alpha = 1, color = NULL,
-  ...)
+  short = unit(0.1, "cm"), mid = unit(0.2, "cm"), long = unit(0.3,
+  "cm"), colour = "black", size = 0.5, linetype = 1, alpha = 1,
+  color = NULL, ...)
 }
 \arguments{
 \item{base}{the base of the log (default 10)}
@@ -21,13 +21,13 @@ bottom, and left.}
 using \code{scale_y_log10}. It should be \code{FALSE} when using
 \code{coord_trans(y = "log10")}.}
 
-\item{short}{a \code{\link[grid]{unit}} object specifying the length of the
+\item{short}{a \code{\link[grid:unit]{grid::unit()}} object specifying the length of the
 short tick marks}
 
-\item{mid}{a \code{\link[grid]{unit}} object specifying the length of the
+\item{mid}{a \code{\link[grid:unit]{grid::unit()}} object specifying the length of the
 middle tick marks. In base 10, these are the "5" ticks.}
 
-\item{long}{a \code{\link[grid]{unit}} object specifying the length of the
+\item{long}{a \code{\link[grid:unit]{grid::unit()}} object specifying the length of the
 long tick marks. In base 10, these are the "1" (or "10") ticks.}
 
 \item{colour}{Colour of the tick marks.}
@@ -92,9 +92,8 @@ a + annotation_logticks(
 )
 }
 \seealso{
-\code{\link{scale_y_continuous}}, \code{\link{scale_y_log10}} for log scale
-  transformations.
+\code{\link[=scale_y_continuous]{scale_y_continuous()}}, \code{\link[=scale_y_log10]{scale_y_log10()}} for log scale
+transformations.
 
-\code{\link{coord_trans}} for log coordinate transformations.
+\code{\link[=coord_trans]{coord_trans()}} for log coordinate transformations.
 }
-

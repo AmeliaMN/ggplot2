@@ -1,15 +1,19 @@
-#' Qualitative colour scale with evenly spaced hues.
+#' Evenly spaced colours for discrete data
+#'
+#' This is the default colour scale for categorical variables. It maps each
+#' level to an evenly spaced hue on the colour wheel. It does not generate
+#' colour-blind safe palettes.
 #'
 #' @param na.value Colour to use for missing values
-#' @param ... Other arguments passed on to \code{\link{discrete_scale}}
-#'   to control name, limits, breaks, labels and so forth.
+#' @inheritDotParams discrete_scale -aesthetics
+#' @param aesthetics Character string or vector of character strings listing the
+#'   name(s) of the aesthetic(s) that this scale works with. This can be useful, for
+#'   example, to apply colour settings to the `colour` and `fill` aesthetics at the
+#'   same time, via `aesthetics = c("colour", "fill")`.
 #' @inheritParams scales::hue_pal
 #' @rdname scale_hue
 #' @export
-#' @seealso Other colour scales:
-#'   \code{\link{scale_colour_brewer}},
-#'   \code{\link{scale_colour_gradient}},
-#'   \code{\link{scale_colour_grey}}
+#' @family colour scales
 #' @examples
 #' \donttest{
 #' dsamp <- diamonds[sample(nrow(diamonds), 1000), ]
@@ -46,14 +50,16 @@
 #'   geom_point(aes(colour = miss)) +
 #'   scale_colour_hue(na.value = "black")
 #' }
-scale_colour_hue <- function(..., h = c(0, 360) + 15, c = 100, l = 65, h.start = 0, direction = 1, na.value = "grey50") {
-  discrete_scale("colour", "hue", hue_pal(h, c, l, h.start, direction),
+scale_colour_hue <- function(..., h = c(0, 360) + 15, c = 100, l = 65, h.start = 0,
+                             direction = 1, na.value = "grey50", aesthetics = "colour") {
+  discrete_scale(aesthetics, "hue", hue_pal(h, c, l, h.start, direction),
     na.value = na.value, ...)
 }
 
 #' @rdname scale_hue
 #' @export
-scale_fill_hue <- function(..., h = c(0, 360) + 15, c = 100, l = 65, h.start = 0, direction = 1, na.value = "grey50") {
-  discrete_scale("fill", "hue", hue_pal(h, c, l, h.start, direction),
+scale_fill_hue <- function(..., h = c(0, 360) + 15, c = 100, l = 65, h.start = 0,
+                           direction = 1, na.value = "grey50", aesthetics = "fill") {
+  discrete_scale(aesthetics, "hue", hue_pal(h, c, l, h.start, direction),
     na.value = na.value, ...)
 }

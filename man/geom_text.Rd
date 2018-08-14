@@ -3,38 +3,38 @@
 \name{geom_label}
 \alias{geom_label}
 \alias{geom_text}
-\title{Textual annotations.}
+\title{Text}
 \usage{
 geom_label(mapping = NULL, data = NULL, stat = "identity",
-  position = "identity", ..., parse = FALSE, nudge_x = 0, nudge_y = 0,
-  label.padding = unit(0.25, "lines"), label.r = unit(0.15, "lines"),
-  label.size = 0.25, na.rm = FALSE, show.legend = NA,
-  inherit.aes = TRUE)
+  position = "identity", ..., parse = FALSE, nudge_x = 0,
+  nudge_y = 0, label.padding = unit(0.25, "lines"),
+  label.r = unit(0.15, "lines"), label.size = 0.25, na.rm = FALSE,
+  show.legend = NA, inherit.aes = TRUE)
 
 geom_text(mapping = NULL, data = NULL, stat = "identity",
-  position = "identity", ..., parse = FALSE, nudge_x = 0, nudge_y = 0,
-  check_overlap = FALSE, na.rm = FALSE, show.legend = NA,
-  inherit.aes = TRUE)
+  position = "identity", ..., parse = FALSE, nudge_x = 0,
+  nudge_y = 0, check_overlap = FALSE, na.rm = FALSE,
+  show.legend = NA, inherit.aes = TRUE)
 }
 \arguments{
-\item{mapping}{Set of aesthetic mappings created by \code{\link{aes}} or
-\code{\link{aes_}}. If specified and \code{inherit.aes = TRUE} (the
+\item{mapping}{Set of aesthetic mappings created by \code{\link[=aes]{aes()}} or
+\code{\link[=aes_]{aes_()}}. If specified and \code{inherit.aes = TRUE} (the
 default), it is combined with the default mapping at the top level of the
 plot. You must supply \code{mapping} if there is no plot mapping.}
 
 \item{data}{The data to be displayed in this layer. There are three
-   options:
+options:
 
-   If \code{NULL}, the default, the data is inherited from the plot
-   data as specified in the call to \code{\link{ggplot}}.
+If \code{NULL}, the default, the data is inherited from the plot
+data as specified in the call to \code{\link[=ggplot]{ggplot()}}.
 
-   A \code{data.frame}, or other object, will override the plot
-   data. All objects will be fortified to produce a data frame. See
-   \code{\link{fortify}} for which variables will be created.
+A \code{data.frame}, or other object, will override the plot
+data. All objects will be fortified to produce a data frame. See
+\code{\link[=fortify]{fortify()}} for which variables will be created.
 
-   A \code{function} will be called with a single argument,
-   the plot data. The return value must be a \code{data.frame.}, and
-   will be used as the layer data.}
+A \code{function} will be called with a single argument,
+the plot data. The return value must be a \code{data.frame}, and
+will be used as the layer data.}
 
 \item{stat}{The statistical transformation to use on the data for this
 layer, as a string.}
@@ -42,13 +42,13 @@ layer, as a string.}
 \item{position}{Position adjustment, either as a string, or the result of
 a call to a position adjustment function.}
 
-\item{...}{other arguments passed on to \code{\link{layer}}. These are
+\item{...}{Other arguments passed on to \code{\link[=layer]{layer()}}. These are
 often aesthetics, used to set an aesthetic to a fixed value, like
-\code{color = "red"} or \code{size = 3}. They may also be parameters
+\code{colour = "red"} or \code{size = 3}. They may also be parameters
 to the paired geom/stat.}
 
-\item{parse}{If TRUE, the labels will be parsed into expressions and
-displayed as described in ?plotmath}
+\item{parse}{If \code{TRUE}, the labels will be parsed into expressions and
+displayed as described in \code{?plotmath}.}
 
 \item{nudge_x, nudge_y}{Horizontal and vertical adjustment to nudge labels by.
 Useful for offsetting text from points, particularly on discrete scales.}
@@ -59,42 +59,66 @@ Useful for offsetting text from points, particularly on discrete scales.}
 
 \item{label.size}{Size of label border, in mm.}
 
-\item{na.rm}{If \code{FALSE} (the default), removes missing values with
-a warning.  If \code{TRUE} silently removes missing values.}
+\item{na.rm}{If \code{FALSE}, the default, missing values are removed with
+a warning. If \code{TRUE}, missing values are silently removed.}
 
 \item{show.legend}{logical. Should this layer be included in the legends?
 \code{NA}, the default, includes if any aesthetics are mapped.
-\code{FALSE} never includes, and \code{TRUE} always includes.}
+\code{FALSE} never includes, and \code{TRUE} always includes.
+It can also be a named logical vector to finely select the aesthetics to
+display.}
 
 \item{inherit.aes}{If \code{FALSE}, overrides the default aesthetics,
 rather than combining with them. This is most useful for helper functions
 that define both data and aesthetics and shouldn't inherit behaviour from
-the default plot specification, e.g. \code{\link{borders}}.}
+the default plot specification, e.g. \code{\link[=borders]{borders()}}.}
 
 \item{check_overlap}{If \code{TRUE}, text that overlaps previous text in the
 same layer will not be plotted.}
 }
 \description{
-\code{geom_text} adds text directly to the plot. \code{geom_label} draws
-a rectangle underneath the text, making it easier to read.
+\code{geom_text()} adds text directly to the plot. \code{geom_label()} draws
+a rectangle behind the text, making it easier to read.
 }
 \details{
-Note the the "width" and "height" of a text element are 0, so stacking
+Note that the "width" and "height" of a text element are 0, so stacking
 and dodging text will not work by default, and axis limits are not
 automatically expanded to include all text. Obviously, labels do have
 height and width, but they are physical units, not data units. The amount of
-space they occupy on that plot is not constant in data units: when you
+space they occupy on the plot is not constant in data units: when you
 resize a plot, labels stay the same size, but the size of the axes changes.
+
+\code{geom_text()} and \code{geom_label()} add labels for each row in the
+data, even if coordinates x, y are set to single values in the call
+to \code{geom_label()} or \code{geom_text()}.
+To add labels at specified points use \code{\link[=annotate]{annotate()}} with
+\code{annotate(geom = "text", ...)} or \code{annotate(geom = "label", ...)}.
 }
 \section{Aesthetics}{
 
-\Sexpr[results=rd,stage=build]{ggplot2:::rd_aesthetics("geom", "text")}
+\code{geom_text()} understands the following aesthetics (required aesthetics are in bold):
+\itemize{
+\item \strong{\code{x}}
+\item \strong{\code{y}}
+\item \strong{\code{label}}
+\item \code{alpha}
+\item \code{angle}
+\item \code{colour}
+\item \code{family}
+\item \code{fontface}
+\item \code{group}
+\item \code{hjust}
+\item \code{lineheight}
+\item \code{size}
+\item \code{vjust}
+}
+Learn more about setting these aesthetics in \code{vignette("ggplot2-specs")}.
 }
 
-\section{\code{geom_label}}{
+\section{\code{geom_label()}}{
 
-Currently \code{geom_label} does not support the \code{rot} parameter and
-is considerably slower than \code{geom_text}. The \code{fill} aesthetic
+Currently \code{geom_label()} does not support the \code{angle} aesthetic and
+is considerably slower than \code{geom_text()}. The \code{fill} aesthetic
 controls the background colour of the label.
 }
 
@@ -102,11 +126,12 @@ controls the background colour of the label.
 
 You can modify text alignment with the \code{vjust} and \code{hjust}
 aesthetics. These can either be a number between 0 (right/bottom) and
-1 (top/left) or a character ("left", "middle", "right", "bottom", "center",
-"top"). There are two special alignments: "inward" and "outward".
-Inward always aligns text towards the center, and outward aligns
-it away from the center
+1 (top/left) or a character (\code{"left"}, \code{"middle"}, \code{"right"}, \code{"bottom"},
+\code{"center"}, \code{"top"}). There are two special alignments: \code{"inward"} and
+\code{"outward"}. Inward always aligns text towards the center, and outward
+aligns it away from the center.
 }
+
 \examples{
 p <- ggplot(mtcars, aes(wt, mpg, label = rownames(mtcars)))
 
@@ -158,25 +183,27 @@ df <- data.frame(
 
 # ggplot2 doesn't know you want to give the labels the same virtual width
 # as the bars:
-ggplot(data = df, aes(x, y, fill = grp, label = y)) +
-  geom_col(position = "dodge") +
-  geom_text(position = "dodge")
+ggplot(data = df, aes(x, y, group = grp)) +
+  geom_col(aes(fill = grp), position = "dodge") +
+  geom_text(aes(label = y), position = "dodge")
 # So tell it:
-ggplot(data = df, aes(x, y, fill = grp, label = y)) +
-  geom_col(position = "dodge") +
-  geom_text(position = position_dodge(0.9))
-# Use you can't nudge and dodge text, so instead adjust the y postion
-ggplot(data = df, aes(x, y, fill = grp, label = y)) +
-  geom_col(position = "dodge") +
-  geom_text(aes(y = y + 0.05), position = position_dodge(0.9), vjust = 0)
+ggplot(data = df, aes(x, y, group = grp)) +
+  geom_col(aes(fill = grp), position = "dodge") +
+  geom_text(aes(label = y), position = position_dodge(0.9))
+# Use you can't nudge and dodge text, so instead adjust the y position
+ggplot(data = df, aes(x, y, group = grp)) +
+  geom_col(aes(fill = grp), position = "dodge") +
+  geom_text(
+    aes(label = y, y = y + 0.05),
+    position = position_dodge(0.9),
+    vjust = 0
+  )
 
 # To place text in the middle of each bar in a stacked barplot, you
-# need to do the computation yourself
-df <- transform(df, mid_y = ave(df$y, df$x, FUN = function(val) cumsum(val) - (0.5 * val)))
-
-ggplot(data = df, aes(x, y, fill = grp, label = y)) +
- geom_col() +
- geom_text(aes(y = mid_y))
+# need to set the vjust parameter of position_stack()
+ggplot(data = df, aes(x, y, group = grp)) +
+ geom_col(aes(fill = grp)) +
+ geom_text(aes(label = y), position = position_stack(vjust = 0.5))
 
 # Justification -------------------------------------------------------------
 df <- data.frame(
@@ -190,4 +217,3 @@ ggplot(df, aes(x, y)) +
   geom_text(aes(label = text), vjust = "inward", hjust = "inward")
 }
 }
-

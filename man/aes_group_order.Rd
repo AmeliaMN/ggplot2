@@ -3,9 +3,9 @@
 \name{aes_group_order}
 \alias{aes_group_order}
 \alias{group}
-\title{Aesthetics: group}
+\title{Aesthetics: grouping}
 \description{
-Aesthetics: group
+Aesthetics: grouping
 }
 \examples{
 \donttest{
@@ -43,7 +43,7 @@ f <- ggplot(ecm, aes(date, value))
 f + geom_line(aes(linetype = variable))
 
 # Using facets
-k <- ggplot(diamonds, aes(carat, ..density..)) + geom_histogram(binwidth = 0.2)
+k <- ggplot(diamonds, aes(carat, stat(density))) + geom_histogram(binwidth = 0.2)
 k + facet_grid(. ~ cut)
 
 # There are three common cases where the default is not enough, and we
@@ -82,4 +82,3 @@ boysbox <- boysbox + geom_boxplot()
 boysbox + geom_line(aes(group = Subject), colour = "blue")
 }
 }
-

@@ -1,8 +1,9 @@
-#' A line segment parameterised by location, direction and distance.
+#' Line segments parameterised by location, direction and distance
 #'
-#' @section Aesthetics:
-#' \Sexpr[results=rd,stage=build]{ggplot2:::rd_aesthetics("geom", "spoke")}
+#' This is a polar parameterisation of [geom_segment()]. It is
+#' useful when you have variables that describe direction and distance.
 #'
+#' @eval rd_aesthetics("geom", "spoke")
 #' @inheritParams layer
 #' @inheritParams geom_segment
 #' @export

@@ -2,16 +2,20 @@
 % Please edit documentation in R/coord-transform.r
 \name{coord_trans}
 \alias{coord_trans}
-\title{Transformed cartesian coordinate system.}
+\title{Transformed Cartesian coordinate system}
 \usage{
-coord_trans(x = "identity", y = "identity", limx = NULL, limy = NULL,
-  xtrans, ytrans)
+coord_trans(x = "identity", y = "identity", limx = NULL,
+  limy = NULL, clip = "on", xtrans, ytrans)
 }
 \arguments{
 \item{x, y}{transformers for x and y axes}
 
 \item{limx, limy}{limits for x and y axes. (Named so for backward
 compatibility)}
+
+\item{clip}{Should drawing be clipped to the extent of the plot panel? A
+setting of \code{"on"} (the default) means yes, and a setting of \code{"off"}
+means no. For details, please see \code{\link[=coord_cartesian]{coord_cartesian()}}.}
 
 \item{xtrans, ytrans}{Deprecated; use \code{x} and \code{y} instead.}
 }
@@ -21,9 +25,9 @@ statistical transformation and will affect the visual appearance of geoms - ther
 no guarantee that straight lines will continue to be straight.
 }
 \details{
-All current transformations only work with continuous values - see
-\code{\link[scales]{trans_new}} for list of transformations, and instructions on
-how to create your own.
+Transformations only work with continuous values: see
+\code{\link[scales:trans_new]{scales::trans_new()}} for list of transformations, and instructions
+on how to create your own.
 }
 \examples{
 \donttest{
@@ -88,4 +92,3 @@ plot + coord_trans(x = "log10")
 plot + coord_trans(x = "sqrt")
 }
 }
-
